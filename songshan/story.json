@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "banner": "banner.jpeg",
+  "cover": "cover.jpeg",
+  "background": "background.jpeg",
+  "introduction": {
+    "title": "前情提要",
+    "content": ""
+  },
+  "levels": [{
+    "name": "a1",
+    "required": [],
+    "banner": "banner_a1.jpeg",
+    "prompts": [{
+      "type": "image|photo|audio|video|url",
+      "src": "",
+      "alt": "",
+      "background": "background.jpeg"
+    }],
+    "answers": [{
+      "type": "password",
+      "value": "654321"
+    }]
+  }, {
+    "name": "a2",
+    "required": ["a1"],
+    "banner": "banner_a2.jpeg"
+    }, {
+    "name": "a3",
+    "required": ["a2"],
+    "banner": "banner_a3.jpeg"
+  }, {
+    "name": "gift",
+    "required": ["a3"],
+    "prompts": [{
+      "type": "url",
+      "src": "",
+      "alt": ""
+    }]
+  }]
+}
