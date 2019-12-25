@@ -1,41 +1,108 @@
 {
   "version": "1.0",
-  "banner": "banner.jpeg",
-  "cover": "cover.jpeg",
-  "background": "background.jpeg",
+  "title": "mutix Studio｜危機倒數",
+  "background": "background.jpg",
+  "banner": "rrbanner_straight.jpg",
   "introduction": {
     "title": "前情提要",
-    "content": ""
+    "content": "在 Ｍutix Studio 開幕會前一刻，活動負責人卻發現三位講者的講稿居然被同事 May 惡作劇給藏起來了？！據 May 所說，她將講稿分別藏在 Studio 一樓的三個角落，都需要破解六位數密碼才能拿到講稿。因為時間緊迫，你們願意協助活動負責人找出那三份講稿嗎？別怕，只要將 May 留下的線索搭配上 Studio 的實際環境，應該就能輕鬆解讀出那三個六位數密碼了。成功找出講稿後，記得到櫃檯跟活動負責人說喔！他準備了小禮物要給感謝你～"
   },
-  "levels": [{
-    "name": "a1",
-    "required": [],
-    "banner": "banner_a1.jpeg",
-    "prompts": [{
-      "type": "image|photo|audio|video|url",
-      "src": "",
-      "alt": "",
-      "background": "background.jpeg"
-    }],
-    "answers": [{
-      "type": "password",
-      "value": "654321"
-    }]
-  }, {
-    "name": "a2",
-    "required": ["a1"],
-    "banner": "banner_a2.jpeg"
-    }, {
-    "name": "a3",
-    "required": ["a2"],
-    "banner": "banner_a3.jpeg"
-  }, {
-    "name": "gift",
-    "required": ["a3"],
-    "prompts": [{
-      "type": "url",
-      "src": "",
-      "alt": ""
-    }]
-  }]
+  "levels": [
+    {
+      "name": "a",
+      "required": [],
+      "banner": "banner_a.jpg",
+      "title": "演講人：畫家Ａ",
+      "prompts": [
+        {
+          "type": "image",
+          "image": "a1.png",
+          "title": "便利貼內容",
+          "alt": "Ａ是個很有名的畫家，他有聯絡我們，希望可以租借 Studio 的空間來辦畫展，還拿了一幅畫過來試擺看看。仔細一看才發現，他這幅畫居然跟我們的一樓租借場地的天花板支架有某種程度的相似！都有＿＿＿的元素在裡面，我們天花板支架可是專為畫展掛畫設計的，也太巧！"
+        },
+        {
+          "type": "image",
+          "image": "a2.jpg",
+          "title": "小提示",
+          "alt": "這關很簡單～只要找出畫中＿＿＿的元素，將裡面的數字由左至右排列，就是這關的密碼"
+        }
+      ],
+      "answers": [
+        {
+          "title": "請輸入六位數字",
+          "alt": " 這關很簡單~只要找出畫中___的元素，將裡面的數字由左至右排列，就是這關的密碼",
+          "type": "password",
+          "value": "374569"
+        }
+      ]
+    },
+    {
+      "name": "b",
+      "required": ["a"],
+      "banner": "banner_b.jpg",
+      "title": "演講人：畫家Ｂ",
+      "prompts": [
+        {
+          "type": "image",
+          "image": "b1.png",
+          "title": "便利貼內容",
+          "alt": "Ｂ上次在 Studio 辦了攝影工作坊，來教學員攝影構圖的方法，其中一個就是「對稱式構圖法」。我在旁邊偷偷學了點還試拍了一張照片，但因為某些意外，這張照片只剩半邊了，但沒關係，只要找面鏡子，就能還原照片的原貌～"
+        },
+        {
+          "type": "image",
+          "image": "b2.jpg",
+          "title": "小提示",
+          "alt": "在 Studio 裝潢時我們用了很多鏡面的元素，所以在一樓空間裡是不用怕找不到鏡子的。"
+        }
+      ],
+      "answers": [
+        {
+          "title": "請輸入六位數字",
+          "alt": "只要解出關鍵的六位數字，就能成功找出B的講稿~",
+          "type": "password",
+          "value": "096523"
+        }
+      ]
+    },
+    {
+      "name": "c",
+      "required": ["b"],
+      "banner": "banner_c.jpg",
+      "title": "演講人：畫家Ｃ",
+      "prompts": [
+        {
+          "type": "image",
+          "image": "c1.png",
+          "title": "便利貼內容",
+          "alt": "Ｃ下禮拜要在 Studio 辦小型音樂交流會，除了室內空間外，還借了外面的中庭。在露天中庭聽音樂、吃小點心，還能跟同好交流～光想像那個畫面就很舒服！他上次來場勘不小心遺留了一張筆記，還把他的吉他忘在外面中庭了！要不是吉他旁還有他的樂譜，我還認不出是他的，你們說怎麼有人這麼粗心呢？！"
+        },
+        {
+          "type": "image",
+          "image": "c2.jpg",
+          "title": "小提示",
+          "alt": "這就是他留下的筆記紙，不知道對你有沒有幫助。"
+        }
+      ],
+      "answers": [
+        {
+          "title": "請輸入六位數字",
+          "alt": " 只要解出對應琴譜背後的那六位關鍵數字，就能成功找出C的講稿~",
+          "type": "password",
+          "value": "354751"
+        }
+      ]
+    },
+    {
+      "name": "gift",
+      "required": ["c"],
+      "prompts": [
+        {
+          "type": "url",
+          "alt": "謝謝你的幫忙!!May 這次的惡作劇真的太糟糕了，活動後我一定會跟主管報告!幸好有你幫我們找到三位講者的講稿才讓 Mutix Studio 開幕沒有開天窗，我準備了小禮物要送你~請點下面「領取獎勵」的按鈕，填寫完資料後拿給櫃檯看，就能領取我寄放在那邊的小禮物喔!",
+          "src": "https://tmotx.com/e/iNajVKI0O6ZDtu6xiZnNG8",
+          "background": "background.jpg"
+        }
+      ]
+    }
+  ]
 }
