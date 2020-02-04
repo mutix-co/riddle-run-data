@@ -4,6 +4,7 @@
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/splash.jpg",
+  "map": "/media/map.png",
   "introduction": {
     "title": "前情提要",
     "content": "在 mutix Studio 開幕前一刻，活動負責人卻發現三位講者的講稿居然被同事 May 惡作劇給藏起來了？！據 May 所說，她將講稿分別藏在 Studio 一樓的三個角落，都需要破解六位數密碼才能拿到講稿。因為時間緊迫，你們願意協助活動負責人找出那三份講稿嗎？別怕，只要將 May 留下的線索搭配上 Studio 的實際環境，應該就能輕鬆解讀出那三個六位數密碼了。成功找出講稿後，記得到櫃檯跟活動負責人說喔！他準備了小禮物要給感謝你～"
@@ -12,6 +13,7 @@
     {
       "name": "a",
       "required": [],
+      "next": ["b"],
       "banner": "/media/banner_a.jpg",
       "title": "演講人：畫家Ａ",
       "prompts": [
@@ -40,6 +42,7 @@
     {
       "name": "b",
       "required": ["a"],
+      "next": ["c"],
       "banner": "/media/banner_b.jpg",
       "title": "演講人：畫家Ｂ",
       "prompts": [
@@ -68,6 +71,7 @@
     {
       "name": "c",
       "required": ["b"],
+      "next": ["gift"],
       "banner": "/media/banner_c.jpg",
       "title": "演講人：畫家Ｃ",
       "prompts": [
@@ -87,7 +91,7 @@
       "answers": [
         {
           "title": "請輸入六位數字",
-          "alt": " 只要解出對應琴譜背後的那六位關鍵數字，就能成功找出C的講稿~",
+          "alt": " 只要解出對應琴譜背後的那六位關鍵數字，就能成功找出Ｃ的講稿~",
           "type": "password",
           "value": "354751"
         }
@@ -96,6 +100,8 @@
     {
       "name": "gift",
       "required": ["c"],
+      "banner": "/media/banner_gift.jpg",
+      "title": "結語",
       "prompts": [
         {
           "type": "url",
