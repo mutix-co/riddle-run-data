@@ -56,7 +56,7 @@
       "name": "b",
       "required": ["a"],
       "next": ["c"],
-      "banner": "/media/banner_b.png.",
+      "banner": "/media/banner_b.png",
       "title": "關卡二",
       "prompts": [
         {
