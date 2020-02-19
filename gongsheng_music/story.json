@@ -74,8 +74,8 @@
           "alt": "",
           "type": "inLocation",
           "displayName": "西本願寺",
-          "latitude": 24.174440,
-          "longitude": 120.676713,
+          "latitude": 25.040154,
+          "longitude": 121.507031,
           "maxDistance": 50
         }
       ]
@@ -141,12 +141,6 @@
           "cover": "/media/d-4.png",
           "title": "",
           "alt": "［定情信物髮簪的模樣。］\n請你到中山堂找找看鬼的愛人吧！"
-        },
-        {
-          "type": "image",
-          "src": "/media/d-5.png",
-          "title": "",
-          "alt": "定情信物髮簪的模樣。"
         }
       ],
       "answers": [
@@ -155,8 +149,8 @@
           "alt": "",
           "type": "inLocation",
           "displayName": "中山堂",
-          "latitude": 24.174440,
-          "longitude": 120.676713,
+          "latitude": 25.043336,
+          "longitude": 121.509582,
           "maxDistance": 50
         }
       ]
@@ -229,8 +223,8 @@
           "alt": "（位於二二八紀念公園內）",
           "type": "inLocation",
           "displayName": "二二八紀念館",
-          "latitude": 24.174440,
-          "longitude": 120.676713,
+          "latitude": 25.040390,
+          "longitude": 121.515645,
           "maxDistance": 50
         }
       ]
@@ -246,8 +240,8 @@
           "type": "audio",
           "src": "/media/g-1.mp3",
           "cover": "/media/f-2.png",
-          "title": "玩家可以自行選擇是否進去參觀台北二二八紀念館，是深入了解二二八事件的好機會喔！〔與本次劇情無關聯〕",
-          "alt":""
+          "title": "",
+          "alt":"玩家可以自行選擇是否進去參觀台北二二八紀念館，是深入了解二二八事件的好機會喔！〔與本次劇情無關聯〕"
         },
         {
           "type": "txt",
@@ -258,7 +252,7 @@
         {
           "type": "audio",
           "src": "/media/g-3.mp3",
-          "cover": "/media/f-2.png",
+          "cover": "/media/g-3.png",
           "title": "",
           "alt":"請找到追思牆並從中找到愛人的名字。"
         },
@@ -294,14 +288,14 @@
         {
           "type": "audio",
           "src": "/media/h-1.mp3",
-          "cover": "/media/a-1.png",
+          "cover": "/media/h-1.png",
           "title": "",
           "alt":"愛人的姓名是王寶墨！\n【轉頭看到一個女人頭上帶著應該屬於寶墨的髮簪！】"
         },
         {
           "type": "audio",
           "src": "/media/h-3.mp3",
-          "cover": "/media/a-1.png",
+          "cover": "/media/h-1.png",
           "title": "",
           "alt":"這位小姐到她母親生前最常去的地方吧！"
         }
@@ -319,7 +313,7 @@
       "name": "gift",
       "required": ["h"],
       "next": [""],
-      "banner": "/media/banner_gift.jpg",
+      "banner": "/media/gift-4.png",
       "title": "尾聲",
       "prompts": [
         {
