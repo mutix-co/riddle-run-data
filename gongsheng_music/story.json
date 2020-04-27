@@ -2,6 +2,7 @@
   "name": "gongsheng_music",
   "version": "2.0",
   "title": "共生音樂節｜落筆之春",
+  "endAt": "2020-04-26",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/splash.jpg",
@@ -346,7 +347,8 @@
           "type": "url",
           "title": "恭喜過關",
           "alt": "恭喜您成功破解共生音樂節 X Riddle Run的實境遊戲「落筆之春」！\n　　\n第八屆共生音樂節和Riddle Run合作，以不同方式記憶二二八。\n遊戲名稱「落筆之春」亦扣合此屆共生音樂節的主題「不默而生」。\n二二八事件發生之際，在國民政府暴政下，許多人面對威權仍抱持「寧鳴而死，不默而生」的精神而犧牲，故事中的主角之一林旭日，便是我們以那些犧牲者為人物形象而成的角色，執筆、落筆，只盼望能保有自由。\n　　\n希望您在這次的解謎中，已從日常中的景點感受歷史的痕跡，跟著主角們的故事更認識二二八事件。\n若您意猶未盡的話，可點擊畫面右上角的方塊－關卡選擇，就能再次觀看整個故事；也歡迎您填寫回饋問卷，留下感想，將有機會獲得本屆共生音樂節周邊！",
-          "src": "https://tmotx.com/e/iNajVKI0O6ZDtu6xiZnNGR"
+          "src": "https://tmotx.com/e/iNajVKI0O6ZDtu6xiZnNGR",
+          "expiredText": "活動已結束，感謝您的遊玩"
         }
       ]
     }
