@@ -1,6 +1,6 @@
 {
   "name": "DRGHS",
-  "version": "2.5",
+  "version": "3.0",
   "title": "Rescue Dida",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
@@ -209,6 +209,7 @@
         {
           "type": "video",
           "src": "/media/gift-3.mp4",
+          "cover": "/media/gift-3.png",
           "title": "優美的歌曲 - 校歌",
           "alt": "讓我們一起聽聽看達人的校歌，同時也一起觀看校園影片吧！"
         },
