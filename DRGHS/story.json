@@ -1,10 +1,10 @@
 {
   "name": "DRGHS",
-  "version": "1.0",
+  "version": "2.0",
   "title": "Rescue Dida",
   "banner": "/media/banner.jpg",
-  "background": "/media/background.png",
-  "splash": "/media/splash.png",
+  "background": "/media/background.jpg",
+  "splash": "/media/splash.jpg",
   "map": "/media/map.jpg",
   "introduction": {
     "title": "前情提要",
@@ -194,22 +194,23 @@
       "title": "尾聲",
       "prompts": [
         {
+          "type": "txt",
+          "src":"",
+          "title": "尾聲",
+          "alt": "第達在破關的同時，越來越了解達人，非常感謝你對於第達的陪伴及幫忙! 是不是也發現其實達人有很多優點呢? 第達最後也決定要留在達人讀書，希望三年後它可以在修女及老師的教導之下成為一個更好的人! "
+        },
+        {
           "type": "image",
           "src": "/media/gift-1.jpg",
           "title": "達人女中校門",
           "alt": "從校門口看，你看見了甚麼嗎? 具有特色的五餅二魚校門，還有上方的愛與關懷門廊，都是達人的特色裝置藝術呢!"
         },
+        
         {
-          "type": "txt",
-          "src":"",
-          "title": "",
-          "alt": "第達在破關的同時，越來越了解達人，非常感謝你對於第達的陪伴及幫忙! 是不是也發現其實達人有很多優點呢? 第達最後也決定要留在達人讀書，希望三年後它可以在修女及老師的教導之下成為一個更好的人! "
-        },
-        {
-          "type": "vedio",
+          "type": "video",
           "src": "/media/gift-3.mp4",
           "title": "優美的歌曲 - 校歌",
-          "alt": "讓我們一起聽聽看達人的校歌，同時也一起觀看校園影片吧!"
+          "alt": "讓我們一起聽聽看達人的校歌，同時也一起觀看校園影片吧！"
         },
         {
           "type": "url",
