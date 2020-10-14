@@ -1,0 +1,121 @@
+{
+  "name": "RR_Demo",
+  "version": "1.0",
+  "title": "Riddle Run Demo",
+  "banner": "/media/banner.jpg",
+  "background": "/media/background.jpg",
+  "splash": "/media/splash.png",
+  "map": "/media/map.jpg",
+  "introduction": {
+    "title": "前情提要",
+    "content": "Riddle Run 是一個活動輔助工具（平台），藉由各種技術應用，串起線上與線下，將實境場景與虛擬環境（APP）做連結，再利用遊戲化的解謎、破關或集點故事包裝，為使用者創造獨一無二的 OMO（線上線下融合）的活動體驗。 藉由 Riddle Run，你可以打造專屬的「實境解謎活動」、「展場遊戲式導覽」、「集點踩點」...等活動，或是有其他可能性都歡迎與我們接洽！"
+  },
+  "levels": [
+    {
+      "name": "a",
+      "required": [],
+      "next": ["b"],
+      "banner": "/media/1-2.jpg",
+      "title": "Vidio+Select",
+      "prompts": [
+        {
+          "type": "video",
+          "src":"1-1.mp4",
+          "title": "一封信",
+          "alt": "有封信想給你（遞）另外還想問問你...\n「今天，你願意跟我一起吃晚餐嗎～？」\n我在餐廳等你，快來吧！\n咦，你說哪個餐廳嗎？這就是今天的謎題啦～"
+        },
+        {
+          "type": "image",
+          "src": "/media/1-2.jpg",
+          "title": "一封信",
+          "alt": "這是那封信完整的內容，希望可以幫助到你。"
+        }
+      ],
+      "answers": [
+        {​
+          "title": "請選擇正確的地點",
+          "alt": "根據信件的內容，找出今晚跟 Ms. RR 我約會的餐廳。",
+          "options": ["火","鍋","106","M","One","Cafe","千幸","壽司","小","倉","館","稻","町","家","Curry","Lab","黑","米"],
+          "value": ["稻","町","家"]
+        }
+      ]
+    },
+    {
+      "name": "b",
+      "required": ["a"],
+      "next": ["c"],
+      "banner": "/media/2-1.jpg",
+      "title": "Text+Number",
+      "prompts": [
+        {
+          "type":"txt",
+          "src":"",
+          "title":"RR 大食堂",
+          "alt":"今天開放預購振興券的預購啦！大家想好要怎麼花了嗎～\n快來 RR 大食堂看看，讓你聰明的省荷包（？）\n而且給券的順序還不能變，只能按照左到右的順序給，不然會付款不成功😥\n🙋‍♀：腦闆，如果我只想吃一碗麵，那要怎麼付錢呢～？\n👩‍🍳：蛤？我忙著煮麵，自己想！（任性老闆 is me）"
+        },
+        {
+          "type": "image",
+          "src": "/media/2-1.jpg",
+          "title": "RR 大食堂",
+          "alt": "兩碗麵只要：500+200+200 三張振興券\n五碗麵只要：200+500+200 三張振興券\n六碗麵只要：200+200+500 三張振興券"
+        }
+      ],
+      "answers": [
+        {
+          "title": "請輸入六位數字",
+          "alt": "想點一碗麵，要怎麼付錢呢？如為 200, 200, 200，請填入 202020。",
+          "type": "password",
+          "value": "502020"
+        }
+      ]
+    },
+    {
+      "name": "c",
+      "required": ["b"],
+      "next": ["d"],
+      "banner": "/media/3-0.jpg",
+      "title": "Audio+Location",
+      "prompts": [
+        {
+          "type": "audio",
+          "src": "/media/3-1.mp3",
+          "cover":"/media/3-0.jpg",
+          "title": "mutix Studio 您好...",
+          "alt":"想聯絡 Riddle Run 的專員，要打哪個分機號碼呢？"
+        },
+        {
+          "type": "url",
+          "title": "Riddle Run 粉專",
+          "alt": "粉專上說不定有你需要的資訊～",
+          "src": "https://www.facebook.com/RiddleRun/about"
+        }
+      ],
+      "answers": [
+        {
+          "title": "請走到正確的地點",
+          "alt": "後來你發現，mutix Studio 就在你家附近，直接過去找專員問問吧。",
+          "type": "inLocation",
+          "displayName": "mutix Studio",
+          "latitude": 25.049547,
+          "longitude": 121.574646,
+          "maxDistance": 50
+        }
+      ]
+    },
+    {
+      "name": "d",
+      "required": ["b"],
+      "next": [""],
+      "banner": "/media/banner.jpg",
+      "title": "END",
+      "prompts": [
+        {
+          "type": "txt",
+          "src":"",
+          "title": "恭喜破關！",
+          "alt": "希望這次的範例 Demo 有讓您更了解 Riddle Run 的架構，有任何問題都歡迎隨時詢問我們喔！"
+        }
+      ]
+    }
+  ]
+}
