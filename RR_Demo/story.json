@@ -1,6 +1,6 @@
 {
   "name": "RR_Demo",
-  "version": "1.0",
+  "version": "2.0",
   "title": "Riddle Run Demo",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
@@ -60,7 +60,7 @@
           "type": "image",
           "src": "/media/2-1.jpg",
           "title": "RR 大食堂",
-          "alt": "兩碗麵只要：500+200+200 三張振興券\n五碗麵只要：200+500+200 三張振興券\n六碗麵只要：200+200+500 三張振興券"
+          "alt": "兩碗麵只要：500+200+500 三張振興券\n五碗麵只要：200+500+200 三張振興券\n六碗麵只要：200+200+500 三張振興券"
         }
       ],
       "answers": [
@@ -68,7 +68,7 @@
           "title": "請輸入六位數字",
           "alt": "想點一碗麵，要怎麼付錢呢？如為 200, 200, 200，請填入 202020。",
           "type": "password",
-          "value": "502020"
+          "value": "505020"
         }
       ]
     },
