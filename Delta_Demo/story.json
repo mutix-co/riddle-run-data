@@ -15,7 +15,7 @@
     {
       "name": "a",
       "required": [],
-      "next": ["b"],
+      "next": "b",
       "banner": "/media/banner.jpg",
       "title": "APP 操作導覽",
       "prompts": [
@@ -36,6 +36,7 @@
         {
           "title": "請選擇正確的選項",
           "alt": "如果大家都了解了，請選擇「我懂了！」的按鈕，開始破關吧！",
+          "type": "order",
           "options": ["我懂了！","等等，我再看一下ＱＱ"],
           "value": [0]
         }
@@ -44,7 +45,7 @@
     {
       "name": "b",
       "required": ["a"],
-      "next": ["c"],
+      "next": "c",
       "banner": "/media/banner.jpg",
       "title": "簡單小謎題",
       "prompts": [
@@ -67,7 +68,7 @@
     {
       "name": "gift",
       "required": ["b"],
-      "next": [""],
+      "next": "",
       "banner": "/media/banner.jpg",
       "title": "恭喜破關",
       "prompts": [
