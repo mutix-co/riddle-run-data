@@ -67,7 +67,7 @@
       ]
     },
     {
-      "name": "gift",
+      "name": "c",
       "required": ["b"],
       "next": "",
       "banner": "/media/banner.jpg",
