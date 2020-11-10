@@ -1,15 +1,15 @@
 {
   "name": "Delta_MW_V",
   "version": "2.0",
-  "title": "達人來解謎｜移工組",
+  "title": "Nhóm giải đố｜Nhóm công nhân",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/splash.jpg",
-  "map": "/media/map_e.jpg",
+  "map": "/media/map_V.jpg",
   "contact": "https://www.messenger.com/t/RiddleRun",
   "introduction": {
-    "title": "故事緣起",
-    "content": "台達的員工們跟家人朋友來到小人國露營，抵達現場後卻發現露營物資被偷了？！調查後發現：有多位目擊者看到犯人開著裝著物資的卡車一路往出口開，但奇怪的是，犯人卻沿路將物資丟出來...\n　　\n抓犯人的任務，我們會再請專業人士來協助。但在犯人抓到之前，為了讓露營能順利進行，你們願意去到小人國的各個角落尋找物資掉落的線索，幫忙將散落在小人國各處的物資蒐集回來嗎？\n　　\n別擔心，沿途我們會提供給你們對應的資料跟線索，可以幫助你們更快速的找到掉落的物資！"
+    "title": "Nguồn gốc của câu chuyện",
+    "content": "Các nhân viên của Delta cùng gia đình và bạn bè của họ đã đến buổi cắm trại Tiểu Nhân Quốc, nhưng khi đến nơi thì phát hiện ra đồ vật trong trại đã bị đánh cắp? ! Sau khi điều tra, có một số nhân chứng trông thấy có người lái một chiếc xe tải chở đồ vật chạy về hướng lối ra, nhưng kỳ lạ thay, tên lấy cắp đã vứt đồ vật dọc đường.\n　　\nChúng tôi sẽ mời các chuyên gia hỗ trợ trong nhiệm vụ bắt giữ tên lấy cắp. Nhưng trước khi bắt được thủ phạm, để việc cắm trại diễn ra suôn sẻ, bạn có sẵn sàng đi đến mọi ngóc ngách của Tiểu Nhân Quốc để tìm manh mối và giúp thu thập đồ vật rơi rải rác khắp đất nước Tiểu Nhân Quốc không? \n　　\nĐừng lo lắng, chúng tôi sẽ cung cấp cho bạn thông tin và manh mối tương ứng trên đường đi, điều này có thể giúp bạn tìm thấy đồ vật bị rơi nhanh chóng hơn!"
   },
   "levels": [
     {
@@ -17,33 +17,33 @@
       "required": [],
       "next": "b-1",
       "banner": "/media/banner.jpg",
-      "title": "資訊欄",
+      "title": "Cột thông tin",
       "prompts": [
         {
           "type": "txt",
           "src":"",
-          "title": "資訊欄",
-          "alt": "【歡迎來到導覽關，可於左上角「關卡選擇」處選擇要挑戰的關卡】\n　　\n1. 總共遺失了五個物資袋，初步調查，它們掉落的大致位置列在下面給大家參考。「不用按照順序找尋」，大家可以衡量現場狀況做路線安排。\n【樂器(1) — European Indoor Park】\n【蔬果(1) — Mini Egypt】\n【廚具(1) — Entrance】\n【肉品(1) — Taiwan Infrastructure】\n【帳篷(1) — Mini Taiwan】\n　　\n2. 右上角菜單列中的【關卡選擇】，可以讓大家自由切換到想要挑戰的關卡。共有五大關卡，每大關包含兩個小關，如：XX(1)、XX(2)，玩家需要破完 XX(1) 後才能解鎖 XX(2)。詳細的關卡狀態說明，可往右滑獲取更多資訊。\n　　\n3. 右上角菜單列中的【劇本地圖】，可以讓大家知道小人國各區的劃分，以及「提示小天使」的位置。\n　　\n4. 右上角菜單列中的【聯絡客服】，遊戲過程中遇到任何問題（提示除外喔！提示請找提示小天使～），都可以經此詢問客服人員。\n　　\n5. 遊戲計時，從「主持人宣布起跑」後開始。成功破解五大關卡後，即可解鎖「結局關」，請「填寫並送出結局關內的問卷後」，才算遊戲計時結束喔！\n　　\n如果大家都準備好了，請點選下方【輸入解答】，選擇「我準備好了！」的按鈕，開始破關吧！"
+          "title": "Cột thông tin",
+          "alt": "【歡迎來到導覽關，可於左上角「關卡選擇」處選擇要挑戰的關卡】\n　　\n1. Tổng cộng sáu túi đồ vật đã bị mất.  Sau khi điều tra sơ bộ, vi trí đồ vật nơi được liệt kê bên dưới để bạn tham khảo. “Bạn không cần phải tìm kiếm theo thứ tự.” Mọi người có thể xem xét tình hình sắp xếp lộ trình.\n【Nhạc cụ — European Indoor Park】\n【Hoa quả — Mini Egypt】\n【Đồ dùng nhà bếp— Entrance】\n【Lều — Mini Taiwan】\n　　\n2. [Lựa chọn ải] trong thanh menu ở góc trên bên phải cho phép bạn tự do chuyển sang ải bạn muốn thử thách. Có sáu ải và mỗi ải chứa hai ải nhỏ, chẳng hạn như XX (1) và XX (2). Người chơi cần vượt qua ải XX (1) trước khi mở khóa XX (2). bạn có thể vuốt sang phải để biết thêm thông tin chi tiết mỗi ải.\n　　\n3. [Bản đồ kịch bản] trên thanh menu ở góc trên bên phải có thể cho mọi người biết sự phân chia của từng khu trong Tiểu Nhân Quốc và vị trí của 「thiên thần nhỏ hướng dẫn」.\n　　\n4. Trong thanh menu ở góc trên bên phải, [Liên hệ chăm sóc khách hàng], nếu bạn gặp bất kỳ sự cố nào trong quá trình chơi trò chơi (ngoại trừ lời hướng dẫn! Để được hướng dẫn vui lòng tìm Thiên thần nhỏ ~), bạn có thể liên hệ nhân viên dịch vụ chăm sóc khách hàng.\n　　\n5. Thời gian trò chơi bắt đầu sau khi 「người dẫn chương trình thông báo bắt đầu」. Sau khi mở khóa thành công năm ải, có thể mở khóa 「Thẻ kết thúc」. Vui lòng 「điền và gửi bảng câu hỏi trong Thẻ kết thúc」 thì mới chính thức kết thúc trò chơi!\n　　\nNếu mọi người đã sẵn sàng, vui lòng nhấp vào [Nhập câu trả lời] bên dưới, chọn nút 「Sẵn sàng」 và bắt đầu vượt ải nào!"
         },
         {
           "type": "image",
           "src": "/media/a-1.jpg",
-          "title": "劇本操作說明",
-          "alt": "【1】左右滑動可獲取該關更多內容。\n【2】點擊下方「輸入解答」按鈕，可做答案填寫，正確即可破關。\n【3】左上角菜單列，可獲取關卡清單、地圖、聯絡客服等資訊。"
+          "title": "Hướng dẫn thao tác tập lệnh",
+          "alt": "【1】Vuốt sang trái và phải để xem thêm nội dung của ải.\n【2】Nhấp vào nút 「Nhập câu trả lời」 bên dưới để điền câu trả lời và sẽ vượt ải nếu đúng\n【3】 Trong thanh menu ở góc trên bên trái, bạn có thể nhận thông tin về danh sách ải, bản đồ, bộ phận chăm sóc khách hàng, v.v."
         },
         {
           "type": "image",
           "src": "/media/a-2.jpg",
-          "title": "關卡狀態說明",
-          "alt": "【已破關】關卡圖為清晰狀態\n【已解鎖】關卡圖為模糊狀態\n【未解鎖】關卡圖上有個鎖扣"
+          "title": "Mô tả trạng thái ải",
+          "alt": "【Đã vượt ải】 Hình ải rõ ràng\n【Đã mở khóa】 Hình ải bị mờ\n【Chưa mở khóa】 Hình ải có một ổ khóa"
         }
       ],
       "answers": [
         {
-          "title": "請選擇正確的選項",
-          "alt": "如果大家都準備好了，請選擇「準備好了」的按鈕，開始破關吧！",
+          "title": "Hãy chọn tùy chọn đúng",
+          "alt": "Nếu mọi người đã sẵn sàng, chọn nút 「Sẵn sàng」 và bắt đầu vượt ải nào!",
           "type": "order",
-          "options": ["準備好了","再等一下"],
+          "options": ["Sẵn sàng","Chờ giây lát"],
           "value": [0]
         }
       ]
@@ -53,25 +53,25 @@
       "required": ["a"],
       "next": "b-2",
       "banner": "/media/banner_b.jpg",
-      "title": "樂器(1) — European Indoor Park",
+      "title": "Nhạc cụ(1) — European Indoor Park",
       "prompts": [
         {
           "type": "image",
           "src":"/media/1-1.jpg",
-          "title": "紙上的內容",
-          "alt": "一位陌生人跟你們說：「我撿到一袋物資，你們去『European Indoor Park』的城堡下，找到照片中的位置，觀察城堡上的窗戶，將窗戶上的花朵數量與圖上的數字相乘，套入下方公式中，就能解開這關的密碼！」"
+          "title": "Nội dung trên giấy",
+          "alt": "Một người lạ nói với bạn: 「Tôi tìm thấy một túi đồ. Các bạn hãy đến lâu đài「European Indoor Park 」, tìm đến vị trí trong bức ảnh, quan sát các cửa sổ của lâu đài, và nhân số lượng hoa trên cửa sổ với số trên bức tranh, rồi dùng vào công thức bên dưới để mở khóa mật khẩu của ải này! 」"
         },
         {
           "type": "image",
           "src":"/media/1.jpg",
-          "title": "城堡的外觀",
-          "alt": "去「European Indoor Park」裡找到圖中的城堡，就能看到城堡上的窗戶。"
+          "title": "Vẻ ngoài lâu đài",
+          "alt": "Đến 「European Indoor Park」 để tìm lâu đài trong hình, thì có thể nhìn thấy các cửa sổ trên lâu đài. Lưu ý: Một số thứ bị che khuất bởi bức tường"
         }
       ],
       "answers": [
         {
-          "title": "請輸入答案",
-          "alt": "根據陌生人給的線索，請解開本關密碼，是個四位數字。",
+          "title": "Hãy chọn tùy chọn đúng",
+          "alt": "Hãy mở khóa mật khẩu ải này theo manh mối mà người lạ đưa ra, đó là một số có bốn chữ số.",
           "type": "password",
           "value": "5050"
         }
@@ -82,19 +82,19 @@
       "required": ["b-1"],
       "next": "a",
       "banner": "/media/banner_b.jpg",
-      "title": "樂器(2) — European Indoor Park",
+      "title": "Nhạc cụ(2) — European Indoor Park",
       "prompts": [
         {
           "type": "txt",
           "src":"",
-          "title": "搭乘遊樂設施",
-          "alt": "請擇一搭乘「 Jumbo Wave／ Merry-go-round ／ Mining Train ／ Little Pilot」，於設施出口處就能看到本關密碼紙，破解本關即可獲得物資袋。\n　　\n【備註】可搭乘的設施有四項，擇一搭乘即可，最後獲得的線索或答案都是一樣的。本關密碼紙可能藏匿地點為「設施內置物櫃、出口處、設施上、操控台外牆」。"
+          "title": "Đón phương tiện du lạc",
+          "alt": "Hãy chọn đón một trong 「Jumbo Wave ／ Merry-go-round ／ Mining Train ／ Little Pilot」, bạn sẽ thấy giấy mật mã của ải này ở lối ra, sẽ nhận được túi đồ nếu vượt được ải này.\n　　\n[Ghi chú] Chỉ cần đón một trong số 4 phương tiện trong đó, manh mối hoặc câu trả lời mà bạn nhận được đều giống nhau. Nơi có thể cất giấu mật khẩu của ải này có thể giấu trong 「tủ khóa, lối ra, trên phương tiện và bức tường bên ngoài của bàn điều khiển」."
         }
       ],
       "answers": [
         {
-          "title": "請輸入答案",
-          "alt": "請輸入貼在遊樂設施出口處的六位數密碼。",
+          "title": "Hãy chọn tùy chọn đúng",
+          "alt": "Vui lòng nhập mã gồm sáu chữ số được dán ở lối ra của phương tiện.",
           "type": "password",
           "value": "193847"
         }
@@ -105,19 +105,25 @@
       "required": ["a"],
       "next": "c-2",
       "banner": "/media/banner_c.jpg",
-      "title": "蔬果(1) — Mini Egypt",
+      "title": "Hoa quả(1) — Mini Egypt",
       "prompts": [
         {
           "type": "image",
-          "src":"/media/4-1.jpg",
+          "src":"/media/4-1(en).jpg",
           "title": "The Great Sphinx",
-          "alt": "在「Mini Egypt」撿到一個遺失的物資袋，請到「The Great Sphinx」觀察英文介紹牌，找到 ft.、high、long 這三個關鍵字，並將 high、 long 代表的數字相加， 即為答案。"
+          "alt": "Nhặt được một túi đồ bị mất trong 「Mini Egypt」, hãy đến 「The Great Sphinx」 để quan sát thẻ giới thiệu bằng tiếng Anh, tìm ba từ khóa ft., high, long rồi cộng thêm các số được biểu thị bởi high và long để tìm ra câu trả lời."
+        },
+        {
+          "type": "image",
+          "src":"/media/4.jpg",
+          "title": "The Great Sphinx",
+          "alt": ""
         }
       ],
       "answers": [
         {
-          "title": "請輸入答案",
-          "alt": "答案是一個三位數字。",
+          "title": "Hãy chọn tùy chọn đúng",
+          "alt": "Câu trả lời là một số có ba chữ số.",
           "type": "password",
           "value": "215"
         }
@@ -128,25 +134,26 @@
       "required": ["c-1"],
       "next": "a",
       "banner": "/media/banner_c.jpg",
-      "title": "蔬果(2) — Mini Egypt",
+      "title": "Hoa quả(2) — Mini Egypt",
       "prompts": [
         {
           "type": "image",
           "src":"/media/4-2.jpg",
-          "title": "合照野餐籃示意圖",
-          "alt": "答案正確！請全隊到齊後到「The Stage」旁，與野餐籃拍大合照（可參考上方示意圖） ，並上傳至指定連結（右頁）。完成後，即可領回物資。"
+          "title": "Hình minh họa và ảnh chụp bữa ăn dã ngoại",
+          "alt": "Câu trả lời chính xác! Toàn đội đến bên 「The Stage」 và chụp ảnh với bữa ăn dã ngoại (có thể tham khảo hình minh họa trên) và tải lên liên kết được chỉ định (trang bên phải). Sau khi hoàn thành có thể nhận lại đồ vật."
         },
         {
           "type": "url",
-          "title": "請將照片上傳",
-          "alt": "請點擊下方按鈕，按指示上傳團隊成員與野餐籃的大合照。上傳完成後，即可獲得遺失物領取編號。",
-          "src": "https://forms.gle/zh3htMPmYVQBvzdH8"
+          "title": "Vui lòng tải ảnh lên",
+          "button": "tải ảnh lên",
+          "alt": "Vui lòng bấm vào nút bên dưới và làm theo hướng dẫn để tải lên ảnh các thành viên trong nhóm và bữa ăn dã ngoại. Sau khi tải lên, bạn có thể nhận được số đồ vật bị mất.",
+          "src": "https://www.surveycake.com/s/NBvOL"
         }
       ],
       "answers": [
         {
-          "title": "請輸入答案",
-          "alt": "請輸入完成表單後獲得的編號。",
+          "title": "Hãy chọn tùy chọn đúng",
+          "alt": "Vui lòng nhập mã số nhận được sau khi điền bảng biểu.",
           "type": "password",
           "value": "191701"
         }
@@ -157,19 +164,19 @@
       "required": ["a"],
       "next": "d-2",
       "banner": "/media/banner_d.jpg",
-      "title": "廚具(1) — Entrance",
+      "title": "Đồ dùng nhà bếp(1)— Entrance",
       "prompts": [
         {
           "type": "image",
           "src":"/media/10-1.png",
-          "title": "紙上的內容",
-          "alt": "到了「 Entrance 」，有位陌生人說：「我看到有人把物資袋往蘑菇叢裡『橘色』的地方丟！我先去忙，你們可以自己去找出正確的蘑菇叢嗎？ 」"
+          "title": "Nội dung trên giấy",
+          "alt": "Khi đến 「Entrance 」, một người lạ nói: 「Tôi thấy ai đó ném túi đồ vật vào chỗ」 màu cam 「trong bụi nấm! Tôi đang bận. Bạn có thể tự đi tìm bụi nấm đó không?」"
         }
       ],
       "answers": [
         {
-          "title": "請輸入答案",
-          "alt": "根據陌生人給的線索，找出物資袋可能被丟棄的兩個位置，並將那兩個位置的編號由大至小填入輸入框中。",
+          "title": "Hãy chọn tùy chọn đúng",
+          "alt": "Theo manh mối mà người lạ đưa ra, tìm ra hai vị trí vứt mà túi đồ vật, và điền số của hai vị trí đó từ lớn đến bé vào ô.",
           "type": "password",
           "value": "50"
         }
@@ -180,74 +187,21 @@
       "required": ["d-1"],
       "next": "a",
       "banner": "/media/banner_d.jpg",
-      "title": "廚具(2) — Entrance",
+      "title": "Đồ dùng nhà bếp(1)— Entrance",
       "prompts": [
         {
           "type": "image",
-          "src":"/media/",
-          "title": "遊戲挑戰關",
-          "alt": "本關卡位於「WOC Tour Train」出口處（圖中的位置），請團隊前往該處進行遊戲挑戰，挑戰成功即可獲得破關密碼。\n　　\n【遊戲規則】\n派一位成員負責拿籃子接，其他成員排隊一人一次將拖鞋踢入籃子中，失敗即換下一位，成功投入三隻拖鞋，即可從工作人員手中拿到通關密碼！"
+          "src":"/media/d.jpg",
+          "title": "Ải thử thách trò chơi",
+          "alt": "Ải này nằm ở lối vào 「WOC Tour Train」 (vị trí trong hình), hãy vào đó để thử thách trò chơi, nếu thành công, bạn có thể nhận được mật mã vượt ải.\n　　\n[Luật chơi] Cử một thành viên cầm rổ, các thành viên khác xếp hàng lần lượt đá đôi dép vào rổ, nếu không vào sẽ được thay thế bằng người tiếp theo. Thành công ném vào 3 đôi dép thì sẽ nhận được mật mã vượt ải từ nhân viên ban tổ chức."
         }
       ],
       "answers": [
         {
-          "title": "請輸入答案",
-          "alt": "請輸入挑戰成功後，關主提供的通關密碼。",
+          "title": "Hãy chọn tùy chọn đúng",
+          "alt": "Vui lòng nhập mã vượt ải do chủ ải cung cấp sau khi thử thách thành công.",
           "type": "password",
           "value": "198900"
-        }
-      ]
-    },
-    {
-      "name": "e-1",
-      "required": ["a"],
-      "next": "e-2",
-      "banner": "/media/banner_e.jpg",
-      "title": "肉品(1) — Taiwan Infrastructure",
-      "prompts": [
-        {
-          "type": "image",
-          "src":"/media/11-1.jpg",
-          "title": "第一張線索",
-          "alt": "在「Taiwan Infrastructure」的港口旁，有陌生人跟你們說：「我在找到了兩張線索，解開這兩張線索，就可以拿物資。」\n　　\n第一張線索如圖，上面寫著：「\n1.找出圖中哪些貨櫃顏色錯了，將錯誤的貨櫃上的字拼起來，是個重要節日。\n2.節日對應的日期填入下方框框中。\n3.將數字相加，即可獲得答案。」"
-        },
-        {
-          "type": "image",
-          "src":"/media/11.jpg",
-          "title": "小提示",
-          "alt": "圖中是貨櫃附近的環境照片。"
-        }
-      ],
-      "answers": [
-        {
-          "title": "請輸入答案",
-          "alt": "三條紅色底線個代表一個數字，請由左至右，依序輸入此三位數字密碼。",
-          "type": "password",
-          "value": "217"
-        }
-      ]
-    },
-    {
-      "name": "e-2",
-      "required": ["e-1"],
-      "next": "a",
-      "banner": "/media/banner_e.jpg",
-      "title": "肉品(2) — Taiwan Infrastructure",
-      "prompts": [
-        {
-          "type": "image",
-          "src":"/media/11-3.jpg",
-          "title": "第二張線索",
-          "alt": "工作人員給的第二張線索如圖，在圖的背面寫著：「觀察圓圈裡的字，可以找出他們各自代表的節日。將有紅色底線的字母組合後，就可以成功獲得物資。」\n　　\n【備註】本關不用走到特定位置，團隊可以移動至空曠處再進行本關的討論，將位置留給其他團隊。"
-        }
-      ],
-      "answers": [
-        {
-          "title": "請輸入答案",
-          "alt": "請將紅色底線的字母組合後成為一個三個字母的單字，並輸入下方欄位，答案正確即可從貨櫃中取得物資袋。",
-          "type": "order",
-          "options": ["Ａ","Ｂ","Ｃ","Ｄ","Ｅ","Ｆ","Ｇ","Ｈ","Ｉ","Ｊ","Ｋ","Ｌ","Ｍ","Ｎ","Ｏ","Ｐ","Ｑ","Ｒ","Ｓ","Ｔ","Ｕ","Ｖ","Ｗ","Ｘ","Ｙ","Ｚ"],
-          "value": [18,4,0]
         }
       ]
     },
@@ -256,19 +210,19 @@
       "required": ["a"],
       "next": "f-2",
       "banner": "/media/banner_f.jpg",
-      "title": "帳篷(1) — Mini Taiwan",
+      "title": "Lều(1) — Mini Taiwan",
       "prompts": [
         {
           "type": "image",
           "src":"/media/12-1.jpg",
-          "title": "紙上的內容",
-          "alt": "在「Mini Taiwan」，有陌生人給你們一張圖說：「幫我『清點 Sun Yat-sen Memorial Hall 週邊運動人數』，我就跟你們說物資袋在哪。記得要：\n1.確認每群在做不同活動的人，各有幾個人，不要算到旁邊圍觀的路人。\n2.對照這張場地分配圖，找出藍色底線代表的四位數字，就是答案。」"
+          "title": "Nội dung trên giấy",
+          "alt": "Trong 「Mini Taiwan」, một người lạ đưa cho các bạn một bức ảnh và nói: Hãy giúp tôi đếm số người tập thể dục xung quanh Sun Yat-sen Memorial Hall 」, và tôi sẽ cho bạn biết túi đồ vật ở đâu. Hãy nhớ:\n　　\n1. Đảm bảo rằng số người trong mỗi nhóm đang thực hiện các hoạt động khác nhau, không được tính những người qua đường.\n　　\n2. So sánh bản đồ phân bổ địa điểm và tìm câu trả lời là bốn chữ số được biểu thị bằng dòng dưới cùng màu xanh lam."
         }
       ],
       "answers": [
         {
-          "title": "請輸入答案",
-          "alt": "找出藍色底線代表的四位數字，請依照圖片下方的藍色底線由左至右依序輸入。",
+          "title": "Hãy chọn tùy chọn đúng",
+          "alt": "Tìm bốn chữ số được biểu thị bằng gạch dưới màu xanh lam. Vui lòng nhập theo thứ tự từ trái sang phải theo gạch chân màu xanh lam bên dưới hình.",
           "type": "password",
           "value": "1988"
         }
@@ -279,19 +233,19 @@
       "required": ["f-1"],
       "next": "a",
       "banner": "/media/banner_f.jpg",
-      "title": "帳篷(2) — Mini Taiwan",
+      "title": "Lều(2) — Mini Taiwan",
       "prompts": [
         {
           "type": "txt",
           "src":"",
-          "title": "物資袋的藏匿處",
-          "alt": "答案正確，1988 除了是答案外，也是台達成立 Delta Electronics (Thailand) 的年份！\n　　\n物資袋就在「Sun Yat-sen Memorial Hall」第＿＿根柱子下，你們可以從下面這幾個句子中推算出＿＿的答案。\n　　\n　１ ☐９＝1 0；\n　２ ☐ ７＝９；\n　３ ☐ ５ ☐ ８＝１６；\n　６ ☐ ３ ☐ ２ ☐ ２＝１３；\n　１ ☐ ９ ☐ ８ ☐ ８＝ ＿＿\n　　\n請問＿＿的數字是多少呢？"
+          "title": "Nơi cất giấu túi đồ vật",
+          "alt": "Câu trả lời chính xác. 1988 là đáp án chính xác và cũng là năm thành lập Delta Electronics (Thái Lan)!\n　　\nTúi tài liệu nằm dưới cột thứ __ của 「Sun Yat-sen Memorial Hall」. Các bạn có thể suy ra câu trả lời cho __ từ các câu sau.\n　　\n　１ ☐９＝1 0；\n　２ ☐ ７＝９；\n　３ ☐ ５ ☐ ８＝１６；\n　６ ☐ ３ ☐ ２ ☐ ２＝１３；\n　１ ☐ ９ ☐ ８ ☐ ８＝ ＿＿\n　　\nHỏi số _____ là bao nhiêu?"
         }
       ],
       "answers": [
         {
-          "title": "請輸入答案",
-          "alt": "根據圖紙背面的提示，物資袋是放在哪一根柱子下呢？答案為二位數字。",
+          "title": "Hãy chọn tùy chọn đúng",
+          "alt": "Theo lời nhắc ở mặt sau hình, túi đồ vật được đặt dưới cột nào? Câu trả lời là số có hai chữ số.",
           "type": "password",
           "value": "26"
         }
@@ -299,16 +253,17 @@
     },
     {
       "name": "gift",
-      "required": ["b-2","c-2","d-2","e-2","f-2"],
+      "required": ["b-2","c-2","d-2","f-2"],
       "next": "",
       "banner": "/media/banner.jpg",
-      "title": "結局",
+      "title": "Ải cuối",
       "prompts": [
         {
           "type": "url",
-          "title": "恭喜過關",
-          "alt": "恭喜成功找回所有的露營物資，辛苦你們了！為了獎勵你們的辛勞，我們準備了一些小獎勵要給你們。\n　　\n1. 點擊下方按鈕，填寫並送出問卷後才算「遊戲計時結束」，我們會根據移工組內各隊的破關速度，頒發前三名獎勵（如問卷填寫錯誤資訊，將失去領獎資格）。\n　　\n2. 隊長至「The Stage」旁的服務台，出示遊戲畫面，即可領取「參賽獎勵」。",
-          "src": "https://bit.ly/3j0uy0W"
+          "title": "Chúc mừng vượt ải",
+          "button": "Hoàn thành trò chơi",
+          "alt": "Chúc mừng bạn đã nhận thành công tất cả các vật dụng cắm trại. Thật vất vả rồi! Để thưởng cho sự nổ lực của bạn, chúng tôi đã chuẩn bị một số phần thưởng nho nhỏ dành cho các bạn.\n　　\n1. Bấm vào nút bên dưới, điền và gửi bảng khảo sát, sẽ được xem là 「Kết thúc thời gian thi đấu」, chúng tôi sẽ trao ba giải cao nhất tùy theo tốc độ vượt ải của từng đội trong (Nếu điền sai thông tin trong phiếu, bạn sẽ mất tư cách nhận giải ).\n　　\n2. Trưởng nhóm có thể đến bàn phục vụ bên cạnh 「The Stage」, đưa màn hình trò chơi để nhận 「Phần thưởng tham gia」.",
+          "src": "https://www.surveycake.com/s/YQWPy"
         }
       ]
     }
