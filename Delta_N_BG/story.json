@@ -9,7 +9,7 @@
   "contact": "https://www.messenger.com/t/RiddleRun",
   "introduction": {
     "title": "故事緣起",
-    "content": "達人們跟家人朋友來到小人國露營，抵達現場後卻發現這次的露營總召跟著一車的露營物資一起不見了？！\n　　\n多方奔走後，達人們才蒐集到了一點訊息：有多位目擊證人表示，他們有看到一台小貨車載著總召出現在園區各處，而露營的物資袋也一路掉落...但他們不確定總召是被人脅迫的，或是自願跟著車走的...一切訊息聽起來都不是那麼的明朗...\n　　\n為了讓露營能順利進行，達人們需要去小人國的各個角落尋找線索，同心協力的將散落在小人國各處的六袋物資袋收集回來。同時，看能不能在找回物資袋的路上，搜尋各式線索、找出總召的下落！\n　　\n達人們，準備好後，就出發吧！別擔心，一路上會有許多人幫助你們的！"
+    "content": "達人們跟家人朋友來到小人國露營，抵達現場後卻發現這次的露營總召跟著一車的露營物資一起不見了？！\n　　\n多方奔走後，達人們才蒐集到了一點訊息：有多位目擊證人表示，他們有看到一台小貨車載著總召出現在園區各處，而露營的物資袋也一路掉落...但他們不確定總召是被人脅迫的，或是自願跟著車走的...一切訊息聽起來都不是那麼的明朗...\n　　\n為了讓露營能順利進行，達人們需要去小人國的各個角落尋找線索，同心協力的將散落在小人國各處的五袋物資袋收集回來。同時，看能不能在找回物資袋的路上，搜尋各式線索、找出總召的下落！\n　　\n達人們，準備好後，就出發吧！別擔心，一路上會有許多人幫助你們的！"
   },
   "levels": [
     {
@@ -53,7 +53,7 @@
       "required": ["a"],
       "next": "f-2",
       "banner": "/media/banner_e.jpg",
-      "title": "肉品袋(1) — 迷你亞洲",
+      "title": "肉品袋(1) - 迷你亞洲",
       "prompts": [
         {
           "type": "image",
@@ -65,7 +65,7 @@
           "type": "txt",
           "src":"",
           "title": "小提示",
-          "alt": "台達八大事業群全稱：\n•PSBG－Power and System Business Group\n•ICTBG－Informational Communication Technology Business Group Infrastructure \n•EISBG－Energy Infrastructure and Industrial Solutions Business Group\n•IABG－Industrial Automation Business Group\n•EVSBG－Electric Vehicle Solutions Business Group\n•BABG－Building Automation Business Group\n•CPBG－Components Business Group\n•FMBG－Fans & Thermal Management Business Group\n　　\n【備註 1】本關為純線上進行的謎題，團隊們可以移動至空曠處再進行本關的討論。將位置留給後續要來解謎的其他團隊，也可以避免其他團隊從你們身上得到破關的蛛絲馬跡喔～\n　　\n【備註 2】\n本關只有「進階提示」無「初階提示」。如有需要可至提示小天使處登記領取。"
+          "alt": "台達八大事業群全稱：\n• PSBG－Power and System Business Group\n• ICTBG－Informational Communication Technology Business Group Infrastructure \n• EISBG－Energy Infrastructure and Industrial Solutions Business Group\n• IABG－Industrial Automation Business Group\n• EVSBG－Electric Vehicle Solutions Business Group\n• BABG－Building Automation Business Group\n• CPBG－Components Business Group\n• FMBG－Fans & Thermal Management Business Group\n　　\n【備註 1】本關為純線上進行的謎題，團隊們可以移動至空曠處再進行本關的討論。將位置留給後續要來解謎的其他團隊，也可以避免其他團隊從你們身上得到破關的蛛絲馬跡喔～\n　　\n【備註 2】\n本關只有「進階提示」無「初階提示」。如有需要可至提示小天使處登記領取。"
         }
       ],
       "answers": [
@@ -83,7 +83,7 @@
       "required": ["f-1"],
       "next": "a",
       "banner": "/media/banner_e.jpg",
-      "title": "肉品袋(2) — 迷你亞洲",
+      "title": "肉品袋(2) - 迷你亞洲",
       "prompts": [
         {
           "type": "txt",
@@ -112,7 +112,7 @@
       "required": ["a"],
       "next": "g-2",
       "banner": "/media/banner_f.jpg",
-      "title": "帳篷袋(1) — 迷你中國",
+      "title": "帳篷袋(1) - 迷你中國",
       "prompts": [
         {
           "type": "image",
@@ -154,7 +154,7 @@
           "type": "image",
           "src":"/media/9.jpg",
           "title": "小提示",
-          "alt": "圖為午門角樓的外觀，在迷你中國區內就能找到它了！"
+          "alt": "1. 圖為午門角樓的外觀，在迷你中國區內就能找到它了！找到後，觀察城牆上的旗幟，將與圖片不符的三個位置所代表的數字相加即可。\n2. 「紫、黑」及「灰、白」可試為同色，不用特別區分。"
         }
       ],
       "answers": [
@@ -171,7 +171,7 @@
       "required": ["a"],
       "next": "b-2",
       "banner": "/media/banner_b.jpg",
-      "title": "樂器袋(1) — 歐洲室內樂園",
+      "title": "樂器袋(1) - 歐洲室內樂園",
       "prompts": [
         {
           "type": "image",
@@ -194,7 +194,7 @@
       "required": ["b-1"],
       "next": "a",
       "banner": "/media/banner_b.jpg",
-      "title": "樂器袋(2) — 歐洲室內樂園",
+      "title": "樂器袋(2) - 歐洲室內樂園",
       "prompts": [
         {
           "type": "txt",
@@ -217,7 +217,7 @@
       "required": ["a"],
       "next": "c-2",
       "banner": "/media/banner_c.jpg",
-      "title": "蔬果袋(1) — 迷你美洲",
+      "title": "蔬果袋(1) - 迷你美洲",
       "prompts": [
         {
           "type": "image",
@@ -240,7 +240,7 @@
       "required": ["c-1"],
       "next": "a",
       "banner": "/media/banner_c.jpg",
-      "title": "蔬果袋(2) — 迷你美洲",
+      "title": "蔬果袋(2) - 迷你美洲",
       "prompts": [
         {
           "type": "txt",
@@ -264,7 +264,7 @@
       "required": ["a"],
       "next": "e-2",
       "banner": "/media/banner_d.jpg",
-      "title": "烹飪袋(1) — 埃及館",
+      "title": "烹飪袋(1) - 埃及館",
       "prompts": [
         {
           "type": "image",
@@ -288,7 +288,7 @@
       "required": ["e-1"],
       "next": "a",
       "banner": "/media/banner_d.jpg",
-      "title": "烹飪袋(2) — 埃及館",
+      "title": "烹飪袋(2) - 埃及館",
       "prompts": [
         {
           "type": "image",
