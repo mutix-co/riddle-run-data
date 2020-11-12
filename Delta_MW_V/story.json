@@ -9,33 +9,33 @@
   "contact": "https://www.messenger.com/t/RiddleRun",
   "introduction": {
     "title": "Nguồn gốc của câu chuyện",
-    "content": "Các nhân viên của Delta cùng gia đình và bạn bè của họ đã đến buổi cắm trại Tiểu Nhân Quốc, nhưng khi đến nơi thì phát hiện ra đồ vật trong trại đã bị đánh cắp? ! Sau khi điều tra, có một số nhân chứng trông thấy có người lái một chiếc xe tải chở đồ vật chạy về hướng lối ra, nhưng kỳ lạ thay, tên lấy cắp đã vứt đồ vật dọc đường.\n　　\nChúng tôi sẽ mời các chuyên gia hỗ trợ trong nhiệm vụ bắt giữ tên lấy cắp. Nhưng trước khi bắt được thủ phạm, để việc cắm trại diễn ra suôn sẻ, bạn có sẵn sàng đi đến mọi ngóc ngách của Tiểu Nhân Quốc để tìm manh mối và giúp thu thập đồ vật rơi rải rác khắp đất nước Tiểu Nhân Quốc không? \n　　\nĐừng lo lắng, chúng tôi sẽ cung cấp cho bạn thông tin và manh mối tương ứng trên đường đi, điều này có thể giúp bạn tìm thấy đồ vật bị rơi nhanh chóng hơn!"
+    "content": "Các nhân viên của Delta cùng gia đình và bạn bè của họ đã đến buổi cắm trại vương quốc người tí hon , nhưng khi đến nơi thì phát hiện ra đồ vật trong trại đã bị đánh cắp? ! Sau khi điều tra, có một số nhân chứng trông thấy có người lái một chiếc xe tải chở đồ vật chạy về hướng lối ra, nhưng kỳ lạ thay, tên lấy cắp đã vứt đồ vật dọc đường.\n　　\nChúng tôi sẽ mời các chuyên gia hỗ trợ trong nhiệm vụ bắt giữ tên lấy cắp. Nhưng trước khi bắt được thủ phạm, để việc cắm trại diễn ra suôn sẻ, bạn có sẵn sàng đi đến mọi ngóc ngách của Vương quốc người tí hon để tìm manh mối và giúp thu thập đồ vật rơi rải rác khắp Vương quốc người tí hon không? \n　　\nĐừng lo lắng, chúng tôi sẽ cung cấp cho bạn thông tin và manh mối tương ứng trên đường đi, điều này có thể giúp bạn tìm thấy đồ vật bị rơi nhanh chóng hơn!"
   },
   "levels": [
     {
       "name": "a",
       "required": [],
-      "next": "b-1",
+      "next": "lobby",
       "banner": "/media/banner.jpg",
-      "title": "Cột thông tin",
+      "title": "Trạm  hướng dẫn",
       "prompts": [
         {
           "type": "txt",
           "src":"",
           "title": "Cột thông tin",
-          "alt": "【歡迎來到導覽關，可於左上角「關卡選擇」處選擇要挑戰的關卡】\n　　\n1. Tổng cộng sáu túi đồ vật đã bị mất.  Sau khi điều tra sơ bộ, vi trí đồ vật nơi được liệt kê bên dưới để bạn tham khảo. “Bạn không cần phải tìm kiếm theo thứ tự.” Mọi người có thể xem xét tình hình sắp xếp lộ trình.\n【Nhạc cụ — European Indoor Park】\n【Hoa quả — Mini Egypt】\n【Đồ dùng nhà bếp— Entrance】\n【Lều — Mini Taiwan】\n　　\n2. [Lựa chọn ải] trong thanh menu ở góc trên bên phải cho phép bạn tự do chuyển sang ải bạn muốn thử thách. Có sáu ải và mỗi ải chứa hai ải nhỏ, chẳng hạn như XX (1) và XX (2). Người chơi cần vượt qua ải XX (1) trước khi mở khóa XX (2). bạn có thể vuốt sang phải để biết thêm thông tin chi tiết mỗi ải.\n　　\n3. [Bản đồ kịch bản] trên thanh menu ở góc trên bên phải có thể cho mọi người biết sự phân chia của từng khu trong Tiểu Nhân Quốc và vị trí của 「thiên thần nhỏ hướng dẫn」.\n　　\n4. Trong thanh menu ở góc trên bên phải, [Liên hệ chăm sóc khách hàng], nếu bạn gặp bất kỳ sự cố nào trong quá trình chơi trò chơi (ngoại trừ lời hướng dẫn! Để được hướng dẫn vui lòng tìm Thiên thần nhỏ ~), bạn có thể liên hệ nhân viên dịch vụ chăm sóc khách hàng.\n　　\n5. Thời gian trò chơi bắt đầu sau khi 「người dẫn chương trình thông báo bắt đầu」. Sau khi mở khóa thành công năm ải, có thể mở khóa 「Thẻ kết thúc」. Vui lòng 「điền và gửi bảng câu hỏi trong Thẻ kết thúc」 thì mới chính thức kết thúc trò chơi!\n　　\nNếu mọi người đã sẵn sàng, vui lòng nhấp vào [Nhập câu trả lời] bên dưới, chọn nút 「Sẵn sàng」 và bắt đầu vượt ải nào!"
+          "alt": "【Chào mừng bạn đến ải tham quan hướng dẫn, bạn có thể chọn ải mà bạn muốn thử thách ở 「Lựa chọn ải」 ở góc trên bên trái】\n　　\n1. Tổng cộng sáu túi đồ vật đã bị mất.  Sau khi điều tra sơ bộ, vi trí đồ vật nơi được liệt kê bên dưới để bạn tham khảo. “Bạn không cần phải tìm kiếm theo thứ tự.” Mọi người có thể xem xét tình hình sắp xếp lộ trình.\n【Nhạc cụ — European Indoor Park】\n【Hoa quả — Mini Egypt】\n【Đồ dùng nhà bếp— Entrance】\n【Lều — Mini Taiwan】\n　　\n2. [Lựa chọn ải] trong thanh menu ở góc trên bên phải cho phép bạn tự do chuyển sang ải bạn muốn thử thách. Có bốn ải và mỗi ải chứa hai ải nhỏ, chẳng hạn như XX (1) và XX (2). Người chơi cần vượt qua ải XX (1) trước khi mở khóa XX (2). bạn có thể vuốt sang phải để biết thêm thông tin chi tiết mỗi ải.\n　　\n3.  [ Bản đồ trò chơi ] trên thanh menu ở góc trên bên phải có thể cho mọi người biết sự phân chia của từng khu trong Vương quốc người tí hon và vị trí của ”thiên thần nhỏ hướng dẫn“.\n　　\n4. Trong thanh menu ở góc trên bên phải, [Liên hệ chăm sóc khách hàng], nếu bạn gặp bất kỳ sự cố nào trong quá trình chơi trò chơi (ngoại trừ lời hướng dẫn! Để được hướng dẫn vui lòng tìm Thiên thần nhỏ ~), bạn có thể liên hệ nhân viên dịch vụ chăm sóc khách hàng.\n　　\n5. Thời gian trò chơi bắt đầu sau khi 「người dẫn chương trình thông báo bắt đầu」. Sau khi mở khóa thành công bốn ải, có thể mở khóa 「Thẻ kết thúc」. Vui lòng 「điền và gửi bảng câu hỏi trong Thẻ kết thúc」 thì mới chính thức kết thúc trò chơi!\n　　\nNếu mọi người đã sẵn sàng, vui lòng nhấp vào [Nhập câu trả lời] bên dưới, chọn nút 「Sẵn sàng」 và bắt đầu vượt ải nào!"
         },
         {
           "type": "image",
           "src": "/media/a-1.jpg",
-          "title": "Hướng dẫn thao tác tập lệnh",
+          "title": "Nói rõ thao tác các bước",
           "alt": "【1】Vuốt sang trái và phải để xem thêm nội dung của ải.\n【2】Nhấp vào nút 「Nhập câu trả lời」 bên dưới để điền câu trả lời và sẽ vượt ải nếu đúng\n【3】 Trong thanh menu ở góc trên bên trái, bạn có thể nhận thông tin về danh sách ải, bản đồ, bộ phận chăm sóc khách hàng, v.v."
         },
         {
           "type": "image",
           "src": "/media/a-2.jpg",
           "title": "Mô tả trạng thái ải",
-          "alt": "【Đã vượt ải】 Hình ải rõ ràng\n【Đã mở khóa】 Hình ải bị mờ\n【Chưa mở khóa】 Hình ải có một ổ khóa"
+          "alt": "【Đã vượt ải】 Hình ảnh rõ ràng\n【Đã mở khóa】 Hình ảnh bị mờ\n【Chưa mở khóa】 Hình ải có một ổ khóa"
         }
       ],
       "answers": [
@@ -45,6 +45,21 @@
           "type": "order",
           "options": ["Sẵn sàng","Chờ giây lát"],
           "value": [0]
+        }
+      ]
+    },
+    {
+      "name": "lobby",
+      "required": ["a"],
+      "next": "",
+      "banner": "/media/banner.jpg",
+      "title": "Lựa chọn ải",
+      "prompts": [
+        {
+          "type": "txt",
+          "src":"",
+          "title": "Vui lòng chọn nền tảng để thử thách",
+          "alt": "1. [Lựa chọn ải] trong thanh menu ở góc trên bên phải cho phép bạn tự do chuyển sang ải bạn muốn thử thách.\n　　\n2. \n【Nhạc cụ — European Indoor Park】\n【Hoa quả — Mini Egypt】\n【Đồ dùng nhà bếp— Entrance】\n【Lều — Mini Taiwan】\n　　\n3. Sau khi mở khóa thành công bốn ải, có thể mở khóa “Thẻ kết thúc”. Vui lòng “điền và gửi bảng câu hỏi trong Thẻ kết thúc” thì mới chính thức kết thúc trò chơi!"
         }
       ]
     },
@@ -80,21 +95,21 @@
     {
       "name": "b-2",
       "required": ["b-1"],
-      "next": "a",
+      "next": "lobby",
       "banner": "/media/banner_b.jpg",
       "title": "Nhạc cụ(2) — European Indoor Park",
       "prompts": [
         {
           "type": "txt",
           "src":"",
-          "title": "Đón phương tiện du lạc",
-          "alt": "Hãy chọn đón một trong 「Jumbo Wave ／ Merry-go-round ／ Mining Train ／ Little Pilot」, bạn sẽ thấy giấy mật mã của ải này ở lối ra, sẽ nhận được túi đồ nếu vượt được ải này.\n　　\n[Ghi chú] Chỉ cần đón một trong số 4 phương tiện trong đó, manh mối hoặc câu trả lời mà bạn nhận được đều giống nhau. Nơi có thể cất giấu mật khẩu của ải này có thể giấu trong 「tủ khóa, lối ra, trên phương tiện và bức tường bên ngoài của bàn điều khiển」."
+          "title": "Chơi các trò chơi ",
+          "alt": "Hãy chơi các trò [Jumbo Wave / Merry -go - round / Mining Train / Little Pilot ] , giấy ghi mật khẩu sẽ được giấu ở tủ đựng đồ , lối ra , trên công cụ trò chơi , tường ngoài của bàn điều khiển được đặt ở lối ra giải đáp ải này sẽ giành được túi đựng đồ vật."
         }
       ],
       "answers": [
         {
           "title": "Hãy chọn tùy chọn đúng",
-          "alt": "Vui lòng nhập mã gồm sáu chữ số được dán ở lối ra của phương tiện.",
+          "alt": "Vui lòng nhập mã gồm sáu chữ số được dán ở lối ra của trò chơi .",
           "type": "password",
           "value": "193847"
         }
@@ -132,7 +147,7 @@
     {
       "name": "c-2",
       "required": ["c-1"],
-      "next": "a",
+      "next": "lobby",
       "banner": "/media/banner_c.jpg",
       "title": "Hoa quả(2) — Mini Egypt",
       "prompts": [
@@ -146,14 +161,14 @@
           "type": "url",
           "title": "Vui lòng tải ảnh lên",
           "button": "tải ảnh lên",
-          "alt": "Vui lòng bấm vào nút bên dưới và làm theo hướng dẫn để tải lên ảnh các thành viên trong nhóm và bữa ăn dã ngoại. Sau khi tải lên, bạn có thể nhận được số đồ vật bị mất.",
+          "alt": "Vui lòng bấm vào nút bên dưới và làm theo hướng dẫn để tải lên ảnh các thành viên trong nhóm với bữa ăn dã ngoại. Sau khi tải lên, bạn có thể nhận được mã số của vật bị mất.",
           "src": "https://www.surveycake.com/s/NBvOL"
         }
       ],
       "answers": [
         {
           "title": "Hãy chọn tùy chọn đúng",
-          "alt": "Vui lòng nhập mã số nhận được sau khi điền bảng biểu.",
+          "alt": "Vui lòng nhập mã số nhận được hoàn thành bảng biểu",
           "type": "password",
           "value": "191701"
         }
@@ -170,7 +185,7 @@
           "type": "image",
           "src":"/media/10-1.png",
           "title": "Nội dung trên giấy",
-          "alt": "Khi đến 「Entrance 」, một người lạ nói: 「Tôi thấy ai đó ném túi đồ vật vào chỗ」 màu cam 「trong bụi nấm! Tôi đang bận. Bạn có thể tự đi tìm bụi nấm đó không?」"
+          "alt": "Khi đến ”Entrance“, một người lạ nói: ”Tôi thấy ai đó ném túi đồ vật vào chỗ bụi nấm màu cam ! Tôi đang bận. Bạn có thể tự đi tìm bụi nấm đó không?“"
         }
       ],
       "answers": [
@@ -185,15 +200,15 @@
     {
       "name": "d-2",
       "required": ["d-1"],
-      "next": "a",
+      "next": "lobby",
       "banner": "/media/banner_d.jpg",
-      "title": "Đồ dùng nhà bếp(1)— Entrance",
+      "title": "Đồ dùng nhà bếp(2)— Entrance",
       "prompts": [
         {
           "type": "image",
           "src":"/media/d.jpg",
           "title": "Ải thử thách trò chơi",
-          "alt": "Ải này nằm ở lối vào 「WOC Tour Train」 (vị trí trong hình), hãy vào đó để thử thách trò chơi, nếu thành công, bạn có thể nhận được mật mã vượt ải.\n　　\n[Luật chơi] Cử một thành viên cầm rổ, các thành viên khác xếp hàng lần lượt đá đôi dép vào rổ, nếu không vào sẽ được thay thế bằng người tiếp theo. Thành công ném vào 3 đôi dép thì sẽ nhận được mật mã vượt ải từ nhân viên ban tổ chức."
+          "alt": "Ải này nằm ở lối vào 「WOC Tour Train」 (vị trí trong hình), hãy vào đó để thử thách trò chơi, nếu thành công, bạn có thể nhận được mật mã vượt ải.\n　　\n[nguyên tắc trò chơi ] chỉ cần có hai thành viên thành công ném đồ vật vào bên trong rổ ( thất bại lập tức thay người kế tiếp ) ,  tức khắc có thể nhận được thẻ thông hành từ tay chủ ải !"
         }
       ],
       "answers": [
@@ -231,7 +246,7 @@
     {
       "name": "f-2",
       "required": ["f-1"],
-      "next": "a",
+      "next": "lobby",
       "banner": "/media/banner_f.jpg",
       "title": "Lều(2) — Mini Taiwan",
       "prompts": [
