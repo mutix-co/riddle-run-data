@@ -104,7 +104,7 @@
       "required": ["start"],
       "next": "lobby",
       "banner": "/media/banner_1b.jpg",
-      "title": "＠大千石亭",
+      "title": "＠大千石庭",
       "prompts": [
         {
           "type": "txt",
