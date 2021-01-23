@@ -15,7 +15,7 @@
     {
       "name": "a",
       "required": [],
-      "next": ["b"],
+      "next": "b",
       "banner": "/media/banner_a.png",
       "title": "關卡一",
       "prompts": [
@@ -50,7 +50,7 @@
     },
     {
       "name": "b",
-      "required": ["a"],
+      "required": "a",
       "next": ["c"],
       "banner": "/media/banner_b.png",
       "title": "關卡二",
