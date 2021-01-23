@@ -14,7 +14,7 @@
   "levels": [
     {
       "name": "a",
-      "required": [],
+      "required": "",
       "next": "b",
       "banner": "/media/banner_a.png",
       "title": "關卡一",
@@ -51,7 +51,7 @@
     {
       "name": "b",
       "required": "a",
-      "next": ["c"],
+      "next": "c",
       "banner": "/media/banner_b.png",
       "title": "關卡二",
       "prompts": [
@@ -83,8 +83,8 @@
     },
     {
       "name": "c",
-      "required": ["b"],
-      "next": ["d"],
+      "required": "b",
+      "next": "d",
       "banner": "/media/banner_c.png",
       "title": "第三關",
       "prompts": [
@@ -113,8 +113,8 @@
     },
     {
       "name": "d",
-      "required": ["c"],
-      "next": ["e"],
+      "required": "c",
+      "next": "e",
       "banner": "/media/banner_d.png",
       "title": "第四關",
       "prompts": [
@@ -158,8 +158,8 @@
     },
     {
       "name": "e",
-      "required": ["d"],
-      "next": ["f"],
+      "required": "d",
+      "next": "f",
       "banner": "/media/banner_e.png",
       "title": "第五關",
       "prompts": [
@@ -199,8 +199,8 @@
     },
     {
       "name": "f",
-      "required": ["e"],
-      "next": ["g"],
+      "required": "e",
+      "next": "g",
       "banner": "/media/banner_f.png",
       "title": "第六關",
       "prompts": [
@@ -232,8 +232,8 @@
     },
     {
       "name": "g",
-      "required": ["f"],
-      "next": ["h"],
+      "required": "f",
+      "next": "h",
       "banner": "/media/banner_g.png",
       "title": "第七關",
       "prompts": [
@@ -281,8 +281,8 @@
     },
     {
       "name": "h",
-      "required": ["g"],
-      "next": ["gift"],
+      "required": "g",
+      "next": "gift",
       "banner": "/media/banner_h.png",
       "title": "第八關",
       "prompts": [
@@ -312,8 +312,8 @@
     },
     {
       "name": "gift",
-      "required": ["h"],
-      "next": [""],
+      "required": "h",
+      "next": "",
       "banner": "/media/gift-4.png",
       "title": "尾聲",
       "prompts": [
