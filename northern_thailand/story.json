@@ -14,7 +14,7 @@
   "levels": [
     {
       "name": "start",
-      "required": "",
+      "required": [],
       "next": "a",
       "banner": "/media/banner_start.jpg",
       "title": "身在何方",
@@ -56,7 +56,7 @@
     },
     {
       "name": "a",
-      "required": "start",
+      "required": ["start"],
       "next": "b",
       "banner": "/media/banner_a.jpg",
       "title": "國軍足跡",
