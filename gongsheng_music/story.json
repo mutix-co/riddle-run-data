@@ -13,7 +13,7 @@
   },
   "levels": [
     {
-      "name": "a",
+      "id": "a",
       "required": "",
       "next": "b",
       "banner": "/media/banner_a.png",
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "name": "b",
+      "id": "b",
       "required": "a",
       "next": "c",
       "banner": "/media/banner_b.png",
@@ -82,7 +82,7 @@
       ]
     },
     {
-      "name": "c",
+      "id": "c",
       "required": "b",
       "next": "d",
       "banner": "/media/banner_c.png",
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "name": "d",
+      "id": "d",
       "required": "c",
       "next": "e",
       "banner": "/media/banner_d.png",
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "name": "e",
+      "id": "e",
       "required": "d",
       "next": "f",
       "banner": "/media/banner_e.png",
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "name": "f",
+      "id": "f",
       "required": "e",
       "next": "g",
       "banner": "/media/banner_f.png",
@@ -231,7 +231,7 @@
       ]
     },
     {
-      "name": "g",
+      "id": "g",
       "required": "f",
       "next": "h",
       "banner": "/media/banner_g.png",
@@ -280,7 +280,7 @@
       ]
     },
     {
-      "name": "h",
+      "id": "h",
       "required": "g",
       "next": "gift",
       "banner": "/media/banner_h.png",
@@ -311,7 +311,7 @@
       ]
     },
     {
-      "name": "gift",
+      "id": "gift",
       "required": "h",
       "next": "",
       "banner": "/media/gift-4.png",
