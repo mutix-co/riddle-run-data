@@ -12,7 +12,7 @@
   },
   "levels": [
     {
-      "name": "0",
+      "id": "0",
       "required": [],
       "next": ["1"],
       "banner": "/media/banner_400_670.jpg",
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "name": "1",
+      "id": "1",
       "required": ["0"],
       "next": ["2"],
       "banner": "/media/1-2.jpg",
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "name": "2",
+      "id": "2",
       "required": ["1"],
       "next": ["3"],
       "banner": "/media/2-2.jpg",
@@ -135,7 +135,7 @@
       ]
     },
     {
-      "name": "3",
+      "id": "3",
       "required": ["2"],
       "next": ["4"],
       "banner": "/media/3-2.jpg",
@@ -170,7 +170,7 @@
       ]
     },
     {
-     "name": "4",
+     "id": "4",
       "required": ["3"],
       "next": ["5"],
       "banner": "/media/4-2.jpg",
@@ -217,7 +217,7 @@
       ]
     },
     {
-        "name": "5",
+        "id": "5",
         "required": ["4"],
         "next": ["6"],
         "banner": "/media/5-2.jpg",
@@ -246,7 +246,7 @@
         ]
     },
     {
-      "name": "6",
+      "id": "6",
       "required": ["5"],
       "next": [""],
       "banner": "/media/banner_400_670.jpg",
