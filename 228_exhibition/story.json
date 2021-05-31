@@ -13,7 +13,7 @@
   },
   "levels": [
     {
-      "name": "start",
+      "id": "start",
       "required": [],
       "next": "lobby",
       "banner": "/media/banner.jpg",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "name": "lobby",
+      "id": "lobby",
       "required": ["start"],
       "next": "",
       "banner": "/media/banner.jpg",
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "name": "a",
+      "id": "a",
       "required": ["start"],
       "next": "lobby",
       "banner": "/media/banner_a.jpg",
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "name": "b",
+      "id": "b",
       "required": ["start"],
       "next": "lobby",
       "banner": "/media/banner_b.jpg",
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "name": "c",
+      "id": "c",
       "required": ["start"],
       "next": "lobby",
       "banner": "/media/banner_c.jpg",
@@ -159,7 +159,7 @@
       ]
     },
     {
-      "name": "d",
+      "id": "d",
       "required": ["start"],
       "next": "lobby",
       "banner": "/media/banner_d.jpg",
@@ -182,7 +182,7 @@
       ]
     },
     {
-      "name": "e",
+      "id": "e",
       "required": ["start"],
       "next": "lobby",
       "banner": "/media/banner_e.jpg",
@@ -224,7 +224,7 @@
       ]
     },
     {
-      "name": "gift",
+      "id": "gift",
       "required": ["start","a","b","c","d","e"],
       "next": "",
       "banner": "/media/banner_f.jpg",
