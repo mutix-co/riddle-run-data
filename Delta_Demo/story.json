@@ -13,7 +13,7 @@
   },
   "levels": [
     {
-      "name": "a",
+      "id": "a",
       "required": [],
       "next": "b",
       "banner": "/media/banner.jpg",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "name": "b",
+      "id": "b",
       "required": ["a"],
       "next": "c",
       "banner": "/media/banner.jpg",
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "name": "c",
+      "id": "c",
       "required": ["b"],
       "next": "",
       "banner": "/media/banner.jpg",
