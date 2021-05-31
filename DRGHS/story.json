@@ -12,7 +12,7 @@
   },
   "levels": [
     {
-      "name": "a",
+      "id": "a",
       "required": [],
       "next": ["b"],
       "banner": "/media/banner_a.png",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "name": "b",
+      "id": "b",
       "required": ["a"],
       "next": ["c"],
       "banner": "/media/banner_b.jpg",
@@ -100,7 +100,7 @@
       ]
     },
     {
-      "name": "c",
+      "id": "c",
       "required": ["b"],
       "next": ["d"],
       "banner": "/media/banner_c.jpg",
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "name": "d",
+      "id": "d",
       "required": ["c"],
       "next": ["e"],
       "banner": "/media/banner_d.jpg",
@@ -176,7 +176,7 @@
       ]
     },
     {
-      "name": "e",
+      "id": "e",
       "required": ["d"],
       "next": ["gift"],
       "banner": "/media/banner_e.jpg",
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "name": "gift",
+      "id": "gift",
       "required": ["e"],
       "next": [""],
       "banner": "/media/banner_gift.jpg",
