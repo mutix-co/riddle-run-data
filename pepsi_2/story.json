@@ -13,7 +13,7 @@
   },
   "levels": [
     {
-      "name": "start",
+      "id": "start",
       "required": [],
       "next": "lobby",
       "banner": "/media/banner.jpg",
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "name": "lobby",
+      "id": "lobby",
       "required": ["start"],
       "next": "",
       "banner": "/media/banner.jpg",
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "name": "a",
+      "id": "a",
       "required": ["start"],
       "next": "lobby",
       "banner": "/media/banner_1a.jpg",
@@ -100,7 +100,7 @@
       ]
     },
     {
-      "name": "b",
+      "id": "b",
       "required": ["start"],
       "next": "lobby",
       "banner": "/media/banner_1b.jpg",
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "name": "c",
+      "id": "c",
       "required": ["start"],
       "next": "lobby",
       "banner": "/media/banner_1c.jpg",
@@ -159,7 +159,7 @@
       ]
     },
     {
-      "name": "d-1",
+      "id": "d-1",
       "required": ["start"],
       "next": "d-2",
       "banner": "/media/banner_1d.jpg",
@@ -189,7 +189,7 @@
       ]
     },
     {
-      "name": "d-2",
+      "id": "d-2",
       "required": ["d-1"],
       "next": "lobby",
       "banner": "/media/banner_1d.jpg",
@@ -212,7 +212,7 @@
       ]
     },
     {
-      "name": "bonus",
+      "id": "bonus",
       "required": ["a","b","c","d-1","d-2"],
       "next": "gift",
       "banner": "/media/banner_bonus.jpg",
@@ -236,7 +236,7 @@
       ]
     },
     {
-      "name": "gift",
+      "id": "gift",
       "required": ["bonus"],
       "next": "",
       "banner": "/media/banner.jpg",
