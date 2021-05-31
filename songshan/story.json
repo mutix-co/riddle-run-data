@@ -12,7 +12,7 @@
   },
   "levels": [
     {
-      "name": "a",
+      "id": "a",
       "required": [],
       "next": "b",
       "banner": "/media/banner_a.jpg",
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "name": "b",
+      "id": "b",
       "required": ["a"],
       "next": "c",
       "banner": "/media/banner_b.jpg",
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "name": "c",
+      "id": "c",
       "required": ["b"],
       "next": "gift",
       "banner": "/media/banner_c.jpg",
@@ -99,7 +99,7 @@
       ]
     },
     {
-      "name": "gift",
+      "id": "gift",
       "required": ["c"],
       "banner": "/media/banner_gift.jpg",
       "title": "結語",
