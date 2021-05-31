@@ -13,7 +13,7 @@
   },
   "levels": [
     {
-      "name": "a",
+      "id": "a",
       "required": [],
       "next": "lobby",
       "banner": "/media/banner.jpg",
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "name": "lobby",
+      "id": "lobby",
       "required": ["a"],
       "next": "",
       "banner": "/media/banner.jpg",
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "name": "b-1",
+      "id": "b-1",
       "required": ["a"],
       "next": "b-2",
       "banner": "/media/banner_b.jpg",
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "name": "b-2",
+      "id": "b-2",
       "required": ["b-1"],
       "next": "lobby",
     "banner": "/media/banner_b.jpg",
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "name": "c-1",
+      "id": "c-1",
       "required": ["a"],
       "next": "c-2",
       "banner": "/media/banner_c.jpg",
@@ -135,7 +135,7 @@
       ]
     },
     {
-      "name": "c-2",
+      "id": "c-2",
       "required": ["c-1"],
       "next": "lobby",
       "banner": "/media/banner_c.jpg",
@@ -165,7 +165,7 @@
       ]
     },
     {
-      "name": "d-1",
+      "id": "d-1",
       "required": ["a"],
       "next": "d-2",
       "banner": "/media/banner_d.jpg",
@@ -195,7 +195,7 @@
       ]
     },
     {
-      "name": "d-2",
+      "id": "d-2",
       "required": ["d-1"],
       "next": "lobby",
       "banner": "/media/banner_d.jpg",
@@ -224,7 +224,7 @@
       ]
     },
     {
-      "name": "e-1",
+      "id": "e-1",
       "required": ["a"],
       "next": "e-2",
       "banner": "/media/banner_e.jpg",
@@ -253,7 +253,7 @@
       ]
     },
     {
-      "name": "e-2",
+      "id": "e-2",
       "required": ["e-1"],
       "next": "lobby",
       "banner": "/media/banner_e.jpg",
@@ -283,7 +283,7 @@
       ]
     },
     {
-      "name": "gift",
+      "id": "gift",
       "required": ["b-2","c-2","d-2","e-2"],
       "next": "",
       "banner": "/media/banner.jpg",
@@ -305,7 +305,7 @@
       ]
     },
     {
-      "name": "bonus-1",
+      "id": "bonus-1",
       "required": ["b-2","c-2","d-2","e-2"],
       "next": "bonus-2",
       "banner": "/media/banner.jpg",
@@ -329,7 +329,7 @@
       ]
     },
     {
-      "name": "bonus-2",
+      "id": "bonus-2",
       "required": ["bonus-1"],
       "next": "",
       "banner": "/media/banner.jpg",
