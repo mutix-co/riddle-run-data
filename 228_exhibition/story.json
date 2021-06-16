@@ -214,7 +214,7 @@
     {
       "id": "4",
       "required": "3",
-      "next": "5",
+      "next": "",
       "title": "成功破關",
       "banner": "/media/banner_4.jpg",
       "type": "end",
