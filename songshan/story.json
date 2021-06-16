@@ -1,117 +1,158 @@
 {
-  "name": "songshan",
-  "version": "2.0",
-  "title": "mutix Studio｜危機倒數",
+  "name": "RR_Demo",
+  "version": "4.0",
+  "title": "Riddle Run Demo",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/splash.jpg",
   "map": "/media/map.jpg",
+  "contact": "https://www.messenger.com/t/RiddleRun",
   "introduction": {
-    "title": "前情提要",
-    "content": "(因場地緣故，如欲前往體驗遊戲，請先私訊 Riddle Run 粉專預約。但因本劇本為輕量級劇本，只有小小的三個關卡，順路再來玩喔～怕大家多跑一趟ＸＤ）\n　\n在 mutix Studio 開幕前一刻，活動負責人卻發現三位講者的講稿居然被同事 May 惡作劇給藏起來了？！根據 May 留下的訊息，她將講稿分別藏在 Studio 一樓的三個角落，都需要按照她給的線索破解六位數密碼才能拿到講稿。因為時間緊迫，你們願意協助活動負責人找出那三份講稿嗎？別怕，只要將 May 留下的線索搭配上 Studio 的實際環境，應該就能輕鬆解讀出那三個六位數密碼了。"
+    "title": "關於 Riddle Run",
+    "content": "Riddle Run 是一個「活動遊戲化線上創作工具（平台）」，藉由科技應用，串起線上線下，將實境場景與虛擬環境（APP）連結，再利用遊戲化的解謎、問答、集點...等包裝，為使用者創造獨一無二的 OMO（線上線下融合）的活動體驗。 \n　\n藉由 Riddle Run，可以快速打造內容豐富及多種玩法的「實境解謎活動」、「展場遊戲式導覽」、「集點踩點」...等活動線上劇本供使用者在實體場域遊玩。也提供遊戲企劃、謎題設計、美術設計、活動宣傳...等相關服務，讓業者無後顧之憂！"
   },
   "levels": [
     {
-      "id": "a",
-      "required": [],
-      "next": "b",
-      "banner": "/media/banner_a.jpg",
-      "title": "演講人：畫家Ａ",
+      "id": "0",
+      "required": "",
+      "next": "1",
+      "title": "功能介紹",
+      "banner": "/media/banner_0.jpg",
+      "type": "continue",
+      "buttonText":"我瞭解了",
+      "prompts": [
+        {
+          "type":"txt",
+          "src":"",
+          "title":"多元關卡呈現",
+          "alt":"Riddle Run 提供五種關卡內容模組供遊戲設計師作拼組，包含：純文字、圖片、影片、音檔、按鈕連結。在每個關卡中，可隨意搭配五個以內的模組做該關卡的內容呈現。\n　\n透過多元的內容呈現方式，不只能讓遊戲設計師有更多可運用的空間傳遞想給予使用者的內容，更可以提升使用者在遊戲上的體驗！"
+        },
+        {
+          "type":"image",
+          "src":"/media/0-1.jpg",
+          "title":"多種破關方式",
+          "alt":"Riddle Run 支援：數字破關、按鈕排序破關、定位破關...等破關方式，從中也可以延伸多樣玩法。如此讓關卡遊玩方式不單一，也大大提升活動的遊戲性。"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "required": "0",
+      "next": "2",
+      "title": "情人節的一封信",
+      "banner": "/media/banner_1.jpg",
       "prompts": [
         {
           "type": "video",
-          "src": "/media/gift-3.mp4",
-          "title": "May 的便利貼內容",
-          "alt": "Ａ是個很有名的畫家，他聯絡我們，希望可以租借 Studio 的空間來辦畫展，還拿了幾幅畫過來場勘試擺看看。仔細一看才發現，其中幾幅畫居然跟我們的一樓租借場地天花板上的掛畫軌道有某種程度的相似！都有＿＿＿的元素在裡面，我們天花板軌道可是專為畫展掛畫跟跟架設聚光燈特別設計的，也太巧了吧！那我就把講稿藏在那幾幅特別的畫後面吧～"
+          "src":"/media/1-1.mp4",
+          "cover": "/media/1-2.jpg",
+          "title": "你收到了一封信",
+          "alt": "有封信想給你（遞）另外還想問問你...\n「今天，你願意跟我一起吃晚餐嗎～？」\n我在餐廳等你，快來吧！\n咦，你說哪個餐廳嗎？這就是謎題啦～"
         },
         {
           "type": "image",
-          "src": "/media/a2.jpg",
-          "title": "小提示",
-          "alt": "這張是當天場勘畫家Ａ在空間掛畫試擺的照片，裡面應該有幾幅是 May 說的有包含___的元素的畫。只要將那幾幅畫裡面的數字由左至右排列，就能成功找到講稿了！"
+          "src": "/media/1-2.jpg",
+          "title": "一封信",
+          "alt": "這是那封信完整的內容，希望可以幫助到你。"
+        }
+      ],
+      "answers": [
+        {
+          "title": "請選擇正確的地點",
+          "alt": "根據信件的內容，找出今晚跟 Ms. RR 我約會的餐廳。",
+          "type": "order",
+          "options": ["火","鍋","106","M","One","Cafe","千幸","壽司","小","倉","館","稻","町","家","Curry","Lab","黑","米"],
+          "value": [11,12,13]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "required": "1",
+      "next": "3",
+      "title": "神秘的振興券",
+      "banner": "/media/banner_2.jpg",
+      "type": "",
+      "buttonText":"",
+      "prompts": [
+        {
+          "type":"txt",
+          "src":"",
+          "title":"RR 大食堂",
+          "alt":"今天開放預購振興券的預購啦！大家想好要怎麼花了嗎～\n快來 RR 大食堂看看，讓你聰明的省荷包！\n而且給券的順序還不能變，只能按照左到右的順序給，不然會付款不成功😥\n🙋‍♀：腦闆，如果我只想吃一碗麵，那要怎麼付錢呢～？\n👩‍🍳：蛤？我忙著煮麵，自己想！"
+        },
+        {
+          "type": "image",
+          "src": "/media/2-1.jpg",
+          "title": "RR 大食堂",
+          "alt": "兩碗麵只要：500+200+500 三張振興券\n五碗麵只要：200+500+200 三張振興券\n六碗麵只要：200+200+500 三張振興券\n　\n如果只想點一碗麵，要怎麼付錢呢？"
         }
       ],
       "answers": [
         {
           "title": "請輸入六位數字",
-          "alt": " 這關很簡單～只要找出有___的元素的畫作，將裡面的數字由左至右排列，就是這關的密碼",
+          "alt": "想點一碗麵，要怎麼付錢呢？如為 200, 200, 200，請填入 202020。",
           "type": "password",
-          "value": "374569"
+          "value": "505020"
         }
       ]
     },
     {
-      "id": "b",
-      "required": ["a"],
-      "next": "c",
-      "banner": "/media/banner_b.jpg",
-      "title": "演講人：攝影師Ｂ",
+      "id": "3",
+      "required": "2",
+      "next": "4",
+      "title": "找到 Ms.RR",
+      "banner": "/media/banner_3.jpg",
+      "type": "",
+      "buttonText":"",
       "prompts": [
         {
-          "type": "image",
-          "src": "/media/b1.jpg",
-          "title": "May 的便利貼內容",
-          "alt": "Ｂ上次在 Studio 辦了攝影工作坊，來教學員攝影構圖的方法，其中一個就是「對稱式構圖法」。我在旁邊偷偷學了點還試拍了一張照片，但因為某些意外，我失敗了，不知道要怎樣才能恢復照片的原貌ＱＱ如果你們幫我找出恢復的方法，就能從恢復後的照片裡找出這關的謎底，破關拿到我藏起來的講稿～"
+          "type": "audio",
+          "src": "/media/3-1.mp3",
+          "cover":"/media/3-0.jpg",
+          "title": "打電話試試？",
+          "alt":"「mutix Studio 您好...」咦，要轉哪個分機呢？"
         },
-        {
-          "type": "image",
-          "src": "/media/b2.jpg",
-          "title": "小提示",
-          "alt": "在 Studio 裝潢時我們用了很多鏡面的元素來增加設計感以及營造空間視覺的延伸，鏡子不只可以照人，應該也能拿來......"
-        }
-      ],
-      "answers": [
-        {
-          "title": "請輸入六位數字",
-          "alt": "只要解出關鍵的六位數字，就能成功找出Ｂ的講稿～",
-          "type": "password",
-          "value": "096523"
-        }
-      ]
-    },
-    {
-      "id": "c",
-      "required": ["b"],
-      "next": "gift",
-      "banner": "/media/banner_c.jpg",
-      "title": "演講人：音樂家Ｃ",
-      "prompts": [
-        {
-          "type": "image",
-          "src": "/media/c1.jpg",
-          "title": "May 的便利貼內容",
-          "alt": "Ｃ下禮拜要在 Studio 辦小型音樂交流會，除了室內空間外，還借了外面的中庭。在露天中庭聽音樂、吃小點心，還能跟同好交流～光想像那個畫面就很舒服！他昨天來場勘不小心遺留了一張筆記紙，還把他的吉他忘在外面中庭了！要不是吉他旁有他的樂譜，我還認不出是他的，你們說怎麼有人這麼粗心呢？！是說，我把講稿偷偷跟他的樂譜放在一起了，只要你們能破解出樂譜中匿藏的密碼，就能拿到講稿啦！"
-        },
-        {
-          "type": "image",
-          "src": "/media/c2.jpg",
-          "title": "小提示",
-          "alt": "這是音樂家Ｃ留下的筆記紙，不知道對你有沒有幫助。"
-        }
-      ],
-      "answers": [
-        {
-          "title": "請輸入六位數字",
-          "alt": " 只要解出對應琴譜中隱藏的關鍵六位數字，就能成功找出Ｃ的講稿～",
-          "type": "password",
-          "value": "354751"
-        }
-      ]
-    },
-    {
-      "id": "gift",
-      "required": ["c"],
-      "banner": "/media/banner_gift.jpg",
-      "title": "結語",
-      "prompts": [
         {
           "type": "url",
-          "title": "恭喜過關",
-          "button": "前往粉專",
-          "alt": "謝謝你的幫忙，我們成功在活動前找到所有的講稿了！！May 這次的惡作劇真的太糟糕了，活動後我一定會跟主管報告！幸好有你幫我們才讓 mutix Studio 的開幕沒有開天窗！\n　\n觀迎追蹤 Riddle Run 粉專，未來有新的實境遊戲資訊，都會在那邊公布喔！",
-          "src": "https://bit.ly/3avvmaN"
+          "src": "https://www.facebook.com/RiddleRun/about",
+          "button": "前往 RR 粉專",
+          "title": "去粉專找找？",
+          "alt": "粉專上說不定有你需要的資訊～"
+        },
+        {
+          "type": "txt",
+          "src": "",
+          "title": "去現場看看？",
+          "alt": "從電話及粉專上的資訊看來，Ms.RR 應該就在 mutix Studio 了！Google Map 上搜尋了一下，發現它就在你附近，那我們直接過去看看好了！"
+        }
+      ],
+      "answers": [
+        {
+          "title": "請走到正確的地點",
+          "alt": "後來你發現，mutix Studio 就在你家附近，直接過去看看吧。",
+          "type": "inLocation",
+          "displayName": "mutix Studio",
+          "latitude": 24.174456,
+          "longitude": 120.676785,
+          "maxDistance": 50
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "required": "3",
+      "next": "",
+      "title": "成功破關",
+      "banner": "/media/banner_4.jpg",
+      "prompts": [
+        {
+          "type": "txt",
+          "src":"",
+          "title": "恭喜破關！",
+          "alt": "希望這次的範例 Demo 有讓您更了解 Riddle Run 的架構，有任何問題都歡迎隨時詢問我們喔！\n　\n最後，點擊下方【結束計時看成績】按鈕，讓我們來看看在這次的挑戰中，您獲得幾分吧！"
         }
       ]
     }
-  ]
+  ],
 }
