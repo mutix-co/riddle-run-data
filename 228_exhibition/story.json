@@ -15,7 +15,7 @@
   "levels": [
     {
       "id": "0",
-      "required": [],
+      "required": "",
       "next": "1",
       "title": "功能介紹",
       "banner": "/media/banner_0.jpg",
@@ -38,7 +38,7 @@
     },
     {
       "id": "1",
-      "required": [0],
+      "required": "0",
       "next": "2",
       "title": "情人節的一封信",
       "banner": "/media/banner_1.jpg",
@@ -114,7 +114,7 @@
     },
     {
       "id": "2",
-      "required": [1],
+      "required": "1",
       "next": "3",
       "title": "神秘的振興券",
       "banner": "/media/banner_2.jpg",
@@ -176,7 +176,7 @@
     },
     {
       "id": "3",
-      "required": [2],
+      "required": "2",
       "next": "4",
       "title": "找到 Ms.RR",
       "banner": "/media/banner_3.jpg",
@@ -218,7 +218,7 @@
     },
     {
       "id": "4",
-      "required": [3],
+      "required": "3",
       "next": "5",
       "title": "成功破關",
       "banner": "/media/banner_4.jpg",
