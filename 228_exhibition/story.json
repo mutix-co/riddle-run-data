@@ -15,7 +15,7 @@
   "levels": [
     {
       "id": "0",
-      "required": [""],
+      "required": "",
       "next": "1",
       "title": "功能介紹",
       "banner": "/media/banner_0.jpg",
