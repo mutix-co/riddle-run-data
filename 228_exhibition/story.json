@@ -15,7 +15,7 @@
   "levels": [
     {
       "id": "0",
-      "required": "",
+      "required": [""],
       "next": "1",
       "title": "功能介紹",
       "banner": "/media/banner_0.jpg",
@@ -38,7 +38,7 @@
     },
     {
       "id": "1",
-      "required": "0",
+      "required": ["0"],
       "next": "2",
       "title": "情人節的一封信",
       "banner": "/media/banner_1.jpg",
@@ -111,7 +111,7 @@
     },
     {
       "id": "2",
-      "required": "1",
+      "required": ["1"],
       "next": "3",
       "title": "神秘的振興券",
       "banner": "/media/banner_2.jpg",
@@ -171,7 +171,7 @@
     },
     {
       "id": "3",
-      "required": "2",
+      "required": ["2"],
       "next": "4",
       "title": "找到 Ms.RR",
       "banner": "/media/banner_3.jpg",
@@ -205,15 +205,15 @@
           "alt": "後來你發現，mutix Studio 就在你家附近，直接過去看看吧。",
           "type": "inLocation",
           "displayName": "mutix Studio",
-          "latitude": 25.067967,
-          "longitude": 121.612241,
+          "latitude": 24.174456,
+          "longitude": 120.676785,
           "maxDistance": 50
         }
       ]
     },
     {
       "id": "4",
-      "required": "3",
+      "required": ["3"],
       "next": "",
       "title": "成功破關",
       "banner": "/media/banner_4.jpg",
