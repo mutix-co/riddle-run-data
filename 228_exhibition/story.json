@@ -1,13 +1,13 @@
 {
   "name": "RR_Demo",
   "version": "4.0",
-  "title": "Riddle Run Demo 1",
+  "title": "Riddle Run Demo",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/splash.jpg",
   "map": "/media/map.jpg",
   "contact": "https://www.messenger.com/t/RiddleRun",
-  "timekeeper": false,
+  "timekeeper": true,
   "introduction": {
     "title": "關於 Riddle Run",
     "content": "Riddle Run 是一個「活動遊戲化線上創作工具（平台）」，藉由科技應用，串起線上線下，將實境場景與虛擬環境（APP）連結，再利用遊戲化的解謎、問答、集點...等包裝，為使用者創造獨一無二的 OMO（線上線下融合）的活動體驗。 \n　\n藉由 Riddle Run，可以快速打造內容豐富及多種玩法的「實境解謎活動」、「展場遊戲式導覽」、「集點踩點」...等活動線上劇本供使用者在實體場域遊玩。也提供遊戲企劃、謎題設計、美術設計、活動宣傳...等相關服務，讓業者無後顧之憂！"
@@ -65,6 +65,35 @@
           "options": ["火","鍋","106","M","One","Cafe","千幸","壽司","小","倉","館","稻","町","家","Curry","Lab","黑","米"],
           "value": [11,12,13]
         }
+      ],
+      "hints" :[
+        {
+          "id": "1-1",
+          "buttonText": "第一階段提示",
+          "score": 100,
+          "type": "video",
+          "title": "第一階段提示",
+          "src": "/media/1-1.mp4",
+          "cover": "/media/1-2.jpg",
+          "alt": "從影片中的情書內容，可以發現「劃掉我們之間的回憶」這段句子，再觀察前面的內容就可以找到有四個地方似乎是因為寫錯字而被劃掉了，這四個地方原本的字是「Ｒ、Ｒ、日、記」。"
+        },
+        {
+          "id": "1-2",
+          "buttonText": "第二階段提示",
+          "score": 200,
+          "type": "txt",
+          "title": "第二階段提示",
+          "alt": "有了「Ｒ、Ｒ、日、記」的關鍵線索後，我們需要去找出 Ms. RR 到底是哪家「咖哩店」等人。照信裡說的，那家是之前跟收信者一起去約會過的咖哩店，他也有把當天的照片發到 IG 上。\n　\n用目前手上有的「Ｒ、Ｒ、日、記」關鍵字去 IG 搜尋，就會發現一個叫「Ms. RR 日記」的 IG 帳號。\n　\n翻翻裡面的貼文，就能發現謎底摟！"
+        },
+        {
+          "id": "1-3",
+          "buttonText": "直接看答案",
+          "score": 1000,
+          "type": "image",
+          "title": "直接看答案",
+          "src": "/media/1-hint1.jpg",
+          "alt": "答案是「稲町家香料咖喱專門」！\n　\n翻看那個 IG 裡面的文章，共有四篇跟咖哩相關的貼文。而情書中有提到，當天收信者是穿著一件「黑色大學Ｔ」。這四間咖哩的貼文裡，就只有「稲町家香料咖喱專門」的那篇貼文裡有出現 Ms. RR 跟穿「黑色大學Ｔ」的人的合照。\n　\n按照以上邏輯，就可以推斷，解答是「稲町家香料咖喱專門」啦～"
+        }
       ]
     },
     {
@@ -95,6 +124,27 @@
           "alt": "想點一碗麵，要怎麼付錢呢？如為 200, 200, 200，請填入 202020。",
           "type": "password",
           "value": "505020"
+        }
+      ],
+      "hints": [
+        {
+          "id": "2-1",
+          "buttonText": "第一階段提示",
+          "score": 100,
+          "type": "audio",
+          "src": "/media/3-1.mp3",
+          "cover":"/media/3-0.jpg",
+          "title": "打電話問問專員",
+          "alt":"「mutix Studio 您好...」咦，要轉哪個分機呢？"
+        },
+        {
+          "id": "2-2",
+          "buttonText": "直接看答案",
+          "score": 1000,
+          "type": "txt",
+          "src":"",
+          "title":"直接看答案",
+          "alt":"答案是「505020」喔！\n　\n跟二進位法有關，200 代表二進位法的 1，500 代表二進位法的 0。，"
         }
       ]
     },
@@ -134,8 +184,8 @@
           "alt": "後來你發現，mutix Studio 就在你家附近，直接過去看看吧。",
           "type": "inLocation",
           "displayName": "mutix Studio",
-          "latitude": 25.049615,
-          "longitude": 121.574440,
+          "latitude": 25.049611,
+          "longitude": 121.574444,
           "maxDistance": 50
         }
       ]
@@ -146,6 +196,8 @@
       "next": "",
       "title": "成功破關",
       "banner": "/media/banner_4.jpg",
+      "type": "end",
+      "buttonText":"結束計時看成績",
       "prompts": [
         {
           "type": "txt",
@@ -155,5 +207,8 @@
         }
       ]
     }
-  ]
+  ],
+  "scoreBanner": "/media/banner_score.jpg",
+  "scoreText": "看看 RR 過往案例",
+  "scoreUrl": "https://medium.com/riddle-run"
 }
