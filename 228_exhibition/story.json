@@ -146,8 +146,6 @@
       "next": "",
       "title": "成功破關",
       "banner": "/media/banner_4.jpg",
-      "type": "end",
-      "buttonText":"結束計時看成績",
       "prompts": [
         {
           "type": "txt",
@@ -157,8 +155,5 @@
         }
       ]
     }
-  ],
-  "scoreBanner": "/media/banner_score.jpg",
-  "scoreText": "看看 RR 過往案例",
-  "scoreUrl": "https://medium.com/riddle-run"
+  ]
 }
