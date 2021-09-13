@@ -5,6 +5,7 @@
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/splash.jpg",
+  "map": "/media/map.jpg",
   "contact": "https://www.messenger.com/t/RiddleRun",
   "timekeeper": false,
   "introduction": {
