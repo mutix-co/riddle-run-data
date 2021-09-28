@@ -14,9 +14,9 @@
   },
   "levels": [
     {
-      "id": "0-1",
+      "id": "3iZqJRf7WU5ckkVPcWQTuv",
       "required": "",
-      "next": "0-2",
+      "next": "3iZqJRf7XHzSgb1dedPjKU",
       "title": "行前須知",
       "banner": "/media/banner0-1.jpg",
       "type": "continue",
@@ -43,9 +43,9 @@
       ]
     },
     {
-      "id": "0-2",
-      "required": ["0-1"],
-      "next": "1-1",
+      "id": "3iZqJRf7XHzSgb1dedPjKU",
+      "required": ["3iZqJRf7WU5ckkVPcWQTuv"],
+      "next": "3iZqJRf78osb2gtLLycdvB",
       "title": "前導關｜探險的開始",
       "banner": "/media/banner0-2.jpg",
       "type": "continue",
@@ -53,22 +53,22 @@
       "prompts": [
         {
           "type": "image",
-          "src": "/media/1-1.jpg",
+          "src": "/media/0-2-1.jpg",
           "title": "初來乍到",
           "alt": "滿月的這天，廚師阿南走在回家的路上，正思考著下個月的廚師挑戰賽要準備什麼菜單才好。想著想著，沒留意到前面下水道維修的告示牌，一腳踩空...\n　\n「啊——」廚師阿南掉入了一個深深的坑洞中。\n　\n「哎呦，好痛...」經過了一小段時間的墜落，終於跌到了洞底，在黑漆漆的陌生空間中廚師阿南緊張的到處摸索，「我... 好像掉到草地上了？！有人嗎——」\n　\n求助無門的廚師阿南只好坐在原處，在一片黑暗中伴著遠處的動物及昆蟲叫聲，以及沒有訊號的手機，靜靜的等著黎明的到來。\n　\n➡️ 往右滑翻頁➡️"
         },
         {
           "type": "image",
-          "src": "/media/1-2.jpg",
+          "src": "/media/0-2-2.jpg",
           "title": "黎明升起",
           "alt": "隨著太陽的升起，周遭的一切逐漸清晰，阿南這才確定他真的掉在了一片叢林中的草地上，遠處還有一個似乎有人煙的小村落。\n　\n阿南急忙站了起來，往村落走去。走近後才發現村民們都穿著獸皮做的衣服、使用石頭做的工具。阿南試圖想與他們交流，卻發現連語言都是不通的？！\n　\n「難道...我真的穿回到史前時代了？！！」阿南訝異地看著村民以及周遭的環境，「啊...既然都來了，不如探索看看，看能不能找到下個月廚師挑戰賽的食譜靈感吧！也能順便看看有沒有回去的線索。」\n　\n阿南的探險即將啟程，準備好了嗎？"
         }
       ]
     },
     {
-      "id": "1-1",
-      "required": ["0-2"],
-      "next": "1-2",
+      "id": "3iZqJRf78osb2gtLLycdvB",
+      "required": ["3iZqJRf7XHzSgb1dedPjKU"],
+      "next": "3iZqJRf7A1QizCh3QX7AQa",
       "title": "第一關｜史前環境探索",
       "banner": "/media/banner1-1.jpg",
       "prompts": [
@@ -84,13 +84,13 @@
           "title": "請輸入正確答案",
           "alt": "請觀察「四樓第一廳」中那一層層模型內的小小史前人都在做些什麼吧，找到後請在按鈕選項中找到正確的選項輸入答案框，答案正確即可過關～",
           "type": "order",
-          "options": ["打獵、看書、種田、下棋、種花","游泳、捕魚、種田、煮食、織布","打獵、捕魚、游泳、看書、織布","養雞、游泳、種田、煮食、下棋","打獵、捕魚、種田、煮食、織布","打獵、捕魚、看書、煮食、蓋房","養雞、捕魚、種田、煮食、織布","開車、下棋、種田、種花、看書"],
+          "options": ["打獵、看書、種田、下棋、種花","游泳、捕魚、種田、煮食、打樹皮布","打獵、捕魚、游泳、看書、打樹皮布","養雞、游泳、種田、煮食、下棋","打獵、捕魚、種田、煮食、打樹皮布","打獵、捕魚、看書、煮食、蓋房","養雞、捕魚、種田、煮食、打樹皮布","開車、下棋、種田、種花、看書"],
           "value": [4]
         }
       ],
       "hints": [
         {
-          "id": "1-1",
+          "id": "3qjEZbZzPFGsqiPx3xUZRk",
           "buttonText": "需要點提示",
           "score": 100,
           "type": "txt",
@@ -99,20 +99,20 @@
           "alt": "觀察「四樓第一展廳」中央的梯形模型，就能知道史前人們都在做些什麼事摟！"
         },
         {
-          "id": "1-2",
+          "id": "3qjEZbZzQDxNHLtLdQZF83",
           "buttonText": "直接看答案",
           "score": 500,
           "type": "txt",
           "src":"",
           "title":"答案",
-          "alt":"答案是第五個選項「打獵、捕魚、種田、煮食、織布」喔！"
+          "alt":"答案是第五個選項「打獵、捕魚、種田、煮食、打樹皮布」喔！"
         }
       ]
     },
     {
-      "id": "1-2",
-      "required": ["1-1"],
-      "next": "2-1",
+      "id": "3iZqJRf7A1QizCh3QX7AQa",
+      "required": ["3iZqJRf78osb2gtLLycdvB"],
+      "next": "3iZqJRf7At6VXZZoG2HCB9",
       "title": "🎉破解第一關🎉",
       "banner": "/media/banner1-2.jpg",
       "type": "continue",
@@ -127,9 +127,9 @@
       ]
     },
     {
-      "id": "2-1",
-      "required": ["1-2"],
-      "next": "2-2",
+      "id": "3iZqJRf7At6VXZZoG2HCB9",
+      "required": ["3iZqJRf7A1QizCh3QX7AQa"],
+      "next": "3iZqJRf7BcoNMUegEqJUhj",
       "title": "第二關｜學習捕魚",
       "banner": "/media/banner2-1.jpg",
       "prompts": [
@@ -151,7 +151,7 @@
       ],
       "hints": [
         {
-          "id": "2-1",
+          "id": "3qjEZbZzQsZCZUdB21i4AL",
           "buttonText": "需要點提示",
           "score": 100,
           "type": "txt",
@@ -160,7 +160,7 @@
           "alt": "觀察「三樓第一展廳」左方「漁」的場景，就能看到三位漁民在岸邊正在準備捕魚的場景摟！"
         },
         {
-          "id": "2-2",
+          "id": "3qjEZbZzRYZExt9w758tXx",
           "buttonText": "直接看答案",
           "score": 500,
           "type": "txt",
@@ -171,9 +171,9 @@
       ]
     },
     {
-      "id": "2-2",
-      "required": ["2-1"],
-      "next": "3-1",
+      "id": "3iZqJRf7BcoNMUegEqJUhj",
+      "required": ["3iZqJRf7At6VXZZoG2HCB9"],
+      "next": "3iZqJRf7CQdrjVoe4BXd7t",
       "title": "🎉破解第二關🎉",
       "banner": "/media/banner2-2.jpg",
       "type": "continue",
@@ -188,9 +188,9 @@
       ]
     },
     {
-      "id": "3-1",
-      "required": ["2-2"],
-      "next": "3-2",
+      "id": "3iZqJRf7CQdrjVoe4BXd7t",
+      "required": ["3iZqJRf7BcoNMUegEqJUhj"],
+      "next": "3iZqJRf7D5edxPnMHA7EFk",
       "title": "第三關｜學習種稻",
       "banner": "/media/banner3-1.jpg",
       "prompts": [
@@ -212,7 +212,7 @@
       ],
       "hints": [
         {
-          "id": "3-1",
+          "id": "3qjEZbZzSMQ452SQYy864E",
           "buttonText": "需要點提示",
           "score": 100,
           "type": "txt",
@@ -221,7 +221,7 @@
           "alt": "觀察「三樓第一展廳」入口展板正後方「農」的場景，就能看到兩位漁民在稻田裡工作的場景。觀察他們手上的工具、比對場景前展示櫃的內容，就能找到答案摟！"
         },
         {
-          "id": "3-2",
+          "id": "3qjEZbZzTCrD8tfzXSXMai",
           "buttonText": "直接看答案",
           "score": 500,
           "type": "txt",
@@ -232,9 +232,9 @@
       ]
     },
     {
-      "id": "3-2",
-      "required": ["3-1"],
-      "next": "4-1",
+      "id": "3iZqJRf7D5edxPnMHA7EFk",
+      "required": ["3iZqJRf7CQdrjVoe4BXd7t"],
+      "next": "3iZqJRf7DnZRFtd5r1MP2F",
       "title": "🎉破解第三關🎉",
       "banner": "/media/banner3-2.jpg",
       "type": "continue",
@@ -249,9 +249,9 @@
       ]
     },
     {
-      "id": "4-1",
-      "required": ["3-2"],
-      "next": "4-2",
+      "id": "3iZqJRf7DnZRFtd5r1MP2F",
+      "required": ["3iZqJRf7D5edxPnMHA7EFk"],
+      "next": "3iZqJRf7EcxJKYyoDVKyHe",
       "title": "第四關｜學習打獵",
       "banner": "/media/banner4-1.jpg",
       "prompts": [
@@ -273,7 +273,7 @@
       ],
       "hints": [
         {
-          "id": "4-1",
+          "id": "3qjEZbZzU77XGp8W7SjiFA",
           "buttonText": "需要點提示",
           "score": 100,
           "type": "txt",
@@ -282,7 +282,7 @@
           "alt": "觀察「三樓第二展廳」入口右後方「獵」的場景，就能看到獵人們正在打獵的場景。觀察場景就能找到答案摟！\n　\n對了，要特別注意樹上喔，說不定有獵人偷偷躲在上面～"
         },
         {
-          "id": "4-2",
+          "id": "3qjEZbZzUnBFmosaWHxPJs",
           "buttonText": "直接看答案",
           "score": 500,
           "type": "txt",
@@ -293,9 +293,9 @@
       ]
     },
     {
-      "id": "4-2",
-      "required": ["4-1"],
-      "next": "5-1",
+      "id": "3iZqJRf7EcxJKYyoDVKyHe",
+      "required": ["3iZqJRf7DnZRFtd5r1MP2F"],
+      "next": "3iZqJRf7FNcYbXzA5ooinf",
       "title": "🎉破解第四關🎉",
       "banner": "/media/banner4-2.jpg",
       "type": "continue",
@@ -310,9 +310,9 @@
       ]
     },
     {
-      "id": "5-1",
-      "required": ["4-2"],
-      "next": "5-2",
+      "id": "3iZqJRf7FNcYbXzA5ooinf",
+      "required": ["3iZqJRf7EcxJKYyoDVKyHe"],
+      "next": "3iZqJRf7G3yzm1RRC3oYJG",
       "title": "第五關｜享受豐收",
       "banner": "/media/banner5-1.jpg",
       "prompts": [
@@ -334,7 +334,7 @@
       ],
       "hints": [
         {
-          "id": "5-1",
+          "id": "3qjEZbZzVann8c82YK5Lxx",
           "buttonText": "需要點提示",
           "score": 100,
           "type": "txt",
@@ -343,7 +343,7 @@
           "alt": "觀察「三樓第三展廳」入口處右前方的玻璃圍牆，就能在上面找到「灰坑」的說明文字喔，依照文字標示、仔細觀察被標註出來的灰坑，就能找到答案摟！"
         },
         {
-          "id": "5-2",
+          "id": "3qjEZbZzWLnDi7GSuTcQtf",
           "buttonText": "直接看答案",
           "score": 500,
           "type": "txt",
@@ -354,9 +354,9 @@
       ]
     },
     {
-      "id": "5-2",
-      "required": ["5-1"],
-      "next": "6",
+      "id": "3iZqJRf7G3yzm1RRC3oYJG",
+      "required": ["3iZqJRf7FNcYbXzA5ooinf"],
+      "next": "3iZqJRf8dkj63xaUZu4LFv",
       "title": "🎉破解第五關🎉",
       "banner": "/media/banner5-2.jpg",
       "type": "continue",
@@ -371,8 +371,8 @@
       ]
     },
     {
-      "id": "6",
-      "required": ["5-2"],
+      "id": "3iZqJRf8dkj63xaUZu4LFv",
+      "required": ["3iZqJRf7G3yzm1RRC3oYJG"],
       "next": "",
       "title": "尾聲",
       "banner": "/media/bannerEND.jpg",
