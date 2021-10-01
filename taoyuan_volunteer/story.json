@@ -13,9 +13,9 @@
   },
   "levels": [
     {
-      "id": "3iZqJQ6pKPWfD2AstJ3dkJ",
+      "id": "0",
       "required": "",
-      "next": "3iZqJQ6pbMM3R98A5P4zj5",
+      "next": "1-1",
       "title": "開始之前",
       "banner": "/media/banner-start.jpg",
       "type": "continue",
@@ -42,9 +42,9 @@
       ]
     },
     {
-      "id": "3iZqJQ6pbMM3R98A5P4zj5",
-      "required": ["3iZqJQ6pKPWfD2AstJ3dkJ"],
-      "next": "3iZqJQ6pnyZRGUFK1RKq5y",
+      "id": "1-1",
+      "required": ["0"],
+      "next": "1-2",
       "title": "第一關",
       "banner": "/media/banner-1.jpg",
       "prompts": [
@@ -72,7 +72,7 @@
       ],
       "hints" :[
         {
-          "id": "3qjEZa1jcqYVMV3YqvPM37",
+          "id": "1-1",
           "buttonText": "需要點提示",
           "score": 100,
           "type": "txt",
@@ -81,7 +81,7 @@
           "alt": "牆上的畫框由左至右分別代表著「生命樹領袖協會、角聲公益協會、國際慈善文教協會」三個服務機構。而畫框下方的文字，指的則是需要擷取這三個機構名稱中的第幾個字。如「3 之 7」是要取七個字中的第三個字。\n　\n找出那三個關鍵字後，按照注音的邏輯將該字的注音填入畫框的格線中，擷取出藍色框線內的注音，就能找出答案摟！"
         },
         {
-          "id": "3qjEZa1jejanPn39zC7EnT",
+          "id": "1-2",
           "buttonText": "直接看答案",
           "score": 500,
           "type": "txt",
@@ -91,9 +91,9 @@
       ]
     },
     {
-      "id": "3iZqJQ6pnyZRGUFK1RKq5y",
-      "required": ["3iZqJQ6pbMM3R98A5P4zj5"],
-      "next": "3iZqJQ6qJZ4EaTyXEv6qhs",
+      "id": "1-2",
+      "required": ["1-1"],
+      "next": "2-1",
       "title": "完成第一關！",
       "banner": "/media/banner-1-2.jpg",
       "type": "continue",
@@ -108,9 +108,9 @@
       ]
     },
     {
-      "id": "3iZqJQ6qJZ4EaTyXEv6qhs",
-      "required": ["3iZqJQ6pnyZRGUFK1RKq5y"],
-      "next": "3iZqJQ6qQo3jH5i3SpFeqH",
+      "id": "2-1",
+      "required": ["1-2"],
+      "next": "2-2",
       "title": "第二關",
       "banner": "/media/banner-2.jpg",
       "prompts": [
@@ -155,7 +155,7 @@
       ],
       "hints": [
         {
-          "id": "3qjEZa1jkDL58Vzh1U9VFY",
+          "id": "2-1",
           "buttonText": "需要點提示",
           "score": 100,
           "type": "txt",
@@ -164,7 +164,7 @@
           "alt": "可以直接跟你說：「市集」的負責人沒有累癱。"
         },
         {
-          "id": "3qjEZa1jmoCrzpjvFpgFNX",
+          "id": "2-2",
           "buttonText": "直接看答案",
           "score": 500,
           "type": "txt",
@@ -175,9 +175,9 @@
       ]
     },
     {
-      "id": "3iZqJQ6qQo3jH5i3SpFeqH",
-      "required": ["3iZqJQ6qJZ4EaTyXEv6qhs"],
-      "next": "3iZqJQ6qVFJNW9TZ7vfV7X",
+      "id": "2-2",
+      "required": ["2-1"],
+      "next": "3-1",
       "title": "完成第二關！",
       "banner": "/media/banner-2-2.jpg",
       "type": "continue",
@@ -192,9 +192,9 @@
       ]
     },
     {
-      "id": "3iZqJQ6qVFJNW9TZ7vfV7X",
-      "required": ["3iZqJQ6qQo3jH5i3SpFeqH"],
-      "next": "3iZqJQ6qaauAsiRGi8hvUh",
+      "id": "3-1",
+      "required": ["2-2"],
+      "next": "3-2",
       "title": "第三關",
       "banner": "/media/banner-3.jpg",
       "prompts": [
@@ -228,7 +228,7 @@
       ],
       "hints": [
         {
-          "id": "3qjEZa1jpoQ1RLDC3zdQjm",
+          "id": "3-1",
           "buttonText": "需要點提示",
           "score": 100,
           "type": "txt",
@@ -237,7 +237,7 @@
           "alt": "是否有發現左邊表格中的字，跟右邊照片中有底線的的詞有些相似呢？試著用這八個詞，在表格中依序找出每個詞、兩個字垂直或水平延伸出來的交會點，就能找到答案啦！"
         },
         {
-          "id": "3qjEZa1jweoMUUW5joDrik",
+          "id": "3-2",
           "buttonText": "直接看答案",
           "score": 500,
           "type": "txt",
@@ -248,9 +248,9 @@
       ]
     },
     {
-      "id": "3iZqJQ6qaauAsiRGi8hvUh",
-      "required": ["3iZqJQ6qVFJNW9TZ7vfV7X"],
-      "next": "3iZqJQ6qh1dm5n7BqRTg9Q",
+      "id": "3-2",
+      "required": ["3-1"],
+      "next": "4-1",
       "title": "完成第三關！",
       "banner": "/media/banner-3-2.jpg",
       "type": "continue",
@@ -265,9 +265,9 @@
       ]
     },
     {
-      "id": "3iZqJQ6qh1dm5n7BqRTg9Q",
-      "required": ["3iZqJQ6qaauAsiRGi8hvUh"],
-      "next": "3iZqJQ6qxkHJUZDioWozG2",
+      "id": "4-1",
+      "required": ["3-2"],
+      "next": "4-2",
       "title": "第四關",
       "banner": "/media/banner-4.jpg",
       "prompts": [
@@ -313,7 +313,7 @@
       ],
       "hints": [
         {
-          "id": "3qjEZa1k13su3CBVqgzbhr",
+          "id": "4-1",
           "buttonText": "需要點提示",
           "score": 100,
           "type": "txt",
@@ -322,7 +322,7 @@
           "alt": "是否有發現在「偏鄉辦學」的那頁照片中黑板上字樣的排列方式跟便條紙上的色塊是一樣的？！\n　\n試著找出每個色塊所對應的英文字母吧，再將之套入下方的底線中，做一些簡單的處理，就能找出答案摟！"
         },
         {
-          "id": "3qjEZa1k2DCaS7UgZswy28",
+          "id": "4-2",
           "buttonText": "直接看答案",
           "score": 500,
           "type": "txt",
@@ -333,9 +333,9 @@
       ]
     },
     {
-      "id": "3iZqJQ6qxkHJUZDioWozG2",
-      "required": ["3iZqJQ6qh1dm5n7BqRTg9Q"],
-      "next": "3iZqJQ6qkwBi6zCACe1LrG",
+      "id": "4-2",
+      "required": ["4-1"],
+      "next": "5-1",
       "title": "完成第四關！",
       "banner": "/media/banner-4-2.jpg",
       "type": "continue",
@@ -350,9 +350,9 @@
       ]
     },
     {
-      "id": "3iZqJQ6qkwBi6zCACe1LrG",
-      "required": ["3iZqJQ6qxkHJUZDioWozG2"],
-      "next": "3iZqJQ6qtynFzZCfZ2Trx4",
+      "id": "5-1",
+      "required": ["4-2"],
+      "next": "5-2",
       "title": "第五關",
       "banner": "/media/banner-5.jpg",
       "prompts": [
@@ -386,7 +386,7 @@
       ],
       "hints": [
         {
-          "id": "3qjEZa1k4jRkogUyCLtuEA",
+          "id": "5-1",
           "buttonText": "需要點提示(1)",
           "score": 100,
           "type": "txt",
@@ -395,7 +395,7 @@
           "alt": "是否有發現在招募頁中有些地方畫著四串摩斯密碼呢！而每串摩斯密碼，根據顏色其實都對應著一行相同顏色的字，請按照摩斯密碼的指示找出該行字的「關鍵字」。接著，按照便條紙背面的提示，就能找到數字答案啦！"
         },
         {
-          "id": "3qjEZa1k6VaKsBmacji87m",
+          "id": "5-2",
           "buttonText": "需要點提示(2)",
           "score": 100,
           "type": "txt",
@@ -404,7 +404,7 @@
           "alt": "便條紙背面的提示，是指將「字」轉換成「筆畫數」，將找到的四個關鍵字轉換看看，就能找到答案啦！"
         },
         {
-          "id": "3qjEZa1k7XUbbXVxMs8AEx",
+          "id": "5-3",
           "buttonText": "直接看答案",
           "score": 500,
           "type": "txt",
@@ -415,9 +415,9 @@
       ]
     },
     {
-      "id": "3iZqJQ6qtynFzZCfZ2Trx4",
-      "required": ["3iZqJQ6qkwBi6zCACe1LrG"],
-      "next": "3iZqJQ6r58BFyWoVYqUZ4Y",
+      "id": "5-2",
+      "required": ["5-1"],
+      "next": "6",
       "title": "成功啟動轉換器！",
       "banner": "/media/banner-5-2.jpg",
       "type": "continue",
@@ -432,8 +432,8 @@
       ]
     },
     {
-      "id": "3iZqJQ6r58BFyWoVYqUZ4Y",
-      "required": ["3iZqJQ6qtynFzZCfZ2Trx4"],
+      "id": "6",
+      "required": ["5-2"],
       "next": "",
       "title": "尾聲",
       "banner": "/media/banner-end.jpg",
@@ -441,19 +441,18 @@
       "buttonText":"結束遊戲看成績",
       "prompts": [
         {
-          "type": "image",
-          "src":"/media/end.jpg",
-          "title": "🎉任務圓滿達成🎉",
-          "alt": "阿志及小芙相攜著走出了服務大樓，發現校長及老師們正站在大樓前迎接著兩人的到來。\n　\n「辛苦了，我們的大英雄們！因為你們的努力，才讓校園能恢復平靜！」校長慎重的道了謝。\n　\n跟著校長走回校長室的路上，沿路傳來同學們的歡笑、打鬧聲。校園的氛圍不再是之前的沉悶，順利的回復到最初的樣子。\n　\n「這樣子真好～」兩人在心理滿足的笑了。\n　\n\n　\n（往左滑，填寫問券抽校長準備的神秘小禮物）"
-        },
-        {
           "type": "url",
           "title": "🎁填問券抽好禮🎁",
           "button": "前往表單",
-          "alt": "嗨，謝謝你協助阿志及小芙完成這個艱困的任務！相信透過這個遊戲，你對桃園的這三個服務機構有了更深入的認識，也很歡迎你加入他們的志工行列喔～\n　\n我們準備了小禮物要給完成任務的你們，請協助我們填寫問券，就有機會獲得神秘小禮物喔！",
-          "src": "https://docs.google.com/forms/d/e/1FAIpQLSfl0aXF3MN4H8R5ODq0BmCBDL4Wmyg4p4zxHRrewvw2k3OsFw/viewform"
+          "alt": "嗨，謝謝你協助阿志及小芙完成這個艱困的任務！相信透過這個遊戲，你對桃園的這三個服務機構有了更深入的認識，也很歡迎你加入他們的志工行列喔～\n　\n我們準備了小禮物要給完成任務的你們，請協助我們填寫問券，就有機會獲得神秘小禮物喔！\n　\n➡️往左滑看結局➡️",
+          "src": "https://bit.ly/3jUs8og"
+        },
+        {
+          "type": "image",
+          "src":"/media/end.jpg",
+          "title": "🎉任務圓滿達成🎉",
+          "alt": "阿志及小芙相攜著走出了服務大樓，發現校長及老師們正站在大樓前迎接著兩人的到來。\n　\n「辛苦了，我們的大英雄們！因為你們的努力，才讓校園能恢復平靜！」校長慎重的道了謝。\n　\n跟著校長走回校長室的路上，沿路傳來同學們的歡笑、打鬧聲。校園的氛圍不再是之前的沉悶，順利的回復到最初的樣子。\n　\n「這樣子真好～」兩人在心理滿足的笑了。"
         }
-
       ]
     }
   ],
