@@ -1,7 +1,7 @@
 {
   "name": "NM_of_prehistory_adult",
   "version": "1.0",
-  "title": "1008測試劇本 無提示 new",
+  "title": "1008測試劇本 無提示",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/splash.jpg",
@@ -255,6 +255,23 @@
       ]
     },
     {
+      "id": "3iZqJQ8YTM16rnRfmscL1H",
+      "required": ["3iZqJQ8YSLxckSbAUUi4Ga"],
+      "next": "3iZqJQ8YUM7H4h3ULro3ZX",
+      "title": "找到第四式！",
+      "banner": "/media/banner5-2.jpg",
+      "type": "continue",
+      "buttonText":"上車前往下一站",
+      "prompts": [
+        {
+          "type": "image",
+          "src": "/media/5end.jpg",
+          "title":"🎉恭喜找到第四式🎉",
+          "alt":"（錦囊＋1。第四式修練細節＋1）\n　\n第五式藏匿於——「五條港安西府」，第五式的線索則在另外一張紙上。班車將於 15:40 發車，請記得準時上車。\n　\n📌如想返回上關看內容，可於右上角菜單列中的【關卡總覽】切換關卡。"
+        }
+      ]
+    },
+    {
       "id": "3iZqJQ8YUM7H4h3ULro3ZX",
       "required": ["3iZqJQ8YTM16rnRfmscL1H"],
       "next": "3iZqJQ8YVHJ4vG9Gq84Qgw",
@@ -376,4 +393,3 @@
   "scoreBanner": "/media/bannerSCORE.jpg",
   "scoreText": "看看更多雲林好行資訊",
   "scoreUrl": "https://bit.ly/391EFQF"
-}
