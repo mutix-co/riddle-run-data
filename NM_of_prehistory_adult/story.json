@@ -370,8 +370,6 @@
       "next": "",
       "title": "尾聲",
       "banner": "/media/bannerEND.jpg",
-      "type": "end",
-      "buttonText":"結束遊戲看結算",
       "prompts": [
         {
           "type": "txt",
