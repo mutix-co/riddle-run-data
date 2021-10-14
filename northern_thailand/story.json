@@ -13,9 +13,9 @@
   },
   "levels": [
     {
-      "id": "start",
+      "id": "3iZqJTBrqR6miRMoS98VBh",
       "required": "",
-      "next": "a",
+      "next": "3iZqJTBrrPxbdL6tiEyMKK",
       "banner": "/media/banner_start.jpg",
       "title": "身在何方",
       "prompts": [
@@ -43,9 +43,9 @@
       ]
     },
     {
-      "id": "a",
-      "required": ["start"],
-      "next": "b",
+      "id": "3iZqJTBrrPxbdL6tiEyMKK",
+      "required": ["3iZqJTBrqR6miRMoS98VBh"],
+      "next": "3iZqJTBrsBc1iWz4yKujGR",
       "banner": "/media/banner_a.jpg",
       "title": "國軍足跡",
       "prompts": [
@@ -79,9 +79,9 @@
       ]
     },
     {
-      "id": "b",
-      "required": ["a"],
-      "next": "c",
+      "id": "3iZqJTBrsBc1iWz4yKujGR",
+      "required": ["3iZqJTBrrPxbdL6tiEyMKK"],
+      "next": "3iZqJTBrt2wXQi6DYqDxkw",
       "banner": "/media/banner_b.jpg",
       "title": "回憶中的學校",
       "prompts": [
@@ -122,9 +122,9 @@
       ]
     },
     {
-      "id": "c",
-      "required": ["b"],
-      "next": "d",
+      "id": "3iZqJTBrt2wXQi6DYqDxkw",
+      "required": ["3iZqJTBrsBc1iWz4yKujGR"],
+      "next": "3iZqJTBru1MWePLG7z8G6G",
       "banner": "/media/banner_c.jpg",
       "title": "落地生根",
       "prompts": [
@@ -164,9 +164,9 @@
       ]
     },
     {
-      "id": "d",
-      "required": ["c"],
-      "next": "e",
+      "id": "3iZqJTBru1MWePLG7z8G6G",
+      "required": ["3iZqJTBrt2wXQi6DYqDxkw"],
+      "next": "3iZqJTBrup6RCNHArmmeRh",
       "banner": "/media/banner_d.jpg",
       "title": "找到坤哥",
       "prompts": [
@@ -199,9 +199,9 @@
       ]
     },
     {
-      "id": "e",
-      "required": ["d"],
-      "next": "end",
+      "id": "3iZqJTBrup6RCNHArmmeRh",
+      "required": ["3iZqJTBru1MWePLG7z8G6G"],
+      "next": "3iZqJTBrvfWMoh2FkXWjFR",
       "banner": "/media/banner_e.jpg",
       "title": "最後的歸屬",
       "prompts": [
@@ -225,8 +225,8 @@
       ]
     },
     {
-      "id": "end",
-      "required": ["e"],
+      "id": "3iZqJTBrvfWMoh2FkXWjFR",
+      "required": ["3iZqJTBrup6RCNHArmmeRh"],
       "next": "",
       "banner": "/media/banner_end.jpg",
       "title": "銘記往昔",
