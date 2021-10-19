@@ -12,9 +12,9 @@
   },
   "levels": [
     {
-      "id": "a",
+      "id": "3iZqJTfn9SPLeHmvhTxUeG",
       "required": [],
-      "next": ["b"],
+      "next": "3iZqJTfnAnT7YdqbaD9LiM",
       "banner": "/media/banner_a.png",
       "title": "第達的日常生活",
       "prompts": [
@@ -59,9 +59,9 @@
       ]
     },
     {
-      "id": "b",
-      "required": ["a"],
-      "next": ["c"],
+      "id": "3iZqJTfnAnT7YdqbaD9LiM",
+      "required": ["3iZqJTfn9SPLeHmvhTxUeG"],
+      "next": "3iZqJTfnBnfw8JhpgpLsuL",
       "banner": "/media/banner_b.jpg",
       "title": "生命教育步道",
       "prompts": [
@@ -100,9 +100,9 @@
       ]
     },
     {
-      "id": "c",
-      "required": ["b"],
-      "next": ["d"],
+      "id": "3iZqJTfnBnfw8JhpgpLsuL",
+      "required": ["3iZqJTfnAnT7YdqbaD9LiM"],
+      "next": "3iZqJTfnCoJNvaxsy7KREG",
       "banner": "/media/banner_c.jpg",
       "title": "知識殿堂",
       "prompts": [
@@ -141,9 +141,9 @@
       ]
     },
     {
-      "id": "d",
-      "required": ["c"],
-      "next": ["e"],
+      "id": "3iZqJTfnCoJNvaxsy7KREG",
+      "required": ["3iZqJTfnBnfw8JhpgpLsuL"],
+      "next": "3iZqJTfnDq2KBgVNqDXqCD",
       "banner": "/media/banner_d.jpg",
       "title": "小鹿與愛的連結",
       "prompts": [
@@ -176,9 +176,9 @@
       ]
     },
     {
-      "id": "e",
-      "required": ["d"],
-      "next": ["gift"],
+      "id": "3iZqJTfnDq2KBgVNqDXqCD",
+      "required": ["3iZqJTfnCoJNvaxsy7KREG"],
+      "next": "3iZqJTfnF8owRqTCYXFasB",
       "banner": "/media/banner_e.jpg",
       "title": "願景給我們的任務",
       "prompts": [
@@ -211,9 +211,9 @@
       ]
     },
     {
-      "id": "gift",
-      "required": ["e"],
-      "next": [""],
+      "id": "3iZqJTfnF8owRqTCYXFasB",
+      "required": ["3iZqJTfnDq2KBgVNqDXqCD"],
+      "next": "",
       "banner": "/media/banner_gift.jpg",
       "title": "尾聲",
       "prompts": [
