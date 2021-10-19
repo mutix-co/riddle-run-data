@@ -12,9 +12,9 @@
   },
   "levels": [
     {
-      "id": "a",
+      "id": "3iZqJTg2XtgU5uGQZ96Jpp",
       "required": [],
-      "next": "b",
+      "next": "3iZqJTg2YyZVY7hwFK8TqN",
       "banner": "/media/banner_a.jpg",
       "title": "演講人：畫家Ａ",
       "prompts": [
@@ -41,9 +41,9 @@
       ]
     },
     {
-      "id": "b",
-      "required": ["a"],
-      "next": "c",
+      "id": "3iZqJTg2YyZVY7hwFK8TqN",
+      "required": ["3iZqJTg2XtgU5uGQZ96Jpp"],
+      "next": "3iZqJTg2ZzndqrcVrbVcgi",
       "banner": "/media/banner_b.jpg",
       "title": "演講人：攝影師Ｂ",
       "prompts": [
@@ -70,9 +70,9 @@
       ]
     },
     {
-      "id": "c",
-      "required": ["b"],
-      "next": "gift",
+      "id": "3iZqJTg2ZzndqrcVrbVcgi",
+      "required": ["3iZqJTg2YyZVY7hwFK8TqN"],
+      "next": "3iZqJTg2bGcZupPH4W1CVR",
       "banner": "/media/banner_c.jpg",
       "title": "演講人：音樂家Ｃ",
       "prompts": [
@@ -99,8 +99,8 @@
       ]
     },
     {
-      "id": "gift",
-      "required": ["c"],
+      "id": "3iZqJTg2bGcZupPH4W1CVR",
+      "required": ["3iZqJTg2ZzndqrcVrbVcgi"],
       "banner": "/media/banner_gift.jpg",
       "title": "結語",
       "prompts": [
