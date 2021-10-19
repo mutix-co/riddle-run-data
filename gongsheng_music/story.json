@@ -13,9 +13,9 @@
   },
   "levels": [
     {
-      "id": "a",
-      "required": "",
-      "next": "b",
+      "id": "3iZqJTgf6YnjMswwtd6KVM",
+      "required": [""],
+      "next": "3iZqJTgf7nxgvAujHj2rLp",
       "banner": "/media/banner_a.png",
       "title": "關卡一",
       "prompts": [
@@ -49,9 +49,9 @@
       ]
     },
     {
-      "id": "b",
-      "required": "a",
-      "next": "c",
+      "id": "3iZqJTgf7nxgvAujHj2rLp",
+      "required": ["3iZqJTgf6YnjMswwtd6KVM"],
+      "next": "3iZqJTgf92g4ygrk2mXz4f",
       "banner": "/media/banner_b.png",
       "title": "關卡二",
       "prompts": [
@@ -82,9 +82,9 @@
       ]
     },
     {
-      "id": "c",
-      "required": "b",
-      "next": "d",
+      "id": "3iZqJTgf92g4ygrk2mXz4f",
+      "required": ["3iZqJTgf7nxgvAujHj2rLp"],
+      "next": "3iZqJTgf9xPYX3oCpyztjj",
       "banner": "/media/banner_c.png",
       "title": "第三關",
       "prompts": [
@@ -112,9 +112,9 @@
       ]
     },
     {
-      "id": "d",
-      "required": "c",
-      "next": "e",
+      "id": "3iZqJTgf9xPYX3oCpyztjj",
+      "required": ["3iZqJTgf92g4ygrk2mXz4f"],
+      "next": "3iZqJTgfB4QGtaBQNm1Q1Q",
       "banner": "/media/banner_d.png",
       "title": "第四關",
       "prompts": [
@@ -157,9 +157,9 @@
       ]
     },
     {
-      "id": "e",
-      "required": "d",
-      "next": "f",
+      "id": "3iZqJTgfB4QGtaBQNm1Q1Q",
+      "required": ["3iZqJTgf9xPYX3oCpyztjj"],
+      "next": "3iZqJTgfCBDWsx3tQi28g7",
       "banner": "/media/banner_e.png",
       "title": "第五關",
       "prompts": [
@@ -198,9 +198,9 @@
       ]
     },
     {
-      "id": "f",
-      "required": "e",
-      "next": "g",
+      "id": "3iZqJTgfCBDWsx3tQi28g7",
+      "required": ["3iZqJTgfB4QGtaBQNm1Q1Q"],
+      "next": "3iZqJTgfD7AHAderCTXouR",
       "banner": "/media/banner_f.png",
       "title": "第六關",
       "prompts": [
@@ -231,9 +231,9 @@
       ]
     },
     {
-      "id": "g",
-      "required": "f",
-      "next": "h",
+      "id": "3iZqJTgfD7AHAderCTXouR",
+      "required": ["3iZqJTgfCBDWsx3tQi28g7"],
+      "next": "3iZqJTggGgqCw7ScvnDgvS",
       "banner": "/media/banner_g.png",
       "title": "第七關",
       "prompts": [
@@ -280,9 +280,9 @@
       ]
     },
     {
-      "id": "h",
-      "required": "g",
-      "next": "gift",
+      "id": "3iZqJTggGgqCw7ScvnDgvS",
+      "required": ["3iZqJTgfD7AHAderCTXouR"],
+      "next": "3iZqJTgfE4mknW778Q8G3f",
       "banner": "/media/banner_h.png",
       "title": "第八關",
       "prompts": [
@@ -311,8 +311,8 @@
       ]
     },
     {
-      "id": "gift",
-      "required": "h",
+      "id": "3iZqJTgfE4mknW778Q8G3f",
+      "required": ["3iZqJTggGgqCw7ScvnDgvS"],
       "next": "",
       "banner": "/media/gift-4.png",
       "title": "尾聲",
