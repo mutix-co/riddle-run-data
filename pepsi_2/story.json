@@ -13,9 +13,9 @@
   },
   "levels": [
     {
-      "id": "start",
+      "id": "3iZqJTg4mUo8HVpBVhudJg",
       "required": [],
-      "next": "lobby",
+      "next": "3iZqJTg4ntriTMHEBqKWUx",
       "banner": "/media/banner.jpg",
       "title": "行前須知",
       "prompts": [
@@ -49,8 +49,8 @@
       ]
     },
     {
-      "id": "lobby",
-      "required": ["start"],
+      "id": "3iZqJTg4ntriTMHEBqKWUx",
+      "required": ["3iZqJTg4mUo8HVpBVhudJg"],
       "next": "",
       "banner": "/media/banner.jpg",
       "title": "關卡轉跳大廳",
@@ -64,9 +64,9 @@
       ]
     },
     {
-      "id": "a",
+      "id": "3iZqJTg4oxTuyVgQgtyKuV",
       "required": ["start"],
-      "next": "lobby",
+      "next": "3iZqJTg4ntriTMHEBqKWUx",
       "banner": "/media/banner_1a.jpg",
       "title": "＠芳茗遠播-亞洲茶文化展",
       "prompts": [
@@ -100,9 +100,9 @@
       ]
     },
     {
-      "id": "b",
-      "required": ["start"],
-      "next": "lobby",
+      "id": "3iZqJTg4pzB7R2J1ZRJ9mR",
+      "required": ["3iZqJTg4mUo8HVpBVhudJg"],
+      "next": "3iZqJTg4ntriTMHEBqKWUx",
       "banner": "/media/banner_1b.jpg",
       "title": "＠大千石庭",
       "prompts": [
@@ -129,9 +129,9 @@
       ]
     },
     {
-      "id": "c",
-      "required": ["start"],
-      "next": "lobby",
+      "id": "3iZqJTg4quXBCDC9w8UmZN",
+      "required": ["3iZqJTg4mUo8HVpBVhudJg"],
+      "next": "3iZqJTg4ntriTMHEBqKWUx",
       "banner": "/media/banner_1c.jpg",
       "title": "＠翰墨空間-故宮書畫賞析",
       "prompts": [
@@ -159,9 +159,9 @@
       ]
     },
     {
-      "id": "d-1",
-      "required": ["start"],
-      "next": "d-2",
+      "id": "3iZqJTg4roQLkZhWjStv8D",
+      "required": ["3iZqJTg4mUo8HVpBVhudJg"],
+      "next": "3iZqJTg4speDspd8hsgwSe",
       "banner": "/media/banner_1d.jpg",
       "title": "＠未知位置(1)",
       "prompts": [
@@ -189,9 +189,9 @@
       ]
     },
     {
-      "id": "d-2",
-      "required": ["d-1"],
-      "next": "lobby",
+      "id": "3iZqJTg4speDspd8hsgwSe",
+      "required": ["3iZqJTg4roQLkZhWjStv8D"],
+      "next": "3iZqJTg4ntriTMHEBqKWUx",
       "banner": "/media/banner_1d.jpg",
       "title": "＠未知位置(2)",
       "prompts": [
@@ -212,9 +212,9 @@
       ]
     },
     {
-      "id": "bonus",
-      "required": ["a","b","c","d-1","d-2"],
-      "next": "gift",
+      "id": "3iZqJTg4tqkiotkjeaiu67",
+      "required": ["3iZqJTg4oxTuyVgQgtyKuV","3iZqJTg4pzB7R2J1ZRJ9mR","3iZqJTg4quXBCDC9w8UmZN","3iZqJTg4roQLkZhWjStv8D","3iZqJTg4speDspd8hsgwSe"],
+      "next": "3iZqJTg4utJeKpFShok4DU",
       "banner": "/media/banner_bonus.jpg",
       "title": "鑰匙碎片拼組",
       "prompts": [
@@ -236,8 +236,8 @@
       ]
     },
     {
-      "id": "gift",
-      "required": ["bonus"],
+      "id": "3iZqJTg4utJeKpFShok4DU",
+      "required": ["3iZqJTg4tqkiotkjeaiu67"],
       "next": "",
       "banner": "/media/banner.jpg",
       "title": "結局關",
