@@ -13,9 +13,9 @@
   },
   "levels": [
     {
-      "id": "a",
+      "id": "3iZqJTfsE2nU4enVyQzXtZ",
       "required": [],
-      "next": "lobby",
+      "next": "3iZqJTfsF1jTiDGwnnVWG8",
       "banner": "/media/banner.jpg",
       "title": "導覽",
       "prompts": [
@@ -49,8 +49,8 @@
       ]
     },
     {
-      "id": "lobby",
-      "required": ["a"],
+      "id": "3iZqJTfsF1jTiDGwnnVWG8",
+      "required": ["3iZqJTfsE2nU4enVyQzXtZ"],
       "next": "",
       "banner": "/media/banner.jpg",
       "title": "關卡轉跳",
@@ -64,9 +64,9 @@
       ]
     },
     {
-      "id": "f-1",
-      "required": ["a"],
-      "next": "f-2",
+      "id": "3iZqJTfsFtYcSnvc7hVtHX",
+      "required": ["3iZqJTfsE2nU4enVyQzXtZ"],
+      "next": "3iZqJTfsGoHEu2oVDBPCVy",
       "banner": "/media/banner_e.jpg",
       "title": "肉品袋(1) - 迷你亞洲",
       "prompts": [
@@ -94,9 +94,9 @@
       ]
     },
     {
-      "id": "f-2",
-      "required": ["f-1"],
-      "next": "lobby",
+      "id": "3iZqJTfsGoHEu2oVDBPCVy",
+      "required": ["3iZqJTfsFtYcSnvc7hVtHX"],
+      "next": "3iZqJTfsF1jTiDGwnnVWG8",
       "banner": "/media/banner_e.jpg",
       "title": "肉品袋(2) - 迷你亞洲",
       "prompts": [
@@ -123,9 +123,9 @@
       ]
     },
     {
-      "id": "g-1",
-      "required": ["a"],
-      "next": "g-2",
+      "id": "3iZqJTfsJ2bjZWdxSXi9ma",
+      "required": ["3iZqJTfsE2nU4enVyQzXtZ"],
+      "next": "3iZqJTfsK2T9P1KuGUQ8qx",
       "banner": "/media/banner_f.jpg",
       "title": "帳篷袋(1) - 迷你中國",
       "prompts": [
@@ -133,7 +133,7 @@
           "type": "image",
           "src":"/media/9-1.jpg",
           "title": "工作人員給的紙條",
-          "alt": "走到「迷你中國」，一位工作人員匆匆跑來遞給達人們一張紙條，說：「剛聽說有輛小貨車出現在小火車入口附近，正往設施區移動 ，我先趕過去看看。這是我目前蒐集到物資袋被丟棄的線索，你們加油吧。」"
+          "alt": "走到「迷你中國」，一位工作人員匆匆跑來遞給達人們一張紙條，說：「剛聽說有輛小貨車出現在小火車入口附近，正往設施區移動 ，我先趕過去看看。這是我目前蒐集到物資袋被丟棄的線索，你們加油吧。」"
         },
         {
           "type": "txt",
@@ -153,9 +153,9 @@
       ]
     },
     {
-      "id": "g-2",
-      "required": ["g-1"],
-      "next": "lobby",
+      "id": "3iZqJTfsK2T9P1KuGUQ8qx",
+      "required": ["3iZqJTfsJ2bjZWdxSXi9ma"],
+      "next": "3iZqJTfsF1jTiDGwnnVWG8",
       "banner": "/media/banner_f.jpg",
       "title": "帳篷袋(2) — 迷你中國",
       "prompts": [
@@ -182,9 +182,9 @@
       ]
     },
     {
-      "id": "b-1",
-      "required": ["a"],
-      "next": "b-2",
+      "id": "3iZqJTfsLMLG5x6Eu1JHmz",
+      "required": ["3iZqJTfsE2nU4enVyQzXtZ"],
+      "next": "3iZqJTfsMPkoQfa7Tf73ER",
       "banner": "/media/banner_b.jpg",
       "title": "樂器袋(1) - 歐洲室內樂園",
       "prompts": [
@@ -205,9 +205,9 @@
       ]
     },
     {
-      "id": "b-2",
-      "required": ["b-1"],
-      "next": "lobby",
+      "id": "3iZqJTfsMPkoQfa7Tf73ER",
+      "required": ["3iZqJTfsLMLG5x6Eu1JHmz"],
+      "next": "3iZqJTfsF1jTiDGwnnVWG8",
       "banner": "/media/banner_b.jpg",
       "title": "樂器袋(2) - 歐洲室內樂園",
       "prompts": [
@@ -228,9 +228,9 @@
       ]
     },
     {
-      "id": "c-1",
-      "required": ["a"],
-      "next": "c-2",
+      "id": "3iZqJTfsNR1RMTTUMFzSy3",
+      "required": ["3iZqJTfsE2nU4enVyQzXtZ"],
+      "next": "3iZqJTfsPbQrPdoD4h8tDV",
       "banner": "/media/banner_c.jpg",
       "title": "蔬果袋(1) - 迷你美洲",
       "prompts": [
@@ -251,9 +251,9 @@
       ]
     },
     {
-      "id": "c-2",
-      "required": ["c-1"],
-      "next": "lobby",
+      "id": "3iZqJTfsPbQrPdoD4h8tDV",
+      "required": ["3iZqJTfsNR1RMTTUMFzSy3"],
+      "next": "3iZqJTfsF1jTiDGwnnVWG8",
       "banner": "/media/banner_c.jpg",
       "title": "蔬果袋(2) - 迷你美洲",
       "prompts": [
@@ -275,9 +275,9 @@
       ]
     },
     {
-      "id": "e-1",
-      "required": ["a"],
-      "next": "e-2",
+      "id": "3iZqJTfsQUqSTCCSTrrStq",
+      "required": ["3iZqJTfsE2nU4enVyQzXtZ"],
+      "next": "3iZqJTfsRND5EhoN7jrvGx",
       "banner": "/media/banner_d.jpg",
       "title": "烹飪袋(1) - 埃及館",
       "prompts": [
@@ -299,9 +299,9 @@
       ]
     },
     {
-      "id": "e-2",
-      "required": ["e-1"],
-      "next": "lobby",
+      "id": "3iZqJTfsRND5EhoN7jrvGx",
+      "required": ["3iZqJTfsQUqSTCCSTrrStq"],
+      "next": "3iZqJTfsF1jTiDGwnnVWG8",
       "banner": "/media/banner_d.jpg",
       "title": "烹飪袋(2) - 埃及館",
       "prompts": [
@@ -329,8 +329,8 @@
       ]
     },
     {
-      "id": "gift",
-      "required": ["b-2","c-2","e-2","f-2","g-2"],
+      "id": "3iZqJTfsSXrww9GdyAvUYh",
+      "required": ["3iZqJTfsLMLG5x6Eu1JHmz","3iZqJTfsPbQrPdoD4h8tDV","3iZqJTfsRND5EhoN7jrvGx","3iZqJTfsGoHEu2oVDBPCVy","3iZqJTfsK2T9P1KuGUQ8qx"],
       "next": "",
       "banner": "/media/banner.jpg",
       "title": "結局關",
@@ -351,9 +351,9 @@
       ]
     },
     {
-      "id": "bonus-1",
-      "required": ["b-2","c-2","e-2","f-2","g-2"],
-      "next": "bonus-2",
+      "id": "3iZqJTfsTUp2wvjXdCqJB5",
+      "required": ["3iZqJTfsLMLG5x6Eu1JHmz","3iZqJTfsPbQrPdoD4h8tDV","3iZqJTfsRND5EhoN7jrvGx","3iZqJTfsGoHEu2oVDBPCVy","3iZqJTfsK2T9P1KuGUQ8qx"],
+      "next": "3iZqJTfsUY5JM22YacnMi1",
       "banner": "/media/banner.jpg",
       "title": "總召的下落(1)",
       "prompts": [
@@ -375,8 +375,8 @@
       ]
     },
     {
-      "id": "bonus-2",
-      "required": ["bonus-1"],
+      "id": "3iZqJTfsUY5JM22YacnMi1",
+      "required": ["3iZqJTfsTUp2wvjXdCqJB5"],
       "next": "",
       "banner": "/media/banner.jpg",
       "title": "總召的下落(2)",
