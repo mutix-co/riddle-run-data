@@ -12,9 +12,9 @@
   },
   "levels": [
     {
-      "id": "0",
+      "id": "3iZqJTgn3zWF8jqVazrkw6",
       "required": [],
-      "next": ["1"],
+      "next": "3iZqJTgn5AbxWNwjPGqHdN",
       "banner": "/media/banner_400_670.jpg",
       "title": "預備",
       "prompts": [
@@ -41,9 +41,9 @@
       ]
     },
     {
-      "id": "1",
-      "required": ["0"],
-      "next": ["2"],
+      "id": "3iZqJTgn5AbxWNwjPGqHdN",
+      "required": ["3iZqJTgn3zWF8jqVazrkw6"],
+      "next": "3iZqJTgn65CTws438zGpy2",
       "banner": "/media/1-2.jpg",
       "title": "關卡一",
       "prompts": [
@@ -88,9 +88,9 @@
       ]
     },
     {
-      "id": "2",
-      "required": ["1"],
-      "next": ["3"],
+      "id": "3iZqJTgn65CTws438zGpy2",
+      "required": ["3iZqJTgn5AbxWNwjPGqHdN"],
+      "next": "3iZqJTgn6yLPtbaXY88srk",
       "banner": "/media/2-2.jpg",
       "title": "關卡二",
       "prompts": [
@@ -135,9 +135,9 @@
       ]
     },
     {
-      "id": "3",
-      "required": ["2"],
-      "next": ["4"],
+      "id": "3iZqJTgn6yLPtbaXY88srk",
+      "required": ["3iZqJTgn65CTws438zGpy2"],
+      "next": "3iZqJTgn7rrtWLtPV54V55",
       "banner": "/media/3-2.jpg",
       "title": "關卡三",
       "prompts": [
@@ -170,9 +170,9 @@
       ]
     },
     {
-     "id": "4",
-      "required": ["3"],
-      "next": ["5"],
+     "id": "3iZqJTgn7rrtWLtPV54V55",
+      "required": ["3iZqJTgn6yLPtbaXY88srk"],
+      "next": "3iZqJTgn8gxnj2MSdWE38o",
       "banner": "/media/4-2.jpg",
       "title": "關卡四",
       "prompts": [
@@ -217,9 +217,9 @@
       ]
     },
     {
-        "id": "5",
-        "required": ["4"],
-        "next": ["6"],
+        "id": "3iZqJTgn8gxnj2MSdWE38o",
+        "required": ["3iZqJTgn7rrtWLtPV54V55"],
+        "next": "3iZqJTgn9bEqgVW343pLBU",
         "banner": "/media/5-2.jpg",
         "title": "關卡五",
         "prompts": [
@@ -246,9 +246,9 @@
         ]
     },
     {
-      "id": "6",
-      "required": ["5"],
-      "next": [""],
+      "id": "3iZqJTgn9bEqgVW343pLBU",
+      "required": ["3iZqJTgn8gxnj2MSdWE38o"],
+      "next": "",
       "banner": "/media/banner_400_670.jpg",
       "title": "尾聲",
       "prompts": [
