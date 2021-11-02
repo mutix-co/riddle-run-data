@@ -217,10 +217,10 @@
           "title": "請走到正確的地點",
           "alt": "相信你已經破解了傳單完整的內容，並得知坤哥在哪了吧！接下來請你帶領不熟悉美斯樂的小和跟沈哥走到那裡！",
           "type": "inLocation",
-          "displayName": "義民文史館",
-          "latitude": 20.152665557076617,
-          "longitude": 99.6217054567953,
-          "maxDistance": 50
+          "displayName": "濕地",
+          "latitude": 25.0546365834622,
+          "longitude": 121.52938576622125,
+          "maxDistance": 100
         }
       ]
     },
