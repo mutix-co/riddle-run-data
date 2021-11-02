@@ -1,5 +1,5 @@
 {
-  "name": "Northern Thailand",
+  "name": "northern_thailand",
   "version": "1.0",
   "title": "異域歷險記",
   "banner": "/media/banner.jpg",
@@ -218,8 +218,8 @@
           "alt": "相信你已經破解了傳單完整的內容，並得知坤哥在哪了吧！接下來請你帶領不熟悉美斯樂的小和跟沈哥走到那裡！",
           "type": "inLocation",
           "displayName": "濕地",
-          "latitude": 25.0546365834622,
-          "longitude": 121.52938576622125,
+          "latitude": 25.049595,
+          "longitude": 121.574434,
           "maxDistance": 100
         }
       ]
