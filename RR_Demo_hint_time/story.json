@@ -184,7 +184,7 @@
           "alt": "後來你發現，mutix Studio 就在你家附近，直接過去看看吧。",
           "type": "inLocation",
           "displayName": "mutix Studio",
-          "latitude": 24.049603,
+          "latitude": 2.049603,
           "longitude": 121.574433,
           "maxDistance": 50
         }
