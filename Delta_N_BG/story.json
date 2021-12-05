@@ -399,6 +399,7 @@
       "id": "3iZqJTfsUY5JM22YacnMi1",
       "required": ["3iZqJTfsTUp2wvjXdCqJB5"],
       "next": "",
+      "type": "end",
       "banner": "/media/banner.jpg",
       "title": "總召的下落(2)",
       "prompts": [
