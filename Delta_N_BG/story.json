@@ -399,9 +399,10 @@
       "id": "3iZqJTfsUY5JM22YacnMi1",
       "required": ["3iZqJTfsTUp2wvjXdCqJB5"],
       "next": "",
-      "type": "end",
-      "banner": "/media/banner.jpg",
       "title": "總召的下落(2)",
+      "banner": "/media/banner.jpg",
+      "type": "end",
+      "buttonText":"結束遊戲看成績",
       "prompts": [
         {
           "type": "txt",
@@ -413,6 +414,6 @@
     }
   ],
   "scoreBanner": "/media/bannerSCORE.jpg",
-  "scoreText": "看看更多南科考古館資訊",
+  "scoreText": "看看更多台達資訊",
   "scoreUrl": "https://bit.ly/3kKPZaB"
 }
