@@ -410,5 +410,8 @@
         }
       ]
     }
-  ]
+  ],
+  "scoreBanner": "/media/bannerSCORE.jpg",
+  "scoreText": "看看更多南科考古館資訊",
+  "scoreUrl": "https://bit.ly/3kKPZaB"
 }
