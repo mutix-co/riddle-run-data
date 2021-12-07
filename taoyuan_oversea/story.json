@@ -1,31 +1,31 @@
 {
-  "name": "taoyuan_oversea",
+  "name": "NM_of_prehistory_adult_test",
   "version": "1.0",
-  "title": "中原HO消息｜服學祝福來敲門",
+  "title": "博館尋謎｜聖物的線索",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/splash.jpg",
   "contact": "https://www.messenger.com/t/RiddleRun",
-  "timekeeper": false,
+  "timekeeper": true,
   "introduction": {
-    "title": "前言",
-    "content": "聖誕節即將來臨，作為中原國際服務志工的你收到了一張邀請函✉️\n--------\n嗨，服學的志工夥伴們👋\n　\n今年服學中心為了犒勞各位這一年的用心付出與投入，我們特別在小木屋準備了超～豐盛的聖誕派對要邀請大家一起來參加。\n　\n但當然，享用大餐前總是得有些挑戰的😉 我們在小木屋的庭院中設置了五個關卡，記得帶著這張邀請函，它會幫助你的。成功破解就能打開小木屋的大門，我們在大門後等你們喔，快來快來！\n　\nby 服學の聖誕狗狗\n--------\n為了聖誕大餐，你決定踏上為美食征戰（？）的旅程，出發吧！"
+    "title": "前導｜爺爺的筆記",
+    "content": "阿寶意外在整理房間時，意外發現爺爺留下的USB跟筆記，他讀取裡面的資料，發現當中記載了爺爺在考古隊跟博物館工作考察的紀錄，進而發現一個古老的傳說。但是USB裡部分資料夾是加密的，為了瞭解這個傳說的真實性，現在就跟著爺爺留下的線索前進探索吧！\n　\n筆記中寫到：「傳說在千年前的臺南地區，存在著古老的四大家族，這四個家族分別掌握土、水、火、風四種能力，這些能力都為家族代代相傳下來，其目的都是為了守護『聖物』，只要知道這個家族的能力，就能知道聖物的真面目。」現在我們就去博物館尋找線索，解開四個家族的能力以及聖物到底是什麼。\n　\n阿寶的探險即將啟程，準備好了嗎？"
   },
   "levels": [
     {
-      "id": "3iZqJX5gXyTyN4kfi8BCLj",
+      "id": "3iZqJXrvUvR7TcixjYQWPq",
       "required": "",
-      "next": "3iZqJX5gZUWxi4wsUdwJWY",
-      "title": "開始之前",
-      "banner": "/media/banner-start.jpg",
+      "next": "3iZqJXrvWupxFeijNYej8Z",
+      "title": "行前須知",
+      "banner": "/media/banner_start.jpg",
       "type": "continue",
-      "buttonText":"🚪推開庭院的小門🚪",
+      "buttonText":"出發！",
       "prompts": [
         {
           "type":"txt",
           "src":"",
           "title":"行前須知",
-          "alt":"1⃣️ 共有「五大關卡」，請依照題目中給予的線索結合服學知識找出謎底，以順利打開大門、加入聖誕派對！\n　\n2⃣️ 成功完成挑戰的你，填寫遊戲最後的問券，就有機會獲得聖誕禮物喔！\n　\n3⃣️ 點擊右下角「燈泡」按鈕，即可「領取提示」或「直接看答案」。\n　\n4⃣️ 過程中可能因網路關係圖片讀取較緩慢，請稍等一下圖片就會跑出來摟～\n　\n5⃣️ 有任何問題，歡迎點擊右上角菜單頁中的「聯絡客服」，寫下你的問題，我們會盡快回覆。\n　\n👉最後，在出發前，往左滑看看操作說明吧👉"
+          "alt":"1⃣️ 跟著阿寶的腳步來場探險吧！在過程中需要你仔細「觀察南科館的展覽內容」，協助阿寶通過「六個關卡」後，取得聖物線索，才能順利的完成這次的探險喔～\n　\n2⃣️ 完成探險的你，填寫遊戲最後的問卷，回到一樓大廳服務台（售票處）出示指定手機畫面，就可以領取小禮物🎁\n　\n3⃣️ 如果找不到關卡線索藏在哪裡，可以點擊右下角「燈泡」按鈕，領取「提示」或「答案」。\n　\n4⃣️ 在遊戲過程中，記得做好防疫措施、避免喧鬧大聲討論、以及不要破壞公物喔！\n　\n5⃣️ 遊戲過程中可能因網路問題圖片讀取較緩慢，請稍等一下圖片就會跑出來囉～\n　\n6⃣️ 有任何問題，歡迎點擊右上角菜單頁中的「聯絡客服」，寫下你的問題，我們會盡快回覆。\n　\n➡️最後，往左滑看看操作說明吧➡️"
         },
         {
           "type":"image",
@@ -42,370 +42,395 @@
       ]
     },
     {
-      "id": "3iZqJX5gZUWxi4wsUdwJWY",
-      "required": ["3iZqJX5gXyTyN4kfi8BCLj"],
-      "next": "3iZqJX5gaoJArowFskKSZW",
-      "title": "No.1-服學共識營",
-      "banner": "/media/banner-1.jpg",
+      "id": "3iZqJXrvWupxFeijNYej8Z",
+      "required": ["3iZqJXrvUvR7TcixjYQWPq"],
+      "next": "3iZqJXrvXkBcrkEauEYifq",
+      "title": "第一關｜南科考古序曲",
+      "banner": "/media/banner_1.jpg",
       "prompts": [
         {
-          "type":"image",
-          "src":"/media/1-1.jpg",
-          "title": "牆上貼了些東西",
-          "alt": "一踏入庭院，就看到停靠在牆角的雪橇，以及貼在牆上的一張日程表及照片。\n　\n「該不會是聖誕狗狗今年送禮物的行程表吧？」你好奇的走上前去看，「咦，好眼熟，這是我們今年初服務學習共識營的課程表！」"
-        },
-        {
           "type": "image",
-          "src": "/media/1-2.jpg",
-          "title": "仔細觀察課程表",
-          "alt": "在課程表上，除了你熟知的課程外，你還發現標題欄上被畫了八個不同符號，而這些符號在一旁的活動照片中也有出現？！"
-        },
-        {
-          "type": "image",
-          "src": "/media/1-3.jpg",
-          "title": "仔細觀察活動照",
-          "alt": "「好懷念一起上課的時光～想想那時真的學了好多東西，後來用到的攝影、溝通、簡報製作的技能都是那時學會的！」看著照片，你回想起那四天營隊的充實。\n　\n「不對，怎麼照片中的人手上的舉牌都換成不同顏色的特殊符號了？」細心的你發現了相片中的不對勁，這些顏色與符號跟課表中的符號似乎是有連結性的？那這樣照片下方的三個色塊所代表的謎底又會是什麼呢？"
+          "src": "/media/1-1.jpg",
+          "title": "地點：第一廳",
+          "alt": "阿寶來到博物館中，發現筆記中有一頁表格以及看不懂的「符號」？\n　\n阿寶心想：「這好像跟第一廳展示的文物有點相似，拜託！我從小就在這個館東奔西跑，跟我家一樣，難不倒我，我甚至知道第一廳的展示重點是六大文化層，爺爺太小看我了。」\n　\n阿寶開始尋找這些文物，將正確的「符號」組合起來好像可以得到什麼。"
         }
       ],
       "answers": [
         {
           "title": "請輸入正確答案",
-          "alt": "請按著課程表及活動照的提示，找出「橘、淺藍、紫色三個色框」所指的謎底。密碼為三個中文字，請依左到右的順序輸入下方。",
+          "alt": "請觀察第一廳的文物，找出正確的「符號」並組合起來成為答案，答案應為兩個中文字。",
           "type": "order",
-          "options": ["鏡","擂","上","磨","成","果","台","共","識","事","任","出","達","霍","下","鎂","技","察","平","密","需","要","說","志","搭","破","巧","冰","動","船","簡","頭","心","尋","找","刀","光","燈","行","工","簡","出"],
-          "value": [21,2,32]
+          "options": ["時","光","星","台","音","南","早","安","氣","始","斗"],
+          "value": [2,10]
         }
       ],
       "hints" :[
         {
-          "id": "3qjEZgzZuW4tNjaUuM8wow",
-          "buttonText": "需要點提示",
+          "id": "3qjEZhmopTeQ8wn2mopH1b",
+          "buttonText": "第一關提示",
           "score": 100,
           "type": "txt",
-          "title": "提示",
+          "title": "第一關提示",
           "src": "",
-          "alt": "首先，從「橘、淺藍、紫色」三色的謎底色塊中可以發現它們與照片中舉牌的顏色有關聯性，還記得小學學到的「顏料混色方法」，某色與某色相加後，可以混合成新的顏色。先試著找出「橘、淺藍、紫色」各自所需要的顏色吧！\n　\n找到顏色後，根據牌子上的符號兩兩在課表中比對，找出他們所指的是哪三堂課，並結合謎底色塊中的 No. X 的數字編號，就能找出三個字謎底摟！"
+          "alt": "根據文化層，對應到正確的文物，得到組字，可參考文化期相展板。"
         },
         {
-          "id": "3qjEZgzZw1XVwNAK4AM3qQ",
-          "buttonText": "直接看答案",
+          "id": "3qjEZhmoqrjt3E4o5ungBG",
+          "buttonText": "第一關答案",
           "score": 500,
           "type": "txt",
-          "title": "答案",
-          "alt": "本關的答案是「要上心」！\n　\n根據顏色混合規則，所對應到的課程分別是「需要說出來、搭上破冰船、動察你我心」，按照答案框中的 No.X，抓出每堂課名對應的第Ｘ個字，就能獲得這個答案摟！"
+          "title": "第一關答案",
+          "alt": "答案為：星斗。"
         }
       ]
     },
     {
-      "id": "3iZqJX5gaoJArowFskKSZW",
-      "required": ["3iZqJX5gZUWxi4wsUdwJWY"],
-      "next": "3iZqJX5gcJJCvi84pbouPx",
-      "title": "完成第一關！",
-      "banner": "/media/banner-1-2.jpg",
+      "id": "3iZqJXrvXkBcrkEauEYifq",
+      "required": ["3iZqJXrvWupxFeijNYej8Z"],
+      "next": "3iZqJXrvYanK2jAjaKkPN7",
+      "title": "恭喜過關！",
+      "banner": "/media/banner_pass.jpg",
       "type": "continue",
-      "buttonText":"前往第二關",
+      "buttonText":"前往下一關",
       "prompts": [
         {
           "type": "image",
-          "src": "/media/1-2pic.jpg",
-          "title":"🎉恭喜破解第一關🎉",
-          "alt":"是的！在每年初的四天三夜服務學習共識營，所要培養的就是學員對服務的「上心」。所以整個營隊從破冰及共識、同理心、換位思考、肢體表達、溝通合作、基礎攝影實務、簡報製作技巧及實務演練等各種課程角度切入，讓志工學員們能從中對未來一年的服學旅程充滿期待！"
+          "src": "/media/pass_1.jpg",
+          "title":"開啟資料夾",
+          "alt":"南科園區在籌備前進行過遺址調查評估，這份調查工作成為南科考古的開端！進而發現南科埋藏地下的遺址，猶如「滿天星斗」，截至目前為止，共發現六個文化層，31處遺址。\n　\n別忘了收藏好聖物線索喔！"
         }
       ]
     },
     {
-      "id": "3iZqJX5gcJJCvi84pbouPx",
-      "required": ["3iZqJX5gaoJArowFskKSZW"],
-      "next": "3iZqJX5gdmTw1cbUjmuWrF",
-      "title": "No.2-多元培訓",
-      "banner": "/media/banner-2.jpg",
+      "id": "3iZqJXrvYanK2jAjaKkPN7",
+      "required": ["3iZqJXrvXkBcrkEauEYifq"],
+      "next": "3iZqJXrvZVUj2PVrLFAP3e",
+      "title": "第二關風｜史前人觀察",
+      "banner": "/media/banner_2.jpg",
       "prompts": [
         {
           "type":"image",
           "src":"/media/2-1.jpg",
-          "title":"雪地上的印記",
-          "alt":"來到了第二關，你發現原本一片潔白的雪地上多了一些印記及幾個彩色腳印，而下方的算式似乎暗示著謎底需要透過「走幾步路」來完成。\n　\n「但總得知道要從哪裡出發、往哪裡走吧？」你煩惱的想著。"
-        },
-        {
-          "type": "image",
-          "src": "/media/2-2.jpg",
-          "title": "變化的邀請函",
-          "alt": "這時，你手上的邀請函突然發燙，接著你就看著邀請函上的字慢慢的變換了模樣..."
+          "title":"地點：第二廳",
+          "alt":"順著參觀動線來到第二廳，這裡好多的史前人模型，是阿寶最喜歡的展廳，他跟這些「史前人」很熟。筆記上畫著四個文物，並備註「要開啟風資料夾，就要發揮觀察力，找找有多少史前人使用這些工具。別忘了要眼觀八方啊！」"
         }
       ],
       "answers": [
         {
           "title": "請輸入正確答案",
-          "alt": "請根據雪地上的印記以及邀請函上的新內容，找出正確的謎底，謎底為一個英文字母。",
-          "type": "order",
-          "options": ["Ａ","Ｂ","Ｃ","Ｄ","Ｅ","Ｆ","Ｇ","Ｈ","Ｉ","Ｊ","Ｋ","Ｌ","Ｍ","Ｎ","Ｏ","Ｐ","Ｑ","Ｒ","Ｓ","Ｔ","Ｕ","Ｖ","Ｗ","Ｘ","Ｙ","Ｚ"],
-          "value": [13]
+          "alt": "現在尋找使用圖中工具的史前人數量，有一些工具長得很相似喔。",
+          "type": "password",
+          "value": "6"
         }
       ],
       "hints": [
         {
-          "id": "3qjEZgzZwyJaD1PAUj7ABR",
-          "buttonText": "需要點提示",
+          "id": "3qjEZhmorYcryYfhXK9CKk",
+          "buttonText": "第二關提示",
           "score": 100,
           "type": "txt",
           "src": "",
-          "title": "提示",
-          "alt": "在雪地表格左方及下方的箭頭，其實就是暗示著ＸＹ軸的走向，所以邀請函上的（4,6）所指的就是（X=4,Y=6）的位置，也就是「走幾步路的出發點」。而 135° 則代表著「往哪個方向走」。\n　\n有了出發地及方向後，試著按照雪地下方的算式指示走吧！"
+          "title": "第二關提示",
+          "alt": "有石箭鏃、石斧、石錛、石刀，觀察史前人手上的工具，別忘了有一個人藏在樹上喔！"
         },
         {
-          "id": "3qjEZgzZy1gu5A17W1ddSZ",
-          "buttonText": "直接看答案",
+          "id": "3qjEZhmosM6GKbVKrv29LX",
+          "buttonText": "第二關答案",
           "score": 500,
           "type": "txt",
           "src":"",
-          "title":"答案",
-          "alt":"答案是「N」喔！\n　\n三種顏色的出發點分別是邀請卡上的那三個座標，對應雪地表格的ＸＹ軸即可找到正確的位置。根據雪地下方算式及邀請函上的提示，紅、橘兩個腳印需要大家往「上」走四步（四格），而綠色腳印則需大家往 135 度角（右下角）的方向走四步（四格），三種腳步依序走出來的字母圖形即是答案。"
+          "title":"第二關答案",
+          "alt":"答案為：6。"
         }
       ]
     },
     {
-      "id": "3iZqJX5gdmTw1cbUjmuWrF",
-      "required": ["3iZqJX5gcJJCvi84pbouPx"],
-      "next": "3iZqJX5gerVpJ3dCqk9k58",
-      "title": "完成第二關！",
-      "banner": "/media/banner-2-2.jpg",
+      "id": "3iZqJXrvZVUj2PVrLFAP3e",
+      "required": ["3iZqJXrvYanK2jAjaKkPN7"],
+      "next": "3iZqJXrvaVxJzRVvSKxeQ4",
+      "title": "恭喜過關！",
+      "banner": "/media/banner_pass.jpg",
       "type": "continue",
-      "buttonText": "前往第三關",
+      "buttonText":"前往下一關",
       "prompts": [
         {
           "type": "image",
-          "src": "/media/2-2pic.jpg",
-          "title": "🎉恭喜破解第二關🎉",
-          "alt": "紅、綠、橘三個顏色腳步所走出來的「心態養成、技能培力、能量推廣」所指的其實就是國際志工們在「多元培訓」環節中會受到的三階段培訓重點：\n　\n👉從最開頭的「心態養成」，讓志工們了解相關服務法規、服務倫理與內涵，以及透過多元議題行動方案的分享，讓志工們能了解更多元的服務形式；\n　\n👉到出隊前的「技能培力」，除了跨文化溝通能力外，也針對即將出隊的各國家及服務性質做針對性的技能訓練；\n　\n👉服務返國後的「能量推廣」，志工們會學到服務反思訓練、簡報製作技巧、社群媒體經營，好讓服務經驗及能量擴散給更多有興趣的人們。"
+          "src": "/media/pass_2.jpg",
+          "title":"開啟「風」資料夾得到線索",
+          "alt":"風家族的人專長是調查與研究，考古學家在發掘前期進行土地調查評估，後期根據在田野蒐集到的第一手資料進行研究整理。研究就像微風徐徐，一層一層吹開大地的表層，直達最深處找到寶藏。"
         }
       ]
     },
     {
-      "id": "3iZqJX5gerVpJ3dCqk9k58",
-      "required": ["3iZqJX5gdmTw1cbUjmuWrF"],
-      "next": "3iZqJX5gfrZ3DuVbAV1YTS",
-      "title": "No.3-柬埔寨服務隊",
-      "banner": "/media/banner-3.jpg",
+      "id": "3iZqJXrvaVxJzRVvSKxeQ4",
+      "required": ["3iZqJXrvZVUj2PVrLFAP3e"],
+      "next": "3iZqJXrvbGga66d3UELFLF",
+      "title": "第三關土｜尋找缺失的資料",
+      "banner": "/media/banner_3.jpg",
       "prompts": [
         {
           "type": "image",
           "src": "/media/3-1.jpg",
-          "title": "令人困惑的草叢迷宮",
-          "alt": "結束了第二關後，迎面而來的是一個巨大的草叢迷宮。\n　\n「天啊總共有八個出入口，我要暈了...木牌上的提示指的是正確的出入位置嗎？」"
-        },
-        {
-          "type": "image",
-          "src": "/media/3-2.jpg",
-          "title": "再次變燙的邀請函",
-          "alt": "手上的邀請函再次變燙，早已見怪不怪的你仔細的觀察著邀請函的變化。\n　\n「是柬埔寨服務團的側拍照！」你驚喜的在照片中發現自己的身影，開始想著那時計畫一步步執行的辛苦與獲得的滿滿成就。\n　\n手上的邀請函再次變燙，早已見怪不怪的你仔細的觀察著邀請函的變化。\n　\n「是柬埔寨服務團的側拍照！」你驚喜的在照片中發現自己的身影，開始想著那時計畫一步步執行的辛苦與獲得的滿滿成就。\n　\n「等等，這邊的 Step 跟木牌上代表的意思是一樣的嗎？！」你突然驚呼。"
+          "title": "地點：第三廳",
+          "alt":"筆記中提到每件遺物在出土時，都會詳細記錄遺址坑號層位與日期，但當年有一件玉器的坑號剛好被抹掉了，土資料夾的密碼就是這個坑號。「這該怎麼辦呢？」，筆記中還有兩個線索：\n　\n1. 坑號的排列圖，可以參考。\n2. 筆記上備註：「89年9月28日下班離開田野時，發現有一坑的鏟子沒收好，直接放在坑裡，那坑文化層中有發現唯一一件玉器跟獸骨！要是還有其他文物怎麼辦，明天要好好提醒工作人員。」"
         }
       ],
       "answers": [
         {
           "title": "請輸入正確答案",
-          "alt": "請根據草叢迷宮、木牌以及邀請函上的資訊，找出橘、紅兩個色框所代表的謎底吧！謎底為兩個中文字，請將其轉為注音後，依照由左至右的順序輸入下方。",
+          "alt": "根據這個線索以及別坑的發掘紀錄表，或許可以找到「坑號」，幫幫阿寶的忙，在下方填入正確的坑號「T＿P＿」。記得第三展廳，好像有什麼方格系統。",
           "type": "order",
-          "options": ["ㄅ","ㄆ","ㄇ","ㄈ","ㄉ","ㄊ","ㄋ","ㄌ","ㄍ","ㄎ","ㄏ","ㄐ","ㄑ","ㄒ","ㄓ","ㄔ","ㄕ","ㄖ","ㄗ","ㄘ","ㄙ","ㄧ","ㄨ","ㄩ","ㄚ","ㄛ","ㄜ","ㄝ","ㄞ","ㄟ","ㄠ","ㄡ","ㄢ","ㄣ","ㄤ","ㄥ","ㄦ","一聲","二聲","三聲","四聲","輕聲"],
-          "value": [19,22,33,37,7,22,25,40]
+          "options": ["T0","T1","T2","T3","T4","T5","T6","T7","T8","T9","P0","P1","P2","P3","P4","P5","P6","P7","P8","P9"],
+          "value": [3,16]
         }
       ],
       "hints": [
         {
-          "id": "3qjEZgzZzCnwAwvzwuwnzd",
-          "buttonText": "需要點提示",
+          "id": "3qjEZhmotC9XzLDei51Wbe",
+          "buttonText": "第三關提示",
           "score": 100,
           "type": "txt",
           "src": "",
-          "title": "提示",
-          "alt": "是否有發現在迷宮出入口的圖形與 Step 1~4 的內容有點相似呢？找出每個圖形對應的 Step，接著按照木牌上的順序走迷宮，注意沿途遇到的文字，就能找出謎底摟！"
+          "title": "第三關提示",
+          "alt": "找到有鏟子的探坑以及南邊鄰坑的發掘紀錄，進而推測坑號。"
         },
         {
-          "id": "3qjEZgza1Z1ZuZzx3adRpG",
-          "buttonText": "直接看答案",
+          "id": "3qjEZhmouGGGHG3E11D53d",
+          "buttonText": "第二關答案",
           "score": 500,
           "type": "txt",
           "src":"",
-          "title":"答案",
-          "alt":"答案是「ㄘㄨㄣ一聲」「ㄌㄨㄛ四聲」（村落）！\n　\n迷宮入口的圖形由上而下分別代表：Step 2、1、3、4，出口的圖形也可依此類推。根據下方指示找到兩條路沿途的文字，可搜集到「木生一寸、洛上生草」，拆解這兩個字謎就能獲得答案摟！"
+          "title":"第二關答案",
+          "alt":"答案為：T3P6。"
         }
       ]
     },
     {
-      "id": "3iZqJX5gfrZ3DuVbAV1YTS",
-      "required": ["3iZqJX5gerVpJ3dCqk9k58"],
-      "next": "3iZqJX5ggo5mCWHNPpLRhY",
-      "title": "完成第三關！",
-      "banner": "/media/banner-3-2.jpg",
+      "id": "3iZqJXrvbGga66d3UELFLF",
+      "required": ["3iZqJXrvaVxJzRVvSKxeQ4"],
+      "next": "3iZqJXrvc4xAKoqw2da9vD",
+      "title": "恭喜過關！",
+      "banner": "/media/banner_pass.jpg",
       "type": "continue",
-      "buttonText":"前往第四關",
+      "buttonText":"前往下一關",
       "prompts": [
         {
           "type": "image",
-          "src": "/media/3-2pic.jpg",
-          "title":"🎉恭喜破解第三關🎉",
-          "alt":"第三關的謎底「村落」就是柬埔寨服務隊的服務地點及對象。\n　\n歷經紅色高棉的柬埔寨，讓村落的教育資源停滯在「教育斷層」與「教學僵化」的泥濘中。雖然許多村落青年們自願投入村落的英文教學中，希望藉此幫助村落孩童能翻轉自身的未來，但教學資源的不足使他們備受挑戰。\n　\n而中原大學的志工及在地團隊們就致力於將「活潑有趣」融合「在地傳統思維中」，創造出適合當地的「新。英文教學方法」。教導村落青年們新的教學方式，讓他們能實踐在孩童身上，落實「服務效益最大化、自力救濟」的目標。"
+          "src": "/media/pass_3.jpg",
+          "title":"開啟「土」資料夾得到線索",
+          "alt":"土元素代表的是一種踏實穩定。古代人類活動和生活所遺留下來的遺物和遺跡大都埋沒在地下，必須透過有系統地調查和考古發掘。發掘過程小心謹慎，盡可能詳細的紀錄下來。"
         }
       ]
     },
     {
-      "id": "3iZqJX5ggo5mCWHNPpLRhY",
-      "required": ["3iZqJX5gfrZ3DuVbAV1YTS"],
-      "next": "3iZqJX5ghnQuRhHJxwMj1D",
-      "title": "No.4-泰國服務隊",
-      "banner": "/media/banner-4.jpg",
+      "id": "3iZqJXrvc4xAKoqw2da9vD",
+      "required": ["3iZqJXrvbGga66d3UELFLF"],
+      "next": "3iZqJXrvcuem3xnSypMrbs",
+      "title": "第四關火｜樹上的行星",
+      "banner": "/media/banner_4.jpg",
       "prompts": [
         {
           "type": "image",
           "src": "/media/4-1.jpg",
-          "title": "牆上的照片們",
-          "alt":"第四關的牆面上所掛著的，是另外一支的服務隊在泰國拍下的照片，你對照片裡孩子們所露出的燦爛笑容特別印象深刻。\n　\n但，怎麼會混雜著一張奇怪圖形的紙張呢？這時你下意識地看向手上的邀請函。"
-        },
-        {
-          "type": "image",
-          "src": "/media/4-2.jpg",
-          "title": "再次變化的邀請函",
-          "alt": "不出你所料，邀請函的內容再次變了模樣，這次變成了一大段關於「泰國服務隊」的介紹。毫無頭緒的你，只好耐下心來一字字的閱讀上面的內容，試圖找出它與牆上那張紙間的關係。"
+          "title": "地點：兒童廳",
+          "alt":"筆記畫著有顏色的圓圈並寫著注音，這好像在哪看過「啊！是兒童廳那棵樹啦」，阿寶抬頭觀察樹上有不同顏色跟圖案的燈箱，好像可以對照。"
         }
       ],
       "answers": [
         {
           "title": "請輸入正確答案",
-          "alt": "請根據圖形紙張與邀請函上內容，找出兩個問號所代表的謎底吧！謎底為兩個中文字，請依照由左至右的順序，依序輸入下方。（小提示：文字的相對位置是關鍵喔～）",
+          "alt": "「以橘色最小圓形為起點順時針，找到互為對角裡的正確行星，共有三顆」，看來互為對角線是很重要提示。請將答案輸入下方，答案應為三個中文字。",
           "type": "order",
-          "options": ["吃","務","育","境","邊","場","區","復","星","緬","工","兒","療","健","童","水","移","態","教","社","進","飯","喝","農","服","醫","生","甸","康","促"],
-          "value": [18,2]
+          "options": ["鍋","庫","劃","刀","陶","鍛","儀","典","罐","路","臉","刻","織","層","紋","式","造","大","持","拿","藏"],
+          "value": [7,20,1]
         }
       ],
       "hints": [
         {
-          "id": "3qjEZgza2aaeLNuXExX4Wz",
-          "buttonText": "需要點提示",
+          "id": "3qjEZhmov3wA1VJBGdX4xD",
+          "buttonText": "第四關提示",
           "score": 100,
           "type": "txt",
           "src": "",
-          "title": "提示",
-          "alt": "兩個問號周圍的符號代表著一些「字」，例如黃色問號左上角的圖樣代表的是「手」，以此類推找出圖樣各自代表的字，並在邀請函中找到那些字的對應位置，也就能找到問號所代表的字摟！"
+          "title": "第四關提示",
+          "alt": "觀察對角一樣圖案顏色的圓圈，拼湊注音。"
         },
         {
-          "id": "3qjEZgza3m4WHepx2ABSdP",
-          "buttonText": "直接看答案",
+          "id": "3qjEZhmowHmBSj8VDBVZV4",
+          "buttonText": "第四關答案",
           "score": 500,
           "type": "txt",
           "src":"",
-          "title":"答案",
-          "alt":"答案是「教育」！\n　\n黃色框框的圖案代表的字分別為「手、童、透、及」，紅色框框中的圖案則為「孕、差、人、下」。在邀請函上找到這幾個字以及比對相對位置，就能找出答案摟！"
+          "title":"第四關答案",
+          "alt":"答案為：典藏庫。"
         }
       ]
     },
     {
-      "id": "3iZqJX5ghnQuRhHJxwMj1D",
-      "required": ["3iZqJX5ggo5mCWHNPpLRhY"],
-      "next": "3iZqJX5gjAjMMBvXJbpUei",
-      "title": "完成第四關！",
-      "banner": "/media/banner-4-2.jpg",
+      "id": "3iZqJXrvcuem3xnSypMrbs",
+      "required": ["3iZqJXrvc4xAKoqw2da9vD"],
+      "next": "3iZqJXrvdqMVmkiyZcMi58",
+      "title": "恭喜過關！",
+      "banner": "/media/banner_pass.jpg",
       "type": "continue",
-      "buttonText":"前往第五關",
+      "buttonText":"前往下一關",
       "prompts": [
         {
           "type": "image",
-          "src": "/media/4-2pic.jpg",
-          "title":"🎉恭喜破解第四關🎉",
-          "alt":"第四關的謎底「教育」正式泰國服務隊所側重的執行重點。\n　\n不論是「緬甸移工兒童教育服務」、「泰國克倫部落教育發展」，或是「邊境社區醫療健康促進」、「吃飯喝水生態農場復育」其實都是從教育著手，以改變當地居民，讓他們的生活往更好的方向發展。\n　\n而在當地服務的國際組織們也相信並為此而努力著：「唯有從當地長出來的力量，才能在當地深根茁壯。」"
+          "src": "/media/pass_4.jpg",
+          "title":"開啟「火」資料夾得到線索",
+          "alt":"火元素代表的是環境掌控，讓典藏庫控制在適合的溫度、濕度，才能好好保護這些從地層中出土的寶藏，寶藏數量眾多，該如何將歷年累積之研究成果呈現在全民面前，成為重要課題，因此南科考古館的建立，一開始的出發點是為了典藏功能。"
         }
       ]
     },
     {
-      "id": "3iZqJX5gjAjMMBvXJbpUei",
-      "required": ["3iZqJX5ghnQuRhHJxwMj1D"],
-      "next": "3iZqJX5gkLxSv6PNKhNvgD",
-      "title": "No.5-其他參與方式",
-      "banner": "/media/banner-5.jpg",
+      "id": "3iZqJXrvdqMVmkiyZcMi58",
+      "required": ["3iZqJXrvcuem3xnSypMrbs"],
+      "next": "3iZqJXrvecsXfjfZhcbrBa",
+      "title": "第五關水｜陶片修復",
+      "banner": "/media/banner_5.jpg",
       "prompts": [
         {
-          "type": "image",
-          "src": "/media/5-1.jpg",
-          "title": "木門上的密碼鎖",
-          "alt":"終於，通過了重重難關，你來到了小木屋的大門前準備迎接最後一關的挑戰。\n　\n看著大門上的密碼鎖，顯然這關需要輸入三位數密碼，但...是哪三位數呢？"
-        },
-        {
-          "type": "image",
-          "src": "/media/5-2.jpg",
-          "title": "再次變化的邀請函",
-          "alt":"你手上的邀請函再一次的發燙、變換，最終顯示出幾張照片及文字。是關於自組服務隊的資料以及三個特殊顏色的色塊，其中是否包含著有用的資訊呢？"
+          "type": "video",
+          "src": "/media/5-1.MOV",
+          "cover": "/media/5-1.jpg",
+          "title": "地點：兒童廳",
+          "alt":"解完火的資料夾，看到樹旁擺著一張桌子，上面竟然有陶器殘片，「這根本就很故意放在這裡的啊」，阿寶走近看看這些陶片會不會藏有線索，並且根據筆記中夾著的相片，依樣畫葫蘆試試看。"
         }
       ],
       "answers": [
         {
           "title": "請輸入正確答案",
-          "alt": "請根據密碼鎖及邀請函上的提示，找出正確的三位數字密碼吧！請由左至右依序輸入下方。",
-          "type": "password",
-          "value": "476"
+          "alt": "根據影片的方式量測口緣「半徑」得到兩個詞。從小的半徑開始。",
+          "type": "order",
+          "options": ["修復","量測","登錄","整飭","細心","膽大","檢視"],
+          "value": [4,3]
         }
       ],
       "hints": [
         {
-          "id": "3qjEZgza5QNdNZ9S6335vw",
-          "buttonText": "需要點提示",
+          "id": "3qjEZhmox7PmM9z1CkvYqw",
+          "buttonText": "第五關提示",
           "score": 100,
           "type": "txt",
           "src": "",
-          "title": "提示",
-          "alt": "根據三張圖各自的 hashtag 就能判斷出對應的國家是哪些，將該國的英文填入框框中，並找出黃、紅、綠三色框各自代表的英文字母，結合密碼鈕上的文字，就能找出三位數字密碼摟！"
+          "title": "第五關提示",
+          "alt": "量測陶口緣得到文字。"
         },
         {
-          "id": "3qjEZgza6YMnjnnG7GUz1V",
-          "buttonText": "直接看答案",
+          "id": "3qjEZhmoyHi2eiQnrk4vSG",
+          "buttonText": "第五關答案",
           "score": 500,
           "type": "txt",
           "src":"",
-          "title":"答案",
-          "alt":"答案是「476」！\n　\n透過 hashtag 能知道照片中的三個國家分別是「Indonesia、Philippines、Nepal」而色塊所在的位置則為「I、P、N」三個字母。在密碼鎖的按鍵上找到該三個字母，就可以找到對應的數字答案。"
+          "title":"第五關答案",
+          "alt":"答案為：細心整飭。"
         }
       ]
     },
     {
-      "id": "3iZqJX5gkLxSv6PNKhNvgD",
-      "required": ["3iZqJX5gjAjMMBvXJbpUei"],
-      "next": "3iZqJX5gmSPxRAcDJU4DGy",
-      "title": "完成第五關！",
-      "banner": "/media/banner-5-2.jpg",
+      "id": "3iZqJXrvecsXfjfZhcbrBa",
+      "required": ["3iZqJXrvdqMVmkiyZcMi58"],
+      "next": "3iZqJXrvfPtmcQuLm2jST3",
+      "title": "恭喜過關！",
+      "banner": "/media/banner_pass.jpg",
       "type": "continue",
-      "buttonText":"🚪推開小木屋大門🚪",
+      "buttonText":"前往下一關",
       "prompts": [
         {
           "type": "image",
-          "src": "/media/5-2pic.jpg",
-          "title":"🎉恭喜破解第五關🎉",
-          "alt":"「嗶——密碼正確！」小木屋的門鎖應聲而開！\n　\n在進門之前，來回顧這關吧～\n　\n除了中原大學服務學習中心所提供的柬埔寨、泰國服務團外，當然也有其他選擇！只要同學們根據簡章提出相對應的海外志工服務計畫書，通過審核後就能獲得出團補助、前往該國進行服務，海外服務也因此變得更多元、有更大的發揮空間！而在邀請函上顯示的照片，便是之前自組志工團隊到東南亞各國服務的側拍照，最遠還有志工們前往南非服務呢！"
+          "src": "/media/pass_5.jpg",
+          "title":"開啟「水」資料夾得到線索",
+          "alt":"水元素代表的是溫柔。遺物尚未分類前，進到工作站後，會進行初步的整飭，清潔、除塵、基本量測，進而進行修復，修復師溫柔地對待文物，將千年的滄桑拚湊起來。"
         }
       ]
     },
     {
-      "id": "3iZqJX5gmSPxRAcDJU4DGy",
-      "required": ["3iZqJX5gkLxSv6PNKhNvgD"],
+      "id": "3iZqJXrvfPtmcQuLm2jST3",
+      "required": ["3iZqJXrvecsXfjfZhcbrBa"],
+      "next": "3iZqJXrvg8GT8rELzYB6gZ",
+      "title": "第六關｜聖物的面目",
+      "banner": "/media/banner_6.jpg",
+      "prompts": [
+        {
+          "type": "image",
+          "src": "/media/6-1.jpg",
+          "title": "聖物的面目",
+          "alt":"看來找到四個家族了，根據1-5關得到的線索，到博物館祕室找尋聖物的圖案，根據聖物上的溫濕度，得到解鎖密碼。"
+        }
+      ],
+      "answers": [
+        {
+          "title": "請輸入正確答案",
+          "alt": "請根據 1-5 關的聖物線索，找出解鎖密碼，答案應為四位數字。",
+          "type": "password",
+          "value": "8412"
+        }
+      ],
+      "hints": [
+        {
+          "id": "3qjEZhmox7PmM9z1CkvYqw",
+          "buttonText": "第六關提示",
+          "score": 100,
+          "type": "txt",
+          "src": "",
+          "title": "第六關提示",
+          "alt": "根據聖物線索推測是哪一件文物，並將保存環境的溫濕度條件填入算式得到答案。"
+        },
+        {
+          "id": "3qjEZhmoyHi2eiQnrk4vSG",
+          "buttonText": "第六關答案",
+          "score": 500,
+          "type": "txt",
+          "src":"",
+          "title":"第六關答案",
+          "alt":"答案為：8412。"
+        }
+      ]
+    },
+    {
+      "id": "3iZqJXrvg8GT8rELzYB6gZ",
+      "required": ["3iZqJXrvfPtmcQuLm2jST3"],
+      "next": "3iZqJXrvgwQF5wPtruvg3Q",
+      "title": "恭喜過關！",
+      "banner": "/media/banner_pass.jpg",
+      "type": "continue",
+      "buttonText":"完美達成任務！",
+      "prompts": [
+        {
+          "type": "txt",
+          "src": "",
+          "title":"🎉成功開啟神秘寶箱🎉",
+          "alt":"開啟神秘寶箱，聖物竟然是鹿角刀柄。\n　\n民國84年12月在南科園區的基地進行半年的考古調查評估，誰知道這半年的考古工作，開啟南科考古的開端！發現多處的遺址，以及大量搶救出土的古代文物。為了讓文物有一個良好的棲身之所，才有了「南科考古館」，讓文物能夠妥善典藏與研究。"
+        }
+      ]
+    },
+    {
+      "id": "3iZqJXrvgwQF5wPtruvg3Q",
+      "required": ["3iZqJXrvg8GT8rELzYB6gZ"],
       "next": "",
       "title": "尾聲",
-      "banner": "/media/banner-end.jpg",
+      "banner": "/media/banner_end.jpg",
       "type": "end",
       "buttonText":"結束遊戲看成績",
       "prompts": [
         {
-          "type": "url",
-          "title": "🎁填問券抽好禮🎁",
-          "button": "前往表單",
-          "alt": "耶，恭喜你完成這次的聖誕任務！希望藉由這個遊戲，讓大家對中原的海外志工服務與資源有更深入的認識，也很歡迎你加入喔～\n　\n我們準備了小禮物要給完成任務的你們，請協助我們填寫問券，就有機會獲得聖誕小禮物喔！\n　\n👉往左滑看結局👉",
-          "src": "https://docs.google.com/forms/d/e/1FAIpQLScLi6CXHrSMXquaWG32_UXfD3PRJXzAsaUw0xIYpqUNuGzTLQ/viewform?usp=sf_link"
+          "type": "txt",
+          "src":"",
+          "title": "尾聲",
+          "alt": "➡️往左滑，填寫問卷領禮物➡️\n　\n四大家族的能量土、水、火、風暗喻著文物從發掘到研究的每一個步驟。風元素代表研究以及在考古發掘前的地表調查，土代表的是考古發掘，踏實的一鏟一步驟的下挖展開現象；水代表的是清潔，出土的遺物在準備進入到博物館典藏前，需要進一步的清潔整飭以及修復，溫柔對待這些千年的遺物，乾淨入藏；火代表的是典藏文物，文物入藏後，庫房需要控制溫度、濕度、光照、防蟲，讓文物保持在適宜的環境中。\n　\n「聖物」代表的是史前文物，從考古發掘前要小心翼翼，文物出土後進行整飭，進而將文物分級包裝，決定如何入藏以及典藏的場所，這些文物後續將進行研究以及分析或展示。\n　\n進到博物館，看到歲月在這些文物身上留下痕跡，我想那就是它們的魅力吧！但也別忘記有一群默默守護文物的人，稱為文物守護者。"
         },
         {
-          "type": "image",
-          "src":"/media/end.jpg",
-          "title": "🎉歡迎光臨服學聖誕派對🎉",
-          "alt": "剛一推開門，你便受到聖誕狗狗的熱情歡迎：「辛苦你啦！經過這五關，帶著你回顧了這一年來我們一起經歷過的志工旅程。從年初的服務學習共識營、出團前後的多元培訓、實際出國服務執行的經驗、到回國後的反思及擴散，相信你在這一年裡收穫到滿滿的經驗與感動，讓我們帶著這些美好的回憶，一起享用聖誕大餐、為今年劃下完美句點吧 ❤️」"
+          "type": "url",
+          "title": "🎁填問卷領禮物🎁",
+          "button": "前往表單",
+          "alt": "恭喜完成《博館尋謎｜聖物的線索》！因為有你的協助，阿寶才能順利的完成這次的聖物尋寶！\n　\n要請你幫忙填寫下方表單，填寫完畢後，請到一樓大廳服務台（售票處）「出示問卷的送出畫面」，就可以跟服務台人員領取小禮物喔！",
+          "src": "https://www.surveycake.com/s/bmywv"
         }
       ]
     }
   ],
-  "scoreBanner": "/media/banner-score.jpg",
-  "scoreText": "看看更多中原服學資訊",
-  "scoreUrl": "https://bit.ly/3FF6nkt"
+  "scoreBanner": "/media/banner_score.jpg",
+  "scoreText": "看看更多南科考古館資訊",
+  "scoreUrl": "https://bit.ly/3kKPZaB"
 }
