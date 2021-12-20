@@ -45,10 +45,8 @@
     {
       "id": "3iZqJZhYem3sQ4jLPUAGWH",
       "required": ["3iZqJZhYdUC8xuigzyReAh"],
-      "next": "3iZqJZhYtotb8UiqFXMrz2",
+      "next": "",
       "title": "🔁遊戲大廳🔁",
-      "type": "continue",
-      "buttonText":"已完成所有關卡！",
       "banner": "/media/banner_lobby.jpg",
       "prompts": [
         {
