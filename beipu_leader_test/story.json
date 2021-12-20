@@ -4,8 +4,8 @@
   "title": "DSTW 北埔實境解謎｜隊長版-測",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
-  "map": "/media/map.jpg",
   "splash": "/media/splash.jpg",
+  "map": "/media/map.jpg",
   "contact": "https://www.messenger.com/t/RiddleRun",
   "timekeeper": true,
   "introduction": {
@@ -14,9 +14,9 @@
   },
   "levels": [
     {
-      "id": "start",
+      "id": "3iZqJZhYdUC8xuigzyReAh",
       "required": "",
-      "next": "lobby",
+      "next": "3iZqJZhYem3sQ4jLPUAGWH",
       "title": "行前須知",
       "banner": "/media/banner_start.jpg",
       "type": "continue",
@@ -26,13 +26,13 @@
           "type":"txt",
           "src":"",
           "title":"行前須知",
-          "alt":"1⃣️ 共有「六大謎題關＋三大挑戰關」，每個謎題關題目都需隊員根據「地點提示」猜出正確地點後才能被解鎖。\n　\n2⃣️ 點擊右上角可找到「遊戲地圖」，相信你們會用到的！\n　\n3⃣️ 「隊長」點擊右下角「燈泡」按鈕可「領取提示／答案」，對應扣分等同增加總遊戲時間約 15／35 分鐘。\n　\n4⃣️ 過程中可能因網路關係圖片讀取較緩慢，請稍等一下就會跑出來摟～\n　\n5⃣️ 有任何問題，點擊右上角的「聯絡客服」，寫下你的問題，我們會盡快回覆。\n　\n6⃣️ 過程中請勿破壞環境，並小聲討論勿打擾遊客。團隊也可以在發現線索後，將線索拍照後至其他地方討論，避免其他團隊因為有人聚集而發現線索😉\n　\n7⃣️ 4:30 不論是否完成遊戲，都請回到巴士停靠點，巴士將於 4:40 準時啟程。\n　\n➡️最後，往左滑看看操作說明吧➡️"
+          "alt":"1⃣️ 共有「六大謎題關＋三大挑戰關」，「#X-2」謎題關需根據「#X-1」內容猜出正確地點後才能被解鎖。\n　\n2⃣️ 點擊右上角可找到【遊戲地圖】。\n　\n3⃣️ 「隊長」點擊右下角【燈泡】按鈕可「領取提示／答案」，對應扣分等同增加總遊戲時間約 15／35 分鐘。\n　\n4⃣️ 過程中可能因網路關係圖片讀取較緩慢，請稍等一下就會跑出來摟～\n　\n5⃣️ 有任何問題，點擊右上角【聯絡客服】，寫下你的問題，我們會盡快回覆。\n　\n6⃣️ 請勿破壞環境，並小聲討論勿打擾遊客。團隊也可以在發現線索後，將線索拍照後至其他地方討論，避免其他團隊因為有人聚集而發現線索😉\n　\n⚠️ 4:30 不論是否完成遊戲，都請回到巴士停靠點，巴士將於 4:40 準時啟程。⚠️\n　\n➡️最後，往左滑看看操作說明吧➡️"
         },
         {
           "type":"image",
           "src":"/media/intro-1.jpg",
           "title":"遊戲操作說明",
-          "alt": "1⃣️ 「上下、左右」滑動可獲取該關更多內容。\n2⃣️ 點擊下方「輸入解答」按鈕，可進行答案驗證，正確即可通關。\n3⃣️ 點擊右下角燈泡，可領取提示。\n4⃣️ 左上角菜單列，可獲取關卡清單、遊戲狀態、聯絡客服等資訊。"
+          "alt": "1⃣️ 「上下、左右」滑動可獲取該關更多內容。\n2⃣️ 點擊下方【輸入解答】按鈕，可驗證答案，正確即可通關。\n3⃣️ 點擊右下角【燈泡】，可領取提示。\n4⃣️ 左上角【菜單列】，可獲取關卡清單、遊戲狀態、聯絡客服等資訊。"
         },
         {
           "type":"image",
@@ -43,9 +43,9 @@
       ]
     },
     {
-      "id": "lobby",
-      "required": ["start"],
-      "next": "end",
+      "id": "3iZqJZhYem3sQ4jLPUAGWH",
+      "required": ["3iZqJZhYdUC8xuigzyReAh"],
+      "next": "3iZqJZhYtotb8UiqFXMrz2",
       "title": "🔁遊戲大廳🔁",
       "type": "continue",
       "buttonText":"已完成所有關卡！",
@@ -60,9 +60,9 @@
       ]
     },
     {
-      "id": "c1",
-      "required": ["lobby"],
-      "next": "lobby",
+      "id": "3iZqJZhYfcA6LtdQKLXZHa",
+      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
+      "next": "3iZqJZhYem3sQ4jLPUAGWH",
       "title": "挑戰一：北埔吃吃喝喝",
       "banner": "/media/banner_c1.jpg",
       "prompts": [
@@ -83,9 +83,9 @@
       ]
     },
     {
-      "id": "c2",
-      "required": ["lobby"],
-      "next": "lobby",
+      "id": "3iZqJZhYgYjmbbBJ3XSMQC",
+      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
+      "next": "3iZqJZhYem3sQ4jLPUAGWH",
       "title": "挑戰二：舞王極限挑戰",
       "banner": "/media/banner_c2.jpg",
       "prompts": [
@@ -106,9 +106,9 @@
       ]
     },
     {
-      "id": "c3",
-      "required": ["lobby"],
-      "next": "lobby",
+      "id": "3iZqJZhYhRhnAQqgm9afsc",
+      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
+      "next": "3iZqJZhYem3sQ4jLPUAGWH",
       "title": "挑戰三：心手相連",
       "banner": "/media/banner_c3.jpg",
       "prompts": [
@@ -129,9 +129,9 @@
       ]
     },
     {
-      "id": "r1-1",
-      "required": ["lobby"],
-      "next": "r1-2",
+      "id": "3iZqJZhYia2sehtErC2iPm",
+      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
+      "next": "3iZqJZhYjRpE28jHizKKhh",
       "title": "#1-1 煤老闆的挑戰",
       "banner": "/media/banner_r1-1.jpg",
       "prompts": [
@@ -153,7 +153,7 @@
       ],
       "hints": [
         {
-          "id": "1-1-1",
+          "id": "3qjEZjcS2XaSka66rFJbYZ",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
@@ -162,7 +162,7 @@
           "alt": "關鍵字：陣頭、廣闊。"
         },
         {
-          "id": "1-1-2",
+          "id": "3qjEZjcS3goxQotp8dcFHX",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -173,9 +173,9 @@
       ]
     },
     {
-      "id": "r1-2",
-      "required": ["r1-1"],
-      "next": "lobby",
+      "id": "3iZqJZhYjRpE28jHizKKhh",
+      "required": ["3iZqJZhYia2sehtErC2iPm"],
+      "next": "3iZqJZhYem3sQ4jLPUAGWH",
       "title": "#1-2 煤老闆的挑戰",
       "banner": "/media/banner_r1-2.jpg",
       "prompts": [
@@ -196,7 +196,7 @@
       ],
       "hints": [
         {
-          "id": "1-2-1",
+          "id": "3qjEZjcS4WVVbKnDMaVfq7",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
@@ -205,7 +205,7 @@
           "alt": "線索圖上方的六個六角形，代表的是廟前廣場的六根六角燈籠造型路燈，請根據廟的位置判斷正確的相對位置。而後找到六角形中的時間、特殊圖形與數字、及密碼數字間的關係，就能找出答案摟！"
         },
         {
-          "id": "1-2-2",
+          "id": "3qjEZjcS5HUX5SwXEeMX8X",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -216,9 +216,9 @@
       ]
     },
     {
-      "id": "r2-1",
-      "required": ["lobby"],
-      "next": "r2-2",
+      "id": "3iZqJZhYkBjEgWF9wsw9HW",
+      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
+      "next": "3iZqJZhYkzwTYjNBhNrkYD",
       "title": "#2-1 樂師的委託",
       "banner": "/media/banner_r2-1.jpg",
       "prompts": [
@@ -240,7 +240,7 @@
       ],
       "hints": [
         {
-          "id": "2-1-1",
+          "id": "3qjEZjcS681X9pD1d9hC4e",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
@@ -249,7 +249,7 @@
           "alt": "關鍵字：新生命、叫賣聲。"
         },
         {
-          "id": "2-1-2",
+          "id": "3qjEZjcS6xdgxrJpBE21zb",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -260,9 +260,9 @@
       ]
     },
     {
-      "id": "r2-2",
-      "required": ["r2-1"],
-      "next": "lobby",
+      "id": "3iZqJZhYkzwTYjNBhNrkYD",
+      "required": ["3iZqJZhYkBjEgWF9wsw9HW"],
+      "next": "3iZqJZhYem3sQ4jLPUAGWH",
       "title": "#2-2 樂師的委託",
       "banner": "/media/banner_r2-2.jpg",
       "prompts": [
@@ -296,7 +296,7 @@
       ],
       "hints": [
         {
-          "id": "2-2-1",
+          "id": "3qjEZjcS7gehYfBQzxC8Ts",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
@@ -305,7 +305,7 @@
           "alt": "1⃣️ 還記得企業文化中「發展」、「信任」、「包容」所對應的英文是什麼嗎？他們的英文單字字母數剛好可以跟下方底線的數量對應上喔！\n　\n2⃣️ 老奶奶說「要結合客家傳統歌曲」，但具體要結合小巷牆上的哪幾首歌曲呢？請透過 Feat. 後面的字謎做判斷喔！另外可以留意，後綴的小數字數一數會發現數字跟該首傳統歌曲共有的音符數是相等的。而數字又會跟企業文化所對應的英文字母有什麼關係呢？"
         },
         {
-          "id": "2-2-2",
+          "id": "3qjEZjcS8VMPe5Uyq2WLD9",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -316,9 +316,9 @@
       ]
     },
     {
-      "id": "r3-1",
-      "required": ["lobby"],
-      "next": "r3-2",
+      "id": "3iZqJZhYn4XvFKnHMDauUd",
+      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
+      "next": "3iZqJZhYntECFNNvacGctq",
       "title": "#3-1 發展的起點",
       "banner": "/media/banner_r3-1.jpg",
       "prompts": [
@@ -340,7 +340,7 @@
       ],
       "hints": [
         {
-          "id": "3-1-1",
+          "id": "3qjEZjcS9FNJrbiDuXLS2X",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
@@ -349,7 +349,7 @@
           "alt": "關鍵字：官方出資、粵籍、閩籍。"
         },
         {
-          "id": "3-1-2",
+          "id": "3qjEZjcSANqCdVKDUkdJnH",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -360,9 +360,9 @@
       ]
     },
     {
-      "id": "r3-2",
-      "required": ["r3-1"],
-      "next": "lobby",
+      "id": "3iZqJZhYntECFNNvacGctq",
+      "required": ["3iZqJZhYn4XvFKnHMDauUd"],
+      "next": "3iZqJZhYem3sQ4jLPUAGWH",
       "title": "#3-2 發展的起點",
       "banner": "/media/banner_r3-2.jpg",
       "prompts": [
@@ -390,7 +390,7 @@
       ],
       "hints": [
         {
-          "id": "3-2-1",
+          "id": "3qjEZjcSBEdHpRKSrnvuvE",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
@@ -399,7 +399,7 @@
           "alt": "比對謎題圖與金廣福門口的門聯及燈籠，就能找出每個色塊所對應的中文字。接著再想想，一個中文字，有什麼是可以被加減的呢？筆畫、注音、英文翻譯還是字構呢？"
         },
         {
-          "id": "3-2-2",
+          "id": "3qjEZjcSCDaHTygYHipQYM",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -410,9 +410,9 @@
       ]
     },
     {
-      "id": "r4-1",
-      "required": ["lobby"],
-      "next": "r4-2",
+      "id": "3iZqJZhYoe9CumtsCmDBn3",
+      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
+      "next": "3iZqJZhYpQPQsgTTuqHNR2",
       "title": "#4-1 賊人的惡作劇",
       "banner": "/media/banner_r4-1.jpg",
       "prompts": [
@@ -434,7 +434,7 @@
       ],
       "hints": [
         {
-          "id": "4-1-1",
+          "id": "3qjEZjcSDbS9tjz5R2xLbZ",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
@@ -443,7 +443,7 @@
           "alt": "關鍵字：道教、閩、粵信仰，文化信仰中心。"
         },
         {
-          "id": "4-1-2",
+          "id": "3qjEZjcSEQB4Sk97a8Fs4L",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -454,9 +454,9 @@
       ]
     },
     {
-      "id": "r4-2",
-      "required": ["r4-1"],
-      "next": "lobby",
+      "id": "3iZqJZhYpQPQsgTTuqHNR2",
+      "required": ["3iZqJZhYoe9CumtsCmDBn3"],
+      "next": "3iZqJZhYem3sQ4jLPUAGWH",
       "title": "#4-2 賊人的惡作劇",
       "banner": "/media/banner_r4-2.jpg",
       "prompts": [
@@ -478,7 +478,7 @@
       ],
       "hints": [
         {
-          "id": "4-2-1",
+          "id": "3qjEZjcSFDTiE5QCxEH6H8",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
@@ -487,7 +487,7 @@
           "alt": "比對紙條上所標記的神像與真實的神像，他們的位置是否一樣呢？找出哪些神像位置被「調換」後，再仔細觀察 BERRUCELUTO 的英文字母，就能找出作答邏輯摟！"
         },
         {
-          "id": "4-2-2",
+          "id": "3qjEZjcSG5NSnidv23gTSR",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -498,9 +498,9 @@
       ]
     },
     {
-      "id": "r5-1",
-      "required": ["lobby"],
-      "next": "r5-2",
+      "id": "3iZqJZhYqRKaLU4tB4Zyz4",
+      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
+      "next": "3iZqJZhYrCXtZxQ4tig7JB",
       "title": "#5-1 返鄉的任務",
       "banner": "/media/banner_r5-1.jpg",
       "prompts": [
@@ -522,7 +522,7 @@
       ],
       "hints": [
         {
-          "id": "5-1-1",
+          "id": "3qjEZjcSGwBGo9E2r6necz",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
@@ -531,7 +531,7 @@
           "alt": "關鍵字：紀錄者、某行業推動的先驅、視角。"
         },
         {
-          "id": "5-1-2",
+          "id": "3qjEZjcSHieMR4CeBRkcpQ",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -542,9 +542,9 @@
       ]
     },
     {
-      "id": "r5-2",
-      "required": ["r5-1"],
-      "next": "lobby",
+      "id": "3iZqJZhYrCXtZxQ4tig7JB",
+      "required": ["3iZqJZhYqRKaLU4tB4Zyz4"],
+      "next": "3iZqJZhYem3sQ4jLPUAGWH",
       "title": "#5-2 返鄉的任務",
       "banner": "/media/banner_r5-2.jpg",
       "prompts": [
@@ -572,7 +572,7 @@
       ],
       "hints": [
         {
-          "id": "5-2-1",
+          "id": "3qjEZjcSJVMshEeu6Y9p9M",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
@@ -581,7 +581,7 @@
           "alt": "在紀念館內找出與第二張相紙插圖相符的五張照片，並確認各自的拍攝年份後。在表格中找到對應的年份座標點，結合插圖下方的數字指示，就能找到答案摟！"
         },
         {
-          "id": "5-2-2",
+          "id": "3qjEZjcSKHUc6joeY7N7Xz",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -592,9 +592,9 @@
       ]
     },
     {
-      "id": "r6-1",
-      "required": ["lobby"],
-      "next": "r6-2",
+      "id": "3iZqJZhYs2Bx7QZLwJnXHu",
+      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
+      "next": "3iZqJZhYsivPwcokPH4ADH",
       "title": "#6-1 秀才的困擾",
       "banner": "/media/banner_r6-1.jpg",
       "prompts": [
@@ -616,7 +616,7 @@
       ],
       "hints": [
         {
-          "id": "6-1-1",
+          "id": "3qjEZjcSL7xeu2tEXU4ryK",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
@@ -625,7 +625,7 @@
           "alt": "關鍵字：北埔第一位秀才、經商致富的的商人。"
         },
         {
-          "id": "6-1-2",
+          "id": "3qjEZjcSLuc4zDHCFDLc3Z",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -636,9 +636,9 @@
       ]
     },
     {
-      "id": "r6-2",
-      "required": ["r6-1"],
-      "next": "lobby",
+      "id": "3iZqJZhYsivPwcokPH4ADH",
+      "required": ["3iZqJZhYs2Bx7QZLwJnXHu"],
+      "next": "3iZqJZhYem3sQ4jLPUAGWH",
       "title": "#6-2 秀才的困擾",
       "banner": "/media/banner_r6-2.jpg",
       "prompts": [
@@ -659,7 +659,7 @@
       ],
       "hints": [
         {
-          "id": "1-2-1",
+          "id": "3qjEZjcSMjXdje5rfgS3cg",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
@@ -668,7 +668,7 @@
           "alt": "觀察忠恕堂大門右方的石牆，找到與題目中插圖相同的石雕裝飾，比對石雕的相對位置後，就能找出後續的解答邏輯摟！"
         },
         {
-          "id": "1-2-2",
+          "id": "3qjEZjcSNZosRcTvg6wVQZ",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -679,8 +679,8 @@
       ]
     },
     {
-      "id": "end",
-      "required": ["c1,c2,c3,r1-2,r2-2,r3-2,r4-2,r5-2,r6-2"],
+      "id": "3iZqJZhYtotb8UiqFXMrz2",
+      "required": ["3iZqJZhYfcA6LtdQKLXZHa,3iZqJZhYgYjmbbBJ3XSMQC,3iZqJZhYhRhnAQqgm9afsc,3iZqJZhYjRpE28jHizKKhh,3iZqJZhYkzwTYjNBhNrkYD,3iZqJZhYntECFNNvacGctq,3iZqJZhYpQPQsgTTuqHNR2,3iZqJZhYrCXtZxQ4tig7JB,3iZqJZhYsivPwcokPH4ADH"],
       "next": "",
       "title": "結局",
       "type": "end",
