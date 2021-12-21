@@ -1,10 +1,11 @@
 {
   "name": "beipu_leader",
   "version": "1.0",
-  "title": "DSTW 北埔實境解謎（隊長）",
+  "title": "DSTW 北埔實境解謎｜隊長版",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/splash.jpg",
+  "map": "/media/map.jpg",
   "contact": "https://www.messenger.com/t/RiddleRun",
   "timekeeper": true,
   "introduction": {
@@ -13,9 +14,9 @@
   },
   "levels": [
     {
-      "id": "start",
+      "id": "3iZqJZhYdUC8xuigzyReAh",
       "required": "",
-      "next": "lobby",
+      "next": "3iZqJZhYem3sQ4jLPUAGWH",
       "title": "行前須知",
       "banner": "/media/banner_start.jpg",
       "type": "continue",
@@ -25,13 +26,13 @@
           "type":"txt",
           "src":"",
           "title":"行前須知",
-          "alt":"1⃣️ 共有「六大謎題關＋三大挑戰關」，每個謎題關題目都需隊員根據「地點提示」猜出正確地點後才能被解鎖。\n　\n2⃣️ 點擊右上角可找到「遊戲地圖」，相信你們會用到的！\n　\n3⃣️ 「隊長」點擊右下角「燈泡」按鈕可「領取提示／答案」，對應扣分等同增加總遊戲時間約 15／35 分鐘。\n　\n4⃣️ 過程中可能因網路關係圖片讀取較緩慢，請稍等一下就會跑出來摟～\n　\n5⃣️ 有任何問題，點擊右上角的「聯絡客服」，寫下你的問題，我們會盡快回覆。\n　\n6⃣️ 過程中請勿破壞環境，並小聲討論勿打擾遊客。團隊也可以在發現線索後，將線索拍照後至其他地方討論，避免其他團隊因為有人聚集而發現線索😉\n　\n7⃣️ 4:30 不論是否完成遊戲，都請回到巴士停靠點，巴士將於 4:40 準時啟程。\n　\n➡️最後，往左滑看看操作說明吧➡️"
+          "alt":"1⃣️ 共有「六大謎題關＋三大挑戰關」，關卡編號「#X-2」需根據「#X-1」的內容找出正確地點後才能被解鎖。\n　\n2⃣️ 「隊長」點擊右下角【燈泡】按鈕可「領取提示／答案」，扣分等同增加總遊戲時間約 15／35 分鐘。\n　\n3⃣️ 如因網路關係圖片讀取較緩慢，請稍等一下～\n　\n4⃣️ 請勿破壞環境，並小聲討論勿打擾遊客。\n　\n⚠️ 4:30 不論是否完成遊戲，都請回到巴士停靠點，巴士將於 4:40 準時啟程。\n　\n➡️最後，往左滑看看操作說明吧➡️"
         },
         {
           "type":"image",
           "src":"/media/intro-1.jpg",
           "title":"遊戲操作說明",
-          "alt": "1⃣️ 「上下、左右」滑動可獲取該關更多內容。\n2⃣️ 點擊下方「輸入解答」按鈕，可進行答案驗證，正確即可通關。\n3⃣️ 點擊右下角燈泡，可領取提示。\n4⃣️ 左上角菜單列，可獲取關卡清單、遊戲狀態、聯絡客服等資訊。"
+          "alt": "1⃣️ 「上下、左右」滑動可獲取該關更多內容。\n2⃣️ 點擊下方【輸入解答】按鈕，可驗證答案，正確即可通關。\n3⃣️ 點擊右下角【燈泡】，可領取提示。\n4⃣️ 左上角【菜單列】，可獲取關卡清單、遊戲狀態、聯絡客服等資訊。"
         },
         {
           "type":"image",
@@ -42,26 +43,24 @@
       ]
     },
     {
-      "id": "lobby",
-      "required": ["start"],
-      "next": "end",
+      "id": "3iZqJZhYem3sQ4jLPUAGWH",
+      "required": ["3iZqJZhYdUC8xuigzyReAh"],
+      "next": "",
       "title": "🔁遊戲大廳🔁",
-      "type": "continue",
-      "buttonText":"已完成所有關卡！",
       "banner": "/media/banner_lobby.jpg",
       "prompts": [
         {
           "type": "txt",
           "src": "",
           "title": "請選擇要挑戰的關卡",
-          "alt": "請於右上角【關卡選擇】中選擇要挑戰的關卡。「不用按照順序破關」，可以先玩「#X-1」的關卡（線上即可破關）找出正確的謎題關地點，再安排最佳解謎順序。關卡如下：\n　\n🎲 挑戰一：北埔吃吃喝喝\n🎲 挑戰二：舞王極限挑戰\n🎲 挑戰三：心手相連\n🎲 #1：煤老闆的挑戰\n🎲 #2：樂師的委託\n🎲 #3：發展的起點\n🎲 #4：賊人的惡作劇\n🎲 #5：返鄉的任務\n🎲 #6：秀才的困擾\n　\n\n　\n⚠️完成所有關卡後，將解鎖【關卡選擇】的「結局關」，「務必」進入該關點選「結束計時」進行成績結算！⚠️\n　\n⚠️4:30 不論是否完成遊戲，都請回到巴士停靠點，巴士將於 4:40 準時啟程⚠️"
+          "alt": "請於右上角【關卡選擇】中選擇要挑戰的關卡，不用按照順序破關。關卡如下：\n　\n🎲 挑戰一：北埔吃吃喝喝\n🎲 挑戰二：舞王極限挑戰\n🎲 挑戰三：心手相連\n🎲 #1：煤老闆的挑戰\n🎲 #2：樂師的委託\n🎲 #3：發展的起點\n🎲 #4：賊人的惡作劇\n🎲 #5：返鄉的任務\n🎲 #6：秀才的困擾\n　\n⚠️完成所有關卡後會解鎖【關卡選擇】的「結局關」，「隊長務必」進入該關點選【結束計時】結算成績！\n　\n⚠️4:30 不論是否完成遊戲，都請回到巴士停靠點，巴士將於 4:40 準時啟程"
         }
       ]
     },
     {
-      "id": "c1",
-      "required": ["lobby"],
-      "next": "lobby",
+      "id": "3iZqJZhYfcA6LtdQKLXZHa",
+      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
+      "next": "3iZqJZhYem3sQ4jLPUAGWH",
       "title": "挑戰一：北埔吃吃喝喝",
       "banner": "/media/banner_c1.jpg",
       "prompts": [
@@ -82,9 +81,9 @@
       ]
     },
     {
-      "id": "c2",
-      "required": ["lobby"],
-      "next": "lobby",
+      "id": "3iZqJZhYgYjmbbBJ3XSMQC",
+      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
+      "next": "3iZqJZhYem3sQ4jLPUAGWH",
       "title": "挑戰二：舞王極限挑戰",
       "banner": "/media/banner_c2.jpg",
       "prompts": [
@@ -105,9 +104,9 @@
       ]
     },
     {
-      "id": "c3",
-      "required": ["lobby"],
-      "next": "lobby",
+      "id": "3iZqJZhYhRhnAQqgm9afsc",
+      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
+      "next": "3iZqJZhYem3sQ4jLPUAGWH",
       "title": "挑戰三：心手相連",
       "banner": "/media/banner_c3.jpg",
       "prompts": [
@@ -128,9 +127,9 @@
       ]
     },
     {
-      "id": "r1-1",
-      "required": ["lobby"],
-      "next": "r1-2",
+      "id": "3iZqJZhYia2sehtErC2iPm",
+      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
+      "next": "3iZqJZhYjRpE28jHizKKhh",
       "title": "#1-1 煤老闆的挑戰",
       "banner": "/media/banner_r1-1.jpg",
       "prompts": [
@@ -138,7 +137,7 @@
           "type":"image",
           "src":"/media/map.jpg",
           "title":"出發前，請確認目的地",
-          "alt":"木板上顯示：\n　\n「有時陣頭匯集、鑼鼓喧天，有時居民散坐、家長里短。一片廣闊、包容萬事萬物。」"
+          "alt":"木板上顯示：「有時陣頭匯集、鑼鼓喧天，有時居民散坐、家長里短。一片廣闊、包容萬事萬物。」"
         }
       ],
       "answers": [
@@ -152,7 +151,7 @@
       ],
       "hints": [
         {
-          "id": "1-1-1",
+          "id": "3qjEZjcS2XaSka66rFJbYZ",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
@@ -161,7 +160,7 @@
           "alt": "關鍵字：陣頭、廣闊。"
         },
         {
-          "id": "1-1-2",
+          "id": "3qjEZjcS3goxQotp8dcFHX",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -172,9 +171,9 @@
       ]
     },
     {
-      "id": "r1-2",
-      "required": ["r1-1"],
-      "next": "lobby",
+      "id": "3iZqJZhYjRpE28jHizKKhh",
+      "required": ["3iZqJZhYia2sehtErC2iPm"],
+      "next": "3iZqJZhYem3sQ4jLPUAGWH",
       "title": "#1-2 煤老闆的挑戰",
       "banner": "/media/banner_r1-2.jpg",
       "prompts": [
@@ -182,7 +181,7 @@
           "type":"image",
           "src":"/media/1-1.jpg",
           "title":"廣場前巧遇煤老闆",
-          "alt":"民國 50 年代，北埔發現了煤礦，許多勞動者到北埔來謀職。而茶室、戲院、酒家也因為人口與收入的增加而興起，廟前廣場的這條街便是商鋪們重點聚集的地方。\n　\n來到廣場，你們遇到一位穿著舊式西裝的煤老闆，交談之下你了解了這關的任務：健忘的煤老闆再次忘了保險箱密碼...深知自己的本性，他很有先見之明的將密碼線索藏在了廟前廣場。\n　\n請根據木牌上煤老闆寫下的提示，觀察廟前廣場，協助他想出完整的保險箱密碼吧！\n　\n小提示：可以先找出廟前廣場中「與六角形相關的六個物件」。"
+          "alt":"民國 50 年代，北埔發現了煤礦，許多勞動者到北埔來謀職。而茶室、戲院、酒家也因為人口與收入的增加而興起，廟前廣場的這條街便是商鋪們重點聚集的地方。\n　\n來到廣場，你們遇到一位穿著舊式西裝的煤老闆，交談之下你了解了這關的任務：健忘的煤老闆再次忘了保險箱密碼...深知自己的本性，他很有先見之明的將密碼線索藏在了廟前廣場。\n　\n請根據木牌上煤老闆寫下的提示，觀察廟前廣場，協助他想出完整的保險箱密碼吧！\n　\n💡小提示：可以先找出廟前廣場中「與六角形相關的六個物件」。"
         }
       ],
       "answers": [
@@ -195,7 +194,7 @@
       ],
       "hints": [
         {
-          "id": "1-2-1",
+          "id": "3qjEZjcS4WVVbKnDMaVfq7",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
@@ -204,7 +203,7 @@
           "alt": "線索圖上方的六個六角形，代表的是廟前廣場的六根六角燈籠造型路燈，請根據廟的位置判斷正確的相對位置。而後找到六角形中的時間、特殊圖形與數字、及密碼數字間的關係，就能找出答案摟！"
         },
         {
-          "id": "1-2-2",
+          "id": "3qjEZjcS5HUX5SwXEeMX8X",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -215,9 +214,9 @@
       ]
     },
     {
-      "id": "r2-1",
-      "required": ["lobby"],
-      "next": "r2-2",
+      "id": "3iZqJZhYkBjEgWF9wsw9HW",
+      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
+      "next": "3iZqJZhYkzwTYjNBhNrkYD",
       "title": "#2-1 樂師的委託",
       "banner": "/media/banner_r2-1.jpg",
       "prompts": [
@@ -225,7 +224,7 @@
           "type":"image",
           "src":"/media/map.jpg",
           "title":"出發前，請確認目的地",
-          "alt":"木板上顯示：\n　\n「因為社區規劃而失去了原有的功能，但隨著社區活化、重新包裝後它有了新生命。週末時，熱絡的叫賣聲，讓它重回鼎盛時期。」"
+          "alt":"木板上顯示：「因為社區規劃而失去了原有的功能，但隨著社區活化、重新包裝後它有了新生命。週末時，熱絡的叫賣聲，讓它重回鼎盛時期。」"
         }
       ],
       "answers": [
@@ -239,7 +238,7 @@
       ],
       "hints": [
         {
-          "id": "2-1-1",
+          "id": "3qjEZjcS681X9pD1d9hC4e",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
@@ -248,7 +247,7 @@
           "alt": "關鍵字：新生命、叫賣聲。"
         },
         {
-          "id": "2-1-2",
+          "id": "3qjEZjcS6xdgxrJpBE21zb",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -259,9 +258,9 @@
       ]
     },
     {
-      "id": "r2-2",
-      "required": ["r2-1"],
-      "next": "lobby",
+      "id": "3iZqJZhYkzwTYjNBhNrkYD",
+      "required": ["3iZqJZhYkBjEgWF9wsw9HW"],
+      "next": "3iZqJZhYem3sQ4jLPUAGWH",
       "title": "#2-2 樂師的委託",
       "banner": "/media/banner_r2-2.jpg",
       "prompts": [
@@ -269,19 +268,19 @@
           "type":"image",
           "src":"/media/2-1.jpg",
           "title":"市場前，一位婆婆拉住你們",
-          "alt":"婆婆：「週末的廟會即將到來，我們還缺一首表演曲目還沒完成，但我們的作曲師卻病倒了...你們可以用平常在團隊中學習到的東西，結合我們客家傳統歌曲，幫我們完成編曲嗎？客家的打八音很簡單的，跟 Do Re Mi 差不多很容易學的！」\n　\n說著，她便把作曲師留下的三張樂譜交給你們，帶著你們繞過市場後方的矮牆，來到後面的巷子中，並指出牆上的客家傳統歌曲曲譜或許可以帶給你們一些靈感。"
+          "alt":"婆婆：「週末的廟會即將到來，我們還缺一首表演曲目還沒完成，但我們的作曲師卻病倒了...你們可以用平常在團隊中學習到的東西，結合我們客家傳統歌曲，幫我們完成編曲嗎？客家的打八音很簡單，跟 Do Re Mi 差不多很容易學的！」\n　\n說著，她便把作曲師針對三種樂器未完成的樂譜交給你們。帶著你們繞過市場後方的矮牆，來到後面的巷子中，並指出牆上的客家傳統歌曲曲譜或許可以帶給你們一些靈感。"
         },
         {
           "type":"image",
           "src":"/media/2-2.jpg",
           "title":"第二張樂譜",
-          "alt":"小提示：注意 feat. 後綴的小數字標記，數一數會發現，數字跟對應的傳統歌曲所含的音符數是相等的。"
+          "alt":"💡小提示：注意 feat. 後綴的小數字標記，數一數會發現，數字跟樂譜對應的傳統歌曲所含的音符數是相等的。"
         },
         {
           "type":"image",
           "src":"/media/2-3.jpg",
           "title":"第三張樂譜",
-          "alt":"小提示：可以數數每張樂譜底線的數量，它是否跟樂譜中的「關鍵字」有特定關係呢？。"
+          "alt":"💡小提示：可以數數每張樂譜底線的數量，它是否跟樂譜中的「關鍵字」有特別的關係呢？"
         }
       ],
       "answers": [
@@ -295,7 +294,7 @@
       ],
       "hints": [
         {
-          "id": "1-2-1",
+          "id": "3qjEZjcS7gehYfBQzxC8Ts",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
@@ -304,7 +303,7 @@
           "alt": "1⃣️ 還記得企業文化中「發展」、「信任」、「包容」所對應的英文是什麼嗎？他們的英文單字字母數剛好可以跟下方底線的數量對應上喔！\n　\n2⃣️ 老奶奶說「要結合客家傳統歌曲」，但具體要結合小巷牆上的哪幾首歌曲呢？請透過 Feat. 後面的字謎做判斷喔！另外可以留意，後綴的小數字數一數會發現數字跟該首傳統歌曲共有的音符數是相等的。而數字又會跟企業文化所對應的英文字母有什麼關係呢？"
         },
         {
-          "id": "1-2-2",
+          "id": "3qjEZjcS8VMPe5Uyq2WLD9",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -315,9 +314,9 @@
       ]
     },
     {
-      "id": "r3-1",
-      "required": ["lobby"],
-      "next": "r3-2",
+      "id": "3iZqJZhYn4XvFKnHMDauUd",
+      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
+      "next": "3iZqJZhYntECFNNvacGctq",
       "title": "#3-1 發展的起點",
       "banner": "/media/banner_r3-1.jpg",
       "prompts": [
@@ -325,7 +324,7 @@
           "type":"image",
           "src":"/media/map.jpg",
           "title":"出發前，請確認目的地",
-          "alt":"木板上顯示：\n　\n「它的名字，代表意義深重，分別是：官方出資、中國粵籍、中國閩籍，是三方歷史性合作的重要見證呢。隨著姜秀巒先生的帶領，這邊最終成北埔大隘三鄉的軍事、行政、經濟指揮總部！」"
+          "alt":"木板上顯示：「它的名字，代表意義深重，分別是：官方出資、粵籍、閩籍，是三方歷史性合作的重要見證呢。隨著姜秀巒先生的帶領，這邊最終成北埔大隘三鄉的軍事、行政、經濟指揮總部！」"
         }
       ],
       "answers": [
@@ -339,16 +338,16 @@
       ],
       "hints": [
         {
-          "id": "3-1-1",
+          "id": "3qjEZjcS9FNJrbiDuXLS2X",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
           "src": "",
           "title": "需要一點提示",
-          "alt": "關鍵字：出資、粵籍、閩籍。"
+          "alt": "關鍵字：官方出資、粵籍、閩籍。"
         },
         {
-          "id": "3-1-2",
+          "id": "3qjEZjcSANqCdVKDUkdJnH",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -359,9 +358,9 @@
       ]
     },
     {
-      "id": "r3-2",
-      "required": ["r3-1"],
-      "next": "lobby",
+      "id": "3iZqJZhYntECFNNvacGctq",
+      "required": ["3iZqJZhYn4XvFKnHMDauUd"],
+      "next": "3iZqJZhYem3sQ4jLPUAGWH",
       "title": "#3-2 發展的起點",
       "banner": "/media/banner_r3-2.jpg",
       "prompts": [
@@ -389,16 +388,16 @@
       ],
       "hints": [
         {
-          "id": "3-2-1",
+          "id": "3qjEZjcSBEdHpRKSrnvuvE",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
           "src": "",
           "title": "需要一點提示",
-          "alt": "比對謎題圖與金廣福門口，就能找出每個色塊所對應的中文字。接著再想想，一個中文字，有什麼是可以被加減的呢？"
+          "alt": "比對謎題圖與金廣福門口的門聯及燈籠，就能找出每個色塊所對應的中文字。接著再想想，一個中文字，有什麼是可以被加減的呢？筆畫、注音、英文翻譯還是字構呢？"
         },
         {
-          "id": "3-2-2",
+          "id": "3qjEZjcSCDaHTygYHipQYM",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -409,9 +408,9 @@
       ]
     },
     {
-      "id": "r4-1",
-      "required": ["lobby"],
-      "next": "r4-2",
+      "id": "3iZqJZhYoe9CumtsCmDBn3",
+      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
+      "next": "3iZqJZhYpQPQsgTTuqHNR2",
       "title": "#4-1 賊人的惡作劇",
       "banner": "/media/banner_r4-1.jpg",
       "prompts": [
@@ -419,7 +418,7 @@
           "type":"image",
           "src":"/media/map.jpg",
           "title":"出發前，請確認目的地",
-          "alt":"木板上顯示：\n　\n「香煙繚繞，傳統道教、閩粵信仰齊聚一堂，是北埔大隘族群和解的重要象徵，也是大隘地區文化信仰中心。」"
+          "alt":"木板上顯示：「香煙繚繞，傳統道教、閩、粵信仰齊聚一堂，是北埔大隘族群和解的重要象徵，也是大隘地區文化信仰中心。」"
         }
       ],
       "answers": [
@@ -433,16 +432,16 @@
       ],
       "hints": [
         {
-          "id": "4-1-1",
+          "id": "3qjEZjcSDbS9tjz5R2xLbZ",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
           "src": "",
           "title": "需要一點提示",
-          "alt": "關鍵字：道教、閩粵信仰，文化信仰中心。"
+          "alt": "關鍵字：道教、閩、粵信仰，文化信仰中心。"
         },
         {
-          "id": "4-1-2",
+          "id": "3qjEZjcSEQB4Sk97a8Fs4L",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -453,9 +452,9 @@
       ]
     },
     {
-      "id": "r4-2",
-      "required": ["r4-1"],
-      "next": "lobby",
+      "id": "3iZqJZhYpQPQsgTTuqHNR2",
+      "required": ["3iZqJZhYoe9CumtsCmDBn3"],
+      "next": "3iZqJZhYem3sQ4jLPUAGWH",
       "title": "#4-2 賊人的惡作劇",
       "banner": "/media/banner_r4-2.jpg",
       "prompts": [
@@ -463,13 +462,13 @@
           "type":"image",
           "src":"/media/4-1.jpg",
           "title":"迎面跑來一位道長",
-          "alt":"「可以幫我們一個忙嗎？剛剛有個小賊來廟裡作亂，我趕著要去幫我師兄捉賊，你們可以幫我確認看看小賊到底在廟裡做了什麼事嗎？還有，幫我想辦法破解這張他留下的紙條，我猜下面的底線答案就是抓到小賊的關鍵！」一位道長氣喘吁吁地停在你們面前，語畢他便又飛奔而去。"
+          "alt":"「可以幫我們一個忙嗎？剛剛有個小賊來廟裡作亂，我趕著要去幫我師兄捉賊，你們可以幫我確認看看小賊到底在廟裡做了什麼變動嗎？還有，幫我想辦法用他做的變動破解這張他留下的紙條，我猜下面的底線答案就是抓到小賊的關鍵！」一位道長氣喘吁吁地停在你們面前，語畢他便又飛奔而去。"
         }
       ],
       "answers": [
         {
           "title": "請輸入正確答案",
-          "alt": "請根據道長所言、小賊留下的紙條、慈天宮的環境，判斷出底線代表的英文單字是什麼吧！找出答案後，依序輸入下方。",
+          "alt": "請根據道長所言、小賊留下的紙條、慈天宮的環境，判斷出底線代表的英文單字是什麼吧！找出答案後，由左至右依序輸入下方。",
           "type": "order",
           "options": ["Ａ","Ｂ","Ｃ","Ｄ","Ｅ","Ｆ","Ｇ","Ｈ","Ｉ","Ｊ","Ｋ","Ｌ","Ｍ","Ｎ","Ｏ","Ｐ","Ｑ","Ｒ","Ｓ","Ｔ","Ｕ","Ｖ","Ｗ","Ｘ","Ｙ","Ｚ"],
           "value": [2,14,11,11,0,1,14,17,0,19,4]
@@ -477,16 +476,16 @@
       ],
       "hints": [
         {
-          "id": "4-2-1",
+          "id": "3qjEZjcSFDTiE5QCxEH6H8",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
           "src": "",
           "title": "需要一點提示",
-          "alt": "比對紙條上所寫的神像與真實的神像，他們的位置是否一樣呢？找出哪些神像位置被「調換」後，再仔細觀察 BERRUCELUTO 的英文字母，就能找出作答邏輯摟！"
+          "alt": "比對紙條上所標記的神像與真實的神像，他們的位置是否一樣呢？找出哪些神像位置被「調換」後，再仔細觀察 BERRUCELUTO 的英文字母，就能找出作答邏輯摟！"
         },
         {
-          "id": "4-2-2",
+          "id": "3qjEZjcSG5NSnidv23gTSR",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -497,9 +496,9 @@
       ]
     },
     {
-      "id": "r5-1",
-      "required": ["lobby"],
-      "next": "r5-2",
+      "id": "3iZqJZhYqRKaLU4tB4Zyz4",
+      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
+      "next": "3iZqJZhYrCXtZxQ4tig7JB",
       "title": "#5-1 返鄉的任務",
       "banner": "/media/banner_r5-1.jpg",
       "prompts": [
@@ -507,7 +506,7 @@
           "type":"image",
           "src":"/media/map.jpg",
           "title":"出發前，請確認目的地",
-          "alt":"木板上顯示：\n　\n「他，是時代的紀錄者，也是台灣民國早期某行業推動的先驅者。他紀錄了日本戰前風情、台灣各處風貌以及人物。透過他的視角，看到單純但又觸動人心的事物樣貌。」"
+          "alt":"木板上顯示：「他，是時代的紀錄者，也是台灣民國早期某行業推動的先驅者。他紀錄了日本戰前風情、台灣各處風貌以及人物。透過他的視角，看到單純但又觸動人心的事物樣貌。」"
         }
       ],
       "answers": [
@@ -521,7 +520,7 @@
       ],
       "hints": [
         {
-          "id": "5-1-1",
+          "id": "3qjEZjcSGwBGo9E2r6necz",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
@@ -530,7 +529,7 @@
           "alt": "關鍵字：紀錄者、某行業推動的先驅、視角。"
         },
         {
-          "id": "5-1-2",
+          "id": "3qjEZjcSHieMR4CeBRkcpQ",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -541,9 +540,9 @@
       ]
     },
     {
-      "id": "r5-2",
-      "required": ["r5-1"],
-      "next": "lobby",
+      "id": "3iZqJZhYrCXtZxQ4tig7JB",
+      "required": ["3iZqJZhYqRKaLU4tB4Zyz4"],
+      "next": "3iZqJZhYem3sQ4jLPUAGWH",
       "title": "#5-2 返鄉的任務",
       "banner": "/media/banner_r5-2.jpg",
       "prompts": [
@@ -551,7 +550,7 @@
           "type": "image",
           "src": "/media/5-1.jpg",
           "title": "鄧南光交給你們兩張相紙",
-          "alt": "鄧南光：「你們也回來北埔了嗎？回到家鄉看到親人的感覺真好，我的茶商叔叔姜瑞昌還委託了我好多茶葉商品照拍攝任務，你們要一起去看看嗎？他可是與茶虎姜阿新並列為北埔茶業界的代表人物，北埔的椪風茶（東方美人茶）也是他倆聯手推廣到全世界的！」\n　\n樂於接受挑戰的你們，收到鄧南光給的兩張相紙，他說：「這兩張相紙藏著這次拍攝的成敗重點，我先去準備器材，這個就交給你們了～」"
+          "alt": "鄧南光：「你們也回來北埔了嗎？回到家鄉看到親人的感覺真好，我的茶商叔叔姜瑞昌還委託了我好多茶葉商品照的拍攝任務，你們要一起去看看嗎？他可是與茶虎姜阿新並列為北埔茶業界的代表人物，北埔的椪風茶（東方美人茶）就是他倆聯手推廣到全世界的！」\n　\n樂於接受挑戰的你們，收到鄧南光給的兩張相紙，他說：「這兩張相紙藏著關乎這次拍攝成敗的關鍵字，我先去準備器材，找關鍵字的工作就交給你們了～」"
         },
         {
           "type": "image",
@@ -571,7 +570,7 @@
       ],
       "hints": [
         {
-          "id": "5-2-1",
+          "id": "3qjEZjcSJVMshEeu6Y9p9M",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
@@ -580,7 +579,7 @@
           "alt": "在紀念館內找出與第二張相紙插圖相符的五張照片，並確認各自的拍攝年份後。在表格中找到對應的年份座標點，結合插圖下方的數字指示，就能找到答案摟！"
         },
         {
-          "id": "5-2-2",
+          "id": "3qjEZjcSKHUc6joeY7N7Xz",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -591,9 +590,9 @@
       ]
     },
     {
-      "id": "r6-1",
-      "required": ["lobby"],
-      "next": "r6-2",
+      "id": "3iZqJZhYs2Bx7QZLwJnXHu",
+      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
+      "next": "3iZqJZhYsivPwcokPH4ADH",
       "title": "#6-1 秀才的困擾",
       "banner": "/media/banner_r6-1.jpg",
       "prompts": [
@@ -601,7 +600,7 @@
           "type":"image",
           "src":"/media/map.jpg",
           "title":"出發前，請確認目的地",
-          "alt":"木板上顯示：\n　\n「屋子的主翁一位是北埔第一位秀才、一位是單打獨鬥最終經商致富的的商人，無世家背景的他們，事蹟在北埔傳為佳話。」"
+          "alt":"木板上顯示：「屋子的主人翁一位是北埔第一位秀才、一位是白手起家最終經商致富的的商人，無世家背景的他們，事蹟在北埔傳為佳話。」"
         }
       ],
       "answers": [
@@ -615,7 +614,7 @@
       ],
       "hints": [
         {
-          "id": "6-1-1",
+          "id": "3qjEZjcSL7xeu2tEXU4ryK",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
@@ -624,7 +623,7 @@
           "alt": "關鍵字：北埔第一位秀才、經商致富的的商人。"
         },
         {
-          "id": "6-1-2",
+          "id": "3qjEZjcSLuc4zDHCFDLc3Z",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -635,9 +634,9 @@
       ]
     },
     {
-      "id": "r6-2",
-      "required": ["r6-1"],
-      "next": "lobby",
+      "id": "3iZqJZhYsivPwcokPH4ADH",
+      "required": ["3iZqJZhYs2Bx7QZLwJnXHu"],
+      "next": "3iZqJZhYem3sQ4jLPUAGWH",
       "title": "#6-2 秀才的困擾",
       "banner": "/media/banner_r6-2.jpg",
       "prompts": [
@@ -658,16 +657,16 @@
       ],
       "hints": [
         {
-          "id": "1-2-1",
+          "id": "3qjEZjcSMjXdje5rfgS3cg",
           "buttonText": "需要一點提示",
           "score": 1000,
           "type": "txt",
           "src": "",
           "title": "需要一點提示",
-          "alt": "觀察忠恕堂大門右方的石牆，找到與題目中插圖相同的石雕裝飾，比對相對位置後，就能找出後續的解答邏輯摟！"
+          "alt": "觀察忠恕堂大門右方的石牆，找到與題目中插圖相同的石雕裝飾，比對石雕的相對位置後，就能找出後續的解答邏輯摟！"
         },
         {
-          "id": "1-2-2",
+          "id": "3qjEZjcSNZosRcTvg6wVQZ",
           "buttonText": "直接看答案",
           "score": 2000,
           "type": "txt",
@@ -678,8 +677,8 @@
       ]
     },
     {
-      "id": "end",
-      "required": ["c1,c2,c3,r1-2,r2-2,r3-2,r4-2,r5-2,r6-2"],
+      "id": "3iZqJZhYtotb8UiqFXMrz2",
+      "required": ["3iZqJZhYfcA6LtdQKLXZHa","3iZqJZhYgYjmbbBJ3XSMQC","3iZqJZhYhRhnAQqgm9afsc","3iZqJZhYjRpE28jHizKKhh","3iZqJZhYkzwTYjNBhNrkYD","3iZqJZhYntECFNNvacGctq","3iZqJZhYpQPQsgTTuqHNR2","3iZqJZhYrCXtZxQ4tig7JB","3iZqJZhYsivPwcokPH4ADH"],
       "next": "",
       "title": "結局",
       "type": "end",
