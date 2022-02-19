@@ -47,6 +47,8 @@
       "required": ["3iZqJZhYdUC8xuigzyReAh"],
       "next": "",
       "title": "🔁遊戲大廳🔁",
+      "type": "continue",
+      "buttonText": "我了解了",
       "banner": "/media/banner_lobby.jpg",
       "prompts": [
         {
