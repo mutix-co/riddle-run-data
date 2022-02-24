@@ -1,32 +1,31 @@
 {
   "name": "228unboxing",
   "version": "1.0",
-  "title": "DSTW 北埔實境解謎｜隊長版",
+  "title": "@228_尋‧秘二二八",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/splash.jpg",
   "map": "/media/map.jpg",
   "contact": "https://www.messenger.com/t/RiddleRun",
-  "timekeeper": true,
   "introduction": {
     "title": "前言",
-    "content": "你與 DSTW 夥伴合作找尋一款神藥，有天你們在北埔探險時，誤觸了一塊木牌。瞬間，你們被拉進了北埔的時空夾縫中。\n　\n正當徬徨時，不知從哪傳來了機械聲：\n　\n【嗶——觸發人生支線：時空生存戰。這裡，是時空交疊後的北埔，且被佈下六個各時空的人們留下的難題。\n　\n你們只有在時限內依仗手上的木牌提供的不同線索，發揮 One DS Culture 核心行為「包容&多元、合作&信任、發展&成長」，才能解決所有難題，並找到時空之門的啟動密碼。\n　\n如此你們才能順利回到現代，如果失敗，那就只能被困在這裡——】"
+    "content": "小八是台北二二八紀念館的駐館精靈，他最大的興趣就是到處冒險挖掘二二八相關歷史與文物。這天，他收到了一個快遞包裹，打開一看，發現裡面是幾張圖紙，以及一張匿名信。\n　\n匿名信寫著：\n「嗨小八，聽說你們的『典藏文物查詢系統』要上線了，我特別藏了個小驚喜在系統中要送給你！但驚喜可不是那麼好獲得的，包裹裡的圖紙背後我都寫了一些小任務。每解一個任務，就能獲得一個關鍵字，蒐集到所有關鍵字後，就能觸發驚喜摟！」\n　\n好奇心滿滿且熱愛冒險的小八當然不會錯過這次的驚喜探索！跟著小八的腳步，一起在台北二二八紀念館裡尋找驚喜吧～"
   },
   "levels": [
     {
-      "id": "3iZqJZhYdUC8xuigzyReAh",
+      "id": "3iZqJg6nQjkCSifL88Rk66",
       "required": "",
-      "next": "3iZqJZhYem3sQ4jLPUAGWH",
+      "next": "3iZqJg6nSRQAHQFyhPQ2XF",
       "title": "行前須知",
-      "banner": "/media/banner_start.jpg",
+      "banner": "/media/banner_intro.jpg",
       "type": "continue",
-      "buttonText":"準備好迎接挑戰！",
+      "buttonText":"準備好要出發了！",
       "prompts": [
         {
           "type":"txt",
           "src":"",
           "title":"行前須知",
-          "alt":"1⃣️ 共有「六大謎題關＋三大挑戰關」，關卡編號「#X-2」需根據「#X-1」的內容找出正確地點後才能被解鎖。\n　\n2⃣️ 「隊長」點擊右下角【燈泡】按鈕可「領取提示／答案」，扣分等同增加總遊戲時間約 15／35 分鐘。\n　\n3⃣️ 如因網路關係圖片讀取較緩慢，請稍等一下～\n　\n4⃣️ 請勿破壞環境，並小聲討論勿打擾遊客。\n　\n⚠️ 4:30 不論是否完成遊戲，都請回到巴士停靠點，巴士將於 4:40 準時啟程。\n　\n➡️最後，往左滑看看操作說明吧➡️"
+          "alt":"1⃣️ 匿名者總共留了「六個任務」給小八，請協助小八完成這些任務、找到驚喜吧！完成遊戲後，可到一樓服務台出示遊戲成績頁，就可以領取小禮物🎁\n　\n2⃣️ 任務的線索主要藏在 B1 特展區，輔以 2F 常設展、典藏文物查詢系統，「不用按照順序找尋」，大家可以自行安排路線。\n　\n3⃣️ 在遊戲過程中，記得做好防疫措施、不要破壞公物喔！\n　\n4⃣️ 遊戲過程中可能因網路問題圖片讀取較緩慢，請稍等一下圖片就會跑出來。\n　\n5⃣️ 如卡關，可點畫面右下的「燈泡」開啟提示。如有其他問題，可點右上角菜單頁中的「聯絡客服」，寫下你的問題，我們會盡快回覆。\n　\n6⃣️ 最後，在出發前，往左滑看看操作說明吧➡️"
         },
         {
           "type":"image",
@@ -43,656 +42,352 @@
       ]
     },
     {
-      "id": "3iZqJZhYem3sQ4jLPUAGWH",
-      "required": ["3iZqJZhYdUC8xuigzyReAh"],
+      "id": "3iZqJg6nSRQAHQFyhPQ2XF",
+      "required": ["3iZqJg6nQjkCSifL88Rk66"],
       "next": "",
       "title": "🔁遊戲大廳🔁",
-      "banner": "/media/banner_lobby.jpg",
+      "banner": "/media/banner_0.jpg",
       "prompts": [
         {
           "type": "txt",
           "src": "",
           "title": "請選擇要挑戰的關卡",
-          "alt": "請於右上角【關卡選擇】中選擇要挑戰的關卡，不用按照順序破關。關卡如下：\n　\n🎲 挑戰一：北埔吃吃喝喝\n🎲 挑戰二：舞王極限挑戰\n🎲 挑戰三：心手相連\n🎲 #1：煤老闆的挑戰\n🎲 #2：樂師的委託\n🎲 #3：發展的起點\n🎲 #4：賊人的惡作劇\n🎲 #5：返鄉的任務\n🎲 #6：秀才的困擾\n　\n⚠️完成所有關卡後會解鎖【關卡選擇】的「結局關」，「隊長務必」進入該關點選【結束計時】結算成績！\n　\n⚠️4:30 不論是否完成遊戲，都請回到巴士停靠點，巴士將於 4:40 準時啟程"
+          "alt": "1⃣️ 請於左上角菜單列中的【關卡選擇】選擇要挑戰的關卡。\n　\n2⃣️ 各關位置如下，不用按照順序找尋，大家可以自行安排路線。\n🎲 Ａ關 ＠特展入口\n🎲 Ｂ關 ＠導讀/典藏文物概述 ＆ 2F 常設展\n🎲 Ｃ關 ＠典藏文物選粹 ＆ 2F 常設展\n🎲 Ｄ關 ＠館藏雜誌及出版品\n🎲 Ｅ關 ＠他方視角、外媒視角\n🎲 Ｆ關 ＠網站操作介面\n　\n3⃣️ 成功解完六個任務後，即可解鎖【關卡選擇】中的【開箱密碼】。"
         }
       ]
     },
     {
-      "id": "3iZqJZhYfcA6LtdQKLXZHa",
-      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
-      "next": "3iZqJZhYem3sQ4jLPUAGWH",
-      "title": "挑戰一：北埔吃吃喝喝",
-      "banner": "/media/banner_c1.jpg",
-      "prompts": [
-        {
-          "type": "txt",
-          "src": "",
-          "title": "關卡地點：廟前廣場",
-          "alt": "【遊戲規則】\n1⃣️ 團隊成員到齊後於關卡地點向關主報到，依照關主指示分為 A、B 兩組。\n2⃣️ 每組需將關主指定的食物在限定時間內食用完畢。\n3⃣️ 通關後可順利從關主手中取得通關密碼。"
-        }
-      ],
-      "answers": [
-        {
-          "title": "請輸入正確答案",
-          "alt": "請輸入通關後關主給予的通關密碼。",
-          "type": "password",
-          "value": "2018"
-        }
-      ]
-    },
-    {
-      "id": "3iZqJZhYgYjmbbBJ3XSMQC",
-      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
-      "next": "3iZqJZhYem3sQ4jLPUAGWH",
-      "title": "挑戰二：舞王極限挑戰",
-      "banner": "/media/banner_c2.jpg",
-      "prompts": [
-        {
-          "type": "txt",
-          "src": "",
-          "title": "關卡地點：金廣福右側小廣場",
-          "alt": "【遊戲規則】\n1⃣️ 團隊成員到齊後於關卡地點向關主報到，依指示派出三位成員接受挑戰。\n2⃣️ 挑戰者在指定部位各掛上一個計步器，玩家只能靠抖動或甩動增加計步器的數值。\n3⃣️ 在規定的時間內達到關主指定的計步器數值即通關，並可順利從關主手中取得通關密碼。"
-        }
-      ],
-      "answers": [
-        {
-          "title": "請輸入正確答案",
-          "alt": "請輸入通關後關主給予的通關密碼。",
-          "type": "password",
-          "value": "4568"
-        }
-      ]
-    },
-    {
-      "id": "3iZqJZhYhRhnAQqgm9afsc",
-      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
-      "next": "3iZqJZhYem3sQ4jLPUAGWH",
-      "title": "挑戰三：心手相連",
-      "banner": "/media/banner_c3.jpg",
-      "prompts": [
-        {
-          "type": "txt",
-          "src": "",
-          "title": "關卡地點：廟前廣場",
-          "alt": "【遊戲規則】\n1⃣️ 團隊成員到齊後於關卡地點向關主報到，依指示手牽手圍成圈。\n2⃣️ 由關主將呼拉圈套入隊員手中，隊員需在手不放開的前提下讓呼拉圈傳下去。\n3⃣️ 成功傳完一圈即通關，並可順利從關主手中取得通關密碼。"
-        }
-      ],
-      "answers": [
-        {
-          "title": "請輸入正確答案",
-          "alt": "請輸入通關後關主給予的通關密碼。",
-          "type": "password",
-          "value": "1223"
-        }
-      ]
-    },
-    {
-      "id": "3iZqJZhYia2sehtErC2iPm",
-      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
-      "next": "3iZqJZhYjRpE28jHizKKhh",
-      "title": "#1-1 煤老闆的挑戰",
-      "banner": "/media/banner_r1-1.jpg",
-      "prompts": [
-        {
-          "type":"image",
-          "src":"/media/map.jpg",
-          "title":"出發前，請確認目的地",
-          "alt":"木板上顯示：「有時陣頭匯集、鑼鼓喧天，有時居民散坐、家長里短。一片廣闊、包容萬事萬物。」"
-        }
-      ],
-      "answers": [
-        {
-          "title": "請輸入正確答案",
-          "alt": "根據木板提示及遊戲地圖，判斷正確的目的地，並將其轉為注音輸入下方。確認地點正確後，請直接前往本關目的地。",
-          "type": "order",
-          "options": ["ㄅ","ㄆ","ㄇ","ㄈ","ㄉ","ㄊ","ㄋ","ㄌ","ㄍ","ㄎ","ㄏ","ㄐ","ㄑ","ㄒ","ㄓ","ㄔ","ㄕ","ㄖ","ㄗ","ㄘ","ㄙ","ㄧ","ㄨ","ㄩ","ㄚ","ㄛ","ㄜ","ㄝ","ㄞ","ㄟ","ㄠ","ㄡ","ㄢ","ㄣ","ㄤ","ㄥ","ㄦ","一聲","二聲","三聲","四聲","輕聲"],
-          "value": [2,21,30,40,12,21,32,38,8,22,34,39,15,34,39]
-        }
-      ],
-      "hints": [
-        {
-          "id": "3qjEZjcS2XaSka66rFJbYZ",
-          "buttonText": "需要一點提示",
-          "score": 1000,
-          "type": "txt",
-          "src": "",
-          "title": "需要一點提示",
-          "alt": "關鍵字：陣頭、廣闊。"
-        },
-        {
-          "id": "3qjEZjcS3goxQotp8dcFHX",
-          "buttonText": "直接看答案",
-          "score": 2000,
-          "type": "txt",
-          "src":"",
-          "title":"直接看答案",
-          "alt":"答案為：ㄇㄧㄠˋㄑㄧㄢˊㄍㄨㄤˇㄔㄤˇ（廟前廣場）。"
-        }
-      ]
-    },
-    {
-      "id": "3iZqJZhYjRpE28jHizKKhh",
-      "required": ["3iZqJZhYia2sehtErC2iPm"],
-      "next": "3iZqJZhYem3sQ4jLPUAGWH",
-      "title": "#1-2 煤老闆的挑戰",
-      "banner": "/media/banner_r1-2.jpg",
-      "prompts": [
-        {
-          "type":"image",
-          "src":"/media/1-1.jpg",
-          "title":"廣場前巧遇煤老闆",
-          "alt":"民國 50 年代，北埔發現了煤礦，許多勞動者到北埔來謀職。而茶室、戲院、酒家也因為人口與收入的增加而興起，廟前廣場的這條街便是商鋪們重點聚集的地方。\n　\n來到廣場，你們遇到一位穿著舊式西裝的煤老闆，交談之下你了解了這關的任務：健忘的煤老闆再次忘了保險箱密碼...深知自己的本性，他很有先見之明的將密碼線索藏在了廟前廣場。\n　\n請根據木牌上煤老闆寫下的提示，觀察廟前廣場，協助他想出完整的保險箱密碼吧！\n　\n💡小提示：可以先找出廟前廣場中「與六角形相關的六個物件」。"
-        }
-      ],
-      "answers": [
-        {
-          "title": "請輸入正確答案",
-          "alt": "請根據木牌上煤老闆寫下的提示，觀察廟前廣場，協助煤老闆找出保險箱密碼吧！完整密碼為六位數字，請由左至右在下方輸入。",
-          "type": "password",
-          "value": "232111"
-        }
-      ],
-      "hints": [
-        {
-          "id": "3qjEZjcS4WVVbKnDMaVfq7",
-          "buttonText": "需要一點提示",
-          "score": 1000,
-          "type": "txt",
-          "src": "",
-          "title": "需要一點提示",
-          "alt": "線索圖上方的六個六角形，代表的是廟前廣場的六根六角燈籠造型路燈，請根據廟的位置判斷正確的相對位置。而後找到六角形中的時間、特殊圖形與數字、及密碼數字間的關係，就能找出答案摟！"
-        },
-        {
-          "id": "3qjEZjcS5HUX5SwXEeMX8X",
-          "buttonText": "直接看答案",
-          "score": 2000,
-          "type": "txt",
-          "src":"",
-          "title":"直接看答案",
-          "alt":"答案為：232111。"
-        }
-      ]
-    },
-    {
-      "id": "3iZqJZhYkBjEgWF9wsw9HW",
-      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
-      "next": "3iZqJZhYkzwTYjNBhNrkYD",
-      "title": "#2-1 樂師的委託",
-      "banner": "/media/banner_r2-1.jpg",
-      "prompts": [
-        {
-          "type":"image",
-          "src":"/media/map.jpg",
-          "title":"出發前，請確認目的地",
-          "alt":"木板上顯示：「因為社區規劃而失去了原有的功能，但隨著社區活化、重新包裝後它有了新生命。週末時，熱絡的叫賣聲，讓它重回鼎盛時期。」"
-        }
-      ],
-      "answers": [
-        {
-          "title": "請輸入正確答案",
-          "alt": "根據木板提示及遊戲地圖，判斷正確的目的地，將正確地點的「前三個字」轉為注音輸入下方。確認地點正確後，請直接前往本關目的地。",
-          "type": "order",
-          "options": ["ㄅ","ㄆ","ㄇ","ㄈ","ㄉ","ㄊ","ㄋ","ㄌ","ㄍ","ㄎ","ㄏ","ㄐ","ㄑ","ㄒ","ㄓ","ㄔ","ㄕ","ㄖ","ㄗ","ㄘ","ㄙ","ㄧ","ㄨ","ㄩ","ㄚ","ㄛ","ㄜ","ㄝ","ㄞ","ㄟ","ㄠ","ㄡ","ㄢ","ㄣ","ㄤ","ㄥ","ㄦ","一聲","二聲","三聲","四聲","輕聲"],
-          "value": [7,30,39,16,40,15,34,39]
-        }
-      ],
-      "hints": [
-        {
-          "id": "3qjEZjcS681X9pD1d9hC4e",
-          "buttonText": "需要一點提示",
-          "score": 1000,
-          "type": "txt",
-          "src": "",
-          "title": "需要一點提示",
-          "alt": "關鍵字：新生命、叫賣聲。"
-        },
-        {
-          "id": "3qjEZjcS6xdgxrJpBE21zb",
-          "buttonText": "直接看答案",
-          "score": 2000,
-          "type": "txt",
-          "src":"",
-          "title":"直接看答案",
-          "alt":"答案為：ㄌㄠˇㄕˋㄔㄤˇ（老市場新市集）。"
-        }
-      ]
-    },
-    {
-      "id": "3iZqJZhYkzwTYjNBhNrkYD",
-      "required": ["3iZqJZhYkBjEgWF9wsw9HW"],
-      "next": "3iZqJZhYem3sQ4jLPUAGWH",
-      "title": "#2-2 樂師的委託",
-      "banner": "/media/banner_r2-2.jpg",
-      "prompts": [
-        {
-          "type":"image",
-          "src":"/media/2-1.jpg",
-          "title":"市場前，一位婆婆拉住你們",
-          "alt":"婆婆：「週末的廟會即將到來，我們還缺一首表演曲目還沒完成，但我們的作曲師卻病倒了...你們可以用平常在團隊中學習到的東西，結合我們客家傳統歌曲，幫我們完成編曲嗎？客家的打八音很簡單，跟 Do Re Mi 差不多很容易學的！」\n　\n說著，她便把作曲師針對三種樂器未完成的樂譜交給你們。帶著你們繞過市場後方的矮牆，來到後面的巷子中，並指出牆上的客家傳統歌曲曲譜或許可以帶給你們一些靈感。"
-        },
-        {
-          "type":"image",
-          "src":"/media/2-2.jpg",
-          "title":"第二張樂譜",
-          "alt":"💡小提示：注意 feat. 後綴的小數字標記，數一數會發現，數字跟樂譜對應的傳統歌曲所含的音符數是相等的。"
-        },
-        {
-          "type":"image",
-          "src":"/media/2-3.jpg",
-          "title":"第三張樂譜",
-          "alt":"💡小提示：可以數數每張樂譜底線的數量，它是否跟樂譜中的「關鍵字」有特別的關係呢？"
-        }
-      ],
-      "answers": [
-        {
-          "title": "請輸入正確答案",
-          "alt": "請根據老婆婆所說的提示、三張樂譜及巷子中的塗鴉，判斷出「？1~6」各是打八音的哪些音吧！找出答案後，依序輸入下方。",
-          "type": "order",
-          "options": ["上","乂","工","凡","合","士","六","五","乙","仩"],
-          "value": [7,6,4,5,0,1]
-        }
-      ],
-      "hints": [
-        {
-          "id": "3qjEZjcS7gehYfBQzxC8Ts",
-          "buttonText": "需要一點提示",
-          "score": 1000,
-          "type": "txt",
-          "src": "",
-          "title": "需要一點提示",
-          "alt": "1⃣️ 還記得企業文化中「發展」、「信任」、「包容」所對應的英文是什麼嗎？他們的英文單字字母數剛好可以跟下方底線的數量對應上喔！\n　\n2⃣️ 老奶奶說「要結合客家傳統歌曲」，但具體要結合小巷牆上的哪幾首歌曲呢？請透過 Feat. 後面的字謎做判斷喔！另外可以留意，後綴的小數字數一數會發現數字跟該首傳統歌曲共有的音符數是相等的。而數字又會跟企業文化所對應的英文字母有什麼關係呢？"
-        },
-        {
-          "id": "3qjEZjcS8VMPe5Uyq2WLD9",
-          "buttonText": "直接看答案",
-          "score": 2000,
-          "type": "txt",
-          "src":"",
-          "title":"直接看答案",
-          "alt":"答案為：五、六、合、士、上、乂。"
-        }
-      ]
-    },
-    {
-      "id": "3iZqJZhYn4XvFKnHMDauUd",
-      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
-      "next": "3iZqJZhYntECFNNvacGctq",
-      "title": "#3-1 發展的起點",
-      "banner": "/media/banner_r3-1.jpg",
-      "prompts": [
-        {
-          "type":"image",
-          "src":"/media/map.jpg",
-          "title":"出發前，請確認目的地",
-          "alt":"木板上顯示：「它的名字，代表意義深重，分別是：官方出資、粵籍、閩籍，是三方歷史性合作的重要見證呢。隨著姜秀巒先生的帶領，這邊最終成北埔大隘三鄉的軍事、行政、經濟指揮總部！」"
-        }
-      ],
-      "answers": [
-        {
-          "title": "請輸入正確答案",
-          "alt": "根據木板提示及遊戲地圖，判斷正確的目的地，並將其轉為注音輸入下方。確認地點正確後，請直接前往本關目的地。",
-          "type": "order",
-          "options": ["ㄅ","ㄆ","ㄇ","ㄈ","ㄉ","ㄊ","ㄋ","ㄌ","ㄍ","ㄎ","ㄏ","ㄐ","ㄑ","ㄒ","ㄓ","ㄔ","ㄕ","ㄖ","ㄗ","ㄘ","ㄙ","ㄧ","ㄨ","ㄩ","ㄚ","ㄛ","ㄜ","ㄝ","ㄞ","ㄟ","ㄠ","ㄡ","ㄢ","ㄣ","ㄤ","ㄥ","ㄦ","一聲","二聲","三聲","四聲","輕聲"],
-          "value": [11,21,33,37,8,22,34,39,3,22,38]
-        }
-      ],
-      "hints": [
-        {
-          "id": "3qjEZjcS9FNJrbiDuXLS2X",
-          "buttonText": "需要一點提示",
-          "score": 1000,
-          "type": "txt",
-          "src": "",
-          "title": "需要一點提示",
-          "alt": "關鍵字：官方出資、粵籍、閩籍。"
-        },
-        {
-          "id": "3qjEZjcSANqCdVKDUkdJnH",
-          "buttonText": "直接看答案",
-          "score": 2000,
-          "type": "txt",
-          "src":"",
-          "title":"直接看答案",
-          "alt":"答案為：ㄐㄧㄣㄍㄨㄤˇㄈㄨˊ（金廣福）。"
-        }
-      ]
-    },
-    {
-      "id": "3iZqJZhYntECFNNvacGctq",
-      "required": ["3iZqJZhYn4XvFKnHMDauUd"],
-      "next": "3iZqJZhYem3sQ4jLPUAGWH",
-      "title": "#3-2 發展的起點",
-      "banner": "/media/banner_r3-2.jpg",
-      "prompts": [
-        {
-          "type":"image",
-          "src":"/media/3-1.jpg",
-          "title":"總管攔住了正進門的你們",
-          "alt":"總管：「金廣福可不是說進就進的！我們家老爺說了，他不只要管理墾民隘丁領錢領糧，還要收繳佃農的田租，更危險的是要處理外族入侵跟拓荒開墾的事，很忙的！所以只有通過他設下的考驗，才有足夠的才智進門為他做事。」\n　\n總管強硬地在你們手上的木板兩面各寫了些東西後，便轉身關上了大門。"
-        },
-        {
-          "type":"image",
-          "src":"/media/3-2.jpg",
-          "title":"木板的第二面",
-          "alt":"💡本關不用入內參觀喔！"
-        }
-      ],
-      "answers": [
-        {
-          "title": "請輸入正確答案",
-          "alt": "請根據總管所寫下的內容、金廣福大門的環境，判斷出「？1~4」最合理的四字中文字答案是什麼吧！找出答案後，依序輸入下方。",
-          "type": "order",
-          "options": ["包","共","優","明","傾","隘","茶","點","學","享","成","清","領","日","據","同","透","煤","長","聽","分","發","展","習","欣","埔","民","重","容","多","國","墾","賞","尊","元","合","行","動","作","信","勢","觀","任","北","葉","礦"],
-          "value": [21,22,10,18]
-        }
-      ],
-      "hints": [
-        {
-          "id": "3qjEZjcSBEdHpRKSrnvuvE",
-          "buttonText": "需要一點提示",
-          "score": 1000,
-          "type": "txt",
-          "src": "",
-          "title": "需要一點提示",
-          "alt": "比對謎題圖與金廣福門口的門聯及燈籠，就能找出每個色塊所對應的中文字。接著再想想，一個中文字，有什麼是可以被加減的呢？筆畫、注音、英文翻譯還是字構呢？"
-        },
-        {
-          "id": "3qjEZjcSCDaHTygYHipQYM",
-          "buttonText": "直接看答案",
-          "score": 2000,
-          "type": "txt",
-          "src":"",
-          "title":"直接看答案",
-          "alt":"答案為：發、展、成、長。"
-        }
-      ]
-    },
-    {
-      "id": "3iZqJZhYoe9CumtsCmDBn3",
-      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
-      "next": "3iZqJZhYpQPQsgTTuqHNR2",
-      "title": "#4-1 賊人的惡作劇",
-      "banner": "/media/banner_r4-1.jpg",
-      "prompts": [
-        {
-          "type":"image",
-          "src":"/media/map.jpg",
-          "title":"出發前，請確認目的地",
-          "alt":"木板上顯示：「香煙繚繞，傳統道教、閩、粵信仰齊聚一堂，是北埔大隘族群和解的重要象徵，也是大隘地區文化信仰中心。」"
-        }
-      ],
-      "answers": [
-        {
-          "title": "請輸入正確答案",
-          "alt": "根據木板提示及遊戲地圖，判斷正確的目的地，並將其轉為注音輸入下方。確認地點正確後，請直接前往本關目的地。",
-          "type": "order",
-          "options": ["ㄅ","ㄆ","ㄇ","ㄈ","ㄉ","ㄊ","ㄋ","ㄌ","ㄍ","ㄎ","ㄏ","ㄐ","ㄑ","ㄒ","ㄓ","ㄔ","ㄕ","ㄖ","ㄗ","ㄘ","ㄙ","ㄧ","ㄨ","ㄩ","ㄚ","ㄛ","ㄜ","ㄝ","ㄞ","ㄟ","ㄠ","ㄡ","ㄢ","ㄣ","ㄤ","ㄥ","ㄦ","一聲","二聲","三聲","四聲","輕聲"],
-          "value": [19,38,5,21,32,37,8,22,35,37]
-        }
-      ],
-      "hints": [
-        {
-          "id": "3qjEZjcSDbS9tjz5R2xLbZ",
-          "buttonText": "需要一點提示",
-          "score": 1000,
-          "type": "txt",
-          "src": "",
-          "title": "需要一點提示",
-          "alt": "關鍵字：道教、閩、粵信仰，文化信仰中心。"
-        },
-        {
-          "id": "3qjEZjcSEQB4Sk97a8Fs4L",
-          "buttonText": "直接看答案",
-          "score": 2000,
-          "type": "txt",
-          "src":"",
-          "title":"直接看答案",
-          "alt":"答案為：ㄘˊㄊㄧㄢㄍㄨㄥ（慈天宮）。"
-        }
-      ]
-    },
-    {
-      "id": "3iZqJZhYpQPQsgTTuqHNR2",
-      "required": ["3iZqJZhYoe9CumtsCmDBn3"],
-      "next": "3iZqJZhYem3sQ4jLPUAGWH",
-      "title": "#4-2 賊人的惡作劇",
-      "banner": "/media/banner_r4-2.jpg",
-      "prompts": [
-        {
-          "type":"image",
-          "src":"/media/4-1.jpg",
-          "title":"迎面跑來一位道長",
-          "alt":"「可以幫我們一個忙嗎？剛剛有個小賊來廟裡作亂，我趕著要去幫我師兄捉賊，你們可以幫我確認看看小賊到底在廟裡做了什麼變動嗎？還有，幫我想辦法用他做的變動破解這張他留下的紙條，我猜下面的底線答案就是抓到小賊的關鍵！」一位道長氣喘吁吁地停在你們面前，語畢他便又飛奔而去。"
-        }
-      ],
-      "answers": [
-        {
-          "title": "請輸入正確答案",
-          "alt": "請根據道長所言、小賊留下的紙條、慈天宮的環境，判斷出底線代表的英文單字是什麼吧！找出答案後，由左至右依序輸入下方。",
-          "type": "order",
-          "options": ["Ａ","Ｂ","Ｃ","Ｄ","Ｅ","Ｆ","Ｇ","Ｈ","Ｉ","Ｊ","Ｋ","Ｌ","Ｍ","Ｎ","Ｏ","Ｐ","Ｑ","Ｒ","Ｓ","Ｔ","Ｕ","Ｖ","Ｗ","Ｘ","Ｙ","Ｚ"],
-          "value": [2,14,11,11,0,1,14,17,0,19,4]
-        }
-      ],
-      "hints": [
-        {
-          "id": "3qjEZjcSFDTiE5QCxEH6H8",
-          "buttonText": "需要一點提示",
-          "score": 1000,
-          "type": "txt",
-          "src": "",
-          "title": "需要一點提示",
-          "alt": "比對紙條上所標記的神像與真實的神像，他們的位置是否一樣呢？找出哪些神像位置被「調換」後，再仔細觀察 BERRUCELUTO 的英文字母，就能找出作答邏輯摟！"
-        },
-        {
-          "id": "3qjEZjcSG5NSnidv23gTSR",
-          "buttonText": "直接看答案",
-          "score": 2000,
-          "type": "txt",
-          "src":"",
-          "title":"直接看答案",
-          "alt":"答案為：COLLABORATE（合作）。"
-        }
-      ]
-    },
-    {
-      "id": "3iZqJZhYqRKaLU4tB4Zyz4",
-      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
-      "next": "3iZqJZhYrCXtZxQ4tig7JB",
-      "title": "#5-1 返鄉的任務",
-      "banner": "/media/banner_r5-1.jpg",
-      "prompts": [
-        {
-          "type":"image",
-          "src":"/media/map.jpg",
-          "title":"出發前，請確認目的地",
-          "alt":"木板上顯示：「他，是時代的紀錄者，也是台灣民國早期某行業推動的先驅者。他紀錄了日本戰前風情、台灣各處風貌以及人物。透過他的視角，看到單純但又觸動人心的事物樣貌。」"
-        }
-      ],
-      "answers": [
-        {
-          "title": "請輸入正確答案",
-          "alt": "根據木板提示及遊戲地圖，判斷正確的目的地，將正確地點的「前三個字」轉為注音輸入下方。確認地點正確後，請直接前往本關目的地。",
-          "type": "order",
-          "options": ["ㄅ","ㄆ","ㄇ","ㄈ","ㄉ","ㄊ","ㄋ","ㄌ","ㄍ","ㄎ","ㄏ","ㄐ","ㄑ","ㄒ","ㄓ","ㄔ","ㄕ","ㄖ","ㄗ","ㄘ","ㄙ","ㄧ","ㄨ","ㄩ","ㄚ","ㄛ","ㄜ","ㄝ","ㄞ","ㄟ","ㄠ","ㄡ","ㄢ","ㄣ","ㄤ","ㄥ","ㄦ","一聲","二聲","三聲","四聲","輕聲"],
-          "value": [4,35,40,6,32,38,8,22,34,37]
-        }
-      ],
-      "hints": [
-        {
-          "id": "3qjEZjcSGwBGo9E2r6necz",
-          "buttonText": "需要一點提示",
-          "score": 1000,
-          "type": "txt",
-          "src": "",
-          "title": "需要一點提示",
-          "alt": "關鍵字：紀錄者、某行業推動的先驅、視角。"
-        },
-        {
-          "id": "3qjEZjcSHieMR4CeBRkcpQ",
-          "buttonText": "直接看答案",
-          "score": 2000,
-          "type": "txt",
-          "src":"",
-          "title":"直接看答案",
-          "alt":"答案為：ㄉㄥˋㄋㄢˊㄍㄨㄤ（鄧南光影像紀念館）。"
-        }
-      ]
-    },
-    {
-      "id": "3iZqJZhYrCXtZxQ4tig7JB",
-      "required": ["3iZqJZhYqRKaLU4tB4Zyz4"],
-      "next": "3iZqJZhYem3sQ4jLPUAGWH",
-      "title": "#5-2 返鄉的任務",
-      "banner": "/media/banner_r5-2.jpg",
+      "id": "3iZqJg6nTAJrDddhoFJA6L",
+      "required": ["3iZqJg6nQjkCSifL88Rk66"],
+      "next": "3iZqJg6nSRQAHQFyhPQ2XF",
+      "title": "Ａ關 ＠特展入口",
+      "banner": "/media/banner_a.jpg",
       "prompts": [
         {
           "type": "image",
-          "src": "/media/5-1.jpg",
-          "title": "鄧南光交給你們兩張相紙",
-          "alt": "鄧南光：「你們也回來北埔了嗎？回到家鄉看到親人的感覺真好，我的茶商叔叔姜瑞昌還委託了我好多茶葉商品照的拍攝任務，你們要一起去看看嗎？他可是與茶虎姜阿新並列為北埔茶業界的代表人物，北埔的椪風茶（東方美人茶）就是他倆聯手推廣到全世界的！」\n　\n樂於接受挑戰的你們，收到鄧南光給的兩張相紙，他說：「這兩張相紙藏著關乎這次拍攝成敗的關鍵字，我先去準備器材，找關鍵字的工作就交給你們了～」"
+          "src": "/media/a.jpg",
+          "title": "第一張圖紙",
+          "alt": "圖紙的背面寫道：「台北二二八紀念館見證、紀錄了許多二二八相關事蹟，在入口展板一個個的窗孔中，更將這些經歷一一呈現。仔細觀察展板，找出灰色窗戶由左往右依序需要填入什麼內容吧！。」"
+        }
+      ],
+      "answers": [
+        {
+          "title": "請輸入正確答案",
+          "alt": "請觀察圖中灰色窗戶及下方文字框，找出灰色窗戶由左往右依序需要填入哪八個應問字母吧！（答案為八個大寫英文字母）找到答案後請輸入下方。",
+          "type": "order",
+          "options": ["Ａ","Ｂ","Ｃ","Ｄ","Ｅ","Ｆ","Ｇ","Ｈ","Ｉ","Ｊ","Ｋ","Ｌ","Ｍ","Ｎ","Ｏ","Ｐ","Ｑ","Ｒ","Ｓ","Ｔ","Ｕ","Ｖ","Ｗ","Ｘ","Ｙ","Ｚ"],
+          "value": [20,13,1,14,23,8,13,6]
+        }
+      ],
+      "hints" :[
+        {
+          "id": "3qjEZr1ffhJSEFU4Ma4sHE",
+          "buttonText": "需要點提示",
+          "score": 300,
+          "type": "txt",
+          "title": "需要點提示",
+          "src": "",
+          "alt": "觀察展場每格燈箱的內容，在線索圖下半部中找到對應的圖片說明及英文字母。如房子左下角的拱門窗對應的為「Ｕ專案局台北分局」，以此類推即可找到所有灰色窗戶對應的圖片說明及英文字母。"
+        },
+        {
+          "id": "3qjEZr1fgRS6BjMAT7K5VW",
+          "buttonText": "直接看答案",
+          "score": 1000,
+          "type": "txt",
+          "title": "直接看答案",
+          "src": "",
+          "alt": "答案是「UNBOXING」。"
+        }
+      ]
+    },
+    {
+      "id": "3iZqJg6nTtKroRZ7zk9PrN",
+      "required": ["3iZqJg6nQjkCSifL88Rk66"],
+      "next": "3iZqJg6nSRQAHQFyhPQ2XF",
+      "title": "Ｂ關 ＠導讀＆2F常設展",
+      "banner": "/media/banner_b.jpg",
+      "prompts": [
+        {
+          "type": "image",
+          "src": "/media/b.jpg",
+          "title": "第二張圖紙",
+          "alt": "圖紙的背面寫道：「館藏可以分為這五大類別，這邊我列了各個類別我覺得最特別的文物。但我忘了當時我參觀的順序，你能幫幫我嗎？我有在那些文物旁貼順序編號，很容易找到的！」\n　\n🌟本關及Ｃ關部分線索在 2F 常設展區，建議可看過Ｃ關後再前往常設展一併搜尋線索。"
+        }
+      ],
+      "answers": [
+        {
+          "title": "請輸入正確答案",
+          "alt": "請參觀 B1 特展區及 2F 常設展區，找到圖中列的五項文物吧，並協助匿名者找到他當時參觀的順序。確認順序後，請將圈圈中的數字由上往下輸入下方。",
+          "type": "password",
+          "value": "21534"
+        }
+      ],
+      "hints" :[
+        {
+          "id": "3qjEZr1fgzG5Dbz3Edtekd",
+          "buttonText": "需要點提示",
+          "score": 300,
+          "type": "image",
+          "title": "需要點提示",
+          "src": "/media/hb1.jpg",
+          "alt": "👉 信函、書籍、照片所列的代表物皆在 B1 特展區【典藏文物選粹】的展區看板上。\n　\n👉 文物：位於 2F 編號 11 的展區\n　\n👉 文宣品：位於 2F 編號 10（號外）及 11（血衣）的展區"
+        },
+        {
+          "id": "3qjEZr1fhidkjyDYVvxTsu",
+          "buttonText": "直接看答案",
+          "score": 1000,
+          "type": "txt",
+          "title": "直接看答案",
+          "src": "",
+          "alt": "答案是「21534」。"
+        }
+      ]
+    },
+    {
+      "id": "3iZqJg6nUWmWXAggnkW7jJ",
+      "required": ["3iZqJg6nQjkCSifL88Rk66"],
+      "next": "3iZqJg6nSRQAHQFyhPQ2XF",
+      "title": "Ｃ關 ＠典藏文物選粹＆2F常設展",
+      "banner": "/media/banner_c.jpg",
+      "prompts": [
+        {
+          "type": "image",
+          "src": "/media/c1.jpg",
+          "title": "第三張圖紙",
+          "alt": "圖紙的背面寫道：「小八你玩過連連看嗎？把這六個展品連三個、三個起來吧，連起來後就能知道這題挑戰的答案了！別說我對你不好，每個展品都給了你三個核心關鍵字呢，平常喜歡研究歷史跟文物的你一定可以猜出來的～」\n　\n🌟本關及Ｂ關部分線索在 2F 常設展區，建議可看過Ｂ關後再前往常設展一併搜尋線索。"
         },
         {
           "type": "image",
-          "src": "/media/5-2.jpg",
-          "title": "第二張相紙",
-          "alt": "💡在館內請小聲討論，不要打擾到其他遊客喔！"
+          "src": "/media/c2.jpg",
+          "title": "第四張圖紙",
+          "alt": "圖紙的背面寫道：「小八你玩過連連看嗎？把這六個展品連三個、三個起來吧，連起來後就能知道這題挑戰的答案了！別說我對你不好，每個展品都給了你三個核心關鍵字呢，平常喜歡研究歷史跟文物的你一定可以猜出來的～」"
         }
       ],
       "answers": [
         {
           "title": "請輸入正確答案",
-          "alt": "請根據鄧南光所言、兩張相紙、紀念館的環境，判斷出「？1~2」代表的是哪兩個英文字母吧！找出答案後，依序輸入下方。",
+          "alt": "根據關鍵字找出六個文物，並把他們依序連線，就能獲得兩個「英文字母」，按「特展→常設展」的順序把答案填入下方驗證吧！",
           "type": "order",
           "options": ["Ａ","Ｂ","Ｃ","Ｄ","Ｅ","Ｆ","Ｇ","Ｈ","Ｉ","Ｊ","Ｋ","Ｌ","Ｍ","Ｎ","Ｏ","Ｐ","Ｑ","Ｒ","Ｓ","Ｔ","Ｕ","Ｖ","Ｗ","Ｘ","Ｙ","Ｚ"],
-          "value": [3,18]
+          "value": [21,11]
         }
       ],
-      "hints": [
+      "hints" :[
         {
-          "id": "3qjEZjcSJVMshEeu6Y9p9M",
-          "buttonText": "需要一點提示",
-          "score": 1000,
+          "id": "3qjEZr1fiQk2RfShfzHC7K",
+          "buttonText": "需要點提示",
+          "score": 300,
           "type": "txt",
+          "title": "需要點提示",
           "src": "",
-          "title": "需要一點提示",
-          "alt": "在紀念館內找出與第二張相紙插圖相符的五張照片，並確認各自的拍攝年份後。在表格中找到對應的年份座標點，結合插圖下方的數字指示，就能找到答案摟！"
+          "alt": "B1 特展室線索圖中，第一格所說的文物為「美軍空投台灣的宣傳單」；第二格為「中國生活畫報：台灣事件號外」；第三格為「臺灣民政手冊」。在「典藏文物選粹」的展區找到這三個展品，並依序連成線吧！連起來後借能發現他是某個字母的形狀。\n　\n2F 常設展的三個展品則為：「中國生活畫報：台灣事件號外」、「燒夷彈射入之書籍暨平頭彈彈頭」及「盧鈵欽 血衣」。"
         },
         {
-          "id": "3qjEZjcSKHUc6joeY7N7Xz",
+          "id": "3qjEZr1fj29snEwkkcXNtU",
           "buttonText": "直接看答案",
-          "score": 2000,
+          "score": 1000,
           "type": "txt",
-          "src":"",
-          "title":"直接看答案",
-          "alt":"答案為：ＤＳ。"
+          "title": "直接看答案",
+          "src": "",
+          "alt": "答案是「ＶＬ」。"
         }
       ]
     },
     {
-      "id": "3iZqJZhYs2Bx7QZLwJnXHu",
-      "required": ["3iZqJZhYem3sQ4jLPUAGWH"],
-      "next": "3iZqJZhYsivPwcokPH4ADH",
-      "title": "#6-1 秀才的困擾",
-      "banner": "/media/banner_r6-1.jpg",
+      "id": "3iZqJg6nV97zWH9xnPpUmN",
+      "required": ["3iZqJg6nQjkCSifL88Rk66"],
+      "next": "3iZqJg6nSRQAHQFyhPQ2XF",
+      "title": "Ｄ關 ＠館藏雜誌及出版品",
+      "banner": "/media/banner_d.jpg",
       "prompts": [
         {
-          "type":"image",
-          "src":"/media/map.jpg",
-          "title":"出發前，請確認目的地",
-          "alt":"木板上顯示：「屋子的主人翁一位是北埔第一位秀才、一位是白手起家最終經商致富的的商人，無世家背景的他們，事蹟在北埔傳為佳話。」"
+          "type": "image",
+          "src": "/media/d.jpg",
+          "title": "第五張圖紙",
+          "alt": "小八看到這張圖的背面寫著：「收藏了好多書刊雜誌照片都忘了整理，你可以幫我嗎？我習慣按照出版年份，年份最早的放最左邊，一路往右掛。掛好後，再麻煩你告訴我由左至右正確的照片編號摟～」"
         }
       ],
       "answers": [
         {
           "title": "請輸入正確答案",
-          "alt": "根據木板提示及遊戲地圖，判斷正確的目的地，並將其轉為注音輸入下方。確認地點正確後，請直接前往本關目的地。",
+          "alt": "請協助整理圖中的四張照片，依規則排序。完成後將正確的照片編號，由左至右依序輸入下方。",
           "type": "order",
-          "options": ["ㄅ","ㄆ","ㄇ","ㄈ","ㄉ","ㄊ","ㄋ","ㄌ","ㄍ","ㄎ","ㄏ","ㄐ","ㄑ","ㄒ","ㄓ","ㄔ","ㄕ","ㄖ","ㄗ","ㄘ","ㄙ","ㄧ","ㄨ","ㄩ","ㄚ","ㄛ","ㄜ","ㄝ","ㄞ","ㄟ","ㄠ","ㄡ","ㄢ","ㄣ","ㄤ","ㄥ","ㄦ","一聲","二聲","三聲","四聲","輕聲"],
-          "value": [14,22,35,37,16,22,40,5,34,38]
+          "options": ["Ａ","Ｂ","Ｃ","Ｄ"],
+          "value": [3,0,2,1]
         }
       ],
-      "hints": [
+      "hints" :[
         {
-          "id": "3qjEZjcSL7xeu2tEXU4ryK",
-          "buttonText": "需要一點提示",
-          "score": 1000,
+          "id": "3qjEZr1fjfA1YtGCf1azLW",
+          "buttonText": "需要點提示",
+          "score": 300,
           "type": "txt",
+          "title": "需要點提示",
           "src": "",
-          "title": "需要一點提示",
-          "alt": "關鍵字：北埔第一位秀才、經商致富的的商人。"
+          "alt": "在「館藏雜誌及出版品」展區找到圖中的四本書冊，觀察期封面找到各自的出版年份，最早出版的書要掛在最左邊的位置。依序掛好後，由左至右擷取拍立得下方字母的順序就是答案啦！"
         },
         {
-          "id": "3qjEZjcSLuc4zDHCFDLc3Z",
+          "id": "3qjEZr1fkGK6X2nTaRkhT4",
           "buttonText": "直接看答案",
-          "score": 2000,
+          "score": 1000,
           "type": "txt",
-          "src":"",
-          "title":"直接看答案",
-          "alt":"答案為：ㄓㄨㄥㄕㄨˋㄊㄤˊ（忠恕堂）。"
+          "title": "直接看答案",
+          "src": "",
+          "alt": "答案是「DACB」。"
         }
       ]
     },
     {
-      "id": "3iZqJZhYsivPwcokPH4ADH",
-      "required": ["3iZqJZhYs2Bx7QZLwJnXHu"],
-      "next": "3iZqJZhYem3sQ4jLPUAGWH",
-      "title": "#6-2 秀才的困擾",
-      "banner": "/media/banner_r6-2.jpg",
+      "id": "3iZqJg6nVnx7XmnsXXaHad",
+      "required": ["3iZqJg6nQjkCSifL88Rk66"],
+      "next": "3iZqJg6nSRQAHQFyhPQ2XF",
+      "title": "Ｅ關 ＠他方視角",
+      "banner": "/media/banner_e.jpg",
       "prompts": [
         {
-          "type":"image",
-          "src":"/media/6-1.jpg",
-          "title":"秀才困擾的向你們求助",
-          "alt":"「你們看得懂這串符號嗎？這是我的同窗們最近在研讀的課題，但我想的答案總是錯的...你們可以幫我看看這題該如何解嗎？」秀才一邊說著，一邊在你們手上的木牌寫下了困擾著他的題目。\n　\n💡本關不用入內參觀喔！"
+          "type": "image",
+          "src": "/media/e.jpg",
+          "title": "第六張圖紙",
+          "alt": "圖紙的背面寫道：「閱讀，就是從『他方視角』看同個事物。從葛超智的的『深藍、紅色書籍』、葛超智『發表文章的書刊雜誌』，大家對事件都有不同的見解。無論如何，我們都能從這些內容中擷取一些什麼。」"
         }
       ],
       "answers": [
         {
           "title": "請輸入正確答案",
-          "alt": "請根據秀才寫下的題目、忠恕堂的環境，判斷出「Ans.」所指的數字吧！如未滿六位數，請往後補「0」湊滿六位數字後依序輸入下方（如：1234→123400）。",
-          "type": "password",
-          "value": "270000"
+          "alt": "請找出圖中書、文件所對應的文物，並找到紅框內該填的內容。「♥︎、♦︎、★」皆為一字母，請按照「♥︎、♦︎、★」的順序將對應的內容輸入下方。",
+          "type": "order",
+          "options": ["Ａ","Ｂ","Ｃ","Ｄ","Ｅ","Ｆ","Ｇ","Ｈ","Ｉ","Ｊ","Ｋ","Ｌ","Ｍ","Ｎ","Ｏ","Ｐ","Ｑ","Ｒ","Ｓ","Ｔ","Ｕ","Ｖ","Ｗ","Ｘ","Ｙ","Ｚ"],
+          "value": [5,20,18]
         }
       ],
-      "hints": [
+      "hints" :[
         {
-          "id": "3qjEZjcSMjXdje5rfgS3cg",
-          "buttonText": "需要一點提示",
-          "score": 1000,
+          "id": "3qjEZr1fm1CJpGCssK23F8",
+          "buttonText": "需要點提示",
+          "score": 300,
           "type": "txt",
+          "title": "需要點提示",
           "src": "",
-          "title": "需要一點提示",
-          "alt": "觀察忠恕堂大門右方的石牆，找到與題目中插圖相同的石雕裝飾，比對石雕的相對位置後，就能找出後續的解答邏輯摟！"
+          "alt": "圖中所指的兩份文物皆位於「他方視角」展區中。\n　\n葛超智的的「深藍、紅色書籍」指的是「FORMOSA BETRAYED」；「葛超智發表文章的書刊雜誌」則是他有在上面發表文章的「該期The Reporter 封面」。找到這兩件文物後，就能知道圖中的文字描述的是什麼摟！"
         },
         {
-          "id": "3qjEZjcSNZosRcTvg6wVQZ",
+          "id": "3qjEZr1fmjzMNph3iv3G3J",
           "buttonText": "直接看答案",
-          "score": 2000,
+          "score": 1000,
           "type": "txt",
-          "src":"",
-          "title":"直接看答案",
-          "alt":"答案為：270000。"
+          "title": "直接看答案",
+          "src": "",
+          "alt": "答案是「ＦＵＳ」。"
         }
       ]
     },
     {
-      "id": "3iZqJZhYtotb8UiqFXMrz2",
-      "required": ["3iZqJZhYfcA6LtdQKLXZHa","3iZqJZhYgYjmbbBJ3XSMQC","3iZqJZhYhRhnAQqgm9afsc","3iZqJZhYjRpE28jHizKKhh","3iZqJZhYkzwTYjNBhNrkYD","3iZqJZhYntECFNNvacGctq","3iZqJZhYpQPQsgTTuqHNR2","3iZqJZhYrCXtZxQ4tig7JB","3iZqJZhYsivPwcokPH4ADH"],
+      "id": "3iZqJg6nWcf8MKdhd2JwN5",
+      "required": ["3iZqJg6nQjkCSifL88Rk66"],
+      "next": "3iZqJg6nSRQAHQFyhPQ2XF",
+      "title": "Ｆ關 ＠網站操作介面",
+      "banner": "/media/banner_f.jpg",
+      "prompts": [
+        {
+          "type": "image",
+          "src": "/media/f.jpg",
+          "title": "第七張圖紙",
+          "alt": "圖紙的背面這麼寫的：「小八，相信你對這個搜尋畫面很熟悉了吧！操作特展中提供的電腦，試著根據 Hint 的指示搜尋看看，你會找到一張有趣的文物。\n　\n看過尪仔標嗎？圖紙下方的圖案就是尪仔標。看到那份文物後，你就會知道那『？』中要填什麼啦。」"
+        }
+      ],
+      "answers": [
+        {
+          "title": "請輸入正確答案",
+          "alt": "請利用「典藏文物查詢系統」搜尋 Hint 所指的四字詞語，進而找出「？」所對應的兩個中文字，由左至右依序輸入下方。",
+          "type": "order",
+          "options": ["鼠","豬","將","兔","相","帥","砲","卒","牛","虎","車","狗","仕","象","蛇","兵","馬","羊","龍","炮","猴","雞"],
+          "value": [2,4]
+        }
+      ],
+      "hints" :[
+        {
+          "id": "3qjEZr1foAF1qTmnHEdAQR",
+          "buttonText": "需要點提示",
+          "score": 300,
+          "type": "txt",
+          "title": "需要點提示",
+          "src": "",
+          "alt": "「二二八事件爆發地點」指的即是「天馬茶房」，搜尋看看吧！搜尋出文物後，觀察文物上每個尪仔標上下左右的標示，就能找到「？」該填什麼了！"
+        },
+        {
+          "id": "3qjEZr1fp6CWwf4fu1YMWX",
+          "buttonText": "直接看答案",
+          "score": 1000,
+          "type": "txt",
+          "title": "直接看答案",
+          "src": "",
+          "alt": "答案是「將相」。"
+        }
+      ]
+    },
+    {
+      "id": "3iZqJg6nXHQQNHcLu7WSb1",
+      "required": ["3iZqJg6nTAJrDddhoFJA6L","3iZqJg6nTtKroRZ7zk9PrN","3iZqJg6nUWmWXAggnkW7jJ","3iZqJg6nV97zWH9xnPpUmN","3iZqJg6nVnx7XmnsXXaHad","3iZqJg6nWcf8MKdhd2JwN5"],
+      "next": "3iZqJg6nXvUy441dVFLm9A",
+      "title": "開箱密碼",
+      "banner": "/media/banner_g.jpg",
+      "prompts": [
+        {
+          "type": "txt",
+          "src": "",
+          "title": "開箱密碼",
+          "alt": "在你終於完成匿名者指示的六個任務後，你發現在包裹的最底層還夾著一張沒注意到的圖紙。圖紙背面寫著：\n　\n「小八，你把每個任務破解後收集到的『關鍵字』依照『Ａ關→Ｆ關』的順序組成一個由六個中文字組成的句子，並把句子在『典藏文物查詢系統』中查詢，就能找到我要給你的驚喜！」\n　\n🌟小提示：如果忘了關鍵字是什麼，可以到【關卡選擇】中查看每個關卡的圖示，那邊會有紀錄喔。"
+        }
+      ],
+      "answers": [
+        {
+          "title": "請輸入正確答案",
+          "alt": "請利用「典藏文物查詢系統」搜尋你蒐集到的「六個中文字」，找到對應的文物後，將它的館藏號輸入下方，來驗證是否找到正確的驚喜！",
+          "type": "order",
+          "options": ["１","２","３","４","５","６","７","８","９","０","Ａ","Ｂ","Ｃ","Ｄ","Ｅ","Ｆ","Ｇ","Ｈ","Ｉ","Ｊ","Ｋ","Ｌ","Ｍ","Ｎ","Ｏ","Ｐ","Ｑ","Ｒ","Ｓ","Ｔ","Ｕ","Ｖ","Ｗ","Ｘ","Ｙ","Ｚ"],
+          "value": [12,16,20,9,9,0]
+        }
+      ],
+      "hints" :[
+        {
+          "id": "3qjEZr1fq5jUH9x1qLjYVK",
+          "buttonText": "需要點提示",
+          "score": 300,
+          "type": "txt",
+          "title": "需要點提示",
+          "src": "",
+          "alt": "搜尋「畫美國領事館」就能找到館藏唯一一幅藍蔭鼎先生的畫作，其「館藏號」即是本關答案。"
+        },
+        {
+          "id": "3qjEZr1fqkf5mT7TwCE8qc",
+          "buttonText": "直接看答案",
+          "score": 1000,
+          "type": "txt",
+          "title": "直接看答案",
+          "src": "",
+          "alt": "答案是「CGK001」。"
+        }
+      ]
+    },
+    {
+      "id": "3iZqJg6nXvUy441dVFLm9A",
+      "required": ["3iZqJg6nXHQQNHcLu7WSb1"],
       "next": "",
-      "title": "結局",
+      "title": "＼成功開箱／",
       "type": "end",
-      "buttonText":"結束計時看成績",
+      "buttonText": "成功完賽看成績",
       "banner": "/media/banner_end.jpg",
       "prompts": [
         {
-          "type":"image",
-          "src":"/media/end.jpg",
-          "title": "🎉恭喜完成任務🎉",
-          "alt": "【嗶——恭喜完成所有任務！透過這次支線任務，相信你們也感受到了：「包容&多元、合作&信任、發展&成長」是這次能順利完成任務的關鍵，希望你們也能將這樣的特質帶回原本的時空中。祝新的一年，一切順利！】\n　\n【時空穿梭倒數——４—３—２—１——】轉瞬間，你們回到了當初離開的地點。\n　\n「幸好順利回來了，我們應該還趕得上晚上的忘年會吧？！」鬆了一口氣的你們，一邊討論著剛剛的冒險，一邊簇擁著往接駁巴士移動。\n　\n北埔小鎮又恢復了平靜。"
+          "type": "image",
+          "src": "/media/end.jpg",
+          "title": "🎉成功開箱🎉",
+          "alt": "恭喜找到匿名者在系統中藏的驚喜——鎮館之寶《藍蔭鼎畫美國領事館》！\n　\n這幅畫除了是藍蔭鼎先生贈給葛超智先生的畫作外，它紀錄了陳儀、葛超智、柯遠芬等多位重量級人物同框的場合，也透過畫中人物的神情、姿態將當時緊張、微妙拉鋸的氛圍表露無遺，是藍蔭鼎先生屈指可數的時事畫作之一，實屬珍貴。\n　\n「謝謝你將那麼意義深重的畫作作為禮物分享給我！雖然不知道你是誰，但這份心意我收到了❤️ 」小八看著鎮館之寶，默默的想著。\n　\n\n　\n🎁恭喜完成本次挑戰！到一樓服務台出示遊戲成績頁，就可以領取小禮物喔🎁"
         }
       ]
     }
   ],
-  "scoreBanner": "/media/banner_score.jpg"
+  "scoreBanner": "/media/banner_score.jpg",
+  "scoreText": "看看更多台北二二八紀念館資訊",
+  "scoreUrl": "https://www.facebook.com/tp228mm/"
 }
