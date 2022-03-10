@@ -15,7 +15,7 @@
   "levels": [
     {
       "id": "3iZqJhUPo69DBuC6EAtRc7",
-      "required": "",
+      "required": [""],
       "next": "3iZqJhUPpKfWxeJAXytWwg",
       "title": "神秘的寶藏",
       "banner": "/media/banner_1.jpg",
@@ -24,7 +24,7 @@
           "type":"txt",
           "src":"",
           "title":"放學後的探險",
-          "alt":"🙎🏼‍♀️「嚴忠駝！我跟你說過多少遍了？不要再去那裡玩了！」\n💁🏻‍♂️「是丁復國帶我去的！」\n🙎🏼‍♀️「不准再去那瘋人院了！成天說些瘋言瘋語！」\n💁🏻‍♂️「好啦！那我出門囉！」"
+          "alt":"🙎🏼‍♀️「嚴忠駝！我跟你說過多少遍了？不要再去那裡玩了！」\n💁🏻‍♂️「是丁復國帶我去的！」\n🙎🏼‍♀️「不准再去那瘋人院了！成天說些瘋言瘋語！」\n💁🏻‍♂️「好啦！那我出門囉！」\n　\n➡️往右滑看更多內容➡️"
         },
         {
           "type":"image",
@@ -63,7 +63,7 @@
     },
     {
       "id": "3iZqJhUPpKfWxeJAXytWwg",
-      "required": "3iZqJhUPo69DBuC6EAtRc7",
+      "required": ["3iZqJhUPo69DBuC6EAtRc7"],
       "next": "3iZqJhUPqAnUixc1zGLcGk",
       "title": "尋找秘密通道",
       "banner": "/media/banner_2.jpg",
@@ -84,7 +84,7 @@
       "answers": [
         {
           "title": "找出密道後前往象山公園",
-          "alt": "請根據古地圖找出現代三張犁、興雅、五分埔庄交界處的所在位置（為一棟大樓前的路口），前往該地點後點擊下方定位按鈕。\n　\n如定位驗證正確，就能在附近找到通往象山公園的地下道、獲得下一步的提示！（⚠注意⚠ 因車流量較大，請務必按下行人穿越按鈕，依紅綠燈指示過馬路😊）",
+          "alt": "請根據古地圖找出現代三張犁、興雅、五分埔庄交界處的所在位置（為一棟大樓前的路口），前往該地點後點擊下方定位按鈕。\n　\n如定位驗證正確，就能在附近找到通往象山公園的地下道、獲得下一步的提示！（⚠️注意⚠️ 因車流量較大，請務必按下行人穿越按鈕，依紅綠燈指示過馬路😊）",
           "type": "inLocation",
           "displayName": "冠德領袖大廈",
           "latitude": 25.049615,
@@ -106,7 +106,7 @@
     },
     {
       "id": "3iZqJhUPqAnUixc1zGLcGk",
-      "required": "3iZqJhUPpKfWxeJAXytWwg",
+      "required": ["3iZqJhUPpKfWxeJAXytWwg"],
       "next": "3iZqJhUPr2VQBFjScgKPGU",
       "title": "大自然的寶藏",
       "banner": "/media/banner_3.jpg",
@@ -147,7 +147,7 @@
     },
     {
       "id": "3iZqJhUPr2VQBFjScgKPGU",
-      "required": "3iZqJhUPqAnUixc1zGLcGk",
+      "required": ["3iZqJhUPqAnUixc1zGLcGk"],
       "next": "3iZqJhUPrrvVhVgvL1LaLM",
       "title": "穿越時空的公車",
       "banner": "/media/banner_4.jpg",
@@ -187,7 +187,7 @@
     },
     {
       "id": "3iZqJhUPrrvVhVgvL1LaLM",
-      "required": "3iZqJhUPr2VQBFjScgKPGU",
+      "required": ["3iZqJhUPr2VQBFjScgKPGU"],
       "next": "3iZqJhUPsgu1iyPFe2CXnF",
       "title": "瞬間加速的童年",
       "banner": "/media/banner_5.jpg",
@@ -208,7 +208,7 @@
       "answers": [
         {
           "title": "四四兵工廠的遺跡",
-          "alt": "四四南村為兵工廠的眷屬居住地，在村落裡可以找到許多和工廠的緊密連結。請在眷村文化園區裡，找尋四四兵工廠的廠徽及右下角的說明牌，並參考說明牌內容依序回答以下三個問題。\n　\n1.四四兵工廠成立於民國幾年？\n2.請問廠徽的寓意為？\n3.廠徽的外型象徵何物？",
+          "alt": "四四南村為兵工廠的眷屬居住地，在村落裡可以找到許多和工廠的緊密連結。請在眷村文化園區裡，找尋四四兵工廠的廠徽及右下角的說明牌，並參考說明牌內容依序回答以下三個問題。\n　\n1. 四四兵工廠成立於民國幾年？\n2. 請問廠徽的寓意為？\n3. 廠徽的外型象徵何物？",
           "type": "order",
           "options": ["20","25","28","4+4","4-4","4X4","火箭彈","信號彈","機關槍"],
           "value": [1,5,6]
@@ -228,7 +228,7 @@
     },
     {
       "id": "3iZqJhUPsgu1iyPFe2CXnF",
-      "required": "3iZqJhUPrrvVhVgvL1LaLM",
+      "required": ["3iZqJhUPrrvVhVgvL1LaLM"],
       "next": "3iZqJhUPtfkqdrRZHzKh8W",
       "title": "珍貴的寶藏",
       "banner": "/media/banner_6.jpg",
@@ -269,10 +269,12 @@
     },
     {
       "id": "3iZqJhUPtfkqdrRZHzKh8W",
-      "required": "3iZqJhUPsgu1iyPFe2CXnF",
+      "required": ["3iZqJhUPsgu1iyPFe2CXnF"],
       "next": "",
       "title": "未完待續的故事",
       "banner": "/media/banner_end.jpg",
+      "type": "end",
+      "buttonText":"結束遊戲看成績",
       "prompts": [
         {
           "type":"txt",
