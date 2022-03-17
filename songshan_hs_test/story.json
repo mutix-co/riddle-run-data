@@ -1,13 +1,13 @@
 {
   "name": "songshan_hs_test",
   "version": "1.0",
-  "title": "南南細語（測試版1）",
+  "title": "南南細語（測試版）",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/splash.jpg",
   "map": "/media/map.jpg",
   "timekeeper": true,
-  "contact": "m.me/RiddleRun",
+  "contact": "https://www.messenger.com/t/113043660142958",
   "introduction": {
     "title": "啟程之前",
     "content": "哈囉！同學們！👋\n　\n歡迎來到《南南細語》的遊戲世界中，本遊戲分為六大關卡，從松山工農出發，帶領大家發現信義區的前世今生。\n　\n讓我們調慢時間的腳步，跟著四四南村的居民——嚴忠駝和丁復國，一起穿越過去，開啟尋寶之旅！😊\n　\n🔔小提醒🔔\n1⃣️ 看完每關的關卡內容後，點擊下方的【輸入答案】按紐，就能看到完整的關卡題目內容喔。\n　\n2⃣️ 如果卡關，可點擊左下角【燈泡】按鈕索取提示、並扣遊戲積分 1,200 分（等同增加總遊戲時間 15 分鐘）。"
@@ -106,7 +106,7 @@
           "displayName": "冠德領袖大廈",
           "latitude": 25.049573,
           "longitude": 121.574491,
-          "maxDistance": 100
+          "maxDistance": 50
         }
       ],
       "hints" :[
