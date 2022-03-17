@@ -17,7 +17,7 @@
       "id": "3iZqJhUPo69DBuC6EAtRc7",
       "required": "",
       "next": "3iZqJi9g1HecXUChzrEQ8F",
-      "title": "神秘的寶藏",
+      "title": "第一關｜神秘的寶藏",
       "banner": "/media/banner_1.jpg",
       "prompts": [
         {
@@ -63,7 +63,7 @@
     },
     {
       "id": "3iZqJi9g1HecXUChzrEQ8F",
-      "required": "3iZqJhUPo69DBuC6EAtRc7",
+      "required": ["3iZqJhUPo69DBuC6EAtRc7"],
       "next": "3iZqJhUPpKfWxeJAXytWwg",
       "title": "恭喜通關－養神院",
       "type": "continue",
@@ -82,7 +82,7 @@
       "id": "3iZqJhUPpKfWxeJAXytWwg",
       "required": ["3iZqJi9g1HecXUChzrEQ8F"],
       "next": "3iZqJhUPqAnUixc1zGLcGk",
-      "title": "尋找秘密通道",
+      "title": "第二關｜尋找秘密通道",
       "banner": "/media/banner_2.jpg",
       "prompts": [
         {
@@ -125,7 +125,7 @@
       "id": "3iZqJhUPqAnUixc1zGLcGk",
       "required": ["3iZqJhUPpKfWxeJAXytWwg"],
       "next": "3iZqJhUPr2VQBFjScgKPGU",
-      "title": "大自然的寶藏",
+      "title": "第三關｜大自然的寶藏",
       "banner": "/media/banner_3.jpg",
       "prompts": [
         {
@@ -166,7 +166,7 @@
       "id": "3iZqJhUPr2VQBFjScgKPGU",
       "required": ["3iZqJhUPqAnUixc1zGLcGk"],
       "next": "3iZqJi9g2fAYqCJYuGgQe3",
-      "title": "穿越時空的公車",
+      "title": "第四關｜穿越時空的公車",
       "banner": "/media/banner_4.jpg",
       "prompts": [
         {
@@ -205,7 +205,7 @@
     },
     {
       "id": "3iZqJi9g2fAYqCJYuGgQe3",
-      "required": "3iZqJhUPr2VQBFjScgKPGU",
+      "required": ["3iZqJhUPr2VQBFjScgKPGU"],
       "next": "3iZqJhUPrrvVhVgvL1LaLM",
       "title": "恭喜通關－幾米月亮公車",
       "type": "continue",
@@ -224,7 +224,7 @@
       "id": "3iZqJhUPrrvVhVgvL1LaLM",
       "required": ["3iZqJi9g2fAYqCJYuGgQe3"],
       "next": "3iZqJhUPsgu1iyPFe2CXnF",
-      "title": "瞬間加速的童年",
+      "title": "第五關｜瞬間加速的童年",
       "banner": "/media/banner_5.jpg",
       "prompts": [
         {
@@ -265,7 +265,7 @@
       "id": "3iZqJhUPsgu1iyPFe2CXnF",
       "required": ["3iZqJhUPrrvVhVgvL1LaLM"],
       "next": "3iZqJi9g3jHH8BwM9V6JcE",
-      "title": "珍貴的寶藏",
+      "title": "第六關｜珍貴的寶藏",
       "banner": "/media/banner_6.jpg",
       "prompts": [
         {
@@ -304,7 +304,7 @@
     },
     {
       "id": "3iZqJi9g3jHH8BwM9V6JcE",
-      "required": "3iZqJhUPsgu1iyPFe2CXnF",
+      "required": ["3iZqJhUPsgu1iyPFe2CXnF"],
       "next": "3iZqJhUPtfkqdrRZHzKh8W",
       "title": "恭喜通關－臺北101",
       "type": "continue",
@@ -324,7 +324,7 @@
       "id": "3iZqJhUPtfkqdrRZHzKh8W",
       "required": ["3iZqJi9g3jHH8BwM9V6JcE"],
       "next": "",
-      "title": "未完待續的故事",
+      "title": "結局｜未完待續的故事",
       "banner": "/media/banner_end.jpg",
       "type": "end",
       "buttonText":"結束遊戲看成績",
