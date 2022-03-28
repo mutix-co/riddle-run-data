@@ -10,13 +10,13 @@
   "contact": "https://www.messenger.com/t/113043660142958",
   "introduction": {
     "title": "前言",
-    "content": "喜愛冒險的探索家「紅剝」，來到剝皮寮開啟跨越時空的奇遇之旅。但在返家的途中，紅剝卻發現自己迷失了方向......請探險家們協助紅剝，拜訪每位街屋老闆、完成老闆提供的任務，即可得到「關卡關鍵字」，這些關鍵字是組成「時空穿越器密碼」的要素，一起帶著紅剝回家吧！"
+    "content": "喜愛冒險的探索家「紅剝」，來到剝皮寮開啟跨越時空的奇遇之旅。但在返家的途中，紅剝卻發現自己迷失了方向......\n　\n請探險家們協助紅剝，拜訪每位街屋老闆、完成老闆提供的任務，即可得到「關卡關鍵字」。這些關鍵字是組成「時空穿越器密碼」的要素，一起帶著紅剝回家吧！"
   },
   "levels": [
     {
-      "id": "intro",
+      "id": "3iZqJjETAU9vk3CpezDpcq",
       "required": "",
-      "next": "lobby",
+      "next": "3iZqJjETBVBFwTJv5RYR2Y",
       "title": "行前須知",
       "type": "continue",
       "buttonText":"我瞭解了！",
@@ -43,10 +43,12 @@
       ]
     },
     {
-      "id": "lobby",
-      "required": ["intro"],
+      "id": "3iZqJjETBVBFwTJv5RYR2Y",
+      "required": ["3iZqJjETAU9vk3CpezDpcq"],
       "next": "",
       "title": "🔀遊戲轉跳大廳🔀",
+      "type": "continue",
+      "buttonText":"挑選關卡",
       "banner": "/media/banner_lobby.jpg",
       "prompts": [
         {
@@ -58,9 +60,9 @@
       ]
     },
     {
-      "id": "A",
-      "required": ["lobby"],
-      "next": "lobby",
+      "id": "3iZqJjETCGXhBfxehJQ9BY",
+      "required": ["3iZqJjETBVBFwTJv5RYR2Y"],
+      "next": "3iZqJjETBVBFwTJv5RYR2Y",
       "title": "關卡Ａ｜印刷好好玩",
       "banner": "/media/banner_a.jpg",
       "prompts": [
@@ -87,7 +89,7 @@
       ],
       "hints" :[
         {
-          "id": "a-h",
+          "id": "3qjEZu9LRcu6iKd9zQeMpD",
           "buttonText": "領取關卡Ａ提示",
           "score": 480,
           "type":"image",
@@ -96,7 +98,7 @@
           "alt": "請按照圖中的文字指示，將貼有該文字的印章蓋到手冊上對應的格子內（如：貼有「鉛字排版」的印章蓋到右上方的格子），就能拼組出完整迷宮！"
         },
         {
-          "id": "a-a",
+          "id": "3qjEZu9LSWApwec8umBSx7",
           "buttonText": "領取關卡Ａ答案",
           "score": 900,
           "type":"txt",
@@ -106,9 +108,9 @@
       ]
     },
     {
-      "id": "B",
-      "required": ["lobby"],
-      "next": "lobby",
+      "id": "3iZqJjETD6c7mM9YyuoNLj",
+      "required": ["3iZqJjETBVBFwTJv5RYR2Y"],
+      "next": "3iZqJjETBVBFwTJv5RYR2Y",
       "title": "關卡Ｂ｜下廚初體驗",
       "banner": "/media/banner_b.jpg",
       "prompts": [
@@ -140,12 +142,12 @@
           "buttonText": "領取關卡Ｂ提示",
           "score": 480,
           "type":"image",
-          "src":"/media/b-h.jpg",
+          "src":"/media/3qjEZu9LTJtFrbMiR97o43.jpg",
           "title": "關卡Ｂ提示",
           "alt": "老闆娘說的「綠豆糕」需要的食材有「綠豆、豬油、砂糖、水、紅豆餡」，請在食材牆上找到對應的材料編號吧！食材牆上的板子可以翻面，背面還有其他食材喔。"
         },
         {
-          "id": "b-a",
+          "id": "3qjEZu9LUEGY6LZfMXwk3d",
           "buttonText": "領取關卡Ｂ答案",
           "score": 900,
           "type":"txt",
@@ -155,9 +157,9 @@
       ]
     },
     {
-      "id": "C",
-      "required": ["lobby"],
-      "next": "lobby",
+      "id": "3iZqJjETDst86Rw41zvsrr",
+      "required": ["3iZqJjETBVBFwTJv5RYR2Y"],
+      "next": "3iZqJjETBVBFwTJv5RYR2Y",
       "title": "關卡Ｃ｜旅社看百工",
       "banner": "/media/banner_c.jpg",
       "prompts": [
@@ -185,7 +187,7 @@
       ],
       "hints" :[
         {
-          "id": "c-h",
+          "id": "3qjEZu9LV2BTPUhFwAnQYC",
           "buttonText": "領取關卡C提示",
           "score": 480,
           "type":"txt",
@@ -194,7 +196,7 @@
           "alt": "草藥商扛著「一包包的藥草」到這邊貿易，「磨藥缽」也是他們隨身會攜帶的東西。而總鋪師，則是「廚師服」、「廚具」不離身的人，相信在他房間一定能看到這些東西。"
         },
         {
-          "id": "c-a",
+          "id": "3qjEZu9LVrfWBnZ89nu9iw",
           "buttonText": "領取關卡Ｃ答案",
           "score": 900,
           "type":"txt",
@@ -204,9 +206,9 @@
       ]
     },
     {
-      "id": "D",
-      "required": ["lobby"],
-      "next": "lobby",
+      "id": "3iZqJjETEfJFSFmsjxw5UK",
+      "required": ["3iZqJjETBVBFwTJv5RYR2Y"],
+      "next": "3iZqJjETBVBFwTJv5RYR2Y",
       "title": "關卡Ｄ｜艋舺時光縮影",
       "banner": "/media/banner_d.jpg",
       "prompts": [
@@ -234,7 +236,7 @@
       ],
       "hints" :[
         {
-          "id": "d-h",
+          "id": "3qjEZu9LWfkLrnhxQxvQdH",
           "buttonText": "領取關卡Ｄ提示",
           "score": 480,
           "type":"txt",
@@ -242,7 +244,7 @@
           "alt": "「臉上有臉譜的人」出現在作品《華西街夜市藝陣文化》中；\n「趴在地上玩尪仔標的小孩」出現在作品《童薪。未泯》中；\n「端著菜忙碌的身影」出現在作品《嫁娶愛的好日》中；\n　\n仔細閱讀這三個作品的說明牌，就能找到答案！"
         },
         {
-          "id": "d-a",
+          "id": "3qjEZu9LXXi2hVvEHSQkTN",
           "buttonText": "領取關卡Ｄ答案",
           "score": 900,
           "type":"txt",
@@ -252,9 +254,9 @@
       ]
     },
     {
-      "id": "E",
-      "required": ["lobby"],
-      "next": "lobby",
+      "id": "3iZqJjETFWd2Jwo2pyJRfm",
+      "required": ["3iZqJjETBVBFwTJv5RYR2Y"],
+      "next": "3iZqJjETBVBFwTJv5RYR2Y",
       "title": "關卡Ｅ｜建築大不同",
       "banner": "/media/banner_e.jpg",
       "prompts": [
@@ -282,7 +284,7 @@
       ],
       "hints" :[
         {
-          "id": "e-h",
+          "id": "3qjEZu9LYN8PQEuKBiGNEL",
           "buttonText": "領取關卡Ｅ提示",
           "score": 480,
           "type":"txt",
@@ -290,7 +292,7 @@
           "alt": "關於這三個地點，可以特別觀察：\n　\n康定路173巷31號 ➡️ 觀察騎樓柱子頂端的造型\n最高的房子 ➡️ 觀察它的建築材料\n長壽號 ➡️ 二樓的窗戶、騎樓內側的造型"
         },
         {
-          "id": "e-a",
+          "id": "3qjEZu9LZBwJmwpeAD71hZ",
           "buttonText": "領取關卡Ｅ答案",
           "score": 900,
           "type":"txt",
@@ -300,9 +302,9 @@
       ]
     },
     {
-      "id": "F",
-      "required": ["lobby"],
-      "next": "lobby",
+      "id": "3iZqJjETGSjPFPy7xeSVpz",
+      "required": ["3iZqJjETBVBFwTJv5RYR2Y"],
+      "next": "3iZqJjETBVBFwTJv5RYR2Y",
       "title": "關卡Ｆ｜多變的地貌",
       "banner": "/media/banner_f.jpg",
       "prompts": [
@@ -334,12 +336,12 @@
           "buttonText": "領取關卡Ｆ提示",
           "score": 480,
           "type":"image",
-          "src":"/media/f-h.jpg",
+          "src":"/media/3qjEZu9La7gzmq4XmmmSFT.jpg",
           "title": "關卡Ｆ提示",
           "alt": "三個不規則色塊在廣場地板上的地圖中代表地點的依序是：土炭市、長壽號茶桌仔店、消防蓄水池。\n　\n按照「黃、綠、藍色塊」示意需要擷取的字形則是「黃色＝土、綠色＝亻、藍色＝也」，將這些字形填入謎底的對應色塊中，就能獲得答案！"
         },
         {
-          "id": "f-a",
+          "id": "3qjEZu9Laz53egPrGiMHEq",
           "buttonText": "領取關卡Ｆ答案",
           "score": 900,
           "type":"txt",
@@ -349,9 +351,9 @@
       ]
     },
     {
-      "id": "password",
-      "required": ["A,B,C,D,E,F"],
-      "next": "end",
+      "id": "3iZqJjETHQfKMHnNsjHJZX",
+      "required": ["3iZqJjETCGXhBfxehJQ9BY","3iZqJjETD6c7mM9YyuoNLj","3iZqJjETDst86Rw41zvsrr","3iZqJjETEfJFSFmsjxw5UK","3iZqJjETFWd2Jwo2pyJRfm","3iZqJjETGSjPFPy7xeSVpz"],
+      "next": "3iZqJjETJCY2BtFsrfAeCc",
       "title": "⏱ 時空穿越器 ⏱",
       "banner": "/media/banner_p.jpg",
       "prompts": [
@@ -383,8 +385,8 @@
       ]
     },
     {
-      "id": "end",
-      "required": ["password"],
+      "id": "3iZqJjETJCY2BtFsrfAeCc",
+      "required": ["3iZqJjETHQfKMHnNsjHJZX"],
       "next": "",
       "title": "任務完成",
       "banner": "/media/banner_end.jpg",
