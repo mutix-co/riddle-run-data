@@ -1,11 +1,10 @@
-
+{
   "name": "redhouse_test",
   "version": "1.0",
-  "title": "《城西夏樂慶》西門紅樓篇（測試版）",
+  "title": "《城西夏樂慶》西門紅樓篇（測3/29）",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/splash.jpg",
-  "map": "/media/map.jpg",
   "timekeeper": true,
   "contact": "https://www.messenger.com/t/113043660142958",
   "introduction": {
@@ -14,9 +13,9 @@
   },
   "levels": [
     {
-      "id": "intro",
+      "id": "3iZqJjHBy93Xd6vsEygXV5",
       "required": "",
-      "next": "Ａ",
+      "next": "3iZqJjHByqZRXUQePXVfN5",
       "title": "行前須知",
       "type": "continue",
       "buttonText":"我瞭解了！",
@@ -37,9 +36,9 @@
       ]
     },
     {
-      "id": "A",
-      "required": ["intro"],
-      "next": "end",
+      "id": "3iZqJjHByqZRXUQePXVfN5",
+      "required": ["3iZqJjHBy93Xd6vsEygXV5"],
+      "next": "3iZqJjHBzSkix9w3FB9kxp",
       "title": "🆘 時空紊亂危機 🆘",
       "banner": "/media/banner_a.jpg",
       "prompts": [
@@ -67,7 +66,7 @@
       ],
       "hints" :[
         {
-          "id": "a-h",
+          "id": "3qjEZuC53zyi2oGrRyfZ2m",
           "buttonText": "領取關卡提示",
           "score": 480,
           "type":"txt",
@@ -75,7 +74,7 @@
           "alt": "物品Ａ： 16 工坊的招牌；\n物品Ｂ：電影宣傳的剪報；\n物品Ｃ：粵劇的女角頭冠；\n物品Ｄ：印有店家宣傳圖文的火材盒。\n　\n明確知道Ａ～Ｄ分別是什麼後，就接著看看他們分別是屬於哪個年代的物品吧！"
         },
         {
-          "id": "a-a",
+          "id": "3qjEZuC54kytRq2FWBxi5P",
           "buttonText": "領取關卡答案",
           "score": 900,
           "type":"txt",
@@ -85,8 +84,8 @@
       ]
     },
     {
-      "id": "end",
-      "required": ["A"],
+      "id": "3iZqJjHBzSkix9w3FB9kxp",
+      "required": ["3iZqJjHByqZRXUQePXVfN5"],
       "next": "",
       "title": "✅ 危機解除 ✅",
       "banner": "/media/banner_end.jpg",
