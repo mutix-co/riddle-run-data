@@ -5,6 +5,7 @@
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/splash.jpg",
+  "map": "/media/map.jpg",
   "timekeeper": true,
   "contact": "https://www.messenger.com/t/113043660142958",
   "introduction": {
@@ -54,9 +55,9 @@
           "title": "請輸入正確答案",
           "alt": "抵達松山慈祐宮後請點擊下方按鈕，確認你抵達後，我們會將你傳送到河神的身邊！",
           "type": "inLocation",
-          "displayName": "home",
-          "latitude": 25.061978,
-          "longitude": 121.498153,
+          "displayName": "慈祐宮",
+          "latitude": 25.051053,
+          "longitude": 121.577727,
           "maxDistance": 50
         }
       ]
@@ -78,7 +79,7 @@
       "answers": [
         {
           "title": "請輸入正確答案",
-          "alt": "請協助河神找到藏起來的小青龍，並找出藏地處三個「？」各代表的字母，依照合理順序填入下方。",
+          "alt": "請協助河神找到藏起來的小青龍，並找出他藏深處三個「？」各代表的字母後，依照合理順序填入下方。",
           "type": "order",
           "options": ["Ａ","Ｂ","Ｃ","Ｄ","Ｅ","Ｆ","Ｇ","Ｈ","Ｉ","Ｊ","Ｋ","Ｌ","Ｍ","Ｎ","Ｏ","Ｐ","Ｑ","Ｒ","Ｓ","Ｔ","Ｕ","Ｖ","Ｗ","Ｘ","Ｙ","Ｚ"],
           "value": [1,6,24]
@@ -209,5 +210,5 @@
   ],
   "scoreBanner": "/media/banner_score.jpg",
   "scoreText": "看看更多 Riddle Run 消息",
-  "scoreUrl": "https://www.facebook.com/RiddleRun"
+  "scoreUrl": "https://www.instagram.com/riddle.run/"
 }
