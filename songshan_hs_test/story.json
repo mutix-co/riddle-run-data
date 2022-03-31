@@ -213,7 +213,7 @@
     {
       "id": "3iZqJhUPrrvVhVgvL1LaLM",
       "required": ["3iZqJhUPr2VQBFjScgKPGU"],
-      "next": "3iZqJhUPsgu1iyPFe2CXnF",
+      "next": "3iZqJi9g2fAYqCJYuGgQe3",
       "title": "瞬間加速的童年",
       "banner": "/media/banner_5.jpg",
       "prompts": [
@@ -294,7 +294,7 @@
     },
     {
       "id": "3iZqJhUPsgu1iyPFe2CXnF",
-      "required": ["3iZqJhUPrrvVhVgvL1LaLM"],
+      "required": ["3iZqJi9g2fAYqCJYuGgQe3"],
       "next": "3iZqJi9g3jHH8BwM9V6JcE",
       "title": "時間的寶藏",
       "banner": "/media/banner_6.jpg",
