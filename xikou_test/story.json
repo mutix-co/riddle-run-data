@@ -55,9 +55,9 @@
           "title": "請輸入正確答案",
           "alt": "抵達松山慈祐宮後請點擊下方按鈕，確認你抵達後，我們會將你傳送到河神的身邊！",
           "type": "inLocation",
-          "displayName": "慈祐宮",
-          "latitude": 25.051053,
-          "longitude": 121.577727,
+          "displayName": "studio",
+          "latitude": 25.049591,
+          "longitude": 121.574481,
           "maxDistance": 50
         }
       ]
