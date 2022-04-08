@@ -1,7 +1,7 @@
 {
-  "name": "xikou_test",
+  "name": "xikou",
   "version": "1.0",
-  "title": "《河神謎蹤》錫口小解謎旅行（測試）",
+  "title": "《河神謎蹤》錫口小解謎旅行",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/splash.jpg",
@@ -55,9 +55,9 @@
           "title": "請輸入正確答案",
           "alt": "抵達松山慈祐宮後請點擊下方按鈕，確認你抵達後，我們會將你傳送到河神的身邊！",
           "type": "inLocation",
-          "displayName": "home",
-          "latitude": 25.061978,
-          "longitude": 121.498153,
+          "displayName": "慈祐宮",
+          "latitude": 25.051053,
+          "longitude": 121.577727,
           "maxDistance": 50
         }
       ]
