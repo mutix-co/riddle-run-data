@@ -1,0 +1,182 @@
+{
+  "name": "bopiliao_online",
+  "version": "1.0",
+  "title": "《城西夏樂慶》剝皮寮奇遇記（線上）",
+  "banner": "/media/banner.jpg",
+  "background": "/media/background.jpg",
+  "splash": "/media/splash.jpg",
+  "timekeeper": true,
+  "contact": "https://www.messenger.com/t/113043660142958",
+  "introduction": {
+    "title": "前言",
+    "content": "喜愛冒險的探索家「紅剝」，來到剝皮寮開啟跨越時空的奇遇之旅。但在返家的途中，紅剝卻發現自己迷失了方向......\n　\n請探險家們協助紅剝，拜訪兩位街屋老闆、完成老闆提供的任務。完成兩個任務後就能成功的帶著紅剝回家！"
+  },
+  "levels": [
+    {
+      "id": "3iZqJnEQ3Y1FHKaqdFuvyX",
+      "required": "",
+      "next": "3iZqJnEQ5JpCww8AMYfBUY",
+      "title": "行前須知",
+      "type": "continue",
+      "buttonText":"我瞭解了！",
+      "banner": "/media/banner_intro.jpg",
+      "prompts": [
+        {
+          "type":"txt",
+          "src":"",
+          "title":"行前須知",
+          "alt":"1⃣️ 線上體驗版共有「2 關」，請根據 App 內指示、找到線索、破解關卡！（全程線上體驗，不用到現場喔！）\n　\n2⃣️ 遊戲成績將根據遊戲時間及提示扣分綜合計算，一起爭取最高分💪\n　\n3⃣️ 需要提示／看答案👉 點右下角【燈泡】按鈕（注意：使用提示是會扣分的唷！提示的扣分等同增加最終遊戲時間 8 分鐘，而看答案則是增加 15 分鐘。）\n　\n4⃣️ 遊戲的最後，邀請你協助填寫回饋問券，讓我們未來能做得更好！\n　\n➡️最後，往左滑看看操作說明吧➡️"
+        },
+        {
+          "type":"image",
+          "src":"/media/intro-1.jpg",
+          "title":"遊戲操作說明",
+          "alt": "1⃣️ 「上下、左右」滑動：可獲取該關更多內容。\n2⃣️ 下方【輸入解答】按鈕：可看關卡題目、驗證答案。\n3⃣️ 右下【燈泡】按鈕：可領取提示。\n4⃣️ 右上【菜單列】：可獲取關卡清單、遊戲狀態、聯絡客服等。"
+        },
+        {
+          "type":"image",
+          "src":"/media/intro-2.jpg",
+          "title":"關卡狀態說明",
+          "alt": "【已破關】關卡圖為清晰狀態\n【已解鎖】關卡圖為模糊狀態\n【未解鎖】關卡圖上有個鎖扣"
+        }
+      ]
+    },
+    {
+      "id": "3iZqJnEQ5JpCww8AMYfBUY",
+      "required": ["3iZqJnEQ3Y1FHKaqdFuvyX"],
+      "next": "3iZqJnEQ6FkZ9FLsJJ8Rhb",
+      "title": "關卡一｜艋舺時光縮影",
+      "banner": "/media/banner_d.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src":"/media/d-1.jpg",
+          "title":"📍關卡地點：土炭市",
+          "alt":"以前，大家都靠著燒炭來生火，隨著電力逐漸發達後，煤炭產業隨之沒落，「土炭市」老闆見證了這段興衰...\n　\n紅剝來到土炭市，希望老闆協助他找到回家的線索，沒想到老闆看到紅剝，就滔滔不絕的分享起以前的回憶。\n　\n聊到一半，老闆突然發現有些回憶只剩片段記憶，例如：臉上有臉譜的人、趴在地上玩尪仔標的小孩，還有端著菜忙碌的身影。\n　\n幸好，老闆有在土炭市裡留下紀錄，請協助老闆找出這些記憶片段吧！\n　\n➡️ 往左滑翻頁➡️"
+        },
+        {
+          "type":"image",
+          "src":"/media/d-2.jpg",
+          "title":"關卡任務",
+          "alt": "1⃣️ 老闆將過往回憶變成一個個公仔作品，陳列在土炭市的店內。\n　\n2⃣️ 請往左滑點擊按鈕，進入雲端資料夾查看公仔及作品介紹。\n　\n3⃣️ 試著從公仔中，找出老闆的記憶片段：「臉上有臉譜的人、趴在地上玩尪仔標的小孩、端著菜忙碌的身影」，他們所對應到的場景就是本關答案。"
+        },
+        {
+          "type": "url",
+          "title": "土炭市展品照",
+          "src": "https://drive.google.com/drive/folders/1FBlxIkIPZ08Hf92rDAo8rlIZqXLN1Ezi?usp=sharing",
+          "button": "照片資料夾",
+          "alt": "點擊下方按鈕查看土炭市展品照片，照片名稱可協助大家辨識作品與說明牌之間的關係。"
+        }
+      ],
+      "answers": [
+        {
+          "title": "請輸入正確答案",
+          "alt": "請依序將「臉上有臉譜的人、趴在地上玩尪仔標的小孩、有人端著菜忙碌的身影」對應的場景輸入下方。",
+          "type": "order",
+          "options": ["懷舊童玩","菜市場採買","修理腳踏車","添置新衣","青山王祭典","茶室喝茶","排隊買胡椒餅","迎春過年","嫁娶酒席"],
+          "value": [4,0,8]
+        }
+      ],
+      "hints" :[
+        {
+          "id": "3qjEZx9HF3bMWrfnciUG8R",
+          "buttonText": "領取關卡一提示",
+          "score": 480,
+          "type":"txt",
+          "title": "關卡一提示",
+          "alt": "「臉上有臉譜的人」出現在作品《華西街夜市藝陣文化》中；\n「趴在地上玩尪仔標的小孩」出現在作品《童薪。未泯》中；\n「端著菜忙碌的身影」出現在作品《嫁娶愛的好日》中；\n　\n仔細閱讀這三個作品的說明牌，就能找到答案！"
+        },
+        {
+          "id": "3qjEZx9HFxRtXEey832eHe",
+          "buttonText": "領取關卡一答案",
+          "score": 900,
+          "type":"txt",
+          "title": "關卡一答案",
+          "alt": "答案是：青山王祭典、懷舊童玩、嫁娶酒席。"
+        }
+      ]
+    },
+    {
+      "id": "3iZqJnEQ6FkZ9FLsJJ8Rhb",
+      "required": ["3iZqJnEQ5JpCww8AMYfBUY"],
+      "next": "3iZqJnEQ7ACwa1VgMvGVqo",
+      "title": "關卡二｜建築大不同",
+      "banner": "/media/banner_e.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src":"/media/e-1.jpg",
+          "title":"📍關卡地點：剝皮寮三棟建築",
+          "alt":"迷路的紅剝決定拜訪位在街尾那棟看起來最華麗的店家。到了門口一問才知道，原來這間是做建材買賣的「永興亭」，它可是日治時期這邊最富有的店家！\n　\n永興亭老闆也驕傲的跟紅剝介紹：「紅剝你看，我這棟房子可是三棟房子打通的『三連厝』！結合了英式、台式、閩南式的建築特色，是不是超氣派！我也跟你說說這剝皮寮這邊的房子特色～」\n　\n「好呀，我會認真做筆記的！」紅剝便聽著老闆細細講解。\n　\n「不錯，那你現在知道『康定路173巷31號、廣州街151號（最高的房子）、長壽號』分別是哪個年代的建築嗎？答對我就給你回家的線索～」講解完畢老闆就提出了考驗。\n　\n➡️ 往左滑翻頁➡️"
+        },
+        {
+          "type":"image",
+          "src":"/media/e-2.jpg",
+          "title":"關卡任務",
+          "alt": "1⃣️ 閱讀上方紅剝紀錄剝皮寮各時代建築特色的筆記。\n　\n2⃣️ 在下一頁連結中找到「康定路173巷31號、廣州街151號（最高的房子）、長壽號」的建築照片與說明。\n　\n3⃣️ 比對紅剝的筆記，找出它們各屬於哪個年代的建築吧！"
+        },
+        {
+          "type": "url",
+          "title": "剝皮寮建築介紹",
+          "src": "https://www.bopiliao.taipei/About/Story#book7/page1",
+          "button": "建築介紹",
+          "alt": "點擊下方按鈕查看剝皮寮建築介紹，頁面可左右切換查看更多建築的資訊喔！"
+        }
+      ],
+      "answers": [
+        {
+          "title": "請輸入正確答案",
+          "alt": "請依照「康定路173巷31號、廣州街151號（最高的房子）、長壽號」的順序填入對應建築年代。",
+          "type": "order",
+          "options": ["史前時期","荷西時期","明鄭時期","清領時期","日治時期","民國初期"],
+          "value": [3,5,4]
+        }
+      ],
+      "hints" :[
+        {
+          "id": "3qjEZx9HGpxoEMAEzoLBKH",
+          "buttonText": "領取關卡二提示",
+          "score": 480,
+          "type":"txt",
+          "title": "關卡二提示",
+          "alt": "關於這三個地點，可以特別觀察：\n　\n康定路173巷31號 ➡️ 觀察騎樓柱子頂端的造型\n最高的房子 ➡️ 觀察它的建築材料\n長壽號 ➡️ 二樓的窗戶、騎樓內側的造型"
+        },
+        {
+          "id": "3qjEZx9HHsgKQ2Mgp9Xmvd",
+          "buttonText": "領取關卡二答案",
+          "score": 900,
+          "type":"txt",
+          "title": "關卡二答案",
+          "alt": "答案是：清領時期、民國初期、日治時期。"
+        }
+      ]
+    },
+    {
+      "id": "3iZqJnEQ7ACwa1VgMvGVqo",
+      "required": ["3iZqJnEQ6FkZ9FLsJJ8Rhb"],
+      "next": "",
+      "title": "任務完成",
+      "banner": "/media/banner_end.jpg",
+      "type": "end",
+      "buttonText":"結束遊戲看成績",
+      "prompts": [
+        {
+          "type":"txt",
+          "src":"",
+          "title":"🎉恭喜成功帶著紅剝回家🎉",
+          "alt":"➡️ 往左滑填寫問券➡️\n　\n當你們一完成屋主們的任務，一個機械聲突然出現。\n　\n⏱ 嗶——任務完成，穿越倒數計時，5－4－3－2－1——\n　\n隨著穿越器啟動，眼前一片白光。等再次張開眼，就發現你們成功地回到了車水馬龍的現代。\n　\n「小朋友，真的太謝謝你了！！要是沒有你，我大概會繼續迷失在時空中...很高興這段奇妙的旅程有你陪伴❤️\n　\n我們一起拜訪了屋主們，從他們身上了解了過去剝皮寮的樣子，也因此更認識以前居住在剝皮寮的人們是如何在這邊生活。回到現在，看著剝皮寮街廓，彷彿都還能發現他們留下的生活印記！\n　\n如果可以，很歡迎你把今天的發現分享給其他朋友們喔！讓剝皮寮的故事，可以延續下去。」"
+        },
+        {
+          "type": "url",
+          "title": "🎉填寫回饋問券🎉",
+          "src": "https://docs.google.com/forms/d/e/1FAIpQLSeTrNBpsuKGUMxSO07YRdPsVG48W_QIX7AGpzXc5-BcBR6lnQ/viewform",
+          "button": "回饋問券",
+          "alt": "謝謝你協助紅剝完成這次的遊戲任務🎉\n　\n下方按鈕有一份活動回饋問券希望你可以協助填寫，回答內容將會作為我們未來活動的參考及改進方向，再麻煩你了❤️"
+        }
+      ]
+    }
+  ],
+  "scoreBanner": "/media/banner_score.jpg",
+  "scoreText": "看看更多剝皮寮活動資訊",
+  "scoreUrl": "https://www.facebook.com/Bopiliao"
+}
