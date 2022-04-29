@@ -1,7 +1,7 @@
 {
   "name": "bopiliao_online",
   "version": "1.0",
-  "title": "《城西夏樂慶》剝皮寮奇遇記（線上）",
+  "title": "《城西夏樂慶》剝皮寮奇遇記（線上版）",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/splash.jpg",
@@ -46,7 +46,7 @@
       "required": ["3iZqJnEQ3Y1FHKaqdFuvyX"],
       "next": "3iZqJnEQ6FkZ9FLsJJ8Rhb",
       "title": "關卡一｜艋舺時光縮影",
-      "banner": "/media/banner_d.jpg",
+      "banner": "/media/banner_1.jpg",
       "prompts": [
         {
           "type":"image",
@@ -101,7 +101,7 @@
       "required": ["3iZqJnEQ5JpCww8AMYfBUY"],
       "next": "3iZqJnEQ7ACwa1VgMvGVqo",
       "title": "關卡二｜建築大不同",
-      "banner": "/media/banner_e.jpg",
+      "banner": "/media/banner_2.jpg",
       "prompts": [
         {
           "type":"image",
