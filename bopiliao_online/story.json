@@ -46,7 +46,7 @@
       "required": ["3iZqJnEQ3Y1FHKaqdFuvyX"],
       "next": "3iZqJnEQ6FkZ9FLsJJ8Rhb",
       "title": "關卡一｜艋舺時光縮影",
-      "banner": "/media/banner_1.jpg",
+      "banner": "/media/banner_1.png",
       "prompts": [
         {
           "type":"image",
@@ -101,7 +101,7 @@
       "required": ["3iZqJnEQ5JpCww8AMYfBUY"],
       "next": "3iZqJnEQ7ACwa1VgMvGVqo",
       "title": "關卡二｜建築大不同",
-      "banner": "/media/banner_2.jpg",
+      "banner": "/media/banner_2.png",
       "prompts": [
         {
           "type":"image",
