@@ -38,7 +38,7 @@
           "type": "url",
           "title": "完成指定任務",
           "alt": "掃描指定貼紙開啟ＡＲ吧",
-          "src": "https://ssl-api-makar-apps.miflyservice.com:8888/MAKAR_webAR_Beta.html?openExternalBrowser=1"
+          "src": "https://webxr.miflyservice.com/cd/?uid=Makarvr&pid=b128a3a6380041b10b9365bce419e38e&openExternalBrowser=1"
         }
       ]
     },
