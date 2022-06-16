@@ -31,6 +31,12 @@
           "src": "/media/1-2.jpg",
           "title": "一封信",
           "alt": "這是那封信完整的內容，希望可以幫助到你。"
+        },
+        {
+          "type": "url",
+          "title": "完成指定任務",
+          "alt": "掃描指定貼紙開啟ＡＲ吧",
+          "src": "https://ssl-api-makar-apps.miflyservice.com:8888/MAKAR_webAR_Beta.html?openExternalBrowser=1"
         }
       ],
       "answers": [
