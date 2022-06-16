@@ -33,6 +33,12 @@
           "src":"/media/0-1.jpg",
           "title":"多種破關方式",
           "alt":"Riddle Run 支援：數字破關、按鈕排序破關、定位破關...等破關方式，從中也可以延伸多樣玩法。如此讓關卡遊玩方式不單一，也大大提升活動的遊戲性。"
+        },
+        {
+          "type": "url",
+          "title": "完成指定任務",
+          "alt": "掃描指定貼紙開啟ＡＲ吧",
+          "src": "https://ssl-api-makar-apps.miflyservice.com:8888/MAKAR_webAR_Beta.html?openExternalBrowser=1"
         }
       ]
     },
