@@ -139,9 +139,9 @@
           "title": "請走到正確的地點",
           "alt": "後來你發現，mutix Studio 就在你家附近，直接過去看看吧。",
           "type": "inLocation",
-          "displayName": "mutix Studio",
-          "latitude": 25.012150,
-          "longitude": 121.518174,
+          "displayName": "studio",
+          "latitude": 25.049591,
+          "longitude": 121.574481,
           "maxDistance": 50
         }
       ]
