@@ -165,7 +165,7 @@
           "alt":"「mutix Studio 您好...」咦，要轉哪個分機呢？"
         },
         {
-          "type": "url",
+          "type": "external-url",
           "src": "https://www.facebook.com/RiddleRun/about",
           "button": "前往 RR 粉專",
           "title": "去粉專找找？",
