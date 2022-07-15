@@ -212,7 +212,7 @@
   "scoreText": "看看 RR 過往案例",
   "scoreUrl": "https://medium.com/riddle-run",
   "scoreShare": {
-    "buttonText": "分享成果",
+    "title": "分享成果",
     "img": "/media/share.png",
     "aspect": [9, 16],
     "textColor": "#fff",
