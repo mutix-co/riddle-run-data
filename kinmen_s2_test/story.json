@@ -6,12 +6,11 @@
   "background": "/media/background.jpg",
   "splash": "/media/splash.jpg",
   "contact": "https://www.messenger.com/t/RiddleRun",
-  "timekeeper": false,　👉 變項：true、false
+  "timekeeper": false,
   "introduction": {
     "title": "前導｜成年禮考驗",
     "content": "金門隱世家族是金門最大家族，小金作為金門隱世家族的一員，即將迎接他的成年禮。但卻在成年禮的前一天，作為族長的父親將他趕出了家門，要他完成「成年禮考驗」才能回家參加成年禮。而所謂的「成年禮考驗」，即是要他通過五尊風獅爺設下的關卡，來考驗他是否真的了解金門、了解守護金門的風獅爺們。..."
   },
-//前導關//
   "levels": [
     {
       "id": "前導ID",
@@ -36,7 +35,6 @@
         }
       ]
     },
-//第一關//
     {
       "id": "第一關ID",
       "required": ["前導ID"],
