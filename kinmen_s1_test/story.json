@@ -13,9 +13,9 @@
   },
   "levels": [
     {
-      "id": "前導ID",
+      "id": "3iZqJvgKEUXFZYg5qvh5XS",
       "required": "",
-      "next": "第一關ID",
+      "next": "3iZqJvokNaSMruZWKC7iuB",
       "title": "行前須知",
       "type": "continue",
       "buttonText":"我瞭解了！",
@@ -36,9 +36,9 @@
       ]
     },
     {
-      "id": "第一關ID",
-      "required": ["前導ID"],
-      "next": "第二關ID",
+      "id": "3iZqJvokNaSMruZWKC7iuB",
+      "required": ["3iZqJvgKEUXFZYg5qvh5XS"],
+      "next": "3iZqJvokSiA69uYwnqT8wh",
       "title": "關卡Ａ｜瓊林",
       "banner": "/media/banner_a.jpg",
       "prompts": [
@@ -73,7 +73,7 @@
       ],
       "hints" :[
         {
-          "id": "第一關提示ID",
+          "id": "3qjEa6idsaXbha2HPsF42M",
           "buttonText": "領取關卡Ａ提示",
           "type":"image",
           "src":"/media/a-h.jpg",
@@ -90,9 +90,9 @@
       ]
     },
     {
-      "id": "第二關ID",
-      "required": ["第一關ID"],
-      "next": "第三關ID",
+      "id": "3iZqJvokSiA69uYwnqT8wh",
+      "required": ["3iZqJvokNaSMruZWKC7iuB"],
+      "next": "3iZqJvokWNaF11zKjzJrpS",
       "title": "關卡Ｂ｜浦邊",
       "banner": "/media/banner_b.jpg",
       "prompts": [
@@ -137,9 +137,9 @@
       ]
     },
     {
-      "id": "第三關ID",
-      "required": ["第二關ID"],
-      "next": "第四關ID",
+      "id": "3iZqJvokWNaF11zKjzJrpS",
+      "required": ["3iZqJvokSiA69uYwnqT8wh"],
+      "next": "3iZqJvokZaLUBqL6a1jWQL",
       "title": "關卡Ｃ｜后宅",
       "banner": "/media/banner_c.jpg",
       "prompts": [
@@ -182,9 +182,9 @@
       ]
     },
     {
-      "id": "第四關ID",
-      "required": ["第三關ID"],
-      "next": "第五關ID",
+      "id": "3iZqJvokZaLUBqL6a1jWQL",
+      "required": ["3iZqJvokWNaF11zKjzJrpS"],
+      "next": "3iZqJvokez2zNzxbrPG3AY",
       "title": "關卡Ｄ｜洋山",
       "banner": "/media/banner_d.jpg",
       "prompts": [
@@ -221,9 +221,9 @@
       ]
     },
     {
-      "id": "第五關ID",
-      "required": ["第四關ID"],
-      "next": "領獎關ID",
+      "id": "3iZqJvokez2zNzxbrPG3AY",
+      "required": ["3iZqJvokZaLUBqL6a1jWQL"],
+      "next": "3iZqJvokhnN5CGFLp869wP",
       "title": "關卡Ｅ｜田墩",
       "banner": "/media/banner_e.jpg",
       "prompts": [
@@ -268,8 +268,8 @@
       ]
     },
     {
-      "id": "領獎關ID",
-      "required": ["第五關ID"],
+      "id": "3iZqJvokhnN5CGFLp869wP",
+      "required": ["3iZqJvokez2zNzxbrPG3AY"],
       "next": "",
       "title": "任務完成",
       "banner": "/media/banner_end.jpg",
