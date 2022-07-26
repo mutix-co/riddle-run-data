@@ -57,7 +57,7 @@
         {
           "type": "url",
           "title": "請點擊按鈕",
-          "src": "關卡A外連",
+          "src": "https://qrcodescan.in/",
           "button": "開啟",
           "alt": "請用相機掃描辨識貼紙。"
         }
@@ -105,7 +105,7 @@
         {
           "type": "url",
           "title": "關卡任務",
-          "src": "關卡外連",
+          "src": "https://qrcodescan.in/",
           "button": "開啟",
           "alt": "1. 請點按鈕開起網頁。\n　\n2. 請用相機掃描辨識貼紙。\n　\n3. 辨識成功後會出現謎題題目或線索唷。\n　\n4. 請閱讀後回到 APP 作答。"
         }
@@ -121,14 +121,14 @@
       ],
       "hints" :[
         {
-          "id": "第二關提示ID",
+          "id": "3qjEa6pGwXSdP44CtDMu7s",
           "buttonText": "領取關卡Ｂ提示",
           "type":"text",
           "title": "關卡Ｂ提示",
           "alt": "請觀察風獅爺手上拿的物品判斷風獅爺的名稱與保佑的內容，可以詢問講解老師喔！"
         },
         {
-          "id": "第二關答案ID",
+          "id": "3qjEa6pGwXSdP44CtDMu7s",
           "buttonText": "領取關卡Ｂ答案",
           "type":"txt",
           "title": "關卡Ｂ答案",
@@ -166,14 +166,14 @@
       ],
       "hints" :[
         {
-          "id": "第三關提示ID",
+          "id": "3qjEa6pGzTRQcGaVRUppcp",
           "buttonText": "領取關卡Ｃ提示",
           "type":"txt",
           "title": "關卡Ｃ提示",
           "alt": "範例「他們」為「亻也亻門」，請觀察這四個字的六角形有相鄰的幾個六角形，如：亻有 3 個。"
         },
         {
-          "id": "第三關答案ID",
+          "id": "3qjEa6pH1eYBXZqjML7gxX",
           "buttonText": "領取關卡Ｃ答案",
           "type":"txt",
           "title": "關卡Ｃ答案",
@@ -199,7 +199,7 @@
           "title": "請將照片上傳",
           "button": "上傳照片",
           "alt": "請前往洋山 34 號民宅附近的水池邊找祂們拍照吧（可參考上方示意圖）。\n　\n完成後請往左滑，點擊【上傳照片】按鈕，於網頁中將照片上傳，即可獲得本關的密碼。",
-          "src": "關卡D外連"
+          "src": "https://www.surveycake.com/s/ZLld7"
         }
       ],
       "answers": [
@@ -212,7 +212,7 @@
       ],
       "hints" :[
         {
-          "id": "第四關提示ID",
+          "id": "3qjEa6pH4XQ62CQFc1CZmr",
           "buttonText": "領取關卡Ｄ提示",
           "type":"txt",
           "title": "關卡Ｄ提示",
@@ -251,7 +251,7 @@
       ],
       "hints" :[
         {
-          "id": "第五關提示ID",
+          "id": "3qjEa6pH6hVLE7LaHD4QPp",
           "buttonText": "領取關卡Ｅ提示",
           "type":"image",
           "src":"/media/e-h.jpg",
@@ -259,7 +259,7 @@
           "alt": "框起來之處即為風獅爺躲藏之處，請觀察旁邊的石頭，並從上到下輸入對應的英文字。"
         },
         {
-          "id": "第五關答案ID",
+          "id": "3qjEa6pH6hVLE7LaHD4QPp",
           "buttonText": "領取關卡Ｅ答案",
           "type":"txt",
           "title": "關卡Ｅ答案",
