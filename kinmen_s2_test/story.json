@@ -211,7 +211,7 @@
           "alt": "請按照圖片內容回答，答案為一個數字+兩個文字。\n　\n風獅爺最多的鎮是：＿（標號）；因為該地早期＿＿最多",
           "type": "order",
           "options": ["1","2","3","4","火害","車禍","水災","風害","小偷","壞蛋"],
-          "value": [4,7]
+          "value": [2,7]
         }
       ],
       "hints" :[
@@ -271,7 +271,7 @@
       ]
     },
     {
-      "id": "3iZqJvvxao2E5WQ1w6PpA6",
+      "id": "3iZqJvwhe8E1qxKrRt7AK5",
       "required": ["3iZqJvvxQFbhwd5o8NRYRW"],
       "next": "",
       "title": "任務完成",
