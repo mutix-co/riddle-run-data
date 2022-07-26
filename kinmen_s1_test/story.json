@@ -23,13 +23,13 @@
       "prompts": [
         {
           "type":"image",
-          "src":"/media/intro-1.jpg",
+          "src":"/media/intro-1.jpeg",
           "title":"遊戲操作說明",
           "alt": "1.「上下、左右」滑動：可獲取該關更多內容。\n2.下方【輸入解答】按鈕：可看關卡題目、驗證答案。\n3.右下【燈泡】按鈕：可領取提示。\n4.️ 右上【菜單列】：可獲取關卡清單、遊戲狀態、聯絡客服等。"
         },
         {
           "type":"image",
-          "src":"/media/intro-2.jpg",
+          "src":"/media/intro-2.jpeg",
           "title":"關卡狀態說明",
           "alt": "【已破關】關卡圖為清晰狀態\n【已解鎖】關卡圖為模糊狀態\n【未解鎖】關卡圖上有個鎖扣"
         }
