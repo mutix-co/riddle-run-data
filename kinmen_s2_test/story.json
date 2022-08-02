@@ -1,14 +1,14 @@
 {
   "name": "kinmen_s2_test",
   "version": "1.0",
-  "title": "浯洲守護 傳奇之路｜風獅爺挑戰（下午場）",
+  "title": "浯洲守護 傳奇之路｜風獅爺挑戰（下午路線）",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/splash.jpg",
   "contact": "https://www.messenger.com/t/RiddleRun",
   "timekeeper": true,
   "introduction": {
-    "title": "前導｜風獅爺挑戰（下午場）",
+    "title": "前導｜風獅爺挑戰（下午路線）",
     "content": "新上任的金門隱世家族族長——小金，上任第一個遇到的挑戰即是「如何讓金門的觀光更加活絡」。\n　\n為此，他決定啟程拜訪他的五位風獅爺好友們，說服大家一起出來為金門觀光盡一份心力。\n　\n但調皮的風獅爺們都根據他們各自的特色給他設了一個個考驗，需要小金破解這些考驗後才同意站出來協助他..."
   },
   "levels": [
