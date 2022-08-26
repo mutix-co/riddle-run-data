@@ -1,0 +1,310 @@
+{
+  "name": "MCUT_test",
+  "version": "1.0",
+  "title": "我的守護堂調查手記",
+  "banner": "/media/banner.jpg",
+  "background": "/media/background.jpg",
+  "splash": "/media/splash.jpg",
+  "contact": "https://www.messenger.com/t/RiddleRun",
+  "timekeeper": true,
+  "introduction": {
+    "title": "我的守護堂調查手記",
+    "content": "金門隱世家族是金門最大家族，小金作為金門隱世家族的一員，即將迎接他的成年禮。\n但卻在成年禮的前一天，作為族長的父親將他趕出了家門，要他完成「成年禮考驗」才能回家參加成年禮。\n而所謂的「成年禮考驗」，即是要他通過五尊風獅爺設下的關卡，來考驗他是否真的了解金門、了解守護金門的風獅爺們..."
+  },
+  "levels": [
+    {
+      "id": "3iZqJvgKEUXFZYg5qvh5XS",
+      "required": "",
+      "next": "3iZqJvokNaSMruZWKC7iuB",
+      "title": "行前須知",
+      "type": "continue",
+      "buttonText":"我瞭解了！",
+      "banner": "/media/banner_intro.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src":"/media/intro-1.jpeg",
+          "title":"遊戲操作說明",
+          "alt": "1.「上下、左右」滑動：可獲取該關更多內容。\n2.下方【輸入解答】按鈕：可看關卡題目、驗證答案。\n3.右下【燈泡】按鈕：可領取提示。\n4.️ 右上【菜單列】：可獲取關卡清單、遊戲狀態、聯絡客服等。"
+        },
+        {
+          "type":"image",
+          "src":"/media/intro-2.jpeg",
+          "title":"關卡狀態說明",
+          "alt": "【已破關】關卡圖為清晰狀態\n【已解鎖】關卡圖為模糊狀態\n【未解鎖】關卡圖上有個鎖扣"
+        }
+      ]
+    },
+    {
+      "id": "3iZqJvokNaSMruZWKC7iuB",
+      "required": ["3iZqJvgKEUXFZYg5qvh5XS"],
+      "next": "3iZqJvokSiA69uYwnqT8wh",
+      "title": "關卡Ａ｜瓊林",
+      "banner": "/media/banner_a.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src":"/media/a-1.jpg",
+          "title":"📍蔡氏家廟後方牆壁上",
+          "alt":"小金接到考驗之後決定先來找親和力出名的風獅爺來喝咖啡請教。到了風獅爺的所在地，祂表示：「我們風獅爺是金門的守護神，我們除了防風鎮煞以外，過去還有協助居民很多事情的呢！」\n　\n風獅爺給了一時想不到的小金一個提示，請依照提示，回答風獅爺過去風獅爺們還有庇佑居民什麼樣的事情吧！\n　\n➡️ 往左滑翻頁➡️"
+        },
+        {
+          "type":"image",
+          "src":"/media/a-2.jpg",
+          "title":"關卡任務",
+          "alt": "1. 再往左翻頁後請點按鈕開起網頁，或直接開啟手機掃碼功能。\n　\n2. 請找到遊戲提示辨識貼紙並掃描 QR code 獲得或線索。\n　\n3. 請閱讀後回到 APP 作答。"
+        },
+        {
+          "type": "external-url",
+          "title": "請點擊按鈕",
+          "src": "https://qrcodescan.in/",
+          "button": "開啟",
+          "alt": "請用相機掃描辨識貼紙。"
+        }
+      ],
+      "answers": [
+        {
+          "title": "請輸入正確答案",
+          "alt": "請將迷宮正確路線沿途遇到的數字輸入下方，答案為六個文字。",
+          "type": "order",
+          "options": ["增","偷","鎮","無","盆","水","躲","剋","青","患","圖","溫","宵","躲","賊","蟻","制","害"],
+          "value": [2,5,9,7,15,17]
+        }
+      ],
+      "hints" :[
+        {
+          "id": "3qjEa6idsaXbha2HPsF42M",
+          "buttonText": "領取關卡Ａ提示",
+          "type":"image",
+          "src":"/media/a-h.jpg",
+          "title": "關卡Ａ提示",
+          "score": 480,
+          "alt": "照片上的數字代表文字的次序，將相同底色的文字連線，遇到的文字即為答案。\n \n例如：第一個綠色圈圈3，代表第一行第三個字。"
+        },
+        {
+          "id": "3qjEa6pGxzLrG2LcLnFpr5",
+          "buttonText": "領取關卡Ａ答案",
+          "type":"txt",
+          "title": "關卡Ａ答案",
+          "score": 900,
+          "alt": "答案是：鎮水患剋蟻害。"
+        }
+      ]
+    },
+    {
+      "id": "3iZqJvokSiA69uYwnqT8wh",
+      "required": ["3iZqJvokNaSMruZWKC7iuB"],
+      "next": "3iZqJvokWNaF11zKjzJrpS",
+      "title": "關卡Ｂ｜浦邊",
+      "banner": "/media/banner_b.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src":"/media/b-1.jpg",
+          "title":"📍浦山里民中心右前方馬路旁",
+          "alt":"小金喝完咖啡與瓊林的風獅爺們請教過後，接著拜訪找最光彩奪目，永遠都精神抖擻地站著的風獅爺們。\n　\n風獅爺對著小金說：「金門的風獅爺們長相每個人都各有特色喔，有發現嗎？考考你！」，接著祂們出給小金一道簡單的題目。\n　\n➡️ 往左滑翻頁➡️"
+        },
+        {
+          "type":"image",
+          "src":"/media/b-2.jpg",
+          "title":"關卡任務",
+          "alt": "1. 再往左翻頁後請點按鈕開起網頁，或直接開啟手機掃碼功能。\n　\n2. 請找到遊戲提示辨識貼紙並掃描 QR code 獲得或線索。\n　\n3. 請閱讀後回到 APP 作答。"
+        },
+        {
+          "type": "external-url",
+          "title": "關卡任務",
+          "src": "https://qrcodescan.in/",
+          "button": "開啟",
+          "alt": "請點按鈕開起網頁，或直接開啟手機掃碼功能後找到遊戲提示辨識貼紙並掃描 QR code 獲得或線索。"
+        }
+      ],
+      "answers": [
+        {
+          "title": "請輸入正確答案",
+          "alt": "左：【答案一】風獅，保佑學業。\n \n中：武風獅，祈求【答案二】。\n \n右：【答案三】風獅，保佑財運。\n \n請找正確的字詞，依照順序按入，答案為三組字詞。",
+          "type": "order",
+          "options": ["緣","文","安","財","喜","花","壽","健康","姻緣","平安","長相","文彩","心情"],
+          "value": [1,9,3]
+        }
+      ],
+      "hints" :[
+        {
+          "id": "3qjEa6pGutLKQUkydSxEtg",
+          "buttonText": "領取關卡Ｂ提示",
+          "type":"text",
+          "title": "關卡Ｂ提示",
+          "score": 480,
+          "alt": "請觀察風獅爺手上拿的物品判斷風獅爺的名稱與保佑的內容，可以詢問講解老師喔！"
+        },
+        {
+          "id": "3qjEa6pGwXSdP44CtDMu7s",
+          "buttonText": "領取關卡Ｂ答案",
+          "type":"txt",
+          "title": "關卡Ｂ答案",
+          "score": 900,
+          "alt": "答案是：文、工作、財。"
+        }
+      ]
+    },
+    {
+      "id": "3iZqJvokWNaF11zKjzJrpS",
+      "required": ["3iZqJvokSiA69uYwnqT8wh"],
+      "next": "3iZqJvokZaLUBqL6a1jWQL",
+      "title": "關卡Ｃ｜后宅",
+      "banner": "/media/banner_c.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src":"/media/c-1.jpg",
+          "title":"📍后宅 25 號民宅右側菜園內",
+          "alt":"后宅，有一尊風獅爺見證歷史，日夜堅守的風獅爺，守護了金門與村莊\n　\n位於后宅的風獅爺說：「因為此地後方為高地，遠處也是高地，地勢呈前仰後翹在金門方言中，因此為凹。且凹與甌、歐、後、后近音，所以該村從最早的甌宅，後轉為歐宅，再轉為後宅，又轉為后宅，字雖不同，地方音卻始終不變。」\n　\n「小金，你可知道單打雙不打是什麼嗎？我身上的這些光榮印記，可就是最佳的見證！那你可知道這些是什麼東西留下？」風獅爺問小金。\n　\n➡️ 往左滑翻頁➡️"
+        },
+        {
+          "type":"image",
+          "src":"/media/c-2.jpg",
+          "title":"關卡任務",
+          "alt": "請回答風獅爺的問題～\n　\n1.請下車實際觀察風獅爺。\n　\n2.根據圖片找出答案。\n　\n3.答案為四位數字。"
+        }
+      ],
+      "answers": [
+        {
+          "title": "請數字順序輸入",
+          "alt": "風獅爺將回答轉換成了一串密碼，請依序輸入四個數字。",
+          "type": "password",
+          "value": "4364"
+        }
+      ],
+      "hints" :[
+        {
+          "id": "3qjEa6pGzTRQcGaVRUppcp",
+          "buttonText": "領取關卡Ｃ提示",
+          "type":"txt",
+          "title": "關卡Ｃ提示",
+          "score": 480,
+          "alt": "範例「他們」為「亻也亻門」，請觀察這四個字的六角形有相鄰的幾個六角形，如：亻有 3 個。"
+        },
+        {
+          "id": "3qjEa6pH1eYBXZqjML7gxX",
+          "buttonText": "領取關卡Ｃ答案",
+          "type":"txt",
+          "title": "關卡Ｃ答案",
+          "score": 900,
+          "alt": "答案是：4364。"
+        }
+      ]
+    },
+    {
+      "id": "3iZqJvokZaLUBqL6a1jWQL",
+      "required": ["3iZqJvokWNaF11zKjzJrpS"],
+      "next": "3iZqJvokez2zNzxbrPG3AY",
+      "title": "關卡Ｄ｜洋山",
+      "banner": "/media/banner_d.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src":"/media/d-1.jpg",
+          "title":"📍關卡地點：洋山 34 號民宅",
+          "alt":"要尋訪下一尊風獅爺的時候，小金突然發現了一個布包裹，是用金門花帔包的。\n　\n說到花帔，是金門流傳百年黑白格紋的育嬰包巾。除了黑白格紋，上面繡有卍字，有驅邪的功能，以及縫有一對圓形的鉛片，期許有「人緣（台語圓與緣同音）。」。\n　\n包裹裡面只有一張紙，上面寫：\n　\n「恭喜你即將成年，為了紀念這個可喜可賀的日子，來找我拍拍照吧！而我是誰呢？母子情深是常常形容我的形容詞喔，我們正在池邊悠閒著趴著休息呢～快來找我們拍照吧！」\n　\n➡️ 往左滑翻頁➡️"
+        },
+        {
+          "type": "url",
+          "title": "請將照片上傳",
+          "button": "上傳照片",
+          "alt": "請前往洋山 34 號民宅附近的水池邊找祂們拍照吧（可參考上方示意圖）。\n　\n完成後請往左滑，點擊【上傳照片】按鈕，於網頁中將照片上傳，即可獲得本關的密碼。",
+          "src": "https://www.surveycake.com/s/ZLld7"
+        }
+      ],
+      "answers": [
+        {
+          "title": "請輸入密碼",
+          "alt": "請與風獅爺合照，即可得到六位數密碼。",
+          "type": "password",
+          "value": "714291"
+        }
+      ],
+      "hints" :[
+        {
+          "id": "3qjEa6pH4XQ62CQFc1CZmr",
+          "buttonText": "領取關卡Ｄ提示",
+          "type":"txt",
+          "title": "關卡Ｄ提示",
+          "score": 480,
+          "alt": "請按照指示和風獅爺合照，上傳後可以得到密碼喔（六位數字）。"
+        }
+      ]
+    },
+    {
+      "id": "3iZqJvokez2zNzxbrPG3AY",
+      "required": ["3iZqJvokZaLUBqL6a1jWQL"],
+      "next": "3iZqJvokhnN5CGFLp869wP",
+      "title": "關卡Ｅ｜田墩",
+      "banner": "/media/banner_e.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src":"/media/e-1.jpg",
+          "title":"📍關卡地點：田墩村莊入口左邊民宅牆上",
+          "alt":"最後一個任務了！小金難掩興奮之情，就快要完成風獅爺與家族的考驗了！\n　\n但最調皮的風獅爺居然躲了起來，為了給小金考驗，祂決定讓小金親自找尋祂。\n　\n風獅爺說：「小金，金門的地質藏含沿海地區億萬年來地質變動的奧秘，金門的岩石多為山脈核心的部分，屬於深部地殼的花崗岩喔！我就藏在這種花崗岩的牆壁上～找到我，並且輸入密碼吧！」\n　\n➡️ 往左滑翻頁➡️"
+        },
+        {
+          "type":"image",
+          "src":"/media/e-2.jpg",
+          "title":"關卡任務",
+          "alt": "1.📍找到風獅爺藏的這面花崗岩牆。\n　\n2.仔細觀察牆面，找到風獅爺吧！\n　\n3.風獅爺身邊的磚塊從上開始，逆時針，共連續七個磚塊，找出對應的英文字。\n　\n4.風獅爺想告訴小金的都在這面牆上了！（共八個英文字，第一個是 C）"
+        }
+      ],
+      "answers": [
+        {
+          "title": "請輸入正確答案",
+          "alt": "請依照謎題輸入英文密碼，共 8 碼，C 是第一個字喔！請接續回答",
+          "type": "order",
+          "options": ["Ａ","Ｂ","Ｃ","Ｄ","Ｅ","Ｆ","Ｇ","Ｈ","Ｉ","Ｊ","Ｋ","Ｌ","Ｍ","Ｎ","Ｏ","Ｐ","Ｑ","Ｒ","Ｓ","Ｔ","Ｕ","Ｖ","Ｗ","Ｘ","Ｙ","Ｚ"],
+          "value": [2,14,13,6,17,0,19,18]
+        }
+      ],
+      "hints" :[
+        {
+          "id": "3qjEa6pH5nh1gKHrxpS9vD",
+          "buttonText": "領取關卡Ｅ提示",
+          "type":"image",
+          "src":"/media/e-h.jpg",
+          "score": 480,
+          "title": "關卡Ｅ提示",
+          "alt": "框起來之處即為風獅爺躲藏之處，請觀察旁邊的石頭，並從上到下輸入對應的英文字。"
+        },
+        {
+          "id": "3qjEa6pH6hVLE7LaHD4QPp",
+          "buttonText": "領取關卡Ｅ答案",
+          "score": 900,
+          "type":"txt",
+          "title": "關卡Ｅ答案",
+          "alt": "答案是：ＣＯＮＧＲＡＴＳ。"
+        }
+      ]
+    },
+    {
+      "id": "3iZqJvokhnN5CGFLp869wP",
+      "required": ["3iZqJvokez2zNzxbrPG3AY"],
+      "next": "",
+      "title": "任務完成",
+      "banner": "/media/banner_end.jpg",
+      "type": "end",
+      "buttonText":"任務結束！",
+      "prompts": [
+        {
+          "type":"txt",
+          "src":"",
+          "title":"🎉恭喜幫助小金完成成年禮🎉",
+          "alt":"風獅爺留下的字詞原來是恭喜！祂們一起恭喜小金成年，繼續守護著金門呢！\n　\n「真的太謝謝你了！！要是沒有你，我大概會過不了風獅爺們的考驗...很高興這段奇妙的旅程有你陪伴❤️唷\n　\n我們一起拜訪了瓊林、浦邊、后宅、洋山、田墩，與拜訪了這幾個地點的風獅爺，從祂們身上了解了風獅爺文化、特色的堆疊，也因此更認識金門。讓我對於金門與風獅爺更加的瞭解，成年禮也可以順利完成了！\n如果可以，很歡迎你把今天的發現分享給其他朋友們喔！讓金門風獅爺的故事，可以延續下去。」\n　\n➡️ 往左滑填寫問卷抽禮物➡️"
+        },
+        {
+          "type": "url",
+          "title": "🎁填問卷抽獎🎁",
+          "src": "https://www.surveycake.com/s/1plRl",
+          "button": "填寫回饋問卷",
+          "alt": "謝謝你協助小金完成這次的遊戲任務🎉\n　\n下方按鈕有一份活動回饋問卷希望你可以協助填寫，回答內容將會作為我們未來活動的參考及改進方向，再麻煩你了❤️\n　\n於2022年10月30日前，填寫問卷還可以參與完賽抽好禮活動，趕快點去填問卷吧！\n　\n完賽抽好禮🎁\n　\n頭獎：Apple Homepod mini 乙台(價值新台幣$3,000)，1名。\n　\n貳獎：陳金福貢糖乙包(價值新台幣$170)，共20名。\n　\n參獎：大方鬍鬚伯麵線乙包(價值新台幣$100)，共40名。"
+        }
+      ]
+    }
+  ]
+}
