@@ -1,5 +1,5 @@
   {
-    "name": "MCUT_test",
+    "name": "MCUT",
     "version": "1.0",
     "title": "我的守護堂調查手記",
     "banner": "/media/banner.jpg",
@@ -57,8 +57,8 @@
         "banner": "/media/banner_lobby.jpg",
         "prompts": [
           {
-            "type":"image",
-            "src":"/media/lobby.jpg",
+            "type":"txt",
+            "src":"",
             "title":"🔀遊戲轉跳大廳🔀",
             "alt": "🌟請點下方按鈕選擇要挑戰的關卡🌟\n——————————————————\n1⃣️ 共有「五關」，「不用按照順序破關」，關卡位置可參考遊戲地圖，大家可以自行安排路線。\n　\n2⃣️完成五關後，將解鎖【關卡選擇】中的【結局關】，點選進入關卡，就能看到結局及遊戲成績！"
           }
@@ -66,7 +66,7 @@
       },
       {
         "id": "3iZqJzLXZahDkKGWwubm8d",
-        "required": ["3iZqJzLXXH5fKhcoSfqgQB"],
+        "required": [""],
         "next": "3iZqJzLXXH5fKhcoSfqgQB",
         "title": "神秘的三合院",
         "banner": "/media/banner_a.jpg",
@@ -120,7 +120,7 @@
       },
       {
         "id": "3iZqJzLXc92x8MJYVK4Z88",
-        "required": ["3iZqJzLXXH5fKhcoSfqgQB"],
+        "required": [""],
         "next": "3iZqJzLXXH5fKhcoSfqgQB",
         "title": "自動車趴趴走",
         "banner": "/media/banner_b.jpg",
@@ -175,7 +175,7 @@
       },
       {
         "id": "3iZqJzLXe4hk3JWRuLnKxz",
-        "required": ["3iZqJzLXXH5fKhcoSfqgQB"],
+        "required": [""],
         "next": "3iZqJzLXXH5fKhcoSfqgQB",
         "title": "作伙來唱望春風",
         "banner": "/media/banner_c.jpg",
@@ -231,7 +231,7 @@
       },
       {
         "id": "3iZqJzLXhQmKRgvCTxj38a",
-        "required": ["3iZqJzLXXH5fKhcoSfqgQB"],
+        "required": [""],
         "next": "3iZqJzLXXH5fKhcoSfqgQB",
         "title": "吳家家訓與百年工藝",
         "banner": "/media/banner_d.jpg",
@@ -286,7 +286,7 @@
       },
       {
         "id": "3iZqJzLXjKtN7FsC7aCYAG",
-        "required": ["3iZqJzLXXH5fKhcoSfqgQB"],
+        "required": [""],
         "next": "3iZqJzLXXH5fKhcoSfqgQB",
         "title": "解鎖五股人文地景",
         "banner": "/media/banner_e.jpg",
