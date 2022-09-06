@@ -19,7 +19,7 @@
       "next": "3iZqK11xh5hi3T4MpF3CmD",
       "title": "行前須知",
       "type": "continue",
-      "banner": "/media/banner_intro.jpg",
+      "banner": "/media/bannerintro.jpg",
       "prompts": [
         {
           "type":"image",
@@ -610,7 +610,7 @@
     "required": ["3iZqK11y73dCjeauW2ATk8","3iZqK11yH4Tg3TSq1aEWHB","3iZqK11yJXToUZzn4aSSuf","3iZqK11yX8GW37MHN5puTF"],
     "next": "3iZqK11ydFjGRewQWeyMbn",
     "title": "拯救四寶",
-    "banner": "/media/banner_end.jpg",
+    "banner": "/media/banner-end.jpg",
     "prompts": 
     [
       {
@@ -645,7 +645,7 @@
       "required": ["3iZqK11ybUJsS8D3aDviwT"],
       "next": "",
       "title": "拯救任務成功",
-      "banner": "/media/banner_end.jpg",
+      "banner": "/media/banner-end.jpg",
       "type": "end",
       "buttonText":"結束遊戲看成績",
       "prompts": [
