@@ -401,7 +401,7 @@
           "alt": "輸入正確答案",
           "type": "order",
           "options": ["農業","林業","漁業","畜牧","加工業","服務業","商業","製造業"],
-          "value": "2"
+          "value": [2]
         }
       ]
     },
@@ -424,7 +424,7 @@
           "alt": "輸入正確答案",
           "type": "order",
           "options": ["down","up","right","left"],
-          "value": "1"
+          "value": [1]
         }
       ],
       "hints" :[
