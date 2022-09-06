@@ -5,6 +5,7 @@
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/banner_vertical.jpg",
+  "map": "/media/map.jpg",
   "contact": "https://www.messenger.com/t/113043660142958",
   "timekeeper": true,
   "introduction": {
@@ -54,7 +55,7 @@
           "type":"txt",
           "src":"",
           "title":"🔀遊戲轉跳大廳🔀",
-          "alt": "🌟請點下方按鈕選擇要挑戰的關卡🌟\n——————————————————\n1⃣️ 共有「四關」，「不用按照順序破關」，關卡位置可參考遊戲地圖，大家可以自行安排路線。\n　\n2⃣️完成四關後，將解鎖【關卡選擇】中的【3iZqK11ybUJsS8D3aDviwT】，點選進入關卡，就能看到結局及遊戲成績！"
+          "alt": "🌟請點下方按鈕選擇要挑戰的關卡🌟\n——————————————————\n1⃣️ 共有「四關」，「不用按照順序破關」，關卡位置可參考遊戲地圖，大家可以自行安排路線。\n　\n2⃣️完成四關後，將解鎖【關卡選擇】中的【遊戲成績】，點選進入關卡，就能看到結局及遊戲成績！"
         }
       ]
     },
