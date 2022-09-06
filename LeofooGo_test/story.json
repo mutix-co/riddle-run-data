@@ -19,7 +19,7 @@
       "next": "3iZqK11xh5hi3T4MpF3CmD",
       "title": "行前須知",
       "type": "continue",
-      "buttonText": "我瞭解了！",
+      "buttonText":"我瞭解了！",
       "banner": "/media/banner-intro.jpg",
       "prompts": [
         {
@@ -48,7 +48,7 @@
       "next": "",
       "title": "🔀遊戲轉跳大廳🔀",
       "type": "continue",
-      "buttonText": "挑選關卡",
+      "buttonText":"挑選關卡",
       "banner": "/media/banner_lobby.jpg",
       "prompts": [
         {
@@ -199,7 +199,7 @@
       "next": "",
       "title": "找尋哈果",
       "type": "continue",
-      "buttonText": "完成本關",
+      "buttonText":"完成本關",
       "banner": "/media/banner-1.jpg",
       "prompts": [
         {
@@ -341,7 +341,7 @@
       "next": "",
       "title": "找尋哈果",
       "type": "continue",
-      "buttonText": "完成本關",
+      "buttonText":"完成本關",
       "banner": "/media/banner-2.jpg",
       "prompts": [
         {
@@ -449,7 +449,7 @@
       "next": "",
       "title": "搜尋哈妮",
       "type": "continue",
-      "buttonText": "完成本關",
+      "buttonText":"完成本關",
       "banner": "/media/banner-3.jpg",
       "prompts": [
         {
@@ -598,7 +598,7 @@
       "required": ["3iZqK11yVgk1eQLoHeyVLi"],
       "next": "",
       "type": "continue",
-      "buttonText": "完成本關",
+      "buttonText":"完成本關",
       "title": "追尋哈利",
       "banner": "/media/banner-4.jpg",
       "prompts": [
