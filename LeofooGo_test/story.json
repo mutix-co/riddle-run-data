@@ -203,6 +203,7 @@
         {
           "type":"image",
           "src":"/media/1-5.jpg",
+          "buttonText":"完成本關",
           "title":"獲得Final code",
           "alt":"我找到哈果送給Jacob的禮物，而杯下壓住2張Final code，原來哈果已未雨綢繆留下線索了。看來我得加緊腳步找到哈果。"
         }
@@ -344,6 +345,7 @@
         {
           "type":"image",
           "src":"/media/2-5.jpg",
+          "buttonText":"完成本關",
           "title":"獲得Final code",
           "alt":"終於營救出阿拉丁，精靈、阿拉丁跟茉莉都很感謝我，為了報答，他們給我2張哈迪下落的Final code。我會順利找到哈迪的。"
         }
@@ -451,6 +453,7 @@
         {
           "type":"image",
           "src":"/media/3-4.jpg",
+          "buttonText":"完成本關",
           "title":"獲得Final code",
           "alt":"實在尋不著哈妮下落，我走進一家土產店打探消息，沒想到這是HIA情報屋，店員順道給我2張Final code，並向我比了SHAKA手勢，預祝我好運。"
         }
@@ -600,6 +603,7 @@
         {
           "type":"image",
           "src":"/media/4-5.jpg",
+          "buttonText":"完成本關",
           "title":"獲得Final code",
           "alt":"我走出交易站遇到了印地安人-阿哈奴，他準備帶著妻小出城，他聽說美軍準備佔領這個城鎮，勸我不要逗留，他順道給我2張Final code，祝福我一切順利。"
         }
