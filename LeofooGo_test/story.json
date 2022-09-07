@@ -598,7 +598,7 @@
       "required": ["3iZqK11yVgk1eQLoHeyVLi"],
       "next": "",
       "type": "continue",
-      "buttonText":"完成本關",
+      "buttonText": "完成本關",
       "title": "追尋哈利",
       "banner": "/media/banner-4-5.jpg",
       "prompts": [
