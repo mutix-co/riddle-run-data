@@ -1,369 +1,668 @@
 {
-  "name": "LeofooGo",
+  "name": "LEOFOOGO_test",
   "version": "1.0",
-  "title": "我的守護堂調查手記",
+  "title": "LEOFOOGO 六福出任務",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
-  "splash": "/media/splash.jpg",
-  "contact": "mailto:ryhong@mail.mcut.edu.tw",
+  "splash": "/media/banner_vertical.jpg",
+  "map": "/media/map.jpg",
+  "contact": "https://www.messenger.com/t/113043660142958",
   "timekeeper": true,
   "introduction": {
-    "title": "我的守護堂調查手記",
-    "content": "很久以前，在一片片綠油油的稻田邊，住著一位小男孩–阿守，成長在田野間的他平時幫爸爸忙完農活就會到處去探險，在看見了山、海、茶樹之前，他以為世界是由稻田組成的；而一天之中，男孩阿守最喜歡在黃昏時刻到榕樹下聽爺爺講故事，這些故事的地點使阿守嚮往，有一天爺爺給了他一本空白筆記本，希望他可以在筆記本上寫下屬於自己的探險故事，就這樣開啟了他的旅程…… "
+    "title": "LEOFOOGO 六福出任務",
+    "content": "各位是HIA(Hongdao Intelligence Agency)培訓最優秀的特務，現在我們有4位夥伴-六福四寶(哈妮、哈比、哈果及哈迪)困在六福村裡，請你們趕緊前往六福村解救他們。"
   },
-  "levels": [
+  "levels":[
     {
-      "id": "3iZqJzLXPqbF8C9UuhNk9L",
+      "id": "3iZqK11xT4GwGPP6x9PQaV",
       "required": "",
-      "next": "3iZqJzLXXH5fKhcoSfqgQB",
+      "next": "3iZqK11xh5hi3T4MpF3CmD",
       "title": "行前須知",
       "type": "continue",
       "buttonText":"我瞭解了！",
-      "banner": "/media/banner_intro.jpg",
+      "banner": "/media/banner-intro.jpg",
       "prompts": [
-        {
-          "type":"txt",
-          "src":"",
-          "title":"行前須知",
-          "alt":"1.跟著阿守一起調查守讓堂的秘密吧！遊戲總共有「5關」，「不限破關順序」，請根據App內的指示、前往指定的關卡地點、觀察展覽的內容與環境，找到線索破解關卡！\n2.遊戲成績將根據遊戲時間及提示扣分綜合計算，第一名的寶座正等著你來爭取！\n3.謎題實在太困難了～需要提示或看答案請點右下角【燈泡】按鈕，但是使用提示和看答案都會被扣分喔！\n4.遊戲過程中請降低音量、不要破壞公物、做好防疫措施、遵從工作人員的指示！\n5.遊戲過程中可能因網路問題讓圖片讀取較慢，請稍等一下圖片就會跑出來囉～\n6.跟阿守一起解開所有秘密的你，填寫遊戲最後的問卷，回到「留餘廳」就有機會兌換小禮物（數量有限，換完為止！）\n➡️最後，往左滑看看操作說明吧➡️"
-        },
         {
           "type":"image",
           "src":"/media/intro-1.jpg",
-          "title":"遊戲操作說明",
-          "alt": "1⃣️ 「上下、左右」滑動：可獲取該關更多內容。\n2⃣️ 下方【輸入解答】按鈕：可看關卡題目、驗證答案。\n3⃣️ 右下【燈泡】按鈕：可領取提示。\n4⃣️ 右上【菜單列】：可獲取關卡清單、遊戲狀態、聯絡客服等。"
+          "title":"任務說明",      
+          "alt":"校長Boss：「我把解救HIA夥伴的任務命為LEOFOOGO，提醒你們要前往4大任務區進行關卡解鎖，請發揮觀察力並用心收集訊息，每個任務都會獲得Final code，蒐集到所有Final code，就能知道我們的夥伴被困在哪裡了。拜託一定要把夥伴們帶回HIA來，任務交給你們了...，最快達成任務者，有賞。」\n \n 1.遊戲總共有「4關」，「不限破關順序」，請根據App內的指示、前往指定的關卡地點、觀察展覽的內容與環境，找到線索破解關卡！\n2.遊戲成績將根據遊戲時間及提示扣分綜合計算。\n3.若謎題實在太困難了～需要提示或看答案請點右下角【燈泡】按鈕，但是使用提示和看答案都會被扣分喔！\n4.遊戲過程中可能因網路問題讓圖片讀取較慢，請稍等一下圖片就會跑出來囉～\n➡️最後，往左滑看看操作說明吧➡️"
         },
         {
           "type":"image",
           "src":"/media/intro-2.jpg",
-          "title":"關卡狀態說明",
-          "alt": "【已破關】關卡圖為清晰狀態\n【已解鎖】關卡圖為模糊狀態\n【未解鎖】關卡圖上有個鎖扣"
+          "title":"遊戲操作說明",
+          "alt": "1⃣️ 「上下、左右」滑動：可獲取該關更多內容。\n2⃣️ 下方【輸入解答】按鈕：可看關卡題目、驗證答案。 \n3⃣️ 右下【燈泡】按鈕：可領取提示。\n4⃣️ 右上【菜單列】：可獲取關卡清單、遊戲狀態、聯絡客服等。"
         },
         {
           "type":"image",
-          "src":"/media/intro-a.jpg",
-          "title":"📍關卡地點：戶外廣場",
-          "alt": "很久以前，在一片片綠油油的稻田邊，住著一位小男孩–阿守，成長在田野間的他平時幫爸爸忙完農活就會到處去探險，在看見了山、海、茶樹之前，他以為世界是由稻田組成的；而一天之中，男孩阿守最喜歡在黃昏時刻到榕樹下聽爺爺講故事，這些故事的地點使阿守嚮往，有一天爺爺給了他一本空白筆記本，希望他可以在筆記本上寫下屬於自己的探險故事，就這樣開啟了他的旅程…… "
+          "src":"/media/intro-3.jpg",
+          "title":"關卡狀態說明",
+          "alt": "【已破關】關卡圖為清晰狀態\n【已解鎖】關卡圖為模糊狀態\n【未解鎖】關卡圖上有個鎖扣"
         }
       ]
     },
     {
-      "id": "3iZqJzLXXH5fKhcoSfqgQB",
-      "required": ["3iZqJzLXPqbF8C9UuhNk9L"],
+      "id": "3iZqK11xh5hi3T4MpF3CmD",
+      "required": "",
       "next": "",
       "title": "🔀遊戲轉跳大廳🔀",
       "type": "continue",
       "buttonText":"挑選關卡",
-      "banner": "/media/banner_lobby.jpg",
+      "banner": "/media/banner-intro-2.jpg",
       "prompts": [
         {
           "type":"txt",
           "src":"",
           "title":"🔀遊戲轉跳大廳🔀",
-          "alt": "🌟請點下方按鈕選擇要挑戰的關卡🌟\n——————————————————\n1⃣️ 共有「五關」，「不用按照順序破關」，關卡位置可參考遊戲地圖，大家可以自行安排路線。\n　\n2⃣️完成五關後，將解鎖【關卡選擇】中的【結局關】，點選進入關卡，就能看到結局及遊戲成績！"
+          "alt": "🌟請點下方按鈕選擇要挑戰的關卡🌟\n——————————————————\n1⃣️ 共有「四關」，「不用按照順序破關」，關卡位置可參考遊戲地圖，大家可以自行安排路線。\n　\n2⃣️完成四關後，將解鎖【關卡選擇】中的【遊戲成績】，點選進入關卡，就能看到結局及遊戲成績！"
         }
       ]
     },
     {
-      "id": "3iZqJzLXZahDkKGWwubm8d",
-      "required": ["3iZqJzLXPqbF8C9UuhNk9L"],
-      "next": "3iZqJzLXXH5fKhcoSfqgQB",
-      "title": "神秘的三合院",
-      "banner": "/media/banner_a.jpg",
+      "id": "3iZqK11xw4X8riM1raiTam",
+      "required": ["3iZqK11xh5hi3T4MpF3CmD"],
+      "next": "3iZqK11xyULEHs9mGERVr5",
+      "title": "找尋哈果-1",
+      "banner": "/media/banner-1-1.jpg",
       "prompts": [
         {
           "type":"image",
           "src":"/media/1-1.jpg",
-          "title":"📍關卡地點：稻香居",
-          "alt":"阿守來到了一幢華美的三合院，這裡是「吳家」大宅，牆門經常緊鎖，沒人知道裡面的情況。阿守決定將這裡當作他第一次探險的目的地，於是他站在大門前，緊張的敲敲門——剎那間門內傳來微微的動靜，沒多久，一個眉目慈祥、滿頭白髮的老奶奶打開了門，對著阿守微笑，邀請他進門坐坐。 \n➡️ 往左滑翻頁➡️"
-        },
-        {
-          "type":"image",
-          "src":"/media/1-2.jpg",
-          "title":"📍關卡地點：稻香居",
-          "alt": "在偌大的院子裡，阿守告訴老奶奶，自己吳家感到好奇的來意。老奶奶說起了一些從前的往事，她的丈夫經營了「和豐商行」，主要是做與米有關的生意。「你可以叫我吳奶奶就好，以後無論有事沒事，都歡迎你來吳家找我玩。」老奶奶對阿守說道。兩人就這麼喝茶談心，度過了愉快的下午。\n➡️ 往左滑翻頁➡️"
-        },
-        {
-          "type":"image",
-          "src":"/media/1-3.jpg",
-          "title":"📍關卡地點：稻香居",
-          "alt": "吳奶奶的丈夫經營「和豐商行」，而稻米產業和其他農業也息息相關。來找找看展覽裡還介紹了哪些五股地區的農產品吧！"
+          "title":"動物派對",
+          "alt":"線報指出哈果可能會被帶到動物派對去，我終於拿到一張動物派對的邀請卡，但派對地點卻只有5個數字1個英文字母，下方還有英文字母表，看起來我需解開數字跟字母關聯，才能順利前往派對..."
         }
       ],
       "answers": [
         {
           "title": "關卡任務",
-          "alt": "請從展覽內容的敘述中找出「稻」、「米」、「茶」、「葉」、「柑」、「橘」這幾個字出現的次數，並將所有的字數加起來，即為答案。\n（圖片裡出現的文字不列入計算，標題文字和介紹內文則列入計算。） ",
-          "type": "password",
-          "value": "73"
+          "alt": "請輸入5碼英文字",
+          "type": "order",
+          "options": ["Ａ","Ｂ","Ｃ","Ｄ","Ｅ","Ｆ","Ｇ","Ｈ","Ｉ","Ｊ","Ｋ","Ｌ","Ｍ","Ｎ","Ｏ","Ｐ","Ｑ","Ｒ","Ｓ","Ｔ","Ｕ","Ｖ","Ｗ","Ｘ","Ｙ","Ｚ"],
+          "value": [0,5,17,8,2]
         }
       ],
       "hints" :[
         {
-          "id": "3qjEaAFQtjXuEUyoMCQLhw",
-          "buttonText": "領取第一關提示",
+          "id": "3qjEaAvc7F3DAWxDgbemc2",
+          "buttonText": "領取1-1關提示",
           "score": 100,
-          "type":"image",
-          "src":"/media/1-a.jpg",
-          "title": "第一關提示",
-          "alt": "一切都藏在放酒精的展覽台、牆上的掛報、報紙樣式的海報中。"
-        },
-        {
-          "id": "3qjEaAFQvN4FX5sfjKKTHm",
-          "buttonText": "領取第一關答案",
-          "score": 1000,
           "type":"txt",
-          "title": "第一關答案",
-          "alt": "9＋11＋16＋8＋16＋13＝？"
+          "title": "1-1關提示",
+          "alt": "運用網格座標定位字母位置，如:Z=54。"
         }
       ]
     },
     {
-      "id": "3iZqJzLXc92x8MJYVK4Z88",
-      "required": ["3iZqJzLXPqbF8C9UuhNk9L"],
-      "next": "3iZqJzLXXH5fKhcoSfqgQB",
-      "title": "自動車趴趴走",
-      "banner": "/media/banner_b.jpg",
+      "id": "3iZqK11xyULEHs9mGERVr5",
+      "required": ["3iZqK11xw4X8riM1raiTam"],
+      "next": "3iZqK11y2WAcQa54iYeBjy",
+      "title": "找尋哈果-2",
+      "banner": "/media/banner-1-2.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src":"/media/1-2.jpg",
+          "title":"鏡中的哈利",
+          "alt":"我走進非洲部落前，被一大面鏡子擋住，從鏡中看到一群動物分站不同位置，這時我遇到情報員哈利，哈利給我一張圖，並說：「想順利進入派對，得破解他們在鏡中位置關係。」"
+        }
+      ],
+      "answers": [
+        {
+          "title": "關卡任務",
+          "alt": "請輸入2碼數字。要依序連線，且正確答案代表下一關的位置，而要對照導覽圖來找喔！",
+          "type": "password",
+          "value": "67"
+        }
+      ],
+      "hints" :[
+        {
+          "id": "3qjEaAw4K8yUVzzDsRUABq",
+          "buttonText": "領取1-2關提示",
+          "score": 100,
+          "type":"txt",
+          "title": "1-2關提示",
+          "alt": "=east(東方)，請類推。數字是導覽地圖景點編號"
+        }
+      ]
+    },
+    {
+      "id": "3iZqK11y2WAcQa54iYeBjy",
+      "required": ["3iZqK11xyULEHs9mGERVr5"],
+      "next": "3iZqK11y52657gJKPY4tSz",
+      "title": "找尋哈果-3",
+      "banner": "/media/banner-1-3.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src":"/media/1-3.jpg",
+          "title":"電話密碼",
+          "alt":"我順利進入派對，原來今天這場派對是狐獴家族舉辦的，哈利說：「派對裡藏有一台公共電話，據說只要觀察解說牌解開藏在下方線索後，得到一組電話號碼，就能知道哈果的下落了！」"
+        }
+      ],
+      "answers": [
+        {
+          "title": "關卡任務",
+          "alt": "請輸入6碼數字",
+          "type": "password",
+          "value": "708215"
+        }
+      ],
+      "hints" :[
+        {
+          "id": "3qjEaAvePm7Ax98udaSf1n",
+          "buttonText": "領取1-3關提示",
+          "score": 100,
+          "type":"txt",
+          "title": "1-3關提示",
+          "alt": "藏在電話鍵盤內的英文字母，英文字母會對應到數字"
+        }
+      ]
+    },
+    {
+      "id": "3iZqK11y52657gJKPY4tSz",
+      "required": ["3iZqK11y2WAcQa54iYeBjy"],
+      "next": "3iZqK11y73dCjeauW2ATk8",
+      "title": "找尋哈果-4",
+      "banner": "/media/banner-1-4.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src":"/media/1-4.jpg",
+          "title":"謎樣禮物",
+          "alt":"接起電話是位自稱「Jacob Sheep」，她說：「記得在去年我發情的季節遇見哈果，他陪著我歷經懷孕過程，直到今年我生下小羊那時，他突然消失不見，但在他房裡牆面上貼了一些謎樣便條紙，我至今也尚未解開哈果要送給我什麼禮物，請問你可以幫幫我嗎？」"
+        }
+      ],
+      "answers": [
+        {
+          "title": "關卡任務",
+          "alt": "請輸入3碼英文字",
+          "type": "order",
+          "options": ["Ａ","Ｂ","Ｃ","Ｄ","Ｅ","Ｆ","Ｇ","Ｈ","Ｉ","Ｊ","Ｋ","Ｌ","Ｍ","Ｎ","Ｏ","Ｐ","Ｑ","Ｒ","Ｓ","Ｔ","Ｕ","Ｖ","Ｗ","Ｘ","Ｙ","Ｚ"],
+          "value": [2,20,15]
+        }
+      ],
+      "hints" :[
+        {
+          "id": "3qjEaAvf5BaJbCe1B8DfR6",
+          "buttonText": "領取1-4關提示",
+          "score": 100,
+          "type":"txt",
+          "title": "1-4關提示",
+          "alt": "找到Jacob Sheep的解說牌確認季節，並且對照季節特徵依序連線。(可以google所有代表的季節特徵)"
+        }
+      ]
+    },
+    {
+      "id": "3iZqK11y73dCjeauW2ATk8",
+      "required": ["3iZqK11y52657gJKPY4tSz"],
+      "next": "",
+      "title": "找尋哈果-5",
+      "type": "continue",
+      "buttonText":"完成本關",
+      "banner": "/media/banner-1-5.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src":"/media/1-5.jpg",
+          "title":"獲得Final code",
+          "alt":"我找到哈果送給Jacob的禮物，而杯下壓住2張Final code，原來哈果已未雨綢繆留下線索了。看來我得加緊腳步找到哈果。"
+        }
+      ]
+    },
+    {
+      "id": "3iZqK11y9uLfVPhxAzSVYy",
+      "required": ["3iZqK11xh5hi3T4MpF3CmD"],
+      "next": "3iZqK11yBWCJSmj4DXzfbD",
+      "type": "continue",
+      "title": "探尋哈迪-1",
+      "banner": "/media/banner-2-1.jpg",
       "prompts": [
         {
           "type":"image",
           "src":"/media/2-1.jpg",
-          "title":"📍關卡地點：稻香居",
-          "alt":"回家路上，阿守看到許多車子經過。長長的車身、有點圓的軀殼，還有寬扁的一排排窗戶，一台車可以坐十幾個人⋯⋯那是自動車——也就是公共汽車。 \n　他想起吳奶奶下午提及，其實五股這一帶的自動車有很大一部分都是吳家經營的。因為五股靠近台北，為了讓不同地區的生意可以一起進行，利用自動車把大家聯繫在一起是最方便的方式。在路上趴趴走的自動車，原來有這麼重要的用途和意義。\n➡️ 往左滑翻頁➡️"
-        },
-        {
-          "type":"image",
-          "src":"/media/2-2.jpg",
-          "title":"📍關卡地點：稻香居",
-          "alt": "阿守一直以為自己已經夠了解這個世界，此時他才忽然發現，他所理解的世界或許只有一小部分而已，從吳奶奶認識吳家、了解更多社會的運行規則，越發了解，就越感覺到新奇。 \n以後啊，我也想要成為像自動車那樣，低調卻重要的角色。 \n阿守想著。 \n➡️ 往左滑翻頁➡️"
-        },
-        {
-          "type":"image",
-          "src":"/media/2-3.jpg",
-          "title":"📍關卡地點：稻香居",
-          "alt": "吳奶奶曾經說，五股自動車會行經很多地點，連接台北的生意。阿守想將吳家經營的自動車會經過的地點記錄下來，卻苦於後來自動車的經營範圍擴展，地區太多，他無法全部抵達、一一紀錄。 "
+          "title":"魔毯",
+          "alt":"我沿著東非裂谷、尼羅河谷往北走，來到了人來人往的西奈半島，遇到一位來自中東的商人，他向我推銷一條具有魔法力量的魔毯，我得解開魔毯上的神祕密碼，才能飛向哈迪那..."
         }
       ],
       "answers": [
         {
           "title": "關卡任務",
-          "alt": "請幫幫阿守，找出最初吳家經營自動車的正確的經營範圍吧！請注意，以每一個地名的最後一個字為基準，並以筆畫順序由少到多為先後順序排列。 ",
+          "alt": "請輸入5個中文字",
           "type": "order",
-          "options": ["觀音山","貴仔坑","大稻埕","新莊","山腳","林口","八里","大橋頭","淡水","台北","和尚洲"],
-          "value": [10,3,4,7]
+          "options": ["酒","西","拉","上","天","燈","阿","雲","寶","一","神","人","眼","丁","不","滿","山"],
+          "value": [6,2,13,10,5]
         }
       ],
       "hints" :[
         {
-          "id": "3qjEaAFQwg1UR1GTUpWSU1",
-          "buttonText": "領取第二關提示",
+          "id": "3qjEaAvgDwf1BDJbUCyFdg",
+          "buttonText": "領取2-1關提示",
           "score": 100,
           "type":"txt",
-          "src":"",
-          "title": "第二關提示",
-          "alt": "任務僅要求找出吳家自行車「最初」的經營範圍，可參考「五股庄的產業道路」海報。"
-        },
-        {
-          "id": "3qjEaAFQyVkEXJb9cYZ1Ws",
-          "buttonText": "領取第二關答案",
-          "score": 1000,
-          "type":"txt",
-          "title": "第二關答案",
-          "alt": "和尚洲（洲9劃）、新莊（莊11劃）、山腳（腳13劃）、大橋頭（頭16劃）"
+          "title": "2-1關提示",
+          "alt": "這是一首藏頭詩"
         }
       ]
     },
     {
-      "id": "3iZqJzLXe4hk3JWRuLnKxz",
-      "required": ["3iZqJzLXPqbF8C9UuhNk9L"],
-      "next": "3iZqJzLXXH5fKhcoSfqgQB",
-      "title": "作伙來唱望春風",
-      "banner": "/media/banner_c.jpg",
+      "id": "3iZqK11yBWCJSmj4DXzfbD",
+      "required": ["3iZqK11y9uLfVPhxAzSVYy"],
+      "next": "3iZqK11yDp9nzS47Ch11df",
+      "title": "探尋哈迪-2",
+      "banner": "/media/banner-2-2.jpg",
+      "prompts": [
+        {
+          "type":"url",
+          "src":"https://form.jotform.com/222487630063050",
+          "title":"神燈指引",
+          "button": "請上傳你和神燈的合照",
+          "alt":"原來魔毯要帶我來找神燈精靈，我怎麼會忘記找精靈幫忙尋找哈迪的下落。我說：「神燈神燈，請幫我找尋哈迪...」精靈說：「是誰找我呀？想找我的人都得陪我照張相。」"
+        }
+      ],
+      "answers": [
+        {
+          "title": "關卡任務",
+          "alt": "請上傳照片後，取得通關密碼",
+          "type": "password",
+          "value": "4557"
+        }
+      ]
+    },
+    {
+      "id": "3iZqK11yDp9nzS47Ch11df",
+      "required": ["3iZqK11yBWCJSmj4DXzfbD"],
+      "next": "3iZqK11yFTYLzT4GJxpyhs",
+      "title": "探尋哈迪-3",
+      "banner": "/media/banner-2-3.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src":"/media/2-3.jpg",
+          "title":"埃及密碼",
+          "alt":"我坐著魔毯飛行了一陣子，魔毯已精疲力盡，精靈願意送一隻駱駝給我，讓我可以繼續找尋哈迪下落。不過調皮的精靈可不是平白無故送我呢！它把駱駝綁在哈比哈妮大冒險前，駱駝旁有一塊石板，上面有許多類似埃及的圖案。精靈說只要解開密碼，就讓我帶走駱駝，這任務路途漫漫長，看來我只好努力的解謎了。"
+        }
+      ],
+      "answers": [
+        {
+          "title": "關卡任務",
+          "alt": "請輸入數字",
+          "type": "password",
+          "value": "30"
+        }
+      ],
+      "hints" :[
+        {
+          "id": "3qjEaAvhjYGCJ1pZcYLFru",
+          "buttonText": "領取2-3關提示",
+          "score": 100,
+          "type":"txt",
+          "title": "2-3關提示",
+          "alt": "觀察圖形顏色"
+        }
+      ]
+    },
+    {
+      "id": "3iZqK11yFTYLzT4GJxpyhs",
+      "required": ["3iZqK11yDp9nzS47Ch11df"],
+      "next": "3iZqK11yH4Tg3TSq1aEWHB",
+      "title": "探尋哈迪-4",
+      "banner": "/media/banner-2-4.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src":"/media/2-4.jpg",
+          "title":"埃及密碼",
+          "alt":"我騎著駱駝繼續我的冒險之旅，一路上欣賞皇宮內的景色。經過雷射迷宮時，突然間我聽見有人的求救聲，原來是阿拉丁，他因為偷偷和茉莉約會，讓蘇丹王大為震怒，派人將他鎖在地牢，之後要接受審判。精靈為了營救阿拉丁，請求我幫忙，想要打開地牢的大門鎖，密碼就在牆上那些以四邊形與三角形組合的圖形，這可是攸關阿拉丁的性命，我要趕緊解啊～"
+        }
+      ],
+      "answers": [
+        {
+          "title": "關卡任務",
+          "alt": "請輸入解答",
+          "type": "password",
+          "value": "17512"
+        }
+      ],
+      "hints" :[
+        {
+          "id": "3qjEaAw73ZiUXmwYiWN9sg",
+          "buttonText": "領取2-4關提示",
+          "score": 100,
+          "type":"txt",
+          "title": "2-4關提示",
+          "alt": "要計算大大小小的三角形和四邊形，而且所有四邊形類型都要找到喔"
+        }
+      ]
+    },
+    {
+      "id": "3iZqK11yH4Tg3TSq1aEWHB",
+      "required": ["3iZqK11yFTYLzT4GJxpyhs"],
+      "next": "",
+      "title": "找尋哈果-5",
+      "type": "continue",
+      "buttonText":"完成本關",
+      "banner": "/media/banner-2-5.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src":"/media/2-5.jpg",
+          "title":"獲得Final code",
+          "alt":"終於營救出阿拉丁，精靈、阿拉丁跟茉莉都很感謝我，為了報答，他們給我2張哈迪下落的Final code。我會順利找到哈迪的。"
+        }
+      ]
+    },
+    {
+      "id": "3iZqK11yPFuWt3WB2Xa1K5",
+      "required": ["3iZqK11xh5hi3T4MpF3CmD"],
+      "next": "3iZqK11yMroJAFPaNkpTDc",
+      "title": "搜尋哈妮-1",
+      "banner": "/media/banner-3-1.jpg",
       "prompts": [
         {
           "type":"image",
           "src":"/media/3-1.jpg",
-          "title":"📍關卡地點：春臨館",
-          "alt":"這一天，阿守收到吳奶奶的邀請，再次來到吳家作客。上次他跟吳奶奶只在院子裡喝茶，這次吳奶奶邀請他來到大廳。阿守終於見到吳家的內部。 \n牆上有很多很多照片，琳瑯滿目。阿守的眼光很快就被吸引過去。有盛大的禮堂上帥氣新郎挽著漂亮新娘的合照、自動車會所剛開幕的剪綵照片⋯⋯吳奶奶在他身旁指著一張張照片，一一解說，「這是年輕時的吳爺爺，這是和豐商行⋯⋯」\n➡️ 往左滑翻頁➡️"
-        },
-        {
-          "type":"image",
-          "src":"/media/3-2.jpg",
-          "title":"📍關卡地點：春臨館",
-          "alt":"  「吳奶奶，這是誰？」此時，阿守好奇地指著其中一張照片，照片中的人穿著整齊的黑色西裝，站得挺直。 \n  「哦，他是吳錫洋，拍攝了第一部有聲電影『望春風』的人！」吳奶奶眼裡滿是自豪的笑意，告訴阿守，望春風描述的是台北藝旦和老實青年淒美的愛情故事，在當時的永樂座首次上映，受到廣大的迴響，大受好評。 \n➡️ 往左滑翻頁➡️"
-        },
-        {
-          "type":"image",
-          "src":"/media/3-3.jpg",
-          "title":"📍關卡地點：春臨館",
-          "alt": "吳錫洋拍攝了台灣第一部有聲電影「望春風」，在永樂座首次上映便受到廣大的迴響。電影望春風的同名主題曲也是台灣人耳熟能詳的共同回憶，這天吳奶奶與阿守唱了一次又一次，阿守慢慢記住了歌詞。"
+          "title":"飄洋過海",
+          "alt":"我搭上貝伊波雷帆船，隨著阿拉伯商人一同向東馳去，橫跨印度洋，經過麻六甲海峽，繼續向東，這段航程花費將近3個月時間，我們終於抵達一座陸地，而當我準備下船時，海關卻給我一張入關卡，我得解開才能下船…"
         }
       ],
       "answers": [
         {
           "title": "關卡任務",
-          "alt": "請用以下散亂的詞句，排序出《望春風》完整歌詞的正確順序。 ",
+          "alt": "請輸入4個中文字",
           "type": "order",
-          "options": ["十七八歲","開門","在心內","君來採","子弟","吹","獨夜","等待何時","果然標緻","驚","歹勢","春風","青春","有人來","守燈下","無伴","笑阮是憨大呆","做尪婿","面肉白","意愛","誰家人","不知","想要問伊","外面","想要","看著","對面","心內","少年家","未出嫁","彈琵琶","郎君","花當開","聽見","甲看覓","月娘","被風騙"],
-          "value": [6,15,14,11,26,5,0,29.25,28,8,18,20,4,22,9,10,27,30,24,31,17,19,2,7,3,12,32,33,23,13,1,34,35,16,36,21]
+          "options": ["大","干","南","美","太","西","前","洋","平","羊","非","斗","洲"],
+          "value": [2,4,8,7]
         }
       ],
       "hints" :[
         {
-          "id": "3qjEaAFQzpXSg67TmMLKXh",
-          "buttonText": "領取第三關提示",
+          "id": "3qjEaAvjLPFVrrE4HcFANo",
+          "buttonText": "領取3-1關提示",
           "score": 100,
           "type":"txt",
-          "src":"",
-          "title": "第三關提示",
-          "alt": "展場內的某一處有《望春風》的完整歌詞"
-        },
-        {
-          "id": "3qjEaAFR39yK5fpHx3oqAt",
-          "buttonText": "領取第三關答案",
-          "score": 1000,
-          "type":"image",
-          "src":"/media/3-b.jpg",
-          "title": "第三關答案",
-          "alt": "獨夜/無伴/守燈下/春風/對面/吹 /十七八歲/未出嫁/看著/少年家/果然標緻/面肉白/誰家人/子弟  想要問伊/驚/歹勢/心內/彈琵琶/想要/郎君/做尪婿/意愛/在心內/等待何時/君來採/青春/花當開/聽見/外面/有人來/開門/甲看覓/月娘笑阮是憨大呆/被風騙/不知 "
+          "title": "3-1關提示",
+          "alt": "拆解再組合：每一圈代表一個字"
         }
       ]
     },
     {
-      "id": "3iZqJzLXhQmKRgvCTxj38a",
-      "required": ["3iZqJzLXPqbF8C9UuhNk9L"],
-      "next": "3iZqJzLXXH5fKhcoSfqgQB",
-      "title": "吳家家訓與百年工藝",
-      "banner": "/media/banner_d.jpg",
+      "id": "3iZqK11yMroJAFPaNkpTDc",
+      "required": ["3iZqK11yPFuWt3WB2Xa1K5"],
+      "next": "3iZqK11yLZqfAwMKXv1Mkm",
+      "title": "搜尋哈妮-2",
+      "banner": "/media/banner-3-2.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src":"/media/3-2.jpg",
+          "title":"家屋",
+          "alt":"當我走在街道上尋覓哈妮蹤跡時，到處可見臉譜石雕或家屋壁畫圖騰，我詢問了當地人圖騰意涵，原來他們把當地傳說、生活點滴或產業活動繪製在牆面上。在這有兩戶家屋壁畫風格雖不同，但卻擁有一個共同元素，我推敲這共同元素的意涵，應該跟當地產業活動有關，我大膽推論當地人們最主要的產業應該是…"
+        }
+      ],
+      "answers": [
+        {
+          "title": "關卡任務",
+          "alt": "輸入正確答案",
+          "type": "order",
+          "options": ["農業","林業","漁業","畜牧","加工業","服務業","商業","製造業"],
+          "value": [2]
+        }
+      ]
+    },
+    {
+      "id": "3iZqK11yLZqfAwMKXv1Mkm",
+      "required": ["3iZqK11yMroJAFPaNkpTDc"],
+      "next": "3iZqK11yJXToUZzn4aSSuf",
+      "title": "搜尋哈妮-3",
+      "banner": "/media/banner-3-3.jpg",
+      "prompts": [
+        {
+          "type":"txt",
+          "title":"怒神發威",
+          "alt":"我繼續爬上一座小山丘，望眼看去對面豎立著一座高聳的建築，看到許多人被送到頂部，沒幾秒鐘聽到這群人大聲尖叫著，急速向下降落，看得我好緊張。我趕緊請教當地人這建築的特色，他說：「這在六福村，而它最驚奇的地方是在下降的瞬間，車體背後的鋁板與磁鐵因磁力線會產生的反作用力，形成煞車力量，那你來猜猜這時反作用力的方向是向哪裡呢?」"
+        }
+      ],
+      "answers": [
+        {
+          "title": "關卡任務",
+          "alt": "輸入正確答案",
+          "type": "order",
+          "options": ["down","up","right","left"],
+          "value": [1]
+        }
+      ],
+      "hints" :[
+        {
+          "id": "3qjEaAvkRW7Sch6hiY4xyM",
+          "buttonText": "領取3-3關提示",
+          "score": 100,
+          "type":"txt",
+          "title": "3-3關提示",
+          "alt": "找到大怒神解說牌"
+        }
+      ]
+    },
+    {
+      "id": "3iZqK11yJXToUZzn4aSSuf",
+      "required": ["3iZqK11yLZqfAwMKXv1Mkm"],
+      "next": "",
+      "title": "搜尋哈妮-4",
+      "type": "continue",
+      "buttonText":"完成本關",
+      "banner": "/media/banner-3-4.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src":"/media/3-4.jpg",
+          "title":"獲得Final code",
+          "alt":"實在尋不著哈妮下落，我走進一家土產店打探消息，沒想到這是HIA情報屋，店員順道給我2張Final code，並向我比了SHAKA手勢，預祝我好運。"
+        }
+      ]
+    },
+    {
+      "id": "3iZqK11yRDjp5W82k1G73u",
+      "required": ["3iZqK11xh5hi3T4MpF3CmD"],
+      "next": "3iZqK11ySj26ApdWqv7Jbo",
+      "title": "追尋哈利-1",
+      "banner": "/media/banner-4-1.jpg",
       "prompts": [
         {
           "type":"image",
           "src":"/media/4-1.jpg",
-          "title":"📍關卡地點：藏藝格",
-          "alt":"吳奶奶的家充滿了多精緻的裝飾，可以看到台灣各式各樣的建築工藝，像是泥塑、剪黏、交趾陶……等，還有從日本進口的「馬約利卡磁磚」，色彩鮮艷、有著吉祥圖案的磁磚鋪滿了吳家的大半面牆。 \n吳奶奶也告訴阿守這棟房子的名字叫做「守讓堂」，也告訴他院門上的字：三讓遺風的故事：在周代有一位君王叫古公亶父，他有三個兒子泰伯、仲雍和季歷。 \n　\n➡️ 往左滑翻頁➡️"
-        },
-        {
-          "type":"image",
-          "src":"/media/4-2.jpg",
-          "title":"📍關卡地點：藏藝格",
-          "alt":"當季歷的兒子姬昌出生時，古公亶父認為他將來會是個偉大的君王。泰伯和仲雍為了完成父親的願望，推辭三次不繼承王位，最後讓姬昌順利繼承了王位。而之所以會將這棟房子命名為「守讓堂」，就是因為三讓遺風是吳家的家訓：希望吳家的後代子孫都能遵守祖先讓賢的品德。 \n　\n➡️ 往左滑翻頁➡️"
-        },
-        {
-          "type":"image",
-          "src":"/media/4-3.jpg",
-          "title":"📍關卡地點：藏藝格",
-          "alt": "進入守讓堂的藏藝閣，映入眼簾的是大大小小精美的磁磚，上面有著歷史斑駁的紋路。也有當年古法的技藝—泥塑與剪粘製作的建築裝飾，以鐵絲、石灰和彩色瓷碗等材料，做出栩栩如生的動物與花卉，展現師傅們深厚的功力! "
+          "title":"旅遊日記",
+          "alt":"我在HIA情報屋拿到一本筆記本，據說是哈利的旅遊日記，難道...這藏有哈比在那裡的線索嗎？我得趕緊解開它。"
         }
       ],
       "answers": [
         {
           "title": "關卡任務",
-          "alt": "根據以下框框中的字的筆劃猜出正確的時間並找尋展示空件內的哪一項物品上有相關數字 \n 1.和「藹」可親的吳奶奶 \n2.彩「繪」磁磚 \n3.「泥」塑 \n4.瀲「灩」 ",
+          "alt": "請輸入正確答案",
           "type": "order",
-          "options": ["彩繪匠藝","仿閩南貼壁磚灰作匠藝","泥塑及剪黏匠藝","柳條磚","TR磚"],
-          "value": [2]
+          "options": ["阿","部","險","峽","巴","美","西","山","嘴","大","鳥","火","里","國","歷","谷"],
+          "value": [5,13,9,6,1]
         }
       ],
       "hints" :[
         {
-          "id": "3qjEaAFR89C9iesp8gYhNz",
-          "buttonText": "領取第四關提示",
+          "id": "3qjEaAvmdtds466gkznYvg",
+          "buttonText": "領取4-1關提示",
           "score": 100,
           "type":"txt",
-          "title": "第四關提示",
-          "alt": "外觀是白色的。"
-        },
-        {
-          "id": "3qjEaAFR9HQbqEcM9j8rte",
-          "buttonText": "領取關卡Ｄ答案",
-          "score": 1000,
-          "type":"image",
-          "src":"/media/4-b.jpg",
-          "title": "關卡Ｄ答案",
-          "alt": "泥塑及剪黏匠藝"
+          "title": "4-1關提示",
+          "alt": "景點依序對照注音表"
         }
       ]
     },
     {
-      "id": "3iZqJzLXjKtN7FsC7aCYAG",
-      "required": ["3iZqJzLXPqbF8C9UuhNk9L"],
-      "next": "3iZqJzLXXH5fKhcoSfqgQB",
-      "title": "解鎖五股人文地景",
-      "banner": "/media/banner_e.jpg",
+      "id": "3iZqK11ySj26ApdWqv7Jbo",
+      "required": ["3iZqK11yRDjp5W82k1G73u"],
+      "next": "3iZqK11yUH2MbaxRFJxVJQ",
+      "title": "追尋哈利-2",
+      "banner": "/media/banner-4-2.jpg",
       "prompts": [
         {
           "type":"image",
-          "src":"/media/5-1.jpg",
-          "title":"📍關卡地點：秀水軒",
-          "alt":"認識守讓堂的故事後，阿守想好好了解自己的家鄉，花費好幾年的光陰遊歷五股的每一處，接觸不一樣的風俗民情。\n他第一站來到位在觀音山的凌雲寺，印入眼簾是炊煙裊裊的香煙在空中，忽然聽到廟公在介紹寺廟，他好奇地去聽，凌雲寺主要供奉觀世音菩薩，是五股地區歷史最悠久的寺廟。 \n　\n➡️ 往左滑翻頁➡️"
-        },
-        {
-          "type":"image",
-          "src":"/media/5-2.jpg",
-          "title":"📍關卡地點：秀水軒",
-          "alt":"廟公還說在地信仰多元，臺灣基督長老教會五股教會是北區第一個由村民自己蓋的教堂。過了一陣子，阿守參訪了五股教會，教堂內傳來一陣陣的禱告聲，阿守聽到也跟著雙手合十祈禱。\n　幾年過去，阿守與妻子攜手來到塭仔圳，在清朝時原為一條繁忙的運河，一艘艘船隻行駛在淡水河上，如今為一片沼澤與候鳥們在溼地棲息活動，阿守與妻子手牽手漫步在夕陽中...... \n \n➡️ 往左滑翻頁➡️"
-        },
-        {
-          "type":"image",
-          "src":"/media/5-3.jpg",
-          "title":"📍關卡地點：秀水軒",
-          "alt": "哇！終於來到五股了！到這裡一定要去賞機，可以爬山健走到公園欣賞飛機降落的好地方，晚上還可以賞夜景呢！但在晚上來臨前先去五股歷史最悠久的寺廟拜觀世音菩薩，剛好今天是冬至，去完寺廟再去綠色濕地看可愛的小水鴨，最後吃個晚餐、賞個夜景，結束一日五股行程！ "
+          "src":"/media/4-2.jpg",
+          "title":"淘金",
+          "alt":"我來到美國大西部，這裡所呈現的是美國拓荒時期，狂野剽悍的場面！而人們主要爭奪的都是那滿滿沙金，哈比似乎也跟隨淘金客前去淘金，據說有位Mr. 許慎，曾在當地開了一間福記小廚，並將淘金線索藏在店家的附近，我得趕緊找到那告示牌，解開淘金的密碼。"
         }
       ],
       "answers": [
         {
           "title": "關卡任務",
-          "alt": "請根據前一頁的敘述，從牆上的掛報中找出五股一日遊的行程順序",
-          "type": "order",
-          "options": ["大生態池","西雲寺","疏洪沼澤公園","開山凌雲寺","觀音山","水碓觀景公園"],
-          "value": [3,2,5]
+          "alt": "請輸入5碼數字",
+          "type": "password",
+          "value": "43412"
         }
       ],
       "hints" :[
         {
-          "id": "3qjEaAFR4kecZmhEbQkzyB",
-          "buttonText": "領取第五關提示",
+          "id": "3qjEaAvmwA9E8e8LjyTmRi",
+          "buttonText": "領取4-2關提示",
           "score": 100,
           "type":"txt",
-          "title": "第五關提示",
-          "alt": "五股歷史最悠久的寺廟、濕地小水鴨、賞機展望台"
-        },
-        {
-          "id": "3qjEaAFR6W8o2ApNsYP1M5",
-          "buttonText": "領取第五關答案",
-          "score": 1000,
-          "type":"txt",
-          "title": "第五關答案",
-          "alt": "開山凌雲寺、疏洪沼澤公園、水碓觀景公園"
+          "title": "4-2關提示",
+          "alt": "造字原則:仔細觀察解說牌，並用許慎造字原則解題。"
         }
       ]
     },
     {
-      "id": "3iZqJzLY52wxsd5tDPhYcH",
-      "required": ["3iZqJzLXZahDkKGWwubm8d","3iZqJzLXc92x8MJYVK4Z88","3iZqJzLXe4hk3JWRuLnKxz","3iZqJzLXhQmKRgvCTxj38a","3iZqJzLXjKtN7FsC7aCYAG"],
+      "id": "3iZqK11yUH2MbaxRFJxVJQ",
+      "required": ["3iZqK11ySj26ApdWqv7Jbo"],
+      "next": "3iZqK11yVgk1eQLoHeyVLi",
+      "title": "追尋哈利-3",
+      "banner": "/media/banner-4-3.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src":"/media/4-3.jpg",
+          "title":"懸賞金",
+          "alt":"我來到印地安交易站探查哈比消息，沒想到在旁邊的公布欄貼著哈比的懸賞令，只是其他人都有明確的懸賞金，但哈比懸賞金則是英文字，真奇怪，難道是哈比懸賞金線索藏在街道上嗎？"
+        }
+      ],
+      "answers": [
+        {
+          "title": "關卡任務",
+          "alt": "請輸入4碼數字",
+          "type": "password",
+          "value": "1733"
+        }
+      ],
+      "hints" :[
+        {
+          "id": "3qjEaAvnGfNyjwcmgWxgjs",
+          "buttonText": "領取4-3關提示",
+          "score": 100,
+          "type":"txt",
+          "title": "4-3關提示",
+          "alt": "觀察數字間的加減關係"
+        }
+      ]
+    },
+    {
+      "id": "3iZqK11yVgk1eQLoHeyVLi",
+      "required": ["3iZqK11yUH2MbaxRFJxVJQ"],
+      "next": "3iZqK11yX8GW37MHN5puTF",
+      "title": "追尋哈利-4",
+      "banner": "/media/banner-4-4.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src":"/media/4-4.jpg",
+          "title":"決鬥時刻",
+          "alt":"我進入印地安交易站，店員對我使個眼色要我查看牆面上的那幅「牛仔決鬥」，我還得找到關鍵數字解開「?」是什麼。"
+        }
+      ],
+      "answers": [
+        {
+          "title": "關卡任務",
+          "alt": "請輸入5碼數字",
+          "type": "password",
+          "value": "17395"
+        }
+      ],
+      "hints" :[
+        {
+          "id": "3qjEaAvo2r4SfjkGRdbcYx",
+          "buttonText": "領取4-4關提示",
+          "score": 100,
+          "type":"txt",
+          "title": "4-4關提示",
+          "alt": "觀察六邊形鄰近數量"
+        }
+      ]
+    },
+    {
+      "id": "3iZqK11yX8GW37MHN5puTF",
+      "required": ["3iZqK11yVgk1eQLoHeyVLi"],
       "next": "",
-      "title": "只要有人，故事就不會消失",
-      "banner": "/media/banner_final.jpg",
+      "type": "continue",
+      "buttonText": "完成本關",
+      "title": "追尋哈利-5",
+      "banner": "/media/banner-4-5.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src":"/media/4-5.jpg",
+          "title":"獲得Final code",
+          "alt":"我走出交易站遇到了印地安人-阿哈奴，他準備帶著妻小出城，他聽說美軍準備佔領這個城鎮，勸我不要逗留，他順道給我2張Final code，祝福我一切順利。"
+        }
+      ]
+    },
+    {
+    "id": "3iZqK11ybUJsS8D3aDviwT",
+    "required": ["3iZqK11y73dCjeauW2ATk8","3iZqK11yH4Tg3TSq1aEWHB","3iZqK11yJXToUZzn4aSSuf","3iZqK11yX8GW37MHN5puTF"],
+    "next": "3iZqK11ydFjGRewQWeyMbn",
+    "title": "拯救四寶",
+    "banner": "/media/banner-end-1.jpg",
+    "prompts": 
+    [
+      {
+        "type":"txt",
+        "title":"四寶在哪",
+        "alt":"我終於蒐集到8張Final code，得趕緊解開這8張code的先後關係，才能知道四寶真正受困的位置..."
+      }
+    ],
+    "answers": 
+    [
+      {
+        "title": "請輸入正確答案",
+        "alt": "請輸入8碼英文字",
+        "type": "order",
+        "options": ["Ａ","Ｂ","Ｃ","Ｄ","Ｅ","Ｆ","Ｇ","Ｈ","Ｉ","Ｊ","Ｋ","Ｌ","Ｍ","Ｎ","Ｏ","Ｐ","Ｑ","Ｒ","Ｓ","Ｔ","Ｕ","Ｖ","Ｗ","Ｘ","Ｙ","Ｚ"],        
+        "value": [5,14,20,13,19,0,8,13]
+        }
+      ],
+      "hints" :[
+        {
+          "id": "3qjEaAvpm98rwWcutj9F4e",
+          "buttonText": "領取本關答案",
+          "score": 100,
+          "type":"txt",
+          "title": "數字對應",
+          "alt": "羅馬數字代表順序、阿拉伯數字代表英文字母"
+        }
+      ]
+    },
+    {
+      "id": "3iZqK11ydFjGRewQWeyMbn",
+      "required": ["3iZqK11ybUJsS8D3aDviwT"],
+      "next": "",
+      "title": "拯救任務成功",
+      "banner": "/media/banner-end-2.jpg",
       "type": "end",
       "buttonText":"結束遊戲看成績",
       "prompts": [
         {
-          "type":"image",
-          "src":"/media/5-1.jpg",
-          "title":"📍關卡地點：留餘聽",
-          "alt":"光陰似箭，阿守長大成人、結婚生子，慢慢變成老爺爺，但他仍忘不了小時候在守讓堂聽吳奶奶講述的吳家故事。 \n　\n阿守常常跟孫子講吳家的故事，繪聲繪影的描述讓孫子們聽得津津有味，也對守讓堂產生好奇心，希望阿守能帶他們去看一眼，然而阿守的表情卻落寞起來了。他告訴孫子：「因為隨著歲月流逝，守讓堂已不再有當年的風光，吳家子孫們陸陸續續搬離，人去樓空……，之後為了地方產業發展，政府開始徵收土地好興建高速公路，守讓堂也無可倖免受到了影響，被迫拆除……。」\n　\n➡️ 往左滑翻頁➡️"
-        },
-        {
-          "type":"image",
-          "src":"/media/5-2.jpg",
-          "title":"📍關卡地點：留餘聽",
-          "alt":"然而透過地方人士的努力，守讓堂被登錄為歷史建築，並異地重建。現在的守讓堂不因翻新而失去了原本的回憶，除了重現拆除前的樣貌，更規畫了豐富的展覽內容，守讓堂的故事會在阿守與其他來到這裡的民眾傳承下繼續遍地開花。"
+          "type":"txt",
+          "title":"拯救任務成功",
+          "alt":"校長Boss說：「感謝你達成拯救六福四寶的任務，其實，六福四寶在六福村過得很愉快，這任務目的也是特務訓練的一環，培養你的觀察能力和解決問題能力，這是身為HIA特務最重要的素養。但請在返回弘道基地前，達成甘苦談分享，才算任務成功。任務成功者，返回基地後將有大大獎賞。」"
         }
       ]
     }
   ],
-  "scoreBanner":"/media/banner_final.jpg",
-  "scoreText": "只要有人，故事就不會消失",
-  "scoreUrl": " "
+  "scoreBanner":"/media/banner-score.jpg",
+  "scoreText": "請分享拯救任務甘苦談",
+  "scoreUrl": "https://form.jotform.com/222458285923463"
 }
-
