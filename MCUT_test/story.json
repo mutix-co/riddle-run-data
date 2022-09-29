@@ -19,7 +19,7 @@
       "title": "行前須知",
       "type": "continue",
       "buttonText":"我瞭解了！",
-      "banner": "/media/banner_intro.jpg",
+      "banner": "/media/banner_info.jpg",
       "prompts": [
         {
           "type":"txt",
