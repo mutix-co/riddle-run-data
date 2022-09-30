@@ -357,13 +357,19 @@
           "type":"image",
           "src":"/media/5-2.jpg",
           "title":"📍關卡地點：留餘聽",
-          "alt":"然而透過地方人士的努力，守讓堂被登錄為歷史建築，並異地重建。現在的守讓堂不因翻新而失去了原本的回憶，除了重現拆除前的樣貌，更規畫了豐富的展覽內容，守讓堂的故事會在阿守與其他來到這裡的民眾傳承下繼續遍地開花。"
+          "alt":"然而透過地方人士的努力，守讓堂被登錄為歷史建築，並異地重建。現在的守讓堂不因翻新而失去了原本的回憶，除了重現拆除前的樣貌，更規畫了豐富的展覽內容，守讓堂的故事會在阿守與其他來到這裡的民眾傳承下繼續遍地開花。 \n➡️ 往左滑翻頁➡️"
+        },
+        {
+          "type":"url",
+          "src":"https://forms.gle/WpvCbLkw1GEKjq6W8",
+          "title":"填寫問卷",
+          "alt":" "
         }
       ]
     }
   ],
   "scoreBanner":"/media/banner_final.jpg",
-  "scoreText": "填寫問卷",
-  "scoreUrl": "https://forms.gle/WpvCbLkw1GEKjq6W8"
+  "scoreText": "遊戲結束",
+  "scoreUrl": " "
 }
 
