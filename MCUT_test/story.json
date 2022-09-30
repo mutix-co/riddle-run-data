@@ -1,14 +1,14 @@
 {
   "name": "MCUT_test",
-  "version": "1.0",
-  "title": "我的守護堂調查手記",
+  "version": "2.0",
+  "title": "（測試）我的守護堂調查手記",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/splash.jpg",
   "contact": "mailto:ryhong@mail.mcut.edu.tw",
   "timekeeper": true,
   "introduction": {
-    "title": "我的守護堂調查手記",
+    "title": "（測試）我的守護堂調查手記",
     "content": "很久以前，在一片片綠油油的稻田邊，住著一位小男孩–阿守，成長在田野間的他平時幫爸爸忙完農活就會到處去探險，在看見了山、海、茶樹之前，他以為世界是由稻田組成的；而一天之中，男孩阿守最喜歡在黃昏時刻到榕樹下聽爺爺講故事，這些故事的地點使阿守嚮往，有一天爺爺給了他一本空白筆記本，希望他可以在筆記本上寫下屬於自己的探險故事，就這樣開啟了他的旅程…… "
   },
   "levels": [
@@ -357,19 +357,12 @@
           "type":"image",
           "src":"/media/5-2.jpg",
           "title":"📍關卡地點：留餘聽",
-          "alt":"然而透過地方人士的努力，守讓堂被登錄為歷史建築，並異地重建。現在的守讓堂不因翻新而失去了原本的回憶，除了重現拆除前的樣貌，更規畫了豐富的展覽內容，守讓堂的故事會在阿守與其他來到這裡的民眾傳承下繼續遍地開花。 \n➡️ 往左滑翻頁➡️"
-        },
-        {
-          "type":"url",
-          "src":"https://forms.gle/WpvCbLkw1GEKjq6W8",
-          "title":"填寫問卷",
-          "alt":" "
+          "alt":"然而透過地方人士的努力，守讓堂被登錄為歷史建築，並異地重建。現在的守讓堂不因翻新而失去了原本的回憶，除了重現拆除前的樣貌，更規畫了豐富的展覽內容，守讓堂的故事會在阿守與其他來到這裡的民眾傳承下繼續遍地開花。"
         }
       ]
     }
   ],
   "scoreBanner":"/media/banner_final.jpg",
-  "scoreText": "遊戲結束",
-  "scoreUrl": " "
+  "scoreText": "填寫問卷",
+  "scoreUrl": "https://forms.gle/WpvCbLkw1GEKjq6W8"
 }
-
