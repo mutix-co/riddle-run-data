@@ -1,6 +1,6 @@
 {
   "name": "LEOFOOGO_test",
-  "version": "2.0",
+  "version": "1.0",
   "title": "LEOFOOGO 六福出任務",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
@@ -438,7 +438,7 @@
     {
       "id": "3iZqK11yLZqfAwMKXv1Mkm",
       "required": ["3iZqK11yMroJAFPaNkpTDc"],
-      "next": "3iZqK11yJXToUZzn4aSSuf",
+      "next": "3iZqKGuEjeFcDdHVTfynat",
       "title": "搜尋哈妮-3",
       "banner": "/media/banner-3-3.jpg",
       "prompts": [
@@ -450,8 +450,8 @@
       ],
       "answers": [
         {
-          "title": "關卡任務",
-          "alt": "輸入正確的注音符號",
+          "title": "輸入正確的注音符號",
+          "alt": "這動物的別稱是「海○」",
           "type": "order",
           "options": ["ㄅ","ㄆ","ㄇ","ㄈ","ㄉ","ㄊ","ㄋ","ㄌ","ㄍ","ㄎ","ㄏ","ㄐ","ㄑ","ㄒ","ㄓ","ㄔ","ㄕ","ㄖ","ㄗ","ㄘ","ㄙ","ㄧ","ㄨ","ㄩ","ㄚ","ㄛ","ㄜ","ㄝ","ㄞ","ㄟ","ㄠ","ㄡ","ㄢ","ㄣ","ㄤ","ㄥ","ㄦ"],
           "value": [14,22]
@@ -469,17 +469,50 @@
       ]
     },
     {
-      "id": "3iZqK11yJXToUZzn4aSSuf",
-      "required": ["3iZqK11yLZqfAwMKXv1Mkm"],
-      "next": "",
+      "id": "3iZqKGuEjeFcDdHVTfynat",
+      "required": ["3iZqK11yMroJAFPaNkpTDc"],
+      "next": "3iZqKGuEqbaiRfpLc7BNMM",
       "title": "搜尋哈妮-4",
-      "type": "continue",
-      "buttonText":"完成本關",
       "banner": "/media/banner-3-4.jpg",
       "prompts": [
         {
+          "type":"txt",
+          "title":"怒神發威",
+          "alt":"我繼續爬上一座小山丘，望眼看去對面豎立著一座高聳的建築，看到許多人被送到頂部，沒幾秒鐘聽到這群人大聲尖叫著，急速向下降落，看得我好緊張。我趕緊請教當地人這建築的特色，他說：「這在六福村，而它最驚奇的地方是在下降的瞬間，車體背後的鋁板與磁鐵因磁力線會產生的反作用力，形成煞車力量，那你來猜猜這時反作用力的方向是向哪裡呢?」"
+        }
+      ],
+      "answers": [
+        {
+          "title": "輸入正確答案",
+          "alt": "輸入正確答案",
+          "type": "order",
+          "options": ["down","up","right","left"],
+          "value": [1]
+        }
+      ],
+      "hints" :[
+        {
+          "id": "3qjEaSp7zXR9LDMm7c52kB",
+          "buttonText": "領取3-4關提示",
+          "score": 100,
+          "type":"txt",
+          "title": "3-4關提示",
+          "alt": "找到大怒神解說牌"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKGuEqbaiRfpLc7BNMM",
+      "required": ["3iZqKGuEjeFcDdHVTfynat"],
+      "next": "",
+      "title": "搜尋哈妮-5",
+      "type": "continue",
+      "buttonText":"完成本關",
+      "banner": "/media/banner-3-5.jpg",
+      "prompts": [
+        {
           "type":"image",
-          "src":"/media/3-4.jpg",
+          "src":"/media/3-5.jpg",
           "title":"獲得Final code",
           "alt":"實在尋不著哈妮下落，我走進一家土產店打探消息，沒想到這是HIA情報屋，店員順道給我2張Final code，並向我比了SHAKA手勢，預祝我好運。"
         }
@@ -548,7 +581,7 @@
           "score": 100,
           "type":"txt",
           "title": "4-2關提示",
-          "alt": "造字原則:仔細觀察解說牌，並用許慎造字原則解題。"
+          "alt": "造字原則:仔細觀察解說牌，並用部首造字原則解題。"
         }
       ]
     },
@@ -637,7 +670,7 @@
     },
     {
     "id": "3iZqK11ybUJsS8D3aDviwT",
-    "required": ["3iZqK11y73dCjeauW2ATk8","3iZqK11yH4Tg3TSq1aEWHB","3iZqK11yJXToUZzn4aSSuf","3iZqK11yX8GW37MHN5puTF"],
+    "required": ["3iZqK11y73dCjeauW2ATk8","3iZqK11yH4Tg3TSq1aEWHB","3iZqKGuEqbaiRfpLc7BNMM","3iZqK11yX8GW37MHN5puTF"],
     "next": "3iZqK11ydFjGRewQWeyMbn",
     "title": "拯救四寶",
     "banner": "/media/banner-end-1.jpg",
