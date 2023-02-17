@@ -443,7 +443,8 @@
       "banner": "/media/banner-3-3.jpg",
       "prompts": [
         {
-          "type":"txt",
+          "type":"image",
+          "src":"/media/3-3.jpg",
           "title":"海船傍行",
           "alt":"我記得哈妮最喜歡衝浪，於是我沿著海邊路前往Kata Beach，看見一艘海盜船行駛在驚滔駭浪中，好恐怖喔！這時有6隻動物也游了過來，傍著船隻一起前進，而突然想起這動物有個很有趣的別稱…"
         }
