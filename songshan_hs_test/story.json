@@ -113,7 +113,7 @@
           "displayName": "louisa",
           "latitude": 25.032910,
           "longitude": 121.57176,
-          "maxDistance": 100
+          "maxDistance": 1000
         }
       ],
       "hints" :[
@@ -160,6 +160,7 @@
       "hints" :[
         {
           "id": "3qjEZsPH42Wnn2fwmzhA2c",
+          
           "buttonText": "需要點提示",
           "score": 1200,
           "type":"image",
