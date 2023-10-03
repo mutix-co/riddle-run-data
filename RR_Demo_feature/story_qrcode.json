@@ -1,14 +1,13 @@
 {
   "name": "RR_Demo_feature",
   "version": "6.0",
-  "title": "Riddle Run Demo（New Feature）",
+  "title": "Riddle Run Demo（qrcode answer）",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/splash.jpg",
   "map": "/media/map.jpg",
   "contact": "https://www.messenger.com/t/RiddleRun",
   "timekeeper": true,
-  "nickname": true,
   "introduction": {
     "title": "關於 Riddle Run",
     "content": "Riddle Run 是一個「活動遊戲化線上創作工具（平台）」，藉由科技應用，串起線上線下，將實境場景與虛擬環境（APP）連結，再利用遊戲化的解謎、問答、集點...等包裝，為使用者創造獨一無二的 OMO（線上線下融合）的活動體驗。 \n　\n藉由 Riddle Run，可以快速打造內容豐富及多種玩法的「實境解謎活動」、「展場遊戲式導覽」、「集點踩點」...等活動線上劇本供使用者在實體場域遊玩。也提供遊戲企劃、謎題設計、美術設計、活動宣傳...等相關服務，讓業者無後顧之憂！"
@@ -40,22 +39,21 @@
     {
       "id": "3iZqKeK27aw5Wt6uSk3BRo",
       "required": ["3iZqKeK24Pw9VKbumiPseq"],
-      "next": "3iZqKeK292HESLHQojamJu",
-      "title": "異國的料理",
+      "next": "3iZqKeK2GdxzuwU2ptghzU",
+      "title": "神秘的代號",
       "banner": "/media/banner_1.jpg",
       "prompts": [
         {
-          "type": "image",
-          "src": "/media/food_yakiniku_samugyopusaru.png",
-          "title": "一張圖片",
-          "alt": "這是從情報來源提供的，希望可以幫助到你"
+          "type": "text",
+          "title": "某地",
+          "alt": "據說這些 QRCode 中藏有某地的寶藏，請您幫忙找出來吧！"
         }
       ],
       "answers": [
         {
-          "type": "english",
-          "title": "請選擇正確的料理名稱",
-          "value": "barbecue"
+          "type": "qrcode",
+          "title": "找出正確的 QRCode",
+          "value": "test"
         }
       ],
       "hints" :[
@@ -65,54 +63,13 @@
           "score": 100,
           "type": "txt",
           "title": "直接看答案",
-          "alt": "barbecue"
-        }
-      ]
-    },
-    {
-      "id": "3iZqKeK292HESLHQojamJu",
-      "required": ["3iZqKeK27aw5Wt6uSk3BRo"],
-      "next": "3iZqKeK2GdxzuwU2ptghzU",
-      "title": "神秘的暗號",
-      "banner": "/media/banner_2.jpg",
-      "type": "",
-      "buttonText":"",
-      "prompts": [
-        {
-          "type":"txt",
-          "src":"",
-          "title":"RR 大食堂",
-          "alt":"今天開放預購振興券的預購啦！大家想好要怎麼花了嗎～\n快來 RR 大食堂看看，讓你聰明的省荷包！\n而且給券的順序還不能變，只能按照左到右的順序給，不然會付款不成功😥\n🙋‍♀：腦闆，如果我只想吃一碗麵，那要怎麼付錢呢～？\n👩‍🍳：蛤？我忙著煮麵，自己想！"
-        },
-        {
-          "type": "image",
-          "src": "/media/2-1.jpg",
-          "title": "RR 大食堂",
-          "alt": "兩碗麵只要：500+200+500 三張振興券\n五碗麵只要：200+500+200 三張振興券\n六碗麵只要：200+200+500 三張振興券\n　\n如果只想點一碗麵，要怎麼付錢呢？"
-        }
-      ],
-      "answers": [
-        {
-          "type": "qrcode",
-          "title": "請找到正確的QRCode",
-          "value": "505020"
-        }
-      ],
-      "hints": [
-        {
-          "id": "3qjEZd6dQQNp2YNuA3nrZp",
-          "buttonText": "直接看答案",
-          "score": 1000,
-          "type": "txt",
-          "src":"",
-          "title":"直接看答案",
-          "alt":"答案是「505020」喔！\n　\n跟二進位法有關，200 代表二進位法的 1，500 代表二進位法的 0。，"
+          "alt": "test"
         }
       ]
     },
     {
       "id": "3iZqKeK2GdxzuwU2ptghzU",
-      "required": ["3iZqKeK292HESLHQojamJu"],
+      "required": ["3iZqKeK27aw5Wt6uSk3BRo"],
       "next": "",
       "title": "成功破關",
       "banner": "/media/banner_4.jpg",
