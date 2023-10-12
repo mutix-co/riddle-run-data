@@ -21,25 +21,27 @@
       "title": "功能介紹",
       "banner": "/media/banner_0.jpg",
       "type": "continue",
-      "buttonText":"我瞭解了",
+      "buttonText": "我瞭解了",
       "prompts": [
         {
-          "type":"txt",
-          "src":"",
-          "title":"多元關卡呈現",
-          "alt":"Riddle Run 提供五種關卡內容模組供遊戲設計師作拼組，包含：純文字、圖片、影片、音檔、按鈕連結。在每個關卡中，可隨意搭配五個以內的模組做該關卡的內容呈現。\n　\n透過多元的內容呈現方式，不只能讓遊戲設計師有更多可運用的空間傳遞想給予使用者的內容，更可以提升使用者在遊戲上的體驗！"
+          "type": "txt",
+          "src": "",
+          "title": "多元關卡呈現",
+          "alt": "Riddle Run 提供五種關卡內容模組供遊戲設計師作拼組，包含：純文字、圖片、影片、音檔、按鈕連結。在每個關卡中，可隨意搭配五個以內的模組做該關卡的內容呈現。\n　\n透過多元的內容呈現方式，不只能讓遊戲設計師有更多可運用的空間傳遞想給予使用者的內容，更可以提升使用者在遊戲上的體驗！"
         },
         {
-          "type":"image",
-          "src":"/media/0-1.jpg",
-          "title":"多種破關方式",
-          "alt":"Riddle Run 支援：數字破關、按鈕排序破關、定位破關、英文破關與QRCode破關...等破關方式，從中也可以延伸多樣玩法。如此讓關卡遊玩方式不單一，也大大提升活動的遊戲性。"
+          "type": "image",
+          "src": "/media/0-1.jpg",
+          "title": "多種破關方式",
+          "alt": "Riddle Run 支援：數字破關、按鈕排序破關、定位破關、英文破關與QRCode破關...等破關方式，從中也可以延伸多樣玩法。如此讓關卡遊玩方式不單一，也大大提升活動的遊戲性。"
         }
       ]
     },
     {
       "id": "3iZqKeK27aw5Wt6uSk3BRo",
-      "required": ["3iZqKeK24Pw9VKbumiPseq"],
+      "required": [
+        "3iZqKeK24Pw9VKbumiPseq"
+      ],
       "next": "3iZqKeK2GdxzuwU2ptghzU",
       "title": "異國的料理",
       "banner": "/media/banner_1.jpg",
@@ -58,7 +60,7 @@
           "value": "barbecue"
         }
       ],
-      "hints" :[
+      "hints": [
         {
           "id": "3qjEapE8f6tXAkLq3sY1Li",
           "buttonText": "直接看答案",
@@ -71,7 +73,9 @@
     },
     {
       "id": "3iZqKf5kV27XrusWxTuhSk",
-      "required": ["3iZqKeK27aw5Wt6uSk3BRo"],
+      "required": [
+        "3iZqKeK27aw5Wt6uSk3BRo"
+      ],
       "next": "3iZqKeK2GdxzuwU2ptghzU",
       "title": "神秘的代號",
       "banner": "/media/banner_2.jpg",
@@ -99,20 +103,21 @@
           "alt": "123456"
         }
       ]
-      ]
     },
     {
       "id": "3iZqKeK2GdxzuwU2ptghzU",
-      "required": ["3iZqKf5kV27XrusWxTuhSk"],
+      "required": [
+        "3iZqKf5kV27XrusWxTuhSk"
+      ],
       "next": "",
       "title": "成功破關",
       "banner": "/media/banner_4.jpg",
       "type": "end",
-      "buttonText":"結束計時看成績",
+      "buttonText": "結束計時看成績",
       "prompts": [
         {
           "type": "txt",
-          "src":"",
+          "src": "",
           "title": "恭喜破關！",
           "alt": "希望這次的範例 Demo 有讓您更了解 Riddle Run 的架構，有任何問題都歡迎隨時詢問我們喔！\n　\n最後，點擊下方【結束計時看成績】按鈕，讓我們來看看在這次的挑戰中，您獲得幾分吧！"
         }
@@ -125,7 +130,10 @@
   "scoreShare": {
     "title": "分享成果",
     "img": "/media/share.png",
-    "aspect": [9, 16],
+    "aspect": [
+      9,
+      16
+    ],
     "textColor": "#fff",
     "textBackground": "#4cb9ab"
   }
