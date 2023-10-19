@@ -94,7 +94,7 @@
         { "type": "image", "src": "/media/5_n.jpg", "title": "線上題", "alt": "達人們已經走遍了六福村的不同區域，充滿了神秘、挑戰和驚喜。\n \n在萬聖節，有一個傳統的活動，小孩們會穿著各種裝扮，挨家挨戶地敲門以獲得糖果。\n \n突然一道題目出現，請回答謎題以通過萬聖節挑戰。"}
       ],
       "answers": [
-        {"type": "order", "title": "關卡任務", "alt": "Q：請問答案是什麼？", "value":"CDP"}
+        {"type": "english", "title": "關卡任務", "alt": "Q：請問答案是什麼？", "value":"CDP"}
       ],
       "hints":[
         {"id": "3qjEarahULRXZSJyWrcPyb", "buttonText": "領取初階提示", "score": "600", "type": "txt", "title": "領取初階提示", "alt": "利用三元一次方程式即可解出"},
