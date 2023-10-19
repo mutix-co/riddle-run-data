@@ -39,13 +39,13 @@
      {
       "id": "3iZqKgfoyiMV9K2JJp5W1B", "required": "", "next": "3iZqKgfoqy4EiP45bVx73K", "title": "非洲部落探索", "banner": "/media/banner-4.jpg",
       "prompts": [
-        {"type": "image", "src": "/media/4_n.jpg", "title": "非洲部落探索", "alt": "達人們來到了六福村的非洲部落區域，並拿到這次新的謎題。聽說非洲部落有很多動物，哈比哈妮也很熱情的介紹，走入非洲部落區突然發現動物們化身成不動的雕像了！\n \n此時發現一張謎題，好像跟這些雕像有關呢？\n \n要解開這個謎題，需要到對應的地方查看。"}
+        {"type": "image", "src": "/media/4-n.jpg", "title": "非洲部落探索", "alt": "達人們來到了六福村的非洲部落區域，並拿到這次新的謎題。聽說非洲部落有很多動物，哈比哈妮也很熱情的介紹，走入非洲部落區突然發現動物們化身成不動的雕像了！\n \n此時發現一張謎題，好像跟這些雕像有關呢？\n \n要解開這個謎題，需要到對應的地方查看。"}
       ],
       "answers": [
         { "type": "english", "title": "關卡任務", "alt": "Q：請問答案是什麼？", "value": "INNERGIE"}
       ],
       "hints" :[
-        {"id": "3qjEarah8vfEFe82n5TVkx", "buttonText": "領取初階提示", "score": "600", "type": "txt", "title": "領取初階提示", "src": "/media/4-h_n.jpg","alt": "如範例"},
+        {"id": "3qjEarah8vfEFe82n5TVkx", "buttonText": "領取初階提示", "score": "600", "type": "image", "title": "領取初階提示", "src": "/media/4-h_n.jpg","alt": "如範例"},
         {"id": "3qjEarahADQKK5b1WB1r8S", "buttonText": "領取高階提示", "score": "900", "type": "txt", "title": "領取高階提示", "alt": "與英文有關。"}
       ]
     },
