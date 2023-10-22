@@ -35,6 +35,20 @@
       ]
     },
     {
+      "id": "3iZqKgBHhjWWXDqQ3Bujdb", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "thám hiểm bộ lạc châu Phi /การสำรวจชนเผ่าแอฟริกัน", "banner": "/media/banner-4-f.jpg",
+      "prompts": [
+        {"type": "image", "src": "/media/4_n.jpg", "title": "thám hiểm bộ lạc châu Phi", "alt": "Các bậc thầy đã đến khu vực bộ lạc Châu Phi của Làng Leofoo và nhận được câu đố mới này. Tôi nghe nói các bộ lạc châu Phi có rất nhiều loài động vật, Habihani nhiệt tình giới thiệu, khi bước vào khu vực bộ lạc châu Phi, tôi chợt phát hiện các loài động vật đó đã biến thành những bức tượng bất động.\n Lúc này, tôi tìm thấy một câu đố dường như có liên quan đến những bức tượng này.\nĐể giải được câu đố này, bạn cần phải đến được địa điểm tương ứng và mới có thể giải được."},
+        {"type": "image", "src": "/media/4_n.jpg", "title": "การสำรวจชนเผ่าแอฟริกัน", "alt": "เหล่าผู้เชี่ยวชาญมาที่พื้นที่ชนเผ่าแอฟริกันของหมู่บ้านลีโอฟู และได้รับปริศนาใหม่นี้ ฉันได้ยินมาว่ามีสัตว์หลายชนิดในชนเผ่าแอฟริกัน และฮาบีและฮันนี่ ก็แนะนำพวกเขาอย่างกระตือรือร้น เมื่อฉันเดินเข้าไปในพื้นที่ชนเผ่าแอฟริกัน จู่ๆ ฉันก็พบว่าสัตว์เหล่านั้นกลายเป็นรูปปั้นที่ไม่สามารถขยับเขยื้อนได้!\nในเวลานี้ฉันพบปริศนาที่ดูเหมือนจะเกี่ยวข้องกับรูปปั้นเหล่านี้เหรอ?\nในการไขปริศนานี้ คุณจะต้องไปถึงสถานที่ที่เกี่ยวข้องและจากนั้นคุณก็จะไขปริศนาได้"}
+      ],
+      "answers": [
+        { "type": "english", "title": "nhiệm vụ/ภารกิจ", "alt": "Câu trả lời là gì?/ คำตอบคืออะไร?", "value":"INNERGIE"}
+      ],
+      "hints" :[
+        {"id": "3qjEar6BfMaTJoBZyaCSbs", "buttonText": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "score": "600", "type": "image,","src": "/media/4-h_n.jpg", "title": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "alt": "như hình/ตามที่แสดงในภาพ"},
+        {"id": "3qjEar6BkL2FxxdG7W42T1", "buttonText": "gợi ý(trừ 900 điểm)/คำแนะนำ(หัก 900 คะแนน)", "score": "900", "type": "txt", "title": "gợi ý(trừ 900 điểm)/คำแนะนำ(หัก 900 คะแนน)", "alt": "liên quan đến tiếng anh/ต้องเกี่ยวข้องกับภาษาอังกฤษ"}
+      ]
+    },
+    {
       "id": "3iZqKgBHUEkxJxM7r4FHfs", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "chào mừng Ấn Độ /ยินดีต้อนรับชาวอินเดีย", "banner": "/media/banner-1-f.jpg",
       "prompts": [
         {"type": "image", "src": "/media/1_f.jpg", "title": "chào mừng Ấn Độ", "alt": "Chào mừng đến với làng Leofoo! Ở lối vào của một khu vực nào đó, tôi nhìn thấy hai người bảo vệ câu đố mặc trang phục Ấn Độ.\n \nHọ có mật khẩu 746382814271212243334323 được gõ trên điện thoại di động của họ được kẹp giữa chúng và sau đó đưa cho bạn một ghi chú.\n \nGhi chú ghi:Intelligent、Sustainable、Connecting, và các chuyên gia ngay lập tức nhận ra rằng đây là đề xuất giá trị thương hiệu mới nhất của Delta và khung trên Sustainable phải là chìa khóa của ngôn ngữ bí mật.Vậy từ bí mật bên trong khung hình là gì?\n \nBên lề, Happy và Honey chờ đợi các nhân viên giải quyết bí ẩn. Nhưng làm thế nào để diễn giải chuỗi số 746382814271212243334323 này? Sustainable nên trả lời câu hỏi này như thế nào?"},
@@ -74,20 +88,6 @@
       "hints" :[
         {"id": "3qjEar6BbVSMs6VEsfSgzc", "buttonText": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "score": "600", "type": "txt", "title": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "alt": "Không thể thấy hệ thống chữ viết mà mọi người thường sử dụng./ระบบการเขียนแบบใดที่คนมองไม่เห็นมักจะใช้"},
         {"id": "3qjEar6Bdezbf8FthUBE4r", "buttonText": "gợi ý(trừ 900 điểm)/คำแนะนำ(หัก 900 คะแนน)", "score": "900", "type": "txt", "title": "gợi ý(trừ 900 điểm)/คำแนะนำ(หัก 900 คะแนน)", "alt": "1 Biểu thị điểm đen (điểm lồi), 0 biểu thị điểm trắng (phẳng)/1 หมายถึงจุดสีดำ (นูน), 0 หมายถึงจุดสีขาว (แบน)"}
-      ]
-    },
-    {
-      "id": "3iZqKgBHhjWWXDqQ3Bujdb", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "thám hiểm bộ lạc châu Phi /การสำรวจชนเผ่าแอฟริกัน", "banner": "/media/banner-4-f.jpg",
-      "prompts": [
-        {"type": "image", "src": "/media/4_n.jpg", "title": "thám hiểm bộ lạc châu Phi", "alt": "Các bậc thầy đã đến khu vực bộ lạc Châu Phi của Làng Leofoo và nhận được câu đố mới này. Tôi nghe nói các bộ lạc châu Phi có rất nhiều loài động vật, Habihani nhiệt tình giới thiệu, khi bước vào khu vực bộ lạc châu Phi, tôi chợt phát hiện các loài động vật đó đã biến thành những bức tượng bất động.\n Lúc này, tôi tìm thấy một câu đố dường như có liên quan đến những bức tượng này.\nĐể giải được câu đố này, bạn cần phải đến được địa điểm tương ứng và mới có thể giải được."},
-        {"type": "image", "src": "/media/4_n.jpg", "title": "การสำรวจชนเผ่าแอฟริกัน", "alt": "เหล่าผู้เชี่ยวชาญมาที่พื้นที่ชนเผ่าแอฟริกันของหมู่บ้านลีโอฟู และได้รับปริศนาใหม่นี้ ฉันได้ยินมาว่ามีสัตว์หลายชนิดในชนเผ่าแอฟริกัน และฮาบีและฮันนี่ ก็แนะนำพวกเขาอย่างกระตือรือร้น เมื่อฉันเดินเข้าไปในพื้นที่ชนเผ่าแอฟริกัน จู่ๆ ฉันก็พบว่าสัตว์เหล่านั้นกลายเป็นรูปปั้นที่ไม่สามารถขยับเขยื้อนได้!\nในเวลานี้ฉันพบปริศนาที่ดูเหมือนจะเกี่ยวข้องกับรูปปั้นเหล่านี้เหรอ?\nในการไขปริศนานี้ คุณจะต้องไปถึงสถานที่ที่เกี่ยวข้องและจากนั้นคุณก็จะไขปริศนาได้"}
-      ],
-      "answers": [
-        { "type": "english", "title": "nhiệm vụ/ภารกิจ", "alt": "Câu trả lời là gì?/ คำตอบคืออะไร?", "value":"INNERGIE"}
-      ],
-      "hints" :[
-        {"id": "3qjEar6BfMaTJoBZyaCSbs", "buttonText": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "score": "600", "type": "image,","src": "/media/4-h_n.jpg", "title": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "alt": "như hình/ตามที่แสดงในภาพ"},
-        {"id": "3qjEar6BkL2FxxdG7W42T1", "buttonText": "gợi ý(trừ 900 điểm)/คำแนะนำ(หัก 900 คะแนน)", "score": "900", "type": "txt", "title": "gợi ý(trừ 900 điểm)/คำแนะนำ(หัก 900 คะแนน)", "alt": "liên quan đến tiếng anh/ต้องเกี่ยวข้องกับภาษาอังกฤษ"}
       ]
     },
     {
