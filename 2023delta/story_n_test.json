@@ -78,7 +78,7 @@
      {
       "id": "3iZqKgBHUEkxJxM7r4FHfs", "required": "", "next": "3iZqKgfoqy4EiP45bVx73K", "title": "印地安的歡迎", "banner": "/media/banner-1.jpg",
       "prompts": [
-        {"type": "image", "src": "/media/1_n.jpg", "title": "印地安的歡迎", "alt": "歡迎來到六福村的入口處，看見了兩位身著印地安裝扮的謎題守護者。\n \n他們的中間夾著用手機打出的密碼「746382814271212243334323」 ，然後給你一張紙條。\n \n紙條上寫著「Intelligent智慧物聯、Sustainable節能永續、Connecting價值共創」，達人們立刻意識到這是台達的最新品牌價值主張， 想必SUSTAINABLE上的框框想必就是密語的關鍵。。\n \n在一旁，哈比和哈妮等待著達人們解開這個謎題。"}
+        {"type": "image", "src": "/media/1_n.jpg", "title": "印地安的歡迎", "alt": "歡迎來到六福村的入口處，看見了兩位身著印地安裝扮的謎題守護者。\n \n他們的中間夾著用手機打出的密碼「746382814271212343334323」 ，然後給你一張紙條。\n \n紙條上寫著「Intelligent智慧物聯、Sustainable節能永續、Connecting價值共創」，達人們立刻意識到這是台達的最新品牌價值主張， 想必SUSTAINABLE上的框框想必就是密語的關鍵。。\n \n在一旁，哈比和哈妮等待著達人們解開這個謎題。"}
       ],
       "answers": [
         {"type": "password", "title": "關卡任務", "alt": "Q：請輸入框框內的密碼", "value": "787824"}
