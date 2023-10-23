@@ -1,109 +1,76 @@
 {
   "name": "2023delta",
   "version": "1.0",
-  "title": "(測試)達人Fun4玩｜挑戰組",
+  "title": "達人Fun4玩｜移工組隊員版",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/banner_vertical.jpg",
   "map": "/media/map.jpg",
   "contact": "https://www.messenger.com/t/113043660142958",
   "timekeeper": true,
+  "nickname": true,
   "introduction": {
     "title": "達人Fun4玩",
-    "content": "台達同仁與親友們抵達六福村，發現六福村正因萬聖節即將到來而不同了！"
+    "content": "🌟Các đồng nghiệp của Delta đã đến Làng Leofoo cùng với người thân và bạn bè của họ và nhận thấy Làng Leofoo thật khác biệt vì Halloween đang đến gần.\n Happy và Honey là linh vật của Làng Leofoo và luôn được các bậc phụ huynh và trẻ em yêu thích. Họ trở nên đặc biệt tích cực trong lễ hội này và luôn dẫn dắt mọi người tham gia vào nhiều hoạt động thú vị khác nhau. Nhưng hôm nay, họ có một nhiệm vụ bất thường\n *Xin lưu ý rằng tốc độ hoàn thành câu đố và số lượng gợi ý được sử dụng sẽ ảnh hưởng đến tổng điểm.\n \n🌟เพื่อนร่วมงานของ เดลต้า มาถึงหมู่บ้าน ลีโอฟู พร้อมญาติและเพื่อนฝูง และพบว่าหมู่บ้าน ลีโอฟู นั้นแตกต่างออกไปเพราะวันฮาโลวีนกำลังจะมาถึง!\n แฮปปี้และฮันนี่เป็นมาสคอตของหมู่บ้านลีโอฟู และเป็นขวัญใจของพ่อแม่และเด็กๆ มาโดยตลอด พวกเขามีความกระตือรือร้นเป็นพิเศษในช่วงเทศกาลนี้และมักจะนำทุกคนให้เข้าร่วมในกิจกรรมที่น่าสนใจต่างๆ แต่วันนี้พวกเขามีภารกิจที่ไม่ธรรมดา\n เพื่อนร่วมงานของเดลต้า มาถึงหมู่บ้าน ลีโอฟู พร้อมญาติและเพื่อนฝูง และพบว่าหมู่บ้าน ลีโอฟู นั้นแตกต่างออกไปเพราะวันฮาโลวีนกำลังจะมาถึง!"
   },
   "levels":[
     {
       "id": "3iZqKgBHv4hMmhrpsjmNbC",
       "required": "",
       "next": "3iZqKgBHrhPS6Mk1yioU4z",
-      "title": "行前通知",
+      "title": "hướng dẫn trò chơi/คำอธิบายเกม",
       "type": "continue",
-      "buttonText": "我明白了！",
-      "banner": "/media/banner-intro.jpg",
+      "buttonText": "OK!",
+      "banner": "/media/banner-intro-1-f.jpg",
       "prompts": [
-        { "type": "image", "src": "/media/intro-1.jpg", "title": "任務說明", "alt": "台達同仁與親友們抵達六福村，發現六福村正因萬聖節即將到來而不同了！\n \n哈比和哈妮是六福村的吉祥物，一直以來都是親子的最愛。他們在這個節慶變得特別活躍，總是引領著大家參加各種有趣的活動。但今天，他們有一個不同尋常的使命。\n \n突然，哈比舉起了一封神秘的信，信上寫著：「親愛的台達同仁，我們邀請您在六福村展開一場特別的萬聖節冒險。準備好進入哈比和哈妮的神秘世界，挑戰有趣的謎題，揭開台達之謎贏得獎金。」\n \n請達人們在六福村的各個角落找尋線索，協助學者們解開謎團！\n不用擔心，哈比和哈妮會提供給你們對應的資料跟線索，可以幫助你們更快速解開謎題。\n \n*請注意，完成解謎速度與使用提示次數將會影響總成績喔。"},
-        { "type": "image", "src": "/media/intro-2.jpg", "title": "任務說明", "alt": "1、 「上下、左右」滑動：可獲取該關更多內容。\n2、下方【輸入解答】按鈕：可看關卡題目、驗證答案。 \n3、右下【燈泡】按鈕：可領取提示。\n4、右上【菜單列】：可獲取關卡清單、遊戲狀態、聯絡客服等。"},
-        { "type": "image", "src": "/media/intro-3.jpg", "title": "關卡狀態說明", "alt": "【已破關】關卡圖為清晰狀態\n【已解鎖】關卡圖為模糊狀態\n【未解鎖】關卡圖上有個鎖扣"}
+        { "type": "image", "src": "/media/intro-2.jpg", "title": "hướng dẫn trò chơi/คำอธิบายเกม", "alt": "【1】Vuốt sang trái và phải để xem thêm nội dung của ải.\n【2】Nhấp vào nút 「Nhập câu trả lời」 bên dưới để điền câu trả lời và sẽ vượt ải nếu đúng\n 【3】 Trong thanh menu ở góc trên bên trái, bạn có thể nhận thông tin về danh sách ải, bản đồ, bộ phận chăm sóc khách hàng, v.v.。\n \n【1】 เลื่อนซ้ายขวาสามารถรับข้อมูลเพิ่มเติมเกี่ยวกับด่านที่เล่นอยู่ได้\n【2】คลิกปุ่ม “ใส่คำตอบ” ด้านล่าง สามารถกรอกคำตอบได้ ถูกต้องก็ผ่านด่านทันที\n【3】เมนูด้านบนซ้ายสามารถรับข้อมูลเกี่ยวกับด่าน แผนที่และบริการลูกค้าได้"},
+        { "type": "image", "src": "/media/intro-3.jpg", "title": "hướng dẫn trò chơi/คำอธิบายเกม", "alt": "【Đã vượt ải】 Hình ảnh rõ ràng\n【Đã mở khóa】 Hình ảnh bị mờ\n【Chưa mở khóa】 Hình ải có một ổ khóa\n \n【ผ่านด่านแล้ว】 ภาพด่านจะชัดเจน\n【ปลดล๊อคแล้ว】 ภาพด่านจะไม่ชัดเจน\n【ยังไม่ได้ปลดล๊อต】 ภาพด่านจะมีแม่กุญแจอยู่"}
       ]
     },
     {
-      "id": "3iZqKgBHrhPS6Mk1yioU4z", "required": "", "next": "", "title": "🔀遊戲轉跳大廳🔀", "type": "continue", "buttonText": "挑選關卡", "banner": "/media/banner-intro-2.jpg",
+      "id": "3iZqKgBHrhPS6Mk1yioU4z", "required": "", "next": "", "title": "Lựa chọn ải/ตัวเลือกด่าน", "type": "continue", "buttonText": "Lựa chọn ải/ตัวเลือกด่าน", "banner": "/media/banner-intro-2-f.jpg",
       "prompts": [
         {
-        "type": "txt", "src": "/media/", "title": "🔀遊戲轉跳大廳🔀", "alt": "🌟請點下方按鈕選擇要挑戰的關卡🌟\n——————————————————\n1、 共有「五關」，「不用按照順序破關」，大家可以自行安排路線。\n　\n2、完成五關後，將解鎖【關卡選擇】中的【遊戲成績】，點選進入關卡，就能看到結局及遊戲成績！"
+        "type": "txt", "src": "/media/", "title": "Lựa chọn ải/ตัวเลือกด่าน", "alt": "🌟กระดานข้อมูล🌟\n ยินดีต้อนรับสู่หน้าแนะนำด่าน สามารถเลือกด่านที่อยากพิชิตใน “ตัวเลือกด่าน” ทางด้านมุมบนซ้าย\n \n🌟Vui lòng chọn nền tảng để thử thách🌟\n[Lựa chọn ải] trong thanh menu ở góc trên bên phải cho phép bạn tự do chuyển sang ải bạn muốn thử thách.\n"
       }
       ]
     },
     {
-      "id": "3iZqKgBHUEkxJxM7r4FHfs", "required": "3iZqKgBHrhPS6Mk1yioU4z", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "印地安的歡迎", "banner": "/media/banner-1.jpg",
+      "id": "3iZqKgBHhjWWXDqQ3Bujdb", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "thám hiểm bộ lạc châu Phi /การสำรวจชนเผ่าแอฟริกัน", "banner": "/media/banner-4-f.jpg","type": "continue",
       "prompts": [
-        {"type": "image", "src": "/media/1.jpg", "title": "印地安的歡迎", "alt": "歡迎來到六福村的入口處，看見了兩位身著印地安裝扮的謎題守護者。\n \n他們的中間夾著用手機打出的密碼「746382814271212243334323」 ，然後給你一張紙條。\n \n紙條上寫著「Intelligent智慧物聯、Sustainable節能永續、Connecting價值共創」，達人們立刻意識到這是台達的最新品牌價值主張， INTELLIGENT用別的顏色且有問號想必就是密語的關鍵。\n \n在一旁，哈比和哈妮等待著達人們解開這個謎題。但要如何解讀這串數字「746382814271212243334323」呢？ INTELLIGENT又該如何解答呢？"}
-      ],
-      "answers": [
-        {"type": "number", "title": "關卡任務", "alt": "Q：請輸入密碼", "value": "4362813253534341326281"}
-      ],
-      "hints" :[
-        {"id": "3qjEar6B8wNJSzw5vZh6gt", "buttonText": "領取初階提示", "score": "", "type": "txt", "title": "領取初階提示", "alt": "入口處南太平洋區的對應密碼的英文是：SOUTHPACIFIC"},
-        {"id": "3qjEar6BWTNtX1ZwPGkf28", "buttonText": "領取高階提示", "score": "", "type": "txt", "title": "領取高階提示", "alt": "請參考圖片上數字與英文的關係"}
+        {"type": "image", "src": "/media/4-n.jpg", "title": "thám hiểm bộ lạc châu Phi", "alt": "Các bậc thầy đã đến khu vực bộ lạc Châu Phi của Làng Leofoo và nhận được câu đố mới này. Tôi nghe nói các bộ lạc châu Phi có rất nhiều loài động vật, Habihani nhiệt tình giới thiệu, khi bước vào khu vực bộ lạc châu Phi, tôi chợt phát hiện các loài động vật đó đã biến thành những bức tượng bất động.\n Lúc này, tôi tìm thấy một câu đố dường như có liên quan đến những bức tượng này.\nĐể giải được câu đố này, bạn cần phải đến được địa điểm tương ứng và mới có thể giải được."},
+        {"type": "image", "src": "/media/4-n.jpg", "title": "การสำรวจชนเผ่าแอฟริกัน", "alt": "เหล่าผู้เชี่ยวชาญมาที่พื้นที่ชนเผ่าแอฟริกันของหมู่บ้านลีโอฟู และได้รับปริศนาใหม่นี้ ฉันได้ยินมาว่ามีสัตว์หลายชนิดในชนเผ่าแอฟริกัน และฮาบีและฮันนี่ ก็แนะนำพวกเขาอย่างกระตือรือร้น เมื่อฉันเดินเข้าไปในพื้นที่ชนเผ่าแอฟริกัน จู่ๆ ฉันก็พบว่าสัตว์เหล่านั้นกลายเป็นรูปปั้นที่ไม่สามารถขยับเขยื้อนได้!\nในเวลานี้ฉันพบปริศนาที่ดูเหมือนจะเกี่ยวข้องกับรูปปั้นเหล่านี้เหรอ?\nในการไขปริศนานี้ คุณจะต้องไปถึงสถานที่ที่เกี่ยวข้องและจากนั้นคุณก็จะไขปริศนาได้"}
       ]
     },
     {
-      "id": "3iZqKgBHZPYEFts5aueA6i", "required": "3iZqKgBHrhPS6Mk1yioU4z", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "南太平洋的水花之謎", "banner": "/media/banner-2.jpg",
+      "id": "3iZqKgBHUEkxJxM7r4FHfs", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "chào mừng Ấn Độ /ยินดีต้อนรับชาวอินเดีย", "banner": "/media/banner-1-f.jpg","type": "continue",
       "prompts": [
-        { "type": "image", "src": "/media/2.jpg", "title": "南太平洋的水花之謎", "alt": "達人們進入了六福村的南太平洋區。這個區域以其美麗的風景和令人心曠神怡的氛圍而聞名，當到達南太平洋區某一處時，哈比與哈妮拿出了寫著密碼的卡片。\n \n但！突然一陣突如其來的巨大水花升騰而起，淋濕了他們手中的密碼卡。密碼卡上原本的線條剛剛被水花給沖刷變得一片模糊不清。\n \n達人們拍拍難過的哈比和哈妮，請一同研究這張受損的密碼卡。不放棄的精神正是達人們的精神！"}
-      ],
-      "answers": [
-        { "type": "number", "title": "關卡任務", "alt": "Q：請開始仔細觀察卡片上的痕跡，重新讓密碼變得清晰可辨。", "value": "6072"}
-      ],
-      "hints" :[
-        {"id": "3qjEar6BXuCMkiQZ9SEVmx", "buttonText": "領取初階提示", "score": "", "type": "txt", "title": "領取初階提示", "alt": "沖下來的水花與圖騰柱在南太平洋區的火山歷險"},
-        {"id": "3qjEar6BZehH2f3BdsrQ3W", "buttonText": "領取高階提示", "score": "", "type": "txt", "title": "請觀察圖騰柱的顏色", "alt": "請參考圖片上數字與英文的關係"}
+        {"type": "image", "src": "/media/1_f.jpg", "title": "chào mừng Ấn Độ", "alt": "Chào mừng đến với làng Leofoo! Ở lối vào của một khu vực nào đó, tôi nhìn thấy hai người bảo vệ câu đố mặc trang phục Ấn Độ.\n \nHọ có mật khẩu 746382814271212243334323 được gõ trên điện thoại di động của họ được kẹp giữa chúng và sau đó đưa cho bạn một ghi chú.\n \nGhi chú ghi:Intelligent、Sustainable、Connecting, và các chuyên gia ngay lập tức nhận ra rằng đây là đề xuất giá trị thương hiệu mới nhất của Delta và khung trên Sustainable phải là chìa khóa của ngôn ngữ bí mật.Vậy từ bí mật bên trong khung hình là gì?\n \nBên lề, Happy và Honey chờ đợi các nhân viên giải quyết bí ẩn. Nhưng làm thế nào để diễn giải chuỗi số 746382814271212243334323 này? Sustainable nên trả lời câu hỏi này như thế nào?"},
+        {"type": "image", "src": "/media/1_f.jpg", "title": "ยินดีต้อนรับชาวอินเดีย", "alt": "ยินดีต้อนรับสู่หมู่บ้านลีโอฟู! ที่ทางเข้าพื้นที่แห่งหนึ่ง ฉันเห็นผู้พิทักษ์ปริศนาสองคนสวมชุดอินเดีย\n พวกเขามีรหัสผ่าน 746382814271212243334323 พิมพ์อยู่ในโทรศัพท์มือถือคั่นระหว่างพวกเขา แล้วจึงแจ้งให้คุณทราบ\n \n ข้อความระบุว่า Intelligent, Sustainable, Connecting และผู้เชี่ยวชาญตระหนักได้ทันทีว่านี่คือคุณค่าของแบรนด์ล่าสุดของเดลต้า และกรอบบน Sustainable จะต้องเป็นกุญแจสำคัญในภาษาลับ แล้วคำลับในเฟรมคืออะไร?\n ระหว่างที่อยู่ข้างสนาม ฮาบีและฮันนี่รอให้พนักงานไขปริศนานี้ แต่จะตีความชุดตัวเลขนี้ 746382814271212243334323 ได้อย่างไร? Sustainable ควรตอบคำถามนี้อย่างไร?"}
       ]
     },
     {
-      "id": "3iZqKgBHcdac6u968iJD9i", "required": "3iZqKgBHrhPS6Mk1yioU4z", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "無聲的消息", "banner": "/media/banner-3.jpg",
+      "id": "3iZqKgBHZPYEFts5aueA6i", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "Bí ẩn của hoa nước Nam Thái Bình Dương/ความลึกลับแห่งสาดแห่งแปซิฟิกใต้", "banner": "/media/banner-2-f.jpg","type": "continue",
       "prompts": [
-        {"type": "image", "src": "/media/3.jpg", "title": "無聲的消息", "alt": "哈比跟哈妮把密碼卡藏在某個地方了！他們提供給達人們一張卡片與提示：「平常看得到的人卻用不到，但是看不到的人卻用得到。」\n \n達人們不禁陷入深思，這似乎是一個加密的訊息，代表著地點。"}
-      ],
-      "answers": [
-        {"type": "number", "title": "關卡任務", "alt": "Q：請到答案地點附近找到並掃描 QR code ，密碼將顯示在 QR code 裡面。", "value": "930113"}
-      ],
-      "hints" :[
-        {"id": "3qjEar6BbVSMs6VEsfSgzc", "buttonText": "領取初階提示", "score": "", "type": "txt", "title": "領取初階提示", "alt": "看不到的人平常會使用什麼文字系統。"},
-        {"id": "3qjEar6Bdezbf8FthUBE4r", "buttonText": "領取高階提示", "score": "", "type": "txt", "title": "請觀察圖騰柱的顏色", "alt": "1 代表黑點（凸點），0 代表白點（平）"}
+        { "type": "image", "src": "/media/2_n.jpg", "title": "Bí ẩn của hoa nước Nam Thái Bình Dương", "alt": "Nhân viên đài đạt cùng người thân, bạn bè tiến vào khu vực Nam Thái Bình Dương của Làng Leofoo. Khu vực này nổi tiếng với phong cảnh đẹp và không khí trong lành, khi đến một điểm nhất định ở khu vực Nam Thái Bình Dương, Happy và Honey lấy ra một tấm thẻ có ghi mật khẩu trên đó.\n Nhưng! Đột nhiên một dòng nước lớn dâng lên, làm xáo trộn những que diêm đủ\n màu trong tay họ.  chỉ biết rằng thứ tự các con số có liên quan đến thứ tự màu sắc\n Các  bạn đài đạt  hãy cùng happy và honey tạm biệt  nỗi buồn, cùng nhau nghiên cứu nhé. Tinh thần không bỏ cuộc là tinh thần của người Đài Đạt!"},
+        { "type": "image", "src": "/media/2_n.jpg", "title": "ผูความลึกลับแห่งสาดแห่งแปซิฟิกใต้","alt": "ผู้เชี่ยวชาญและญาติและเพื่อน ๆ ของเขาเข้าไปในพื้นที่แปซิฟิกใต้ของหมู่บ้านลีโอฟู บริเวณนี้มีชื่อเสียงในด้านทิวทัศน์ที่สวยงามและบรรยากาศที่สดชื่นเมื่อพวกเขามาถึงจุดหนึ่งในพื้นที่แปซิฟิกใต้ฮาบิและฮันนี่ก็หยิบการ์ดที่มีรหัสผ่านเขียนไว้ออกมา\n แต่! ทันใดนั้นก็มีน้ำขนาดใหญ่พุ่งขึ้นมา ทำให้ก้านไม้ขีดสีต่างๆ ในมือของพวกเขาเลอะเทอะ เพิ่งรู้ว่าลำดับหมายเลขเกี่ยวข้องกับการเรียงลำดับสี อาจารย์ทั้งหลาย โปรดตบเบา ๆ แฮปปี้และที่รัก และโปรดศึกษาด้วยกัน จิตวิญญาณแห่งการไม่ยอมแพ้คือจิตวิญญาณแห่งปรมาจารย์!"}
       ]
     },
     {
-      "id": "3iZqKgBHhjWWXDqQ3Bujdb", "required": "3iZqKgBHrhPS6Mk1yioU4z", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "無聲的消息", "banner": "/media/banner-4.jpg",
+      "id": "3iZqKgBHcdac6u968iJD9i", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "tin nhắn im lặng /ข่าวเงียบ", "banner": "/media/banner-3-f.jpg","type": "continue",
       "prompts": [
-        {"type": "image", "src": "/media/4.jpg", "title": "非洲部落探索", "alt": "達人們來到了六福村的非洲部落區域，並拿到這次新的謎題。突然另外一個吉祥物瑪希薩（白老虎）衝了出來，不小心撞上了達人們，手上解謎的道具剩下一部分，而且看起來有些東倒西歪。\n \n瑪希薩緊張地看著達人們，試圖修復他手上的部分道具。哈比突然想到這道具好像在哪裡看過，哈妮說這是六福村的一個展示品，在這個非洲部落的某個角落曾經看過它。\n \n要解開這個謎題，需要找到完整的道具並參考它，就可以解出謎題囉。"}
-      ],
-      "answers": [
-        { "type": "order", "title": "關卡任務", "alt": "Q：請問答案是什麼？", "options": ["Ａ","Ｂ","Ｃ","Ｄ","Ｅ","Ｆ","Ｇ","Ｈ","Ｉ","Ｊ","Ｋ","Ｌ","Ｍ","Ｎ","Ｏ","Ｐ","Ｑ","Ｒ","Ｓ","Ｔ","Ｕ","Ｖ","Ｗ","Ｘ","Ｙ","Ｚ"], "value": ["12","8","13","20","19","4"]}
-      ],
-      "hints" :[
-        {"id": "3qjEar6BfMaTJoBZyaCSbs", "buttonText": "領取初階提示", "score": "", "type": "txt", "title": "領取初階提示", "alt": "先找到眼熟的這個裝置物吧（位於非洲部落、黑熊區附近）"},
-        {"id": "3qjEar6BkL2FxxdG7W42T1", "buttonText": "領取高階提示", "score": "", "type": "txt", "title": "請觀察圖騰柱的顏色", "alt": "東倒西歪的部位代表什麼顏色、以及轉的角度"}
+        {"type": "image", "src": "/media/3_f.jpg", "title": "tin nhắn im lặng", "alt": "Happy và Honey giấu thẻ mật khẩu ở đâu đó! Họ cung cấp cho các chuyên gia một tấm thẻ và lời nhắc nhở: Những người thường nhìn thấy thì không thể sử dụng, nhưng những người không nhìn thấy thì có thể sử dụng.\n Các chuyên gia không khỏi rơi vào trầm tư, đây tựa hồ là một tin nhắn được mã hóa, đại diện cho vị trí."},
+        {"type": "image", "src": "/media/3_f.jpg", "title": "ข่าวเงียบ", "alt": "แฮปปี้และฮันนี่ซ่อนรหัสผ่านไว้ที่ไหนสักแห่ง! พวกเขาให้การ์ดแก่ผู้เชี่ยวชาญและคำเตือนว่า:ปกติคุณจะมองเห็นได้แต่อย่าใช้ แต่ผู้ที่มองไม่เห็นก็สามารถใช้งานได้\n ผู้เชี่ยวชาญอดไม่ได้ที่จะคิดลึก ๆ นี่ดูเหมือนจะเป็นข้อความเข้ารหัสซึ่งแสดงถึงสถานที่นั้น"}
       ]
     },
     {
-      "id": "3iZqKgBHnkT1mP7uB7TyML", "required": "3iZqKgBHrhPS6Mk1yioU4z", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "線上題", "banner": "/media/banner-3.jpg",
+      "id": "3iZqKgBHnkT1mP7uB7TyML", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "Câu hỏi Halloween trực tuyến/คำถามฮาโลวีนออนไลน์", "banner": "/media/banner-5-f.jpg","type": "continue",
       "prompts": [
-        {"type": "order", "title": "關卡任務", "alt": "Q：請問答案是什麼？", "options": ["Ａ","Ｂ","Ｃ","Ｄ","Ｅ","Ｆ","Ｇ","Ｈ","Ｉ","Ｊ","Ｋ","Ｌ","Ｍ","Ｎ","Ｏ","Ｐ","Ｑ","Ｒ","Ｓ","Ｔ","Ｕ","Ｖ","Ｗ","Ｘ","Ｙ","Ｚ"], "value": ["2","18","17"]}
-      ],
-      "hints":[
-        {"id": "3qjEar6BnVhsx9nu8E7VW9", "buttonText": "領取初階提示", "score": "", "type": "txt", "title": "領取初階提示", "alt": "DELTA= 4 5 12 20 01"},
-        {"id": "3qjEar6BonKapRGyBBP6RQ", "buttonText": "領取高階提示", "score": "", "type": "txt", "title": "領取高階提示", "alt": "英文順序"}
-      ]
-    },
-    {
-      "id": "", "required": ["3iZqKgBHUEkxJxM7r4FHfs","3iZqKgBHZPYEFts5aueA6i","3iZqKgBHcdac6u968iJD9i","3iZqKgBHhjWWXDqQ3Bujdb","3iZqKgBHnkT1mP7uB7TyML"], "next": "", "title": "結局", "type": "end", "buttonText": "完成遊戲看成績", "banner": "/media/banner-end.jpg",
-      "prompts": [
-        {"type": "txt", "src": "/media/end", "title": "結局（請按下完成遊戲看成績結束計時）", "alt": "經過了一系列的挑戰和冒險，在六福村的各個區域中探索，解開了各種神秘的謎題。達人們以智慧、觀察力、合作和創造力克服了每一道關卡，解開各個謎題。\n哈比和哈妮也一同慶祝著達人們的勝利～\n \n為了獎勵你們的辛勞，準備了一些小獎勵要給達人們。 \n \n最後會依據各隊的完成解謎速度與使用提示次數，頒發獎勵。 \n另請完賽隊伍派代表至「大會服務台」出示解謎畫面，即可領取「完賽獎」。 "}
+        { "type": "image", "src": "/media/5_n.jpg", "title": "Câu hỏi Halloween trực tuyến", "alt": "Các chuyên gia đã đến thăm các khu vực khác nhau của Làng Leofoo, nơi đầy bí ẩn, thử thách và bất ngờ\n \nVào ngày Halloween, có một hoạt động truyền thống là trẻ em mặc nhiều trang phục khác nhau và gõ cửa từng nhà để lấy kẹo.\n \nĐột nhiên một câu hỏi xuất hiện, hãy giải đáp câu đố để vượt qua thử thách Halloween"},
+        { "type": "image", "src": "/media/5_n.jpg", "title": "คำถามฮาโลวีนออนไลน์", "alt": "ผู้เชี่ยวชาญได้เยี่ยมชมพื้นที่ต่างๆ ของหมู่บ้านลีโอฟู ซึ่งเต็มไปด้วยความลึกลับ ความท้าทาย และความประหลาดใจ\n \nในวันฮาโลวีนมีกิจกรรมแบบดั้งเดิมที่เด็กๆ จะแต่งกายด้วยชุดต่างๆ และเคาะประตูเพื่อรับขนม\n \n ทันใดนั้นมีคำถามปรากฏขึ้น โปรดตอบปริศนาเพื่อผ่านความท้าทายวันฮาโลวีน"}
       ]
     }
   ],
-  "scoreBanner":"/media/banner-score.jpg",
-  "scoreText": "請到「大會服務台」領取「完賽獎」"
+  "scoreBanner":"/media/banner-score-f.jpg",
+  "scoreText": "OK!"
 }
