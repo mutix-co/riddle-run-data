@@ -59,7 +59,7 @@
       ],
       "hints" :[
         {"id": "3qjEar6BXuCMkiQZ9SEVmx", "buttonText": "領取初階提示", "score": "600", "type": "txt", "title": "領取初階提示", "alt": "沖下來的水花與圖騰柱在南太平洋區的火山歷險"},
-        {"id": "3qjEar6BZehH2f3BdsrQ3W", "buttonText": "領取高階提示", "score": "900", "type": "txt", "title": "請觀察圖騰柱的顏色", "alt": "請參考圖片上數字與英文的關係"}
+        {"id": "3qjEar6BZehH2f3BdsrQ3W", "buttonText": "領取高階提示", "score": "900", "type": "image", "title": "領取高階提示","src": "/media/3-f.jpg", "alt": "請找到圖柱顏色與順序關係"}
       ]
     },
     {
@@ -72,7 +72,7 @@
       ],
       "hints" :[
         {"id": "3qjEar6BbVSMs6VEsfSgzc", "buttonText": "領取初階提示", "score": "600", "type": "txt", "title": "領取初階提示", "alt": "看不到的人平常會使用什麼文字系統。"},
-        {"id": "3qjEar6Bdezbf8FthUBE4r", "buttonText": "領取高階提示", "score": "900", "type": "txt", "title": "請觀察圖騰柱的顏色", "alt": "1 代表黑點（凸點），0 代表白點（平）"}
+        {"id": "3qjEar6Bdezbf8FthUBE4r", "buttonText": "領取高階提示", "score": "900", "type": "image", "title": "領取高階提示","src": "/media/4-f.jpg", "alt": "1 代表黑點（凸點），0 代表白點（平）"}
       ]
     },
     {
@@ -89,7 +89,7 @@
       ]
     },
     {
-      "id": "3iZqKgBHnkT1mP7uB7TyML", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "線上題", "banner": "/media/banner-3.jpg",
+      "id": "3iZqKgBHnkT1mP7uB7TyML", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "線上題", "banner": "/media/banner-5.jpg",
       "prompts": [
         { "type": "image", "src": "/media/5.jpg", "title": "線上題", "alt": "達人們已經走遍了六福村的不同區域，充滿了神秘、挑戰和驚喜。\n \n在萬聖節，有一個傳統的活動，小孩們會穿著各種裝扮，挨家挨戶地敲門以獲得糖果。\n \n突然一道題目出現，請回答謎題以通過萬聖節挑戰。"}
       ],
