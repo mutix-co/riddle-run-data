@@ -59,7 +59,7 @@
       ],
       "hints" :[
         {"id": "3qjEar6BXuCMkiQZ9SEVmx", "buttonText": "領取初階提示", "score": "600", "type": "txt", "title": "領取初階提示", "alt": "沖下來的水花與圖騰柱在南太平洋區的火山歷險"},
-        {"id": "3qjEar6BZehH2f3BdsrQ3W", "buttonText": "領取高階提示", "score": "900", "type": "image", "title": "領取高階提示","src": "/media/3-h.jpg", "alt": "請找到圖柱顏色與順序關係"}
+        {"id": "3qjEar6BZehH2f3BdsrQ3W", "buttonText": "領取高階提示", "score": "900", "type": "image", "title": "領取高階提示","src": "/media/2-h.jpg", "alt": "請找到圖柱顏色與順序關係"}
       ]
     },
     {
@@ -72,7 +72,7 @@
       ],
       "hints" :[
         {"id": "3qjEar6BbVSMs6VEsfSgzc", "buttonText": "領取初階提示", "score": "600", "type": "txt", "title": "領取初階提示", "alt": "看不到的人平常會使用什麼文字系統。"},
-        {"id": "3qjEar6Bdezbf8FthUBE4r", "buttonText": "領取高階提示", "score": "900", "type": "image", "title": "領取高階提示","src": "/media/4-h.jpg", "alt": "1 代表黑點（凸點），0 代表白點（平）"}
+        {"id": "3qjEar6Bdezbf8FthUBE4r", "buttonText": "領取高階提示", "score": "900", "type": "image", "title": "領取高階提示","src": "/media/3-h.jpg", "alt": "1 代表黑點（凸點），0 代表白點（平）"}
       ]
     },
     {
