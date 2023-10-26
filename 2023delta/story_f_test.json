@@ -45,7 +45,7 @@
         { "type": "order", "title": "nhiệm vụ/ภารกิจ", "alt": "Câu trả lời là gì?/ คำตอบคืออะไร?", "options": ["gấu/หมี","khỉ/ลิง","hươu cao cổ/ยีราฟ","voi/ช้าง","lợn/หมู","sư tử/สิงโต","ngựa/ม้า"], "value": [5,2,0,6]}
       ],
       "hints" :[
-        {"id": "3qjEar6BfMaTJoBZyaCSbs", "buttonText": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "score": "600", "type": "txt,", "title": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "alt": "Vị trí của động vật/ตำแหน่งของสัตว์"},
+        {"id": "3qjEar6BfMaTJoBZyaCSbs", "buttonText": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "score": "600", "type": "txt,", "title": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "alt": "Vị trí của động vật/ตำแหน่งของสัตว์"}
       ]
     },
     {
