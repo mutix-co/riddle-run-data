@@ -1,7 +1,7 @@
 {
   "name": "2023delta",
   "version": "1.0",
-  "title": "名偵探達人｜移工組",
+  "title": "(測試)名偵探達人｜移工組",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/banner_vertical.jpg",
@@ -112,6 +112,6 @@
     }
   ],
   "scoreBanner":"/media/banner-score.jpg",
-  "scoreText": "請到「大會服務台」領取「完賽獎」",
-  "scoreUrl": "https://github.com/mutix-co/riddle-run-data/blob/master/2023delta/media/banner-end-2.jpg"
+  "scoreText": "รางวัลสิ้นสุดการแข่งขัน/Giải thưởng hoàn thiện",
+  "scoreUrl": "https://i.ibb.co/pRv2Rxs/banner-end-2.jpg"
 }
