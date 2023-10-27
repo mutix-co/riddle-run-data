@@ -14,12 +14,6 @@
     "content": "🌟台達同仁與親友們抵達六福村，發現六福村正因萬聖節即將到來而不同了！🌟\n \n哈比和哈妮是六福村的吉祥物，一直以來都是親子的最愛。他們在這個節慶變得特別活躍，總是引領著大家參加各種有趣的活動。但今天，他們有一個不同尋常的使命....\n \n小提示：完成解謎速度與使用提示次數將會影響總成績喔。"
   },
   "levels":[
-    {
-      "id": "3iZqKgfjd5zvbbHYsdPACG", "required": ["3iZqKgBHUEkxJxM7r4FHfs","3iZqKgBHZPYEFts5aueA6i","3iZqKgBHcdac6u968iJD9i","3iZqKgBHhjWWXDqQ3Bujdb","3iZqKgBHnkT1mP7uB7TyML"], "next": "", "title": "結局", "type": "end", "buttonText": "完成遊戲看成績", "banner": "/media/banner-end.jpg",
-      "prompts": [
-        {"type": "txt","title": "恭喜完成", "alt": "經過了一系列的挑戰和冒險，在六福村的各個區域中探索，解開了各種神秘的謎題。達人們以智慧、觀察力、合作和創造力克服了每一道關卡，解開各個謎題。\n哈比和哈妮也一同慶祝著達人們的勝利～\n \n為了獎勵你們的辛勞，準備了一些小獎勵要給達人們。 \n \n最後會依據各隊的完成解謎速度與使用提示次數，頒發獎勵。 \n另請完賽隊伍派代表至「大會服務台」出示解謎畫面，即可領取「完賽獎」。 "}
-      ]
-    }
   ],
   "scoreBanner":"/media/banner-score.jpg",
   "scoreText": "請到「大會服務台」領取「完賽獎」",
