@@ -15,90 +15,12 @@
   },
   "levels":[
     {
-      "id": "3iZqKgBHv4hMmhrpsjmNbC",
-      "required": "",
-      "next": "3iZqKgBHrhPS6Mk1yioU4z",
-      "title": "行前通知",
-      "type": "continue",
-      "buttonText": "我明白了！",
-      "banner": "/media/banner-intro.jpg",
+      "id": "3iZqKgBHUEkxJxM7r4FHfs", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "測試", "banner": "/media/banner-test.jpg",
       "prompts": [
-        { "type": "image", "src": "/media/intro-1.jpg", "title": "任務說明", "alt": "台達同仁與親友們抵達六福村，發現六福村正因萬聖節即將到來而不同了！\n \n哈比和哈妮是六福村的吉祥物，一直以來都是親子的最愛。他們在這個節慶變得特別活躍，總是引領著大家參加各種有趣的活動。但今天，他們有一個不同尋常的使命。\n \n突然，哈比舉起了一封神秘的信，信上寫著：「親愛的台達同仁，我們邀請您在六福村展開一場特別的萬聖節冒險。準備好進入哈比和哈妮的神秘世界，挑戰有趣的謎題，揭開台達之謎贏得獎金。」\n \n請達人們在六福村的各個角落找尋線索，協助學者們解開謎團！\n不用擔心，哈比和哈妮會提供給你們對應的資料跟線索，可以幫助你們更快速解開謎題。\n \n*請注意，完成解謎速度與使用提示次數將會影響總成績喔。"},
-        { "type": "image", "src": "/media/intro-2.jpg", "title": "任務說明", "alt": "1、 「上下、左右」滑動：可獲取該關更多內容。\n2、下方【輸入解答】按鈕：可看關卡題目、驗證答案。 \n3、右下【燈泡】按鈕：可領取提示。\n4、右上【菜單列】：可獲取關卡清單、遊戲狀態、聯絡客服等。"},
-        { "type": "image", "src": "/media/intro-3.jpg", "title": "關卡狀態說明", "alt": "【已破關】關卡圖為清晰狀態\n【已解鎖】關卡圖為模糊狀態\n【未解鎖】關卡圖上有個鎖扣"}
-      ]
-    },
-    {
-      "id": "3iZqKgBHrhPS6Mk1yioU4z", "required": "", "next": "", "title": "關卡選擇說明", "type": "continue", "buttonText": "挑選關卡", "banner": "/media/banner-intro-2.jpg",
-      "prompts": [
-        {
-        "type": "txt", "src": "/media/", "title": "關卡選擇說明", "alt": "🌟請點下方按鈕選擇要挑戰的關卡🌟\n——————————————————\n1、 共有「五關」，「不用按照順序破關」，大家可以自行安排路線。\n　\n2、完成五關後，將解鎖【關卡選擇】中的【遊戲成績】，點選進入關卡，就能看到結局及遊戲成績！"
-      }
-      ]
-    },
-    {
-      "id": "3iZqKgBHUEkxJxM7r4FHfs", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "印地安的歡迎", "banner": "/media/banner-1.jpg",
-      "prompts": [
-        {"type": "image", "src": "/media/1.jpg", "title": "印地安的歡迎", "alt": "歡迎來到六福村的入口處，看見了兩位身著印地安裝扮的謎題守護者。\n \n他們的中間夾著用手機打出的密碼「746382814271212343334323」 ，然後給你一張紙條。\n \n紙條上寫著「Intelligent智慧物聯、Sustainable節能永續、Connecting價值共創」，達人們立刻意識到這是台達的最新品牌價值主張， INTELLIGENT用別的顏色且有問號想必就是密語的關鍵。\n \n在一旁，哈比和哈妮等待著達人們解開這個謎題。但要如何解讀這串數字「746382814271212343334323」呢？ INTELLIGENT又該如何解答呢？"}
+        {"type": "txt", "title": "測試關卡", "alt": "請輸入公司的英文／n /nVui lòng nhập tên tiếng Anh của công ty/n /nโปรดป้อนชื่อบริษัทภาษาอังกฤษ"}
       ],
       "answers": [
-        {"type": "password", "title": "關卡任務", "alt": "Q：請輸入密碼", "value": "436281"}
-      ],
-      "hints" :[
-        {"id": "3qjEar6B8wNJSzw5vZh6gt", "buttonText": "領取初階提示", "score": "600", "type": "txt", "title": "領取初階提示", "alt": "入口處南太平洋區的對應密碼的英文是：SOUTHPACIFIC"},
-        {"id": "3qjEar6BWTNtX1ZwPGkf28", "buttonText": "領取高階提示", "score": "900", "type": "txt", "title": "領取高階提示", "alt": "請參考圖片上數字與英文的關係"}
-      ]
-    },
-    {
-      "id": "3iZqKgBHZPYEFts5aueA6i", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "南太平洋的水花之謎", "banner": "/media/banner-2.jpg",
-      "prompts": [
-        { "type": "image", "src": "/media/2.jpg", "title": "南太平洋的水花之謎", "alt": "達人們進入了六福村的南太平洋區。這個區域以其美麗的風景和令人心曠神怡的氛圍而聞名，當到達南太平洋區某一處時，哈比與哈妮拿出了寫著密碼的卡片。\n \n但！突然一陣突如其來的巨大水花升騰而起，淋濕了他們手中的密碼卡。密碼卡上原本的線條剛剛被水花給沖刷變得一片模糊不清。\n \n達人們拍拍難過的哈比和哈妮，請一同研究這張受損的密碼卡。不放棄的精神正是達人們的精神！"}
-      ],
-      "answers": [
-        { "type": "password", "title": "關卡任務", "alt": "Q：請開始仔細觀察卡片上的痕跡，重新讓密碼變得清晰可辨。", "value": "6072"}
-      ],
-      "hints" :[
-        {"id": "3qjEar6BXuCMkiQZ9SEVmx", "buttonText": "領取初階提示", "score": "600", "type": "txt", "title": "領取初階提示", "alt": "沖下來的水花與圖騰柱在南太平洋區的火山歷險"},
-        {"id": "3qjEar6BZehH2f3BdsrQ3W", "buttonText": "領取高階提示", "score": "900", "type": "image", "title": "領取高階提示","src": "/media/2-h.jpg", "alt": "請找到圖柱顏色與順序關係"}
-      ]
-    },
-    {
-      "id": "3iZqKgBHcdac6u968iJD9i", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "無聲的消息", "banner": "/media/banner-3.jpg",
-      "prompts": [
-        {"type": "image", "src": "/media/3.jpg", "title": "無聲的消息", "alt": "哈比跟哈妮把密碼卡藏在某個地方了！他們提供給達人們一張卡片與提示：「平常看得到的人卻用不到，但是看不到的人卻用得到。」\n \n達人們不禁陷入深思，這似乎是一個加密的訊息，代表著地點。"}
-      ],
-      "answers": [
-        {"type": "password", "title": "關卡任務", "alt": "Q：請到答案地點附近找到並掃描 QR code ，密碼將顯示在 QR code 裡面。", "value": "930113"}
-      ],
-      "hints" :[
-        {"id": "3qjEar6BbVSMs6VEsfSgzc", "buttonText": "領取初階提示", "score": "600", "type": "txt", "title": "領取初階提示", "alt": "看不到的人平常會使用什麼文字系統。"},
-        {"id": "3qjEar6Bdezbf8FthUBE4r", "buttonText": "領取高階提示", "score": "900", "type": "image", "title": "領取高階提示","src": "/media/3-h.jpg", "alt": "1 代表黑點（凸點），0 代表白點（平）"}
-      ]
-    },
-    {
-      "id": "3iZqKgBHhjWWXDqQ3Bujdb", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "非洲部落探索", "banner": "/media/banner-4.jpg",
-      "prompts": [
-        {"type": "image", "src": "/media/4.jpg", "title": "非洲部落探索", "alt": "達人們來到了六福村的非洲部落區域，並拿到這次新的謎題。突然另外一個吉祥物瑪希薩（白老虎）衝了出來，不小心撞上了達人們，手上解謎的道具剩下一部分，而且看起來有些東倒西歪。\n \n瑪希薩緊張地看著達人們，試圖修復他手上的部分道具。哈比突然想到這道具好像在哪裡看過，哈妮說這是六福村的一個展示品，在這個非洲部落的某個角落曾經看過它。\n \n要解開這個謎題，需要找到完整的道具並參考它，就可以解出謎題囉。"}
-      ],
-      "answers": [
-        { "type": "order", "title": "關卡任務", "alt": "Q：請問答案是什麼？", "options": ["Ａ","Ｂ","Ｃ","Ｄ","Ｅ","Ｆ","Ｇ","Ｈ","Ｉ","Ｊ","Ｋ","Ｌ","Ｍ","Ｎ","Ｏ","Ｐ","Ｑ","Ｒ","Ｓ","Ｔ","Ｕ","Ｖ","Ｗ","Ｘ","Ｙ","Ｚ"], "value": [12,8,13,20,19,4]}
-      ],
-      "hints" :[
-        {"id": "3qjEar6BfMaTJoBZyaCSbs", "buttonText": "領取初階提示", "score": "600", "type": "txt", "title": "領取初階提示", "alt": "先找到眼熟的這個裝置物吧（位於非洲部落、黑熊區附近）"},
-        {"id": "3qjEar6BkL2FxxdG7W42T1", "buttonText": "領取高階提示", "score": "900", "type": "txt", "title": "請觀察圖騰柱的顏色", "alt": "東倒西歪的部位代表什麼顏色、以及轉的角度"}
-      ]
-    },
-    {
-      "id": "3iZqKgBHnkT1mP7uB7TyML", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "線上題", "banner": "/media/banner-5.jpg",
-      "prompts": [
-        { "type": "image", "src": "/media/5.jpg", "title": "線上題", "alt": "達人們已經走遍了六福村的不同區域，充滿了神秘、挑戰和驚喜。\n \n在萬聖節，有一個傳統的活動，小孩們會穿著各種裝扮，挨家挨戶地敲門以獲得糖果。\n \n突然一道題目出現，請回答謎題以通過萬聖節挑戰。"}
-      ],
-      "answers": [
-        {"type": "order", "title": "關卡任務", "alt": "Q：請問答案是什麼？", "options": ["Ａ","Ｂ","Ｃ","Ｄ","Ｅ","Ｆ","Ｇ","Ｈ","Ｉ","Ｊ","Ｋ","Ｌ","Ｍ","Ｎ","Ｏ","Ｐ","Ｑ","Ｒ","Ｓ","Ｔ","Ｕ","Ｖ","Ｗ","Ｘ","Ｙ","Ｚ"], "value": [2,18,17]}
-      ],
-      "hints":[
-        {"id": "3qjEar6BnVhsx9nu8E7VW9", "buttonText": "領取初階提示", "score": "600", "type": "txt", "title": "領取初階提示", "alt": "DELTA= 4 5 12 20 01"},
-        {"id": "3qjEar6BonKapRGyBBP6RQ", "buttonText": "領取高階提示", "score": "900", "type": "txt", "title": "領取高階提示", "alt": "英文順序"}
+        {"type": "english", "title": "關卡任務", "alt": "Q：請輸入密碼", "value": "DELTA"}
       ]
     },
     {
@@ -109,6 +31,4 @@
     }
   ],
   "scoreBanner":"/media/banner-score.jpg",
-  "scoreText": "請到「大會服務台」領取「完賽獎」",
-  "scoreUrl": "https://i.ibb.co/7Rqyh2Q/banner-end-2.jpg"
 }
