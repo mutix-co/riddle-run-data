@@ -17,7 +17,7 @@
     {
       "id": "3iZqKgBHUEkxJxM7r4FHfs", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "測試", "banner": "/media/banner-test.jpg",
       "prompts": [
-        {"type": "txt", "title": "測試關卡", "alt": "請輸入公司的英文／n /n若無法回答答案，請更新 APP/n /nVui lòng nhập tên tiếng Anh của công ty/nNếu không thể trả lời câu hỏi, vui lòng cập nhật ứng dụng/n /nโปรดป้อนชื่อบริษัทภาษาอังกฤษ/nหากไม่สามารถตอบคำถามได้ โปรดอัปเดตแอปพลิเคชัน"}
+        {"type": "txt", "title": "測試關卡", "alt": "請輸入公司的英文\n \n若無法回答答案，請更新 APP\n \nVui lòng nhập tên tiếng Anh của công ty\nNếu không thể trả lời câu hỏi, vui lòng cập nhật ứng dụng\n \nโปรดป้อนชื่อบริษัทภาษาอังกฤษ\nหากไม่สามารถตอบคำถามได้ โปรดอัปเดตแอปพลิเคชัน"}
       ],
       "answers": [
         {"type": "english", "title": "關卡任務", "alt": "Q：請輸入密碼", "value": "DELTA"}
