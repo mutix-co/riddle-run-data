@@ -8,6 +8,7 @@
   "map": "/media/map.jpg",
   "contact": "https://www.messenger.com/t/113043660142958",
   "timekeeper": true,
+  "nicknameLock": true,
   "nickname": true,
   "introduction": {
     "title": "達人Fun4玩｜名偵探達人",
