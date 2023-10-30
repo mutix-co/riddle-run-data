@@ -8,6 +8,7 @@
   "map": "/media/map.jpg",
   "contact": "https://www.messenger.com/t/113043660142958",
   "timekeeper": true,
+  "nickname": true,
   "introduction": {
     "title": "達人Fun4玩",
     "content": "台達同仁與親友們抵達六福村，發現六福村正因萬聖節即將到來而不同了！"
