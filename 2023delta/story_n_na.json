@@ -59,7 +59,7 @@
       ]
     },
     {
-      "id": "3iZqKgfpHVx774P5K42vrz", "required": "", "next": "3iZqKgfoqy4EiP45bVx73K", "title": "線上題", "banner": "/media/banner-3.jpg","type": "continue",
+      "id": "3iZqKgfpHVx774P5K42vrz", "required": "", "next": "3iZqKgfoqy4EiP45bVx73K", "title": "線上題", "banner": "/media/banner-5.jpg","type": "continue",
       "prompts": [
         { "type": "image", "src": "/media/5_n.jpg", "title": "線上題", "alt": "達人們已經走遍了六福村的不同區域，充滿了神秘、挑戰和驚喜。\n \n在萬聖節，有一個傳統的活動，小孩們會穿著各種裝扮，挨家挨戶地敲門以獲得糖果。\n \n突然一道題目出現，請回答謎題以通過萬聖節挑戰。"}
       ]
