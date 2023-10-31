@@ -6,6 +6,7 @@
   "background": "/media/background.jpg",
   "splash": "/media/banner_vertical.jpg",
   "map": "/media/map.jpg",
+  "timekeeper": true,
   "contact": "https://www.messenger.com/t/113043660142958",
   "introduction": {
     "title": "達人Fun4玩｜名偵探達人(一般組隊員)",
