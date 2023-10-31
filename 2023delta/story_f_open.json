@@ -1,7 +1,7 @@
 {
   "name": "2023delta",
   "version": "1.0",
-  "title": "名偵探達人｜移工組體驗版",
+  "title": "實境解謎｜移工組(體驗版)",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/banner_vertical.jpg",
@@ -10,7 +10,7 @@
   "timekeeper": true,
   "nickname": true,
   "introduction": {
-    "title": "達人Fun4玩｜名偵探達人",
+    "title": "達人Fun4玩｜實境解謎(移工組體驗版)",
     "content": "🌟Các đồng nghiệp của Delta đã đến Làng Leofoo cùng với người thân và bạn bè của họ và nhận thấy Làng Leofoo thật khác biệt vì Halloween đang đến gần.\n Happy và Honey là linh vật của Làng Leofoo và luôn được các bậc phụ huynh và trẻ em yêu thích. Họ trở nên đặc biệt tích cực trong lễ hội này và luôn dẫn dắt mọi người tham gia vào nhiều hoạt động thú vị khác nhau. Nhưng hôm nay, họ có một nhiệm vụ bất thường\n *Xin lưu ý rằng tốc độ hoàn thành câu đố và số lượng gợi ý được sử dụng sẽ ảnh hưởng đến tổng điểm.\n \n🌟เพื่อนร่วมงานของ เดลต้า มาถึงหมู่บ้าน ลีโอฟู พร้อมญาติและเพื่อนฝูง และพบว่าหมู่บ้าน ลีโอฟู นั้นแตกต่างออกไปเพราะวันฮาโลวีนกำลังจะมาถึง!\n แฮปปี้และฮันนี่เป็นมาสคอตของหมู่บ้านลีโอฟู และเป็นขวัญใจของพ่อแม่และเด็กๆ มาโดยตลอด พวกเขามีความกระตือรือร้นเป็นพิเศษในช่วงเทศกาลนี้และมักจะนำทุกคนให้เข้าร่วมในกิจกรรมที่น่าสนใจต่างๆ แต่วันนี้พวกเขามีภารกิจที่ไม่ธรรมดา\n เพื่อนร่วมงานของเดลต้า มาถึงหมู่บ้าน ลีโอฟู พร้อมญาติและเพื่อนฝูง และพบว่าหมู่บ้าน ลีโอฟู นั้นแตกต่างออกไปเพราะวันฮาโลวีนกำลังจะมาถึง!"
   },
   "levels":[
