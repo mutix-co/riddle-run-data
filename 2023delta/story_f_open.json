@@ -65,8 +65,8 @@
     {
       "id": "3iZqKgBHZPYEFts5aueA6i", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "Bí ẩn của hoa nước Nam Thái Bình Dương/ความลึกลับแห่งสาดแห่งแปซิฟิกใต้", "banner": "/media/banner-2-f.jpg",
       "prompts": [
-        { "type": "image", "src": "/media/2_n.jpg", "title": "Bí ẩn của hoa nước Nam Thái Bình Dương", "alt": "Nhân viên đài đạt cùng người thân, bạn bè tiến vào khu vực Nam Thái Bình Dương của Làng Leofoo. Khu vực này nổi tiếng với phong cảnh đẹp và không khí trong lành, khi đến một điểm nhất định ở khu vực Nam Thái Bình Dương, Happy và Honey lấy ra một tấm thẻ có ghi mật khẩu trên đó.\n Nhưng! Đột nhiên một dòng nước lớn dâng lên, làm xáo trộn những que diêm đủ\n màu trong tay họ.  chỉ biết rằng thứ tự các con số có liên quan đến thứ tự màu sắc\n Các  bạn đài đạt  hãy cùng happy và honey tạm biệt  nỗi buồn, cùng nhau nghiên cứu nhé. Tinh thần không bỏ cuộc là tinh thần của người Đài Đạt!"},
-        { "type": "image", "src": "/media/2_n.jpg", "title": "ผูความลึกลับแห่งสาดแห่งแปซิฟิกใต้","alt": "ผู้เชี่ยวชาญและญาติและเพื่อน ๆ ของเขาเข้าไปในพื้นที่แปซิฟิกใต้ของหมู่บ้านลีโอฟู บริเวณนี้มีชื่อเสียงในด้านทิวทัศน์ที่สวยงามและบรรยากาศที่สดชื่นเมื่อพวกเขามาถึงจุดหนึ่งในพื้นที่แปซิฟิกใต้ฮาบิและฮันนี่ก็หยิบการ์ดที่มีรหัสผ่านเขียนไว้ออกมา\n แต่! ทันใดนั้นก็มีน้ำขนาดใหญ่พุ่งขึ้นมา ทำให้ก้านไม้ขีดสีต่างๆ ในมือของพวกเขาเลอะเทอะ เพิ่งรู้ว่าลำดับหมายเลขเกี่ยวข้องกับการเรียงลำดับสี อาจารย์ทั้งหลาย โปรดตบเบา ๆ แฮปปี้และที่รัก และโปรดศึกษาด้วยกัน จิตวิญญาณแห่งการไม่ยอมแพ้คือจิตวิญญาณแห่งปรมาจารย์!"}
+        { "type": "image", "src": "/media/2_f.jpg", "title": "Bí ẩn của hoa nước Nam Thái Bình Dương", "alt": "Nhân viên đài đạt cùng người thân, bạn bè tiến vào khu vực Nam Thái Bình Dương của Làng Leofoo. Khu vực này nổi tiếng với phong cảnh đẹp và không khí trong lành, khi đến một điểm nhất định ở khu vực Nam Thái Bình Dương, Happy và Honey lấy ra một tấm thẻ có ghi mật khẩu trên đó.\n Nhưng! Đột nhiên một dòng nước lớn dâng lên, làm xáo trộn những que diêm đủ\n màu trong tay họ.  chỉ biết rằng thứ tự các con số có liên quan đến thứ tự màu sắc\n Các  bạn đài đạt  hãy cùng happy và honey tạm biệt  nỗi buồn, cùng nhau nghiên cứu nhé. Tinh thần không bỏ cuộc là tinh thần của người Đài Đạt!"},
+        { "type": "image", "src": "/media/2_f.jpg", "title": "ผูความลึกลับแห่งสาดแห่งแปซิฟิกใต้","alt": "ผู้เชี่ยวชาญและญาติและเพื่อน ๆ ของเขาเข้าไปในพื้นที่แปซิฟิกใต้ของหมู่บ้านลีโอฟู บริเวณนี้มีชื่อเสียงในด้านทิวทัศน์ที่สวยงามและบรรยากาศที่สดชื่นเมื่อพวกเขามาถึงจุดหนึ่งในพื้นที่แปซิฟิกใต้ฮาบิและฮันนี่ก็หยิบการ์ดที่มีรหัสผ่านเขียนไว้ออกมา\n แต่! ทันใดนั้นก็มีน้ำขนาดใหญ่พุ่งขึ้นมา ทำให้ก้านไม้ขีดสีต่างๆ ในมือของพวกเขาเลอะเทอะ เพิ่งรู้ว่าลำดับหมายเลขเกี่ยวข้องกับการเรียงลำดับสี อาจารย์ทั้งหลาย โปรดตบเบา ๆ แฮปปี้และที่รัก และโปรดศึกษาด้วยกัน จิตวิญญาณแห่งการไม่ยอมแพ้คือจิตวิญญาณแห่งปรมาจารย์!"}
       ],
       "answers": [
         { "type": "password", "title": "nhiệm vụ/ภารกิจ", "alt": "Mật khẩu  số là gì? / ถาม รหัสผ่านหมายเลขอะไร? ", "value": "2308"}
@@ -100,7 +100,8 @@
         {"type": "english", "title": "nhiệm vụ/ภารกิจ", "alt": "Câu trả lời là gì?/ คำตอบคืออะไร?", "value": "CDP"}
       ],
       "hints":[
-        {"id": "3qjEar6BnVhsx9nu8E7VW9", "buttonText": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "score": "600", "type": "txt", "title": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "alt": "Nó có thể được giải bằng cách sử dụng phương trình tuyến tính của ba biến/: ใช้สมการเชิงเส้นสามมิติในการแก้โจทย์"}
+        {"id": "3qjEar6BnVhsx9nu8E7VW9", "buttonText": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "score": "600", "type": "txt", "title": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "alt": "Nó có thể được giải bằng cách sử dụng phương trình tuyến tính của ba biến/: ใช้สมการเชิงเส้นสามมิติในการแก้โจทย์"},
+        {"id": "3qjEar6Bdezbf8FthUBE4r", "buttonText": "gợi ý(trừ 900 điểm)/คำแนะนำ(หัก 900 คะแนน)", "score": "900", "type": "txt", "title": "gợi ý(trừ 900 điểm)/คำแนะนำ(หัก 900 คะแนน)", "alt": "Thứ tự tiếng Anh / ลำดับภาษาอังกฤษ"}
       ]
     },
     {
