@@ -101,7 +101,9 @@
         {"type": "english", "title": "nhiệm vụ/ภารกิจ", "alt": "Câu trả lời là gì?/ คำตอบคืออะไร?", "value": "CDP"}
       ],
       "hints":[
-        {"id": "3qjEar6BnVhsx9nu8E7VW9", "buttonText": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "score": "600", "type": "txt", "title": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "alt": "Nó có thể được giải bằng cách sử dụng phương trình tuyến tính của ba biến/: ใช้สมการเชิงเส้นสามมิติในการแก้โจทย์"}
+        {"id": "3qjEar6BnVhsx9nu8E7VW9", "buttonText": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "score": "600", "type": "txt", "title": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "alt": "Nó có thể được giải bằng cách sử dụng phương trình tuyến tính của ba biến/: ใช้สมการเชิงเส้นสามมิติในการแก้โจทย์"}, 
+        {"id": "3qjEar6Bdezbf8FthUBE4r", "buttonText": "gợi ý(trừ 900 điểm)/คำแนะนำ(หัก 900 คะแนน)", "score": "900", "type": "txt", "title": "gợi ý(trừ 900 điểm)/คำแนะนำ(หัก 900 คะแนน)", "alt": "Thứ tự tiếng Anh / ลำดับภาษาอังกฤษ"}
+
       ]
     },
     {
