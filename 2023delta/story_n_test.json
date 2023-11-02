@@ -60,7 +60,7 @@
       ],
       "hints" :[
         {"id": "3qjEarahEDnogCCY692Y3H", "buttonText": "領取初階提示", "score": "600", "type": "txt", "title": "領取初階提示", "alt": "請觀察圖騰柱的顏色"},
-        {"id": "3qjEarahFeaUYk8fhnYVxM", "buttonText": "領取高階提示", "score": "900", "type": "txt", "title": "領取高階提示", "alt": "依照順序，將相同顏色的箭頭，按照相對應的位置集中，就能順利組出解答的四個數字"}
+        {"id": "3qjEarahFeaUYk8fhnYVxM", "buttonText": "領取高階提示", "score": "900", "type": "txt", "title": "領取高階提示", "alt": "依照順序，將相同顏色的箭頭，按照相對應的位置集中，就能順利解出熟悉的四個數字"}
       ]
     },
     {
