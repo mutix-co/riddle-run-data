@@ -14,6 +14,15 @@
   },
   "levels":[
     {
+      "id": "3iZqKiMGThFoLjKnrxPumQ", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "測試", "banner": "/media/banner-test.jpg",
+      "prompts": [
+        {"type": "txt", "title": "測試關卡", "alt": "看到此頁請更新 APP\n \nVui lòng nhập tên tiếng Anh của công ty\nNếu không thể trả lời câu hỏi, vui lòng cập nhật ứng dụng\n \nโปรดป้อนชื่อบริษัทภาษาอังกฤษ\nหากไม่สามารถตอบคำถามได้ โปรดอัปเดตแอปพลิเคชัน"}
+      ],
+      "answers": [
+        {"type": "english", "title": "關卡任務", "alt": "Q：請輸入密碼", "value": "CCCCC"}
+      ]
+    },
+    {
       "id": "3iZqKgBHv4hMmhrpsjmNbC",
       "required": "",
       "next": "3iZqKgBHrhPS6Mk1yioU4z",
@@ -32,15 +41,6 @@
         {
         "type": "txt", "src": "/media/", "title": "Lựa chọn ải/ตัวเลือกด่าน", "alt": "🌟กระดานข้อมูล🌟\n ยินดีต้อนรับสู่หน้าแนะนำด่าน สามารถเลือกด่านที่อยากพิชิตใน “ตัวเลือกด่าน” ทางด้านมุมบนซ้าย\n \n🌟Vui lòng chọn nền tảng để thử thách🌟\n[Lựa chọn ải] trong thanh menu ở góc trên bên phải cho phép bạn tự do chuyển sang ải bạn muốn thử thách.\n"
       }
-      ]
-    },
-    {
-      "id": "3iZqKiMGThFoLjKnrxPumQ", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "測試", "banner": "/media/banner-test.jpg",
-      "prompts": [
-        {"type": "txt", "title": "測試關卡", "alt": "看到此頁請更新 APP\n \nVui lòng nhập tên tiếng Anh của công ty\nNếu không thể trả lời câu hỏi, vui lòng cập nhật ứng dụng\n \nโปรดป้อนชื่อบริษัทภาษาอังกฤษ\nหากไม่สามารถตอบคำถามได้ โปรดอัปเดตแอปพลิเคชัน"}
-      ],
-      "answers": [
-        {"type": "english", "title": "關卡任務", "alt": "Q：請輸入密碼", "value": "CCCCC"}
       ]
     },
     {
