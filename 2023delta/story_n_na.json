@@ -14,6 +14,15 @@
   },
   "levels":[
     {
+      "id": "3iZqKiMGThFoLjKnrxPumQ", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "測試", "banner": "/media/banner-test.jpg",
+      "prompts": [
+        {"type": "txt", "title": "測試關卡", "alt": "看到此頁請更新 APP\n \nVui lòng nhập tên tiếng Anh của công ty\nNếu không thể trả lời câu hỏi, vui lòng cập nhật ứng dụng\n \nโปรดป้อนชื่อบริษัทภาษาอังกฤษ\nหากไม่สามารถตอบคำถามได้ โปรดอัปเดตแอปพลิเคชัน"}
+      ],
+      "answers": [
+        {"type": "english", "title": "關卡任務", "alt": "Q：請輸入密碼", "value": "CCCCC"}
+      ]
+    },  
+    {
       "id": "3iZqKgfomt6iDNxPaHXVV4",
       "required": "",
       "next": "3iZqKgfoqy4EiP45bVx73K",
