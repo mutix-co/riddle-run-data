@@ -35,6 +35,15 @@
       ]
     },
     {
+      "id": "3iZqKiMGThFoLjKnrxPumQ", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "測試", "banner": "/media/banner-test.jpg",
+      "prompts": [
+        {"type": "txt", "title": "測試關卡", "alt": "看到此頁請更新 APP\n \nVui lòng nhập tên tiếng Anh của công ty\nNếu không thể trả lời câu hỏi, vui lòng cập nhật ứng dụng\n \nโปรดป้อนชื่อบริษัทภาษาอังกฤษ\nหากไม่สามารถตอบคำถามได้ โปรดอัปเดตแอปพลิเคชัน"}
+      ],
+      "answers": [
+        {"type": "english", "title": "關卡任務", "alt": "Q：請輸入密碼", "value": "CCCCC"}
+      ]
+    },
+    {
       "id": "3iZqKgBHhjWWXDqQ3Bujdb", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "thám hiểm bộ lạc châu Phi /การสำรวจชนเผ่าแอฟริกัน", "banner": "/media/banner-4-f.jpg",
       "prompts": [
         {"type": "image", "src": "/media/4-f.jpg", "title": "thám hiểm bộ lạc châu Phi", "alt": "Các bậc thầy đã đến khu vực bộ lạc Châu Phi của Làng Leofoo và nhận được câu đố mới này. Tôi nghe nói các bộ lạc châu Phi có rất nhiều loài động vật, Habihani nhiệt tình giới thiệu, khi bước vào khu vực bộ lạc châu Phi, tôi chợt phát hiện các loài động vật đó đã biến thành những bức tượng bất động.\n Lúc này, tôi tìm thấy một câu đố dường như có liên quan đến những bức tượng này.\nĐể giải được câu đố này, bạn cần phải đến được địa điểm tương ứng và mới có thể giải được."},
