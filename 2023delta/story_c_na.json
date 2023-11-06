@@ -36,6 +36,15 @@
       ]
     },
     {
+      "id": "3iZqKiMGThFoLjKnrxPumQ", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "測試", "banner": "/media/banner-test.jpg",
+      "prompts": [
+        {"type": "txt", "title": "測試關卡", "alt": "看到此頁請更新 APP\n \nVui lòng nhập tên tiếng Anh của công ty\nNếu không thể trả lời câu hỏi, vui lòng cập nhật ứng dụng\n \nโปรดป้อนชื่อบริษัทภาษาอังกฤษ\nหากไม่สามารถตอบคำถามได้ โปรดอัปเดตแอปพลิเคชัน"}
+      ],
+      "answers": [
+        {"type": "english", "title": "關卡任務", "alt": "Q：請輸入密碼", "value": "CCCCC"}
+      ]
+    },
+    {
       "id": "3iZqKgBHUEkxJxM7r4FHfs", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "印地安的歡迎", "banner": "/media/banner-1.jpg",
       "prompts": [
         {"type": "image", "src": "/media/1.jpg", "title": "印地安的歡迎", "alt": "歡迎來到六福村的入口處，看見了兩位身著印地安裝扮的謎題守護者。\n \n他們的中間夾著用手機打出的密碼「746382814271212343334323」 ，然後給你一張紙條。\n \n紙條上寫著「Intelligent智慧物聯、Sustainable節能永續、Connecting價值共創」，達人們立刻意識到這是台達的最新品牌價值主張， INTELLIGENT用別的顏色且有問號想必就是密語的關鍵。\n \n在一旁，哈比和哈妮等待著達人們解開這個謎題。但要如何解讀這串數字「746382814271212343334323」呢？ INTELLIGENT又該如何解答呢？"}
