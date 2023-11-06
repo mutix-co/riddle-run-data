@@ -14,6 +14,15 @@
   },
   "levels":[
     {
+      "id": "3iZqKiMGThFoLjKnrxPumQ", "required": "", "next": "3iZqKgBHv4hMmhrpsjmNbC", "title": "測試", "banner": "/media/banner-test.jpg",
+      "prompts": [
+        {"type": "txt", "title": "測試關卡", "alt": "看到此頁請更新 APP\n \nVui lòng nhập tên tiếng Anh của công ty\nNếu không thể trả lời câu hỏi, vui lòng cập nhật ứng dụng\n \nโปรดป้อนชื่อบริษัทภาษาอังกฤษ\nหากไม่สามารถตอบคำถามได้ โปรดอัปเดตแอปพลิเคชัน"}
+      ],
+      "answers": [
+        {"type": "english", "title": "關卡任務", "alt": "Q：請輸入密碼", "value": "CCCCC"}
+      ]
+    },
+    {
       "id": "3iZqKgBHv4hMmhrpsjmNbC",
       "required": "",
       "next": "3iZqKgBHrhPS6Mk1yioU4z",
@@ -33,15 +42,6 @@
         {
         "type": "txt", "src": "/media/", "title": "關卡選擇說明", "alt": "🌟請點下方按鈕選擇要挑戰的關卡🌟\n——————————————————\n1、 共有「五關」，「不用按照順序破關」，大家可以自行安排路線。\n　\n2、完成五關後，將解鎖【關卡選擇】中的【遊戲成績】，點選進入關卡，就能看到結局及遊戲成績！"
       }
-      ]
-    },
-    {
-      "id": "3iZqKiMGThFoLjKnrxPumQ", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "測試", "banner": "/media/banner-test.jpg",
-      "prompts": [
-        {"type": "txt", "title": "測試關卡", "alt": "看到此頁請更新 APP\n \nVui lòng nhập tên tiếng Anh của công ty\nNếu không thể trả lời câu hỏi, vui lòng cập nhật ứng dụng\n \nโปรดป้อนชื่อบริษัทภาษาอังกฤษ\nหากไม่สามารถตอบคำถามได้ โปรดอัปเดตแอปพลิเคชัน"}
-      ],
-      "answers": [
-        {"type": "english", "title": "關卡任務", "alt": "Q：請輸入密碼", "value": "CCCCC"}
       ]
     },
     {
