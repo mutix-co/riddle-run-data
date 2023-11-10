@@ -14,22 +14,107 @@
     "title": "達人Fun4玩｜名偵探達人(移工組隊長)",
     "content": "🌟Các đồng nghiệp của Delta đã đến Làng Leofoo cùng với người thân và bạn bè của họ và nhận thấy Làng Leofoo thật khác biệt vì Halloween đang đến gần.\n Happy và Honey là linh vật của Làng Leofoo và luôn được các bậc phụ huynh và trẻ em yêu thích. Họ trở nên đặc biệt tích cực trong lễ hội này và luôn dẫn dắt mọi người tham gia vào nhiều hoạt động thú vị khác nhau. Nhưng hôm nay, họ có một nhiệm vụ bất thường\n *Xin lưu ý rằng tốc độ hoàn thành câu đố và số lượng gợi ý được sử dụng sẽ ảnh hưởng đến tổng điểm.\n \n🌟เพื่อนร่วมงานของ เดลต้า มาถึงหมู่บ้าน ลีโอฟู พร้อมญาติและเพื่อนฝูง และพบว่าหมู่บ้าน ลีโอฟู นั้นแตกต่างออกไปเพราะวันฮาโลวีนกำลังจะมาถึง!\n แฮปปี้และฮันนี่เป็นมาสคอตของหมู่บ้านลีโอฟู และเป็นขวัญใจของพ่อแม่และเด็กๆ มาโดยตลอด พวกเขามีความกระตือรือร้นเป็นพิเศษในช่วงเทศกาลนี้และมักจะนำทุกคนให้เข้าร่วมในกิจกรรมที่น่าสนใจต่างๆ แต่วันนี้พวกเขามีภารกิจที่ไม่ธรรมดา\n เพื่อนร่วมงานของเดลต้า มาถึงหมู่บ้าน ลีโอฟู พร้อมญาติและเพื่อนฝูง และพบว่าหมู่บ้าน ลีโอฟู นั้นแตกต่างออกไปเพราะวันฮาโลวีนกำลังจะมาถึง!"
   },
-  "levels":[
+    "levels":[
     {
-      "id": "3iZqKgBHUEkxJxM7r4FHfs", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "測試", "banner": "/media/banner-test.jpg",
+      "id": "3iZqKgBHv4hMmhrpsjmNbC",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "hướng dẫn trò chơi/คำอธิบายเกม",
+      "type": "continue",
+      "buttonText": "OK!",
+      "banner": "/media/banner-intro-1-f.jpg",
       "prompts": [
-        {"type": "txt", "title": "測試關卡", "alt": "請輸入公司的英文\n \n若無法回答答案，請更新 APP\n \nVui lòng nhập tên tiếng Anh của công ty\nNếu không thể trả lời câu hỏi, vui lòng cập nhật ứng dụng\n \nโปรดป้อนชื่อบริษัทภาษาอังกฤษ/nหากไม่สามารถตอบคำถามได้ โปรดอัปเดตแอปพลิเคชัน"}
-      ],
-      "answers": [
-        {"type": "english", "title": "關卡任務", "alt": "Q：請輸入密碼", "value": "DELTA"}
+        { "type": "image", "src": "/media/intro-2.jpg", "title": "hướng dẫn trò chơi/คำอธิบายเกม", "alt": "【1】Vuốt sang trái và phải để xem thêm nội dung của ải.\n【2】Nhấp vào nút 「Nhập câu trả lời」 bên dưới để điền câu trả lời và sẽ vượt ải nếu đúng\n 【3】 Trong thanh menu ở góc trên bên trái, bạn có thể nhận thông tin về danh sách ải, bản đồ, bộ phận chăm sóc khách hàng, v.v.。\n \n【1】 เลื่อนซ้ายขวาสามารถรับข้อมูลเพิ่มเติมเกี่ยวกับด่านที่เล่นอยู่ได้\n【2】คลิกปุ่ม “ใส่คำตอบ” ด้านล่าง สามารถกรอกคำตอบได้ ถูกต้องก็ผ่านด่านทันที\n【3】เมนูด้านบนซ้ายสามารถรับข้อมูลเกี่ยวกับด่าน แผนที่และบริการลูกค้าได้"},
+        { "type": "image", "src": "/media/intro-3.jpg", "title": "hướng dẫn trò chơi/คำอธิบายเกม", "alt": "【Đã vượt ải】 Hình ảnh rõ ràng\n【Đã mở khóa】 Hình ảnh bị mờ\n【Chưa mở khóa】 Hình ải có một ổ khóa\n \n【ผ่านด่านแล้ว】 ภาพด่านจะชัดเจน\n【ปลดล๊อคแล้ว】 ภาพด่านจะไม่ชัดเจน\n【ยังไม่ได้ปลดล๊อต】 ภาพด่านจะมีแม่กุญแจอยู่"}
       ]
     },
     {
-      "id": "3iZqKgfjd5zvbbHYsdPACG", "required": ["3iZqKgBHUEkxJxM7r4FHfs","3iZqKgBHZPYEFts5aueA6i","3iZqKgBHcdac6u968iJD9i","3iZqKgBHhjWWXDqQ3Bujdb","3iZqKgBHnkT1mP7uB7TyML"], "next": "", "title": "結局", "type": "end", "buttonText": "完成遊戲看成績", "banner": "/media/banner-end.jpg",
+      "id": "3iZqKgBHrhPS6Mk1yioU4z", "required": "", "next": "", "title": "Lựa chọn ải/ตัวเลือกด่าน", "type": "continue", "buttonText": "Lựa chọn ải/ตัวเลือกด่าน", "banner": "/media/banner-intro-2-f.jpg",
       "prompts": [
-        {"type": "txt","title": "恭喜完成", "alt": "經過了一系列的挑戰和冒險，在六福村的各個區域中探索，解開了各種神秘的謎題。達人們以智慧、觀察力、合作和創造力克服了每一道關卡，解開各個謎題。\n哈比和哈妮也一同慶祝著達人們的勝利～\n \n為了獎勵你們的辛勞，準備了一些小獎勵要給達人們。 \n \n最後會依據各隊的完成解謎速度與使用提示次數，頒發獎勵。 \n另請完賽隊伍派代表至「大會服務台」出示解謎畫面，即可領取「完賽獎」。 "}
+        {
+        "type": "txt", "src": "/media/", "title": "Lựa chọn ải/ตัวเลือกด่าน", "alt": "🌟กระดานข้อมูล🌟\n ยินดีต้อนรับสู่หน้าแนะนำด่าน สามารถเลือกด่านที่อยากพิชิตใน “ตัวเลือกด่าน” ทางด้านมุมบนซ้าย\n \n🌟Vui lòng chọn nền tảng để thử thách🌟\n[Lựa chọn ải] trong thanh menu ở góc trên bên phải cho phép bạn tự do chuyển sang ải bạn muốn thử thách.\n"
+      }
+      ]
+    },
+    {
+      "id": "3iZqKgBHhjWWXDqQ3Bujdb", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "thám hiểm bộ lạc châu Phi /การสำรวจชนเผ่าแอฟริกัน", "banner": "/media/banner-4-f.jpg",
+      "prompts": [
+        {"type": "image", "src": "/media/4-f.jpg", "title": "thám hiểm bộ lạc châu Phi", "alt": "Các bậc thầy đã đến khu vực bộ lạc Châu Phi của Làng Leofoo và nhận được câu đố mới này. Tôi nghe nói các bộ lạc châu Phi có rất nhiều loài động vật, Habihani nhiệt tình giới thiệu, khi bước vào khu vực bộ lạc châu Phi, tôi chợt phát hiện các loài động vật đó đã biến thành những bức tượng bất động.\n Lúc này, tôi tìm thấy một câu đố dường như có liên quan đến những bức tượng này.\nĐể giải được câu đố này, bạn cần phải đến được địa điểm tương ứng và mới có thể giải được."},
+        {"type": "image", "src": "/media/4-f.jpg", "title": "การสำรวจชนเผ่าแอฟริกัน", "alt": "เหล่าผู้เชี่ยวชาญมาที่พื้นที่ชนเผ่าแอฟริกันของหมู่บ้านลีโอฟู และได้รับปริศนาใหม่นี้ ฉันได้ยินมาว่ามีสัตว์หลายชนิดในชนเผ่าแอฟริกัน และฮาบีและฮันนี่ ก็แนะนำพวกเขาอย่างกระตือรือร้น เมื่อฉันเดินเข้าไปในพื้นที่ชนเผ่าแอฟริกัน จู่ๆ ฉันก็พบว่าสัตว์เหล่านั้นกลายเป็นรูปปั้นที่ไม่สามารถขยับเขยื้อนได้!\nในเวลานี้ฉันพบปริศนาที่ดูเหมือนจะเกี่ยวข้องกับรูปปั้นเหล่านี้เหรอ?\nในการไขปริศนานี้ คุณจะต้องไปถึงสถานที่ที่เกี่ยวข้องและจากนั้นคุณก็จะไขปริศนาได้"}
+      ],
+      "answers": [
+        { "type": "order", "title": "nhiệm vụ/ภารกิจ", "alt": "Câu trả lời là gì?/ คำตอบคืออะไร?", "options": ["gấu/หมี","khỉ/ลิง","hươu cao cổ/ยีราฟ","voi/ช้าง","lợn/หมู","sư tử/สิงโต","ngựa/ม้า"], "value": [5,2,0,6]}
+      ],
+      "hints" :[
+        {"id": "3qjEar6BfMaTJoBZyaCSbs", "buttonText": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "score": "600", "type": "txt,", "title": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "alt": "Vị trí của động vật/ตำแหน่งของสัตว์"}
+      ]
+    },
+    {
+      "id": "3iZqKgBHUEkxJxM7r4FHfs", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "chào mừng Ấn Độ /ยินดีต้อนรับชาวอินเดีย", "banner": "/media/banner-1-f.jpg",
+      "prompts": [
+        {"type": "image", "src": "/media/1_f.jpg", "title": "chào mừng Ấn Độ", "alt": "Chào mừng đến với làng Leofoo! Ở lối vào của một khu vực nào đó, tôi nhìn thấy hai người bảo vệ câu đố mặc trang phục Ấn Độ.\n \nHọ có mật khẩu 746382814271212343334323 được gõ trên điện thoại di động của họ được kẹp giữa chúng và sau đó đưa cho bạn một ghi chú.\n \nGhi chú ghi:Intelligent、Sustainable、Connecting, và các chuyên gia ngay lập tức nhận ra rằng đây là đề xuất giá trị thương hiệu mới nhất của Delta và khung trên Sustainable phải là chìa khóa của ngôn ngữ bí mật.Vậy từ bí mật bên trong khung hình là gì?\n \nBên lề, Happy và Honey chờ đợi các nhân viên giải quyết bí ẩn. Nhưng làm thế nào để diễn giải chuỗi số 746382814271212343334323 này? Sustainable nên trả lời câu hỏi này như thế nào?"},
+        {"type": "image", "src": "/media/1_f.jpg", "title": "ยินดีต้อนรับชาวอินเดีย", "alt": "ยินดีต้อนรับสู่หมู่บ้านลีโอฟู! ที่ทางเข้าพื้นที่แห่งหนึ่ง ฉันเห็นผู้พิทักษ์ปริศนาสองคนสวมชุดอินเดีย\n พวกเขามีรหัสผ่าน 746382814271212343334323 พิมพ์อยู่ในโทรศัพท์มือถือคั่นระหว่างพวกเขา แล้วจึงแจ้งให้คุณทราบ\n \n ข้อความระบุว่า Intelligent, Sustainable, Connecting และผู้เชี่ยวชาญตระหนักได้ทันทีว่านี่คือคุณค่าของแบรนด์ล่าสุดของเดลต้า และกรอบบน Sustainable จะต้องเป็นกุญแจสำคัญในภาษาลับ แล้วคำลับในเฟรมคืออะไร?\n ระหว่างที่อยู่ข้างสนาม ฮาบีและฮันนี่รอให้พนักงานไขปริศนานี้ แต่จะตีความชุดตัวเลขนี้ 746382814271212343334323 ได้อย่างไร? Sustainable ควรตอบคำถามนี้อย่างไร?"}
+      ],
+      "answers": [
+        {"type": "password", "title": "nhiệm vụ/ภารกิจ", "alt": "Q：Vui lòng nhập mật khẩu?/กรุณากรอกรหัสผ่าน", "value": "787824"}
+      ],
+      "hints" :[
+        {"id": "3qjEar6B8wNJSzw5vZh6gt", "buttonText": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "score": "600", "type": "txt", "title": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "alt": "Biển hiệu khu vực Nam Thái Bình Dương ở lối vào viết gì bằng tiếng Anh?\n ป้ายบอกทางบริเวณแปซิฟิกใต้ตรงทางเข้าเขียนเป็นภาษาอังกฤษว่าอย่างไร"},
+        {"id": "3qjEar6BWTNtX1ZwPGkf28", "buttonText": "gợi ý(trừ 900 điểm)/คำแนะนำ(หัก 900 คะแนน)", "score": "900", "type": "txt", "title": "gợi ý(trừ 900 điểm)/คำแนะนำ(หัก 900 คะแนน)", "alt": "Cách dùng phím số để bấm tiếng Anh\n วิธีใช้ปุ่มตัวเลขในการกดภาษาอังกฤษ"}
+      ]
+    },
+    {
+      "id": "3iZqKgBHZPYEFts5aueA6i", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "Bí ẩn của hoa nước Nam Thái Bình Dương/ความลึกลับแห่งสาดแห่งแปซิฟิกใต้", "banner": "/media/banner-2-f.jpg",
+      "prompts": [
+        { "type": "image", "src": "/media/2_f.jpg", "title": "Bí ẩn của hoa nước Nam Thái Bình Dương", "alt": "Nhân viên đài đạt cùng người thân, bạn bè tiến vào khu vực Nam Thái Bình Dương của Làng Leofoo. Khu vực này nổi tiếng với phong cảnh đẹp và không khí trong lành, khi đến một điểm nhất định ở khu vực Nam Thái Bình Dương, Happy và Honey lấy ra một tấm thẻ có ghi mật khẩu trên đó.\n Nhưng! Đột nhiên một dòng nước lớn dâng lên, làm xáo trộn những que diêm đủ\n màu trong tay họ.  chỉ biết rằng thứ tự các con số có liên quan đến thứ tự màu sắc\n Các  bạn đài đạt  hãy cùng happy và honey tạm biệt  nỗi buồn, cùng nhau nghiên cứu nhé. Tinh thần không bỏ cuộc là tinh thần của người Đài Đạt!"},
+        { "type": "image", "src": "/media/2_f.jpg", "title": "ผูความลึกลับแห่งสาดแห่งแปซิฟิกใต้","alt": "ผู้เชี่ยวชาญและญาติและเพื่อน ๆ ของเขาเข้าไปในพื้นที่แปซิฟิกใต้ของหมู่บ้านลีโอฟู บริเวณนี้มีชื่อเสียงในด้านทิวทัศน์ที่สวยงามและบรรยากาศที่สดชื่นเมื่อพวกเขามาถึงจุดหนึ่งในพื้นที่แปซิฟิกใต้ฮาบิและฮันนี่ก็หยิบการ์ดที่มีรหัสผ่านเขียนไว้ออกมา\n แต่! ทันใดนั้นก็มีน้ำขนาดใหญ่พุ่งขึ้นมา ทำให้ก้านไม้ขีดสีต่างๆ ในมือของพวกเขาเลอะเทอะ เพิ่งรู้ว่าลำดับหมายเลขเกี่ยวข้องกับการเรียงลำดับสี อาจารย์ทั้งหลาย โปรดตบเบา ๆ แฮปปี้และที่รัก และโปรดศึกษาด้วยกัน จิตวิญญาณแห่งการไม่ยอมแพ้คือจิตวิญญาณแห่งปรมาจารย์!"}
+      ],
+      "answers": [
+        { "type": "password", "title": "nhiệm vụ/ภารกิจ", "alt": "Mật khẩu  số là gì? / ถาม รหัสผ่านหมายเลขอะไร? ", "value": "2308"}
+      ],
+      "hints" :[
+        {"id": "3qjEar6BXuCMkiQZ9SEVmx", "buttonText": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "score": "600", "type": "txt", "title": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "alt": "Nhìn vào màu sắc của cột đằng tổ/ดูสีของเสาโทเท็ม"},
+        {"id": "3qjEar6BZehH2f3BdsrQ3W", "buttonText": "gợi ý(trừ 900 điểm)/คำแนะนำ(หัก 900 คะแนน)", "score": "900", "type": "txt", "title": "gợi ý(trừ 900 điểm)/คำแนะนำ(หัก 900 คะแนน)", "alt": "Theo bốn màu được đề cập ở Gợi ý 1, hãy tập hợp các mũi tên cùng màu vào các vị trí tương ứng và bạn có thể tạo thành công bốn số của câu trả lời./ตามสีทั้ง4สีที่กล่าวถึงในเคล็ดลับที่ 1 ให้รวบรวมลูกศรที่มีสีเดียวกันในตำแหน่งที่สอดคล้องกัน จากนั้นคุณสามารถสร้างตัวเลขทั้ง4ของคำตอบได้สำเร็จ"}
+      ]
+    },
+    {
+      "id": "3iZqKgBHcdac6u968iJD9i", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "tin nhắn im lặng /ข่าวเงียบ", "banner": "/media/banner-3-f.jpg",
+      "prompts": [
+        {"type": "image", "src": "/media/3_f.jpg", "title": "tin nhắn im lặng", "alt": "Happy và Honey giấu thẻ mật khẩu ở đâu đó! Họ cung cấp cho các chuyên gia một tấm thẻ và lời nhắc nhở: Những người thường nhìn thấy thì không thể sử dụng, nhưng những người không nhìn thấy thì có thể sử dụng.\n Các chuyên gia không khỏi rơi vào trầm tư, đây tựa hồ là một tin nhắn được mã hóa, đại diện cho vị trí."},
+        {"type": "image", "src": "/media/3_f.jpg", "title": "ข่าวเงียบ", "alt": "แฮปปี้และฮันนี่ซ่อนรหัสผ่านไว้ที่ไหนสักแห่ง! พวกเขาให้การ์ดแก่ผู้เชี่ยวชาญและคำเตือนว่า:ปกติคุณจะมองเห็นได้แต่อย่าใช้ แต่ผู้ที่มองไม่เห็นก็สามารถใช้งานได้\n ผู้เชี่ยวชาญอดไม่ได้ที่จะคิดลึก ๆ นี่ดูเหมือนจะเป็นข้อความเข้ารหัสซึ่งแสดงถึงสถานที่นั้น"}
+      ],
+      "answers": [
+        {"type": "password", "title": "nhiệm vụ/ภารกิจ", "alt": "Vui lòng tìm mã QR gần vị trí trả lời và quét mã, mật khẩu sẽ được hiển thị trong mã QR./ถาม กรุณาค้นหารหัส QR ใกล้กับตำแหน่งคำตอบแล้วสแกน รหัสผ่านจะปรากฏในรหัส QR", "value": "930113"}
+      ],
+      "hints" :[
+        {"id": "3qjEar6BbVSMs6VEsfSgzc", "buttonText": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "score": "600", "type": "txt", "title": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "alt": "Không thể thấy hệ thống chữ viết mà mọi người thường sử dụng./ระบบการเขียนแบบใดที่คนมองไม่เห็นมักจะใช้"},
+        {"id": "3qjEar6Bdezbf8FthUBE4r", "buttonText": "gợi ý(trừ 900 điểm)/คำแนะนำ(หัก 900 คะแนน)", "score": "900", "type": "txt", "title": "gợi ý(trừ 900 điểm)/คำแนะนำ(หัก 900 คะแนน)", "alt": "1 Biểu thị điểm đen (điểm lồi), 0 biểu thị điểm trắng (phẳng)/1 หมายถึงจุดสีดำ (นูน), 0 หมายถึงจุดสีขาว (แบน)"}
+      ]
+    },
+    {
+      "id": "3iZqKgBHnkT1mP7uB7TyML", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "Câu hỏi Halloween trực tuyến/คำถามฮาโลวีนออนไลน์", "banner": "/media/banner-5-f.jpg",
+      "prompts": [
+        { "type": "image", "src": "/media/5_n.jpg", "title": "Câu hỏi Halloween trực tuyến", "alt": "Các chuyên gia đã đến thăm các khu vực khác nhau của Làng Leofoo, nơi đầy bí ẩn, thử thách và bất ngờ\n \nVào ngày Halloween, có một hoạt động truyền thống là trẻ em mặc nhiều trang phục khác nhau và gõ cửa từng nhà để lấy kẹo.\n \nĐột nhiên một câu hỏi xuất hiện, hãy giải đáp câu đố để vượt qua thử thách Halloween"},
+        { "type": "image", "src": "/media/5_n.jpg", "title": "คำถามฮาโลวีนออนไลน์", "alt": "ผู้เชี่ยวชาญได้เยี่ยมชมพื้นที่ต่างๆ ของหมู่บ้านลีโอฟู ซึ่งเต็มไปด้วยความลึกลับ ความท้าทาย และความประหลาดใจ\n \nในวันฮาโลวีนมีกิจกรรมแบบดั้งเดิมที่เด็กๆ จะแต่งกายด้วยชุดต่างๆ และเคาะประตูเพื่อรับขนม\n \n ทันใดนั้นมีคำถามปรากฏขึ้น โปรดตอบปริศนาเพื่อผ่านความท้าทายวันฮาโลวีน"}
+      ],
+      "answers": [
+        {"type": "english", "title": "nhiệm vụ/ภารกิจ", "alt": "Câu trả lời là gì?/ คำตอบคืออะไร?", "value": "CDP"}
+      ],
+      "hints":[
+        {"id": "3qjEar6BnVhsx9nu8E7VW9", "buttonText": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "score": "600", "type": "txt", "title": "gợi ý(trừ 600 điểm)/คำแนะนำ(หัก 600 คะแนน)", "alt": "Nó có thể được giải bằng cách sử dụng phương trình tuyến tính của ba biến/: ใช้สมการเชิงเส้นสามมิติในการแก้โจทย์"}, 
+        {"id": "3qjEar6Bdezbf8FthUBE4r", "buttonText": "gợi ý(trừ 900 điểm)/คำแนะนำ(หัก 900 คะแนน)", "score": "900", "type": "txt", "title": "gợi ý(trừ 900 điểm)/คำแนะนำ(หัก 900 คะแนน)", "alt": "Thứ tự tiếng Anh / ลำดับภาษาอังกฤษ"}
+
+      ]
+    },
+    {
+      "id": "3iZqKgfjd5zvbbHYsdPACG", "required": ["3iZqKgBHUEkxJxM7r4FHfs","3iZqKgBHZPYEFts5aueA6i","3iZqKgBHcdac6u968iJD9i","3iZqKgBHhjWWXDqQ3Bujdb","3iZqKgBHnkT1mP7uB7TyML"], "next": "", "title": "The End", "type": "end", "buttonText": "Finish", "banner": "/media/banner-end-f.jpg",
+      "prompts": [
+        {"type": "txt","title": "Congrulations!", "alt": "Sau một loạt thử thách và phiêu lưu, chúng tôi đã khám phá nhiều khu vực khác nhau của Làng Leofoo và giải được nhiều câu đố bí ẩn khác nhau. Các chuyên gia đã sử dụng trí tuệ, khả năng quan sát, sự hợp tác và sự sáng tạo để vượt qua từng cấp độ và giải từng câu đố.\n Happy và Honey cũng cùng nhau ăn mừng thắng lợi người Đài Đạt\n \nĐể khen thưởng cho sự chăm chỉ của bạn, chúng tôi đã chuẩn bị một số phần thưởng nhỏ cho các chuyên gia. \n \nCuối cùng, phần thưởng sẽ được trao dựa trên tốc độ hoàn thành câu đố của mỗi đội và số lượng gợi ý được sử dụng. \nNgoài ra, vui lòng cử đại diện của đội hoàn thành phần thi  đến “Bàn trợ giúp hội nghị” để chiếu màn hình câu đố để nhận “Giải thưởng hoàn thiện”"},
+        {"type": "txt","title": "Congrulations!", "alt": "หลังจากความท้าทายและการผจญภัยมากมาย เราได้สำรวจพื้นที่ต่างๆ ของหมู่บ้านลีโอฟู และไขปริศนาลึกลับต่างๆ ผู้เชี่ยวชาญใช้สติปัญญา การสังเกต ความร่วมมือ และความคิดสร้างสรรค์เพื่อเอาชนะแต่ละระดับและไขปริศนาแต่ละอัน\nnฮับบี้และฮันนี่ยังได้ร่วมเฉลิมฉลองชัยชนะของเหล่าผู้เชี่ยวชาญด้วยกัน~\n \n เพื่อตอบแทนการทำงานหนักของคุณ เราได้เตรียมรางวัลเล็กๆ น้อยๆ ไว้สำหรับผู้เชี่ยวชาญแล้ว \n \nสุดท้าย รางวัลจะมอบให้ตามความเร็วของแต่ละทีมในการไขปริศนาและจำนวนการแจ้งเตือนที่ใช้ \n นอกจากนี้ โปรดส่งตัวแทนจากทีมเข้าเส้นชัยไปที่ จุดประชาสัมพันธ์ เพื่อแสดงหน้าจอปริศนาเพื่อรับรางวัล “รางวัลสิ้นสุดการแข่งขัน"}
       ]
     }
   ],
-  "scoreBanner":"/media/banner-score.jpg"
+  "scoreBanner":"/media/banner-score.jpg",
+  "scoreText": "รางวัลสิ้นสุดการแข่งขัน/Giải thưởng hoàn thiện",
+  "scoreUrl": "https://i.ibb.co/b7b7wZW/banner-end-2.jpg"
 }
