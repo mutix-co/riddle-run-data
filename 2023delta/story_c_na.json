@@ -16,10 +16,10 @@
     {
       "id": "3iZqKiMGThFoLjKnrxPumQ", "required": "", "next": "3iZqKgBHv4hMmhrpsjmNbC", "title": "測試", "banner": "/media/banner-test.jpg",
       "prompts": [
-        {"type": "txt", "title": "測試關卡", "alt": "看到此頁請更新 APP\n \nVui lòng nhập tên tiếng Anh của công ty\nNếu không thể trả lời câu hỏi, vui lòng cập nhật ứng dụng\n \nโปรดป้อนชื่อบริษัทภาษาอังกฤษ\nหากไม่สามารถตอบคำถามได้ โปรดอัปเดตแอปพลิเคชัน"}
+        {"type": "txt", "title": "請輸入密碼", "alt": "請看「隊長版」的「關卡選擇說明」最後一行有密碼喔！"}
       ],
       "answers": [
-        {"type": "english", "title": "關卡任務", "alt": "Q：請輸入密碼", "value": "CCCCC"}
+        {"type": "password", "title": "關卡任務", "alt": "Q：請輸入密碼", "value": "98"}
       ]
     },
     {
