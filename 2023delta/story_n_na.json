@@ -14,7 +14,7 @@
   },
   "levels":[
     {
-      "id": "3iZqKiMGThFoLjKnrxPumQ", "required": "", "next": "3iZqKgBHrhPS6Mk1yioU4z", "title": "請輸入密碼", "banner": "/media/banner-test.jpg",
+      "id": "3iZqKiMGThFoLjKnrxPumQ", "required": "", "next": "3iZqKgfomt6iDNxPaHXVV4", "title": "請輸入密碼", "banner": "/media/banner-test.jpg",
       "prompts": [
         {"type": "txt", "title": "請輸入密碼", "alt": "請看「隊長版」的「關卡選擇說明」最後一行有密碼喔！"}
       ],
