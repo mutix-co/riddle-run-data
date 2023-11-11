@@ -14,15 +14,6 @@
   },
   "levels":[
     {
-      "id": "3iZqKiMGThFoLjKnrxPumQ", "required": "", "next": "3iZqKgBHv4hMmhrpsjmNbC", "title": "請輸入密碼", "banner": "/media/banner-test.jpg",
-      "prompts": [
-        {"type": "txt", "title": "請輸入密碼", "alt": "請看「隊長版」的「關卡選擇說明」最後一行有密碼喔！"}
-      ],
-      "answers": [
-        {"type": "password", "title": "關卡任務", "alt": "Q：請輸入密碼", "value": "98"}
-      ]
-    },
-    {
       "id": "3iZqKgBHv4hMmhrpsjmNbC",
       "required": "",
       "next": "3iZqKgBHrhPS6Mk1yioU4z",
