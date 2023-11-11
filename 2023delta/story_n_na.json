@@ -12,16 +12,7 @@
     "title": "達人Fun4玩｜名偵探達人(一般組隊員)",
     "content": "🌟台達同仁與親友們抵達六福村，發現六福村正因萬聖節即將到來而不同了！🌟\n \n哈比和哈妮是六福村的吉祥物，一直以來都是親子的最愛。他們在這個節慶變得特別活躍，總是引領著大家參加各種有趣的活動。但今天，他們有一個不同尋常的使命....\n \n小提示：完成解謎速度與使用提示次數將會影響總成績喔。"
   },
-  "levels":[
-    {
-      "id": "3iZqKiMGThFoLjKnrxPumQ", "required": "", "next": "3iZqKgfomt6iDNxPaHXVV4", "title": "請輸入密碼", "banner": "/media/banner-test.jpg",
-      "prompts": [
-        {"type": "txt", "title": "請輸入密碼", "alt": "請看「隊長版」的「關卡選擇說明」最後一行有密碼喔！"}
-      ],
-      "answers": [
-        {"type": "password", "title": "關卡任務", "alt": "Q：請輸入密碼", "value": "98"}
-      ]
-    },  
+  "levels":[  
     {
       "id": "3iZqKgfomt6iDNxPaHXVV4",
       "required": "",
@@ -45,31 +36,31 @@
       ]
     },
      {
-      "id": "3iZqKgfoyiMV9K2JJp5W1B", "required": "3iZqKiMGThFoLjKnrxPumQ", "next": "3iZqKgfoqy4EiP45bVx73K", "title": "非洲部落探索", "banner": "/media/banner-4.jpg","type": "continue",
+      "id": "3iZqKgfoyiMV9K2JJp5W1B", "required": "", "next": "3iZqKgfoqy4EiP45bVx73K", "title": "非洲部落探索", "banner": "/media/banner-4.jpg","type": "continue",
       "prompts": [
         {"type": "image", "src": "/media/4-n.jpg", "title": "非洲部落探索", "alt": "達人們來到了六福村的非洲部落區域，並拿到這次新的謎題。聽說非洲部落有很多動物，哈比哈妮也很熱情的介紹，走入非洲部落區突然發現動物們化身成不動的雕像了！\n \n此時發現一張謎題，好像跟這些雕像有關呢？\n \n要解開這個謎題，需要到對應的地方查看。"}
       ]
     },
     {
-      "id": "3iZqKgfp5tNeDabNV4pDnT", "required": "3iZqKiMGThFoLjKnrxPumQ", "next": "3iZqKgfoqy4EiP45bVx73K", "title": "南太平洋的水花之謎", "banner": "/media/banner-2.jpg","type": "continue",
+      "id": "3iZqKgfp5tNeDabNV4pDnT", "required": "", "next": "3iZqKgfoqy4EiP45bVx73K", "title": "南太平洋的水花之謎", "banner": "/media/banner-2.jpg","type": "continue",
       "prompts": [
         { "type": "image", "src": "/media/2_n.jpg", "title": "南太平洋的水花之謎", "alt": "達人們進入了六福村的南太平洋區。這個區域以其美麗的風景和令人心曠神怡的氛圍而聞名，當到達南太平洋區某一處時，哈比與哈妮拿出了寫著密碼的卡片。\n \n但！突然一陣突如其來的巨大水花升騰而起，搞亂了他們手中不同顏色的火柴棒。只知道數字順序與顏色順序有關。\n \n達人們拍拍難過的哈比和哈妮，請一同研究。不放棄的精神正是達人們的精神！"}
       ]
     },
     {
-      "id": "3iZqKgfpAa1wNVZ4rEZf6s", "required": "3iZqKiMGThFoLjKnrxPumQ", "next": "3iZqKgfoqy4EiP45bVx73K", "title": "無聲的消息", "banner": "/media/banner-3.jpg","type": "continue",
+      "id": "3iZqKgfpAa1wNVZ4rEZf6s", "required": "", "next": "3iZqKgfoqy4EiP45bVx73K", "title": "無聲的消息", "banner": "/media/banner-3.jpg","type": "continue",
       "prompts": [
         {"type": "image", "src": "/media/3_n.jpg", "title": "無聲的消息", "alt": "哈比跟哈妮把密碼卡藏在某個地方了！他們提供給達人們一張卡片與提示：「平常看得到的人卻用不到，但是看不到的人卻用得到。」\n \n達人們不禁陷入深思，這似乎是一個加密的訊息，代表著地點。"}
       ]
     },
      {
-      "id": "3iZqKgBHUEkxJxM7r4FHfs", "required": "3iZqKiMGThFoLjKnrxPumQ", "next": "3iZqKgfoqy4EiP45bVx73K", "title": "印地安的歡迎", "banner": "/media/banner-1.jpg","type": "continue",
+      "id": "3iZqKgBHUEkxJxM7r4FHfs", "required": "", "next": "3iZqKgfoqy4EiP45bVx73K", "title": "印地安的歡迎", "banner": "/media/banner-1.jpg","type": "continue",
       "prompts": [
         {"type": "image", "src": "/media/1_n.jpg", "title": "印地安的歡迎", "alt": "歡迎來到六福村的入口處，看見了兩位身著印地安裝扮的謎題守護者。\n \n他們的中間夾著用手機打出的密碼「746382814271212243334323」 ，然後給你一張紙條。\n \n紙條上寫著「Intelligent智慧物聯、Sustainable節能永續、Connecting價值共創」，達人們立刻意識到這是台達的最新品牌價值主張， 想必SUSTAINABLE上的框框想必就是密語的關鍵。。\n \n在一旁，哈比和哈妮等待著達人們解開這個謎題。"}
       ]
     },
     {
-      "id": "3iZqKgfpHVx774P5K42vrz", "required": "3iZqKiMGThFoLjKnrxPumQ", "next": "3iZqKgfoqy4EiP45bVx73K", "title": "線上題", "banner": "/media/banner-5.jpg","type": "continue",
+      "id": "3iZqKgfpHVx774P5K42vrz", "required": "", "next": "3iZqKgfoqy4EiP45bVx73K", "title": "線上題", "banner": "/media/banner-5.jpg","type": "continue",
       "prompts": [
         { "type": "image", "src": "/media/5_n.jpg", "title": "線上題", "alt": "達人們已經走遍了六福村的不同區域，充滿了神秘、挑戰和驚喜。\n \n在萬聖節，有一個傳統的活動，小孩們會穿著各種裝扮，挨家挨戶地敲門以獲得糖果。\n \n突然一道題目出現，請回答謎題以通過萬聖節挑戰。"}
       ]
