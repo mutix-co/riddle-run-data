@@ -1,7 +1,7 @@
 {
   "name": "TICACUP",
-  "version": "6.0",
-  "title": "(TEST)TICA CUP 2023",
+  "version": "1.0",
+  "title": "(TEST)2023 NYCU TICA CUP－Real Escape Game",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/splash.jpg",
@@ -10,97 +10,326 @@
   "timekeeper": true,
   "nickname": true,
   "introduction": {
-    "title": "關於 Riddle Run",
-    "content": "Riddle Run 是一個「活動遊戲化線上創作工具（平台）」，藉由科技應用，串起線上線下，將實境場景與虛擬環境（APP）連結，再利用遊戲化的解謎、問答、集點...等包裝，為使用者創造獨一無二的 OMO（線上線下融合）的活動體驗。 \n　\n藉由 Riddle Run，可以快速打造內容豐富及多種玩法的「實境解謎活動」、「展場遊戲式導覽」、「集點踩點」...等活動線上劇本供使用者在實體場域遊玩。也提供遊戲企劃、謎題設計、美術設計、活動宣傳...等相關服務，讓業者無後顧之憂！"
+    "title": "2023 NYCU TICA CUP－Real Escape Game",
+    "content": "Welcome to National Yang Ming Chiao Tung University! \n　\nAs outstanding award recipients of ICDF scholarship, we believe that you possess both exceptional intellectual and physical capabilities. In the following activities, we aim to provide you with the opportunity to experience the beauty of the mountains and forests right within the city, allowing you to explore and discover the unique culture of National Yang Ming Chiao Tung University without the need for traveling far into the mountaion. Let’s start!"
   },
   "levels": [
     {
       "id": "3iZqKeK24Pw9VKbumiPseq",
       "required": "",
-      "next": "3iZqKeK27aw5Wt6uSk3BRo",
-      "title": "功能介紹",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "Rules of Real Escape Game",
       "banner": "/media/banner_0.jpg",
       "type": "continue",
-      "buttonText": "我瞭解了",
+      "buttonText": "OK",
       "prompts": [
         {
           "type": "txt",
           "src": "",
           "title": "多元關卡呈現",
-          "alt": "Riddle Run 提供五種關卡內容模組供遊戲設計師作拼組，包含：純文字、圖片、影片、音檔、按鈕連結。在每個關卡中，可隨意搭配五個以內的模組做該關卡的內容呈現。\n　\n透過多元的內容呈現方式，不只能讓遊戲設計師有更多可運用的空間傳遞想給予使用者的內容，更可以提升使用者在遊戲上的體驗！"
+          "alt": "Time：13:00 PM to 14:30 PM \n Venus：Yang Ming Campus \n \n Rules：\n Each team is led by a captain who uses a mobile phone to scan QR codes or answer questions to collect points. The team with the highest score wins, with prizes awarded to the top three teams."
         },
+        { "type": "image", "src": "/media/intro-2.jpg", "title": "任務說明", "alt": "1、 「上下、左右」滑動：可獲取該關更多內容。\n2、下方【輸入解答】按鈕：可看關卡題目、驗證答案。 \n3、右下【燈泡】按鈕：可領取提示。\n4、右上【菜單列】：可獲取關卡清單、遊戲狀態、聯絡客服等。"},
+        { "type": "image", "src": "/media/intro-3.jpg", "title": "關卡狀態說明", "alt": "【已破關】關卡圖為清晰狀態\n【已解鎖】關卡圖為模糊狀態\n【未解鎖】關卡圖上有個鎖扣"}
+      ]
+    },
+    {
+      "id": "3iZqKgBHrhPS6Mk1yioU4z", 
+      "required": "", 
+      "next": "", 
+      "title": "關卡選擇說明", 
+      "type": "continue", 
+      "buttonText": "挑選關卡", 
+      "banner": "/media/banner-intro-2.jpg",
+      "prompts": [
         {
-          "type": "image",
-          "src": "/media/0-1.jpg",
-          "title": "多種破關方式",
-          "alt": "Riddle Run 支援：數字破關、按鈕排序破關、定位破關、英文破關與QRCode破關...等破關方式，從中也可以延伸多樣玩法。如此讓關卡遊玩方式不單一，也大大提升活動的遊戲性。"
+          "type": "txt", 
+          "src": "/media/", 
+          "title": "關卡選擇說明", 
+          "alt": "🌟Please click the button below to choose the challenge areas🌟\n——————————————————\nThere are a total of 'four major regions with 25 areas,'' and you can complete them 'in any order.'' You can refer to the game map for the locations of the four major regions, and plan your own route accordingly."
         }
       ]
     },
     {
       "id": "3iZqKeK27aw5Wt6uSk3BRo",
-      "required": [
-        "3iZqKeK24Pw9VKbumiPseq"
-      ],
-      "next": "3iZqKf5kV27XrusWxTuhSk",
-      "title": "異國的料理",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "Bo-Ya Center 1",
       "banner": "/media/banner_1.jpg",
       "prompts": [
         {
           "type": "image",
-          "src": "/media/food_yakiniku_samugyopusaru.png",
-          "title": "一張圖片",
-          "alt": "這是從情報來源提供的，希望可以幫助到你"
-        }
-      ],
-      "answers": [
-        {
-          "type": "english",
-          "title": "請選擇正確的料理名稱",
-          "value": "barbecue"
-        }
-      ],
-      "hints": [
-        {
-          "id": "3qjEapE8f6tXAkLq3sY1Li",
-          "buttonText": "直接看答案",
-          "score": 100,
-          "type": "txt",
-          "title": "直接看答案",
-          "alt": "barbecue"
-        }
-      ]
-    },
-    {
-      "id": "3iZqKf5kV27XrusWxTuhSk",
-      "required": [
-        "3iZqKeK27aw5Wt6uSk3BRo"
-      ],
-      "next": "3iZqKeK2GdxzuwU2ptghzU",
-      "title": "神秘的代號",
-      "banner": "/media/banner_2.jpg",
-      "prompts": [
-        {
-          "type": "text",
-          "title": "某地",
-          "alt": "據說這些 QRCode 中藏有某地的寶藏，請您幫忙找出來吧！"
+          "src": "/media/1.jpg",
+          "title": "Bo-Ya Center",
+          "alt": "Here is NYCU's Bo-Ya Center, which houses many important offices. From the picture of just a small corner of the iceberg, you will understand that the Bo-Ya Center used to be a cozy little haven."
         }
       ],
       "answers": [
         {
           "type": "qrcode",
-          "title": "請掃描 QRCode",
-          "value": "123456"
+          "title": "Kindergarten",
+          "alt":"The predecessor of the Bo-Ya Center was a kindergarten.",
+          "value": "3iZqKeK27aw5Wt6uSk3BRo"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKj6Qud6C3ySyi9B3Pm",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "Bo-Ya Center 2",
+      "banner": "/media/banner_2.jpg",
+      "prompts": [
+        {
+          "type": "image",
+          "src": "/media/2.jpg",
+          "title": "Bo-Ya Center",
+          "alt": "Feeling a bit hungry after the walk? Why don't you take a look around to see what's special here? How about grabbing a cup of coffee and taking a break!"
         }
       ],
-      "hints": [
+      "answers": [
         {
-          "id": "3qjEapzdZGbeTZZoKErqj9",
-          "buttonText": "直接看答案",
-          "score": 100,
+          "type": "qrcode",
+          "title": "HUISUN COFFEE",
+          "alt":"The mascot of HUISUN COFFEE",
+          "value": "3iZqKj6Qud6C3ySyi9B3Pm"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKj6SZ6DEA2ccZ1HNvC",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "Bo-Ya Center 3",
+      "banner": "/media/banner_3.jpg",
+      "prompts": [
+        {
+          "type": "image",
+          "src": "/media/3.jpg",
+          "title": "Outstanding Alumni",
+          "alt": "Do you know who the current president of National Yang Ming Chiao Tung University is? He previously served as the Director of the Department of Health, Taipei City Government. Find a picture of the president and see where it is located. "
+        }
+      ],
+      "answers": [
+        {
+          "type": "qrcode",
+          "title": "Dr. Chi-Hung Lin",
+          "alt":"President of National Yang Ming Chiao Tung University",
+          "value": "3iZqKj6RL3k3KSy35YAukA"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKj6RL3k3KSy35YAukA",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "Library",
+      "banner": "/media/banner_4.jpg",
+      "prompts": [
+        {
+          "type": "image",
+          "src": "/media/4.jpg",
+          "title": "School Motto",
+          "alt": ""
+        }
+      ],
+      "answers": [
+        {
+          "type": "order",
+          "title": "School Motto",
+          "alt":"知新致遠崇實篤行；？？？？？？？；養天地正氣，法古今完人",
+          "options":["仁心","力","真","行","仁術","知"],
+          "value": [2,5,1,3,0,4]
+        }
+      ]
+    },
+    {
+      "id": "3iZqKj6SXnXWU3EquQ5LG9",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "Library",
+      "banner": "/media/banner_5.jpg",
+      "prompts": [
+        {
           "type": "txt",
-          "title": "直接看答案",
-          "alt": "123456"
+          "title": "Year",
+          "alt": "Which year was Yang Ming College of Medicine officially founded?"
+        }
+      ],
+      "answers": [
+        {
+          "type": "passoword",
+          "title": "Year",
+          "alt":"Which year was Yang Ming College of Medicine officially founded?",
+          "value": "1975"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKj6UGxB3uVQTREUR2T",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "Shou-Ren Building",
+      "banner": "/media/banner_6.jpg",
+      "prompts": [
+        {
+          "type": "image",
+          "src": "/media/6.jpg",
+          "title": "Shou-Ren Building",
+          "alt": "Seeing him, you will gain an understanding of acupressure points throughout the body and acquire related knowledge."
+        }
+      ],
+      "answers": [
+        {
+          "type": "qrcode",
+          "title": "Acupuncture Bronze Man",
+          "alt": "Acupuncture Bronze Man",
+          "value": "3iZqKj6UGxB3uVQTREUR2T"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKj6VcD6QJeQyoG42GK",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "2nd Medical Building 1",
+      "banner": "/media/banner_7.jpg",
+      "prompts": [
+        {
+          "type": "txt",
+          "title": "2nd Medical Building 1",
+          "alt":"In the past three years, two schools have merged. Please go to the school gate to find the answer."
+        }
+      ],
+      "answers": [
+        {
+          "type": "english",
+          "title": "Gate",
+          "alt": "In the past three years, two schools have merged. Please go to the school gate to find the answer.",
+          "value": "NYMUNCTU"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKj6VcD6QJeQyoG42GK",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "2nd Medical Building 1",
+      "banner": "/media/banner_8.jpg",
+      "prompts": [
+        {
+          "type": "image",
+          "src": "/media/8.jpg",
+          "title": "2nd Medical Building 1"
+        }
+      ],
+      "answers": [
+        {
+          "type": "english",
+          "title": "2nd Medical Building",
+          "alt": "Cleverness is a gift, kindness is a ____________",
+          "value": "CHOICE"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKj6VptDNcQjWEcYQAa",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "2nd Medical Building 2",
+      "banner": "/media/banner_9.jpg",
+      "prompts": [
+        {
+          "type": "txt",
+          "title": "prayer room",
+          "alt": "The devout habits of Muslims typically involve specific daily practices."
+        }
+      ],
+      "answers": [
+        {
+          "type": "qrcode",
+          "title": "prayer room",
+          "value": "3iZqKj6VptDNcQjWEcYQAa"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKj6X4kWxTfJXXKNHWa",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "2nd Medical Building 2",
+      "banner": "/media/banner_10.jpg",
+      "prompts": [
+        {
+          "type": "image",
+          "src": "/media/10.jpg",
+          "title": "2nd Medical Building 2",
+          "alt": "Search for spaces or classrooms where you can discuss reports and assignments."
+        }
+      ],
+      "answers": [
+        {
+          "type": "qrcode",
+          "title": "301-3",
+          "value": "3iZqKj6X4kWxTfJXXKNHWa"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKj6XJiBwY5CC7pprcY",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "2nd Medical Building 3",
+      "banner": "/media/banner_11.jpg",
+      "prompts": [
+        {
+          "type": "image",
+          "src": "/media/10.jpg",
+          "title": "2nd Medical Building 3",
+          "alt": "Find a precious stone and discover the former name of the university."
+        }
+      ],
+      "answers": [
+        {
+          "type": "qrcode",
+          "title": "陽明大學石頭",
+          "value": "3iZqKj6XJiBwY5CC7pprcY"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKj6XWkgvesS7idr898",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "2nd Medical Building 4",
+      "banner": "/media/banner_12.jpg",
+      "prompts": [
+        {
+          "type": "txt",
+          "title": "2nd Medical Building 4",
+          "alt": "Famous Tourist Attractions on Campus"
+        }
+      ],
+      "answers": [
+        {
+          "type": "qrcode",
+          "title": "Junjianyan",
+          "value": "3iZqKj6XWkgvesS7idr898"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKj9Kn4m53NrdWF2ih9",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "Medical Exploration",
+      "banner": "/media/banner_13.jpg",
+      "answers": [
+        {
+          "type": "english",
+          "title": "Medical Exploration",
+          "alt": "The English abbreviation logo for the 2023 TICA CUP organizing program.",
+          "value": "IHP"
         }
       ]
     },
@@ -126,15 +355,5 @@
   ],
   "scoreBanner": "/media/banner_score.jpg",
   "scoreText": "看看 RR 過往案例",
-  "scoreUrl": "https://medium.com/riddle-run",
-  "scoreShare": {
-    "title": "分享成果",
-    "img": "/media/share.png",
-    "aspect": [
-      9,
-      16
-    ],
-    "textColor": "#fff",
-    "textBackground": "#4cb9ab"
-  }
+  "scoreUrl": "https://medium.com/riddle-run"
 }
