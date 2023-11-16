@@ -26,8 +26,8 @@
         {
           "type": "txt",
           "src": "",
-          "title": "多元關卡呈現",
-          "alt": "Time：13:00 PM to 14:30 PM \n Venus：Yang Ming Campus \n \n Rules：\n Each team is led by a captain who uses a mobile phone to scan QR codes or answer questions to collect points. The team with the highest score wins, with prizes awarded to the top three teams."
+          "title": "Rules of Real Escape Game",
+          "alt": "Time：13:00 PM to 14:30 PM \nVenus：Yang Ming Campus \n \nRules：\nEach team is led by a captain who uses a mobile phone to scan QR codes or answer questions to collect points. The team with the highest score wins, with prizes awarded to the top three teams."
         },
         { "type": "image", "src": "/media/intro-2.jpg", "title": "任務說明", "alt": "1、 「上下、左右」滑動：可獲取該關更多內容。\n2、下方【輸入解答】按鈕：可看關卡題目、驗證答案。 \n3、右下【燈泡】按鈕：可領取提示。\n4、右上【菜單列】：可獲取關卡清單、遊戲狀態、聯絡客服等。"},
         { "type": "image", "src": "/media/intro-3.jpg", "title": "關卡狀態說明", "alt": "【已破關】關卡圖為清晰狀態\n【已解鎖】關卡圖為模糊狀態\n【未解鎖】關卡圖上有個鎖扣"}
@@ -35,7 +35,7 @@
     },
     {
       "id": "3iZqKgBHrhPS6Mk1yioU4z", 
-      "required": "", 
+      "required": "3iZqKeK24Pw9VKbumiPseq", 
       "next": "", 
       "title": "關卡選擇說明", 
       "type": "continue", 
@@ -115,7 +115,7 @@
           "type": "qrcode",
           "title": "Dr. Chi-Hung Lin",
           "alt":"President of National Yang Ming Chiao Tung University",
-          "value": "3iZqKj6RL3k3KSy35YAukA"
+          "value": "3iZqKj6SZ6DEA2ccZ1HNvC"
         }
       ]
     },
@@ -123,7 +123,7 @@
       "id": "3iZqKj6RL3k3KSy35YAukA",
       "required": "",
       "next": "3iZqKgBHrhPS6Mk1yioU4z",
-      "title": "Library",
+      "title": "Library 1",
       "banner": "/media/banner_4.jpg",
       "prompts": [
         {
@@ -147,7 +147,7 @@
       "id": "3iZqKj6SXnXWU3EquQ5LG9",
       "required": "",
       "next": "3iZqKgBHrhPS6Mk1yioU4z",
-      "title": "Library",
+      "title": "Library 2",
       "banner": "/media/banner_5.jpg",
       "prompts": [
         {
@@ -192,12 +192,12 @@
       "id": "3iZqKj6VcD6QJeQyoG42GK",
       "required": "",
       "next": "3iZqKgBHrhPS6Mk1yioU4z",
-      "title": "2nd Medical Building 1",
+      "title": "Gate",
       "banner": "/media/banner_7.jpg",
       "prompts": [
         {
           "type": "txt",
-          "title": "2nd Medical Building 1",
+          "title": "Gate",
           "alt":"In the past three years, two schools have merged. Please go to the school gate to find the answer."
         }
       ],
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "id": "3iZqKj6VcD6QJeQyoG42GK",
+      "id": "3iZqKjPTigz3SBV1NKDxwc",
       "required": "",
       "next": "3iZqKgBHrhPS6Mk1yioU4z",
       "title": "2nd Medical Building 1",
@@ -257,13 +257,13 @@
       "id": "3iZqKj6X4kWxTfJXXKNHWa",
       "required": "",
       "next": "3iZqKgBHrhPS6Mk1yioU4z",
-      "title": "2nd Medical Building 2",
+      "title": "2nd Medical Building 3",
       "banner": "/media/banner_10.jpg",
       "prompts": [
         {
           "type": "image",
           "src": "/media/10.jpg",
-          "title": "2nd Medical Building 2",
+          "title": "2nd Medical Building 3",
           "alt": "Search for spaces or classrooms where you can discuss reports and assignments."
         }
       ],
@@ -279,13 +279,13 @@
       "id": "3iZqKj6XJiBwY5CC7pprcY",
       "required": "",
       "next": "3iZqKgBHrhPS6Mk1yioU4z",
-      "title": "2nd Medical Building 3",
+      "title": "2nd Medical Building 4",
       "banner": "/media/banner_11.jpg",
       "prompts": [
         {
           "type": "image",
-          "src": "/media/10.jpg",
-          "title": "2nd Medical Building 3",
+          "src": "/media/11.jpg",
+          "title": "2nd Medical Building 4",
           "alt": "Find a precious stone and discover the former name of the university."
         }
       ],
@@ -301,12 +301,12 @@
       "id": "3iZqKj6XWkgvesS7idr898",
       "required": "",
       "next": "3iZqKgBHrhPS6Mk1yioU4z",
-      "title": "2nd Medical Building 4",
+      "title": "2nd Medical Building 5",
       "banner": "/media/banner_12.jpg",
       "prompts": [
         {
           "type": "txt",
-          "title": "2nd Medical Building 4",
+          "title": "2nd Medical Building 5",
           "alt": "Famous Tourist Attractions on Campus"
         }
       ],
@@ -322,38 +322,316 @@
       "id": "3iZqKj9Kn4m53NrdWF2ih9",
       "required": "",
       "next": "3iZqKgBHrhPS6Mk1yioU4z",
-      "title": "Medical Exploration",
+      "title": "Medical Exploration 1",
       "banner": "/media/banner_13.jpg",
+      "prompts": [
+        {
+          "type": "txt",
+          "title": "Medical Exploration",
+          "alt": "The English abbreviation logo for the 2023 TICA CUP organizing program."
+        }
+      ],
       "answers": [
         {
           "type": "english",
-          "title": "Medical Exploration",
+          "title": "Medical Exploration 1",
           "alt": "The English abbreviation logo for the 2023 TICA CUP organizing program.",
           "value": "IHP"
         }
       ]
     },
     {
-      "id": "3iZqKeK2GdxzuwU2ptghzU",
-      "required": [
-        "3iZqKf5kV27XrusWxTuhSk"
-      ],
-      "next": "",
-      "title": "成功破關",
-      "banner": "/media/banner_4.jpg",
-      "type": "end",
-      "buttonText": "結束計時看成績",
+      "id": "3iZqKjPExFH92U94vKPmTc",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "Medical Building",
+      "banner": "/media/banner_14.jpg",
       "prompts": [
         {
           "type": "txt",
-          "src": "",
-          "title": "恭喜破關！",
-          "alt": "希望這次的範例 Demo 有讓您更了解 Riddle Run 的架構，有任何問題都歡迎隨時詢問我們喔！\n　\n最後，點擊下方【結束計時看成績】按鈕，讓我們來看看在這次的挑戰中，您獲得幾分吧！"
+          "title": "Medical Building 2",
+          "alt": "Someone once said, 'In the warmth of the medical world, let's find the plant that represents medicine.'  "       
+        }
+      ],
+      "answers": [
+        {
+          "type": "qrcode",
+          "title": "Medical Building 2",
+          "alt": "Ginkgo 銀杏",
+          "value": "3iZqKjPExFH92U94vKPmTc"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKjPGK4ebXYuz7sRB4u",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "Activity Center 1",
+      "banner": "/media/banner_15.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src": "/media/15.jpg",
+          "title":"Deciphering Taiwan's Diplomatic Allies (Activity Center 1)",
+          "alt": "Find Logo of School"       
+        }
+      ],
+      "answers": [
+        {
+          "type": "qrcode",
+          "title": "Activity Center",
+          "alt": "Find Logo of School",
+          "value": "3iZqKjPGK4ebXYuz7sRB4u"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKjPHg7xTBjWutaCu9V",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "Activity Center 2",
+      "banner": "/media/banner_16.jpg",
+      "prompts": [
+        {
+          "type":"txt",
+          "title":"Deciphering Taiwan's Diplomatic Allies (Activity Center 2)",
+          "alt": "Within National Yang-Ming Chiao Tung University, there are a restaurant with beautiful scenery."       
+        }
+      ],
+      "answers": [
+        {
+          "type": "qrcode",
+          "title": "Activity Center 2",
+          "alt": "L'escargots French Cuisine",
+          "value": "3iZqKjPHg7xTBjWutaCu9V"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKjPHveLmvH8kS9fPU5",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "Activity Center 3",
+      "banner": "/media/banner_17.jpg",
+      "prompts": [
+        {
+          "type":"txt",
+          "title":"Deciphering Taiwan's Diplomatic Allies (Activity Center 3)",
+          "alt": "Find the logo of ICDF"       
+        }
+      ],
+      "answers": [
+        {
+          "type": "qrcode",
+          "title": "The logo of ICDF",
+          "alt": "Find the logo of ICDF",
+          "value": "3iZqKjPHveLmvH8kS9fPU5"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKjPKDBh9vtVQJfDonq",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "Taiwan's diplomatic allies 1",
+      "banner": "/media/banner_18.jpg",
+      "prompts": [
+        {
+          "type":"txt",
+          "title":"Deciphering Taiwan's Diplomatic Allies (Activity Center 4)",
+          "alt": "Taiwan's diplomatic allies"       
+        }
+      ],
+      "answers": [
+        {
+          "type": "qrcode",
+          "title": "Activity Center 4",
+          "alt": "Taiwan's diplomatic allies",
+          "value": "3iZqKjPKDBh9vtVQJfDonq"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKjPLcFwShYcKgNrA7n",
+      "required":"",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "Taiwan's diplomatic allies 2",
+      "banner": "/media/banner_19.jpg",
+      "prompts": [
+        {
+          "type":"txt",
+          "title":"Deciphering Taiwan's Diplomatic Allies",
+          "alt": "Taiwan's diplomatic allies 2"       
+        }
+      ],
+      "answers": [
+        {
+          "type": "qrcode",
+          "title": "Deciphering Taiwan's Diplomatic Allies",
+          "alt": "Taiwan's diplomatic allies 2",
+          "value": "3iZqKjPLcFwShYcKgNrA7n"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKjPLgoe4bVYgMJX4iR",
+      "required":"",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "Taiwan's diplomatic allies 3",
+      "banner": "/media/banner_20.jpg",
+      "prompts": [
+        {
+          "type":"txt",
+          "title":"Deciphering Taiwan's Diplomatic Allies",
+          "alt": "Taiwan's diplomatic allies 3"       
+        }
+      ],
+      "answers": [
+        {
+          "type": "qrcode",
+          "title": "Deciphering Taiwan's Diplomatic Allies",
+          "alt": "Taiwan's diplomatic allies 3",
+          "value": "3iZqKjPLgoe4bVYgMJX4iR"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKjPMJkF4c78EqYrRba",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "Taiwanese Cuisine Exploration 1",
+      "banner": "/media/banner_21.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src": "/media/21.jpg",
+          "title":"Taiwanese Cuisine Exploration",
+          "alt": "Do you know what 'BEATA' stands for? It means being a happy person. Look for someone who represents happiness."       
+        }
+      ],
+      "answers": [
+        {
+          "type": "qrcode",
+          "title": "BEATA",
+          "alt": "Do you know what 'BEATA' stands for? It means being a happy person. Look for someone who represents happiness.",
+          "value": "3iZqKjPMJkF4c78EqYrRba"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKjPMctSw3XdFuQgFQN",
+      "required":"",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "Taiwanese Cuisine Exploration 2",
+      "banner": "/media/banner_22.jpg",
+      "prompts": [
+        {
+          "type":"txt",
+          "title":"Taiwanese Cuisine Exploration",
+          "alt": "Please find the boss to complete the specified task and name three Taiwanese delicacies in Chinese."       
+        }
+      ],
+      "answers": [
+        {
+          "type": "qrcode",
+          "title": "Taiwanese Cuisine",
+          "alt": "Please find the boss to complete the specified task and name three Taiwanese delicacies in Chinese.",
+          "value":"3iZqKjPMctSw3XdFuQgFQN"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKjPMerHy4VR32dUmHa",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "Taiwanese Cuisine Exploration 3",
+      "banner": "/media/banner_21.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src": "/media/23.jpg",
+          "title":"Taiwanese Cuisine Exploration",
+          "alt": "Do you know what 'BEATA' stands for? It means being a happy person. Look for someone who represents happiness."       
+        },
+        {
+          "type":"url",
+          "src": "/media/23.jpg",
+          "title":"Taiwanese Cuisine Exploration",
+          "src": "https://youtu.be/Qj57NkrP_M8?si=lGGuUHFNkO4kYTu0"       
+        }
+      ],
+      "answers": [
+        {
+          "type": "qrcode",
+          "title": "Taiwan ICDF",
+          "alt": "",
+          "value": "3iZqKjPMerHy4VR32dUmHa"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKjPP9HxdN6ob5k2k26",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "Taiwanese Cuisine Exploration 4",
+      "banner": "/media/banner_24.jpg",
+      "prompts": [
+        {
+          "type":"image",
+          "src": "/media/24.jpg",
+          "title":"Taiwanese Cuisine Exploration",
+          "alt": "In classrooms Zongyi 1 to Zongyi 3, look for Yangming's 'Along the River During the Qingming Festival' (清明上河圖)."       
+        }
+      ],
+      "answers": [
+        {
+          "type": "qrcode",
+          "title": "Taiwanese Cuisine Exploration",
+          "alt": "Yangming's 'Along the River During the Qingming Festival' (清明上河圖).",
+          "value": "3iZqKjPP9HxdN6ob5k2k26"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKjPPPRS5KQ7Ps355EL",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "Taiwanese Cuisine Exploration 5",
+      "banner": "/media/banner_25.jpg",
+      "prompts": [
+        {
+          "type":"txt",
+          "title":"Taiwanese Cuisine Exploration",
+          "alt": "On the stairs next to the Experimental Building at the school bus terminal, what can be found?"       
+        }
+      ],
+      "answers": [
+        {
+          "type": "qrcode",
+          "title": "Experimental Building",
+          "alt": "On the stairs next to the Experimental Building at the school bus terminal, what can be found?",
+          "value": "3iZqKjPPPRS5KQ7Ps355EL"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKeK2GdxzuwU2ptghzU",
+      "required": ["3iZqKeK27aw5Wt6uSk3BRo","3iZqKj6Qud6C3ySyi9B3Pm","3iZqKeK27aw5Wt6uSk3BRo","3iZqKj6Qud6C3ySyi9B3Pm","3iZqKj6SZ6DEA2ccZ1HNvC","3iZqKj6RL3k3KSy35YAukA","3iZqKj6SXnXWU3EquQ5LG9","3iZqKj6UGxB3uVQTREUR2T","3iZqKj6VcD6QJeQyoG42GK","3iZqKjPTigz3SBV1NKDxwc","3iZqKj6VptDNcQjWEcYQAa","3iZqKj6X4kWxTfJXXKNHWa","3iZqKj6XJiBwY5CC7pprcY","3iZqKj6XWkgvesS7idr898","3iZqKj9Kn4m53NrdWF2ih9","3iZqKjPExFH92U94vKPmTc","3iZqKjPGK4ebXYuz7sRB4u","3iZqKjPHg7xTBjWutaCu9V","3iZqKjPHveLmvH8kS9fPU5","3iZqKjPKDBh9vtVQJfDonq","3iZqKjPLcFwShYcKgNrA7n","3iZqKjPLgoe4bVYgMJX4iR","3iZqKjPMJkF4c78EqYrRba","3iZqKjPMctSw3XdFuQgFQN","3iZqKjPMerHy4VR32dUmHa","3iZqKjPP9HxdN6ob5k2k26","3iZqKjPPPRS5KQ7Ps355EL"
+      ],
+      "next": "",
+      "title": "You are the export of NYCU!!!!",
+      "banner": "/media/banner_end.jpg",
+      "type": "end",
+      "buttonText": "Score",
+      "prompts": [
+        {
+          "type": "image",
+          "src": "/media/end.jpg",
+          "title": "You are the export of NYCU!!!!",
+          "alt": "Congratulations! You have fully grasped the history and the unique mountain and forest characteristics of National Yang-Ming Chiao Tung University! You are truly the chosen one, an elite among elites!"
         }
       ]
     }
   ],
   "scoreBanner": "/media/banner_score.jpg",
-  "scoreText": "看看 RR 過往案例",
-  "scoreUrl": "https://medium.com/riddle-run"
 }
