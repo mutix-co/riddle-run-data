@@ -1,6 +1,6 @@
 {
   "name": "TICACUP",
-  "version": "1.0",
+  "version": "2.0",
   "title": "(TEST)2023 NYCU TICA CUP－Real Escape Game",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
@@ -11,7 +11,7 @@
   "nickname": true,
   "introduction": {
     "title": "2023 NYCU TICA CUP－Real Escape Game",
-    "content": "Welcome to National Yang Ming Chiao Tung University! \n　\nAs outstanding award recipients of ICDF scholarship, we believe that you possess both exceptional intellectual and physical capabilities. In the following activities, we aim to provide you with the opportunity to experience the beauty of the mountains and forests right within the city, allowing you to explore and discover the unique culture of National Yang Ming Chiao Tung University without the need for traveling far into the mountaion. Let’s start!"
+    "content": "Welcome to National Yang Ming Chiao Tung University! \n　\nAs outstanding award recipients of ICDF scholarship, we believe that you possess both exceptional intellectual and physical capabilities. In the following activities, we aim to provide you with the opportunity to experience the beauty of the mountains and forests right within the city, allowing you to explore and discover the unique culture of National Yang Ming Chiao Tung University without the need for traveling far into the mountaion. Let’s start!\n \n開始➡️Start"
   },
   "levels": [
     {
@@ -27,19 +27,19 @@
           "type": "txt",
           "src": "",
           "title": "Rules of Real Escape Game",
-          "alt": "Time：13:00 PM to 14:30 PM \nVenus：Yang Ming Campus \n \nRules：\nEach team is led by a captain who uses a mobile phone to scan QR codes or answer questions to collect points. The team with the highest score wins, with prizes awarded to the top three teams."
+          "alt": "Time：13:00 PM to 14:30 PM \nVenus：Yang Ming Campus \n \nRules：\nEach team is led by a captain who uses a mobile phone to scan QR codes or answer questions to collect points. The team with the highest score wins, with prizes awarded to the top three teams.\n \n下一關➡️Next"
         },
-        { "type": "image", "src": "/media/intro-2.jpg", "title": "任務說明", "alt": "1、 「上下、左右」滑動：可獲取該關更多內容。\n2、下方【輸入解答】按鈕：可看關卡題目、驗證答案。 \n3、右下【燈泡】按鈕：可領取提示。\n4、右上【菜單列】：可獲取關卡清單、遊戲狀態、聯絡客服等。"},
-        { "type": "image", "src": "/media/intro-3.jpg", "title": "關卡狀態說明", "alt": "【已破關】關卡圖為清晰狀態\n【已解鎖】關卡圖為模糊狀態\n【未解鎖】關卡圖上有個鎖扣"}
+        { "type": "image", "src": "/media/intro-2.jpg", "title": "Instruction", "alt": "1.Swipe up, down, left, or right to access more content for this level.\n2.The 'Enter Answer' button below: View level question, verify answers. \n3.The lightbulb button on the bottom right: Allows you to receive hints.\n4.The top right menu bar: Allows access to level list, game status, and customer support"},
+        { "type": "image", "src": "/media/intro-3.jpg", "title": "Level select explanation", "alt": "Level Cleared - Level image is in a clear state.\nUnlocked - Level image is in a blurred state\nLocked - Level image has a padlock icon"}
       ]
     },
     {
       "id": "3iZqKgBHrhPS6Mk1yioU4z", 
       "required": "3iZqKeK24Pw9VKbumiPseq", 
       "next": "", 
-      "title": "關卡選擇說明", 
+      "title": "Level Select", 
       "type": "continue", 
-      "buttonText": "挑選關卡", 
+      "buttonText": "Level Select", 
       "banner": "/media/banner-intro-2.jpg",
       "prompts": [
         {
@@ -61,14 +61,14 @@
           "type": "image",
           "src": "/media/1.jpg",
           "title": "Bo-Ya Center",
-          "alt": "Here is NYCU's Bo-Ya Center, which houses many important offices. From the picture of just a small corner of the iceberg, you will understand that the Bo-Ya Center used to be a cozy little haven."
+          "alt": "Here is NYCU's Bo-Ya Center, which houses many important offices. From the picture of just a small corner of the iceberg, you will understand that the Bo-Ya Center used to be a cozy little haven.\n \n輸入解答➡️Fill in the answer"
         }
       ],
       "answers": [
         {
           "type": "qrcode",
           "title": "Kindergarten",
-          "alt":"The predecessor of the Bo-Ya Center was a kindergarten.",
+          "alt":"The predecessor of the Bo-Ya Center was a kindergarten.\n \n不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "3iZqKeK27aw5Wt6uSk3BRo"
         }
       ]
@@ -84,14 +84,14 @@
           "type": "image",
           "src": "/media/2.jpg",
           "title": "Bo-Ya Center",
-          "alt": "Feeling a bit hungry after the walk? Why don't you take a look around to see what's special here? How about grabbing a cup of coffee and taking a break!"
+          "alt": "Feeling a bit hungry after the walk? Why don't you take a look around to see what's special here? How about grabbing a cup of coffee and taking a break!\n \n輸入解答➡️Fill in the answer"
         }
       ],
       "answers": [
         {
           "type": "qrcode",
           "title": "HUISUN COFFEE",
-          "alt":"The mascot of HUISUN COFFEE",
+          "alt":"The mascot of HUISUN COFFEE\n \n不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "3iZqKj6Qud6C3ySyi9B3Pm"
         }
       ]
@@ -107,14 +107,14 @@
           "type": "image",
           "src": "/media/3.jpg",
           "title": "Outstanding Alumni",
-          "alt": "Do you know who the current president of National Yang Ming Chiao Tung University is? He previously served as the Director of the Department of Health, Taipei City Government. Find a picture of the president and see where it is located. "
+          "alt": "Do you know who the current president of National Yang Ming Chiao Tung University is? He previously served as the Director of the Department of Health, Taipei City Government. Find a picture of the president and see where it is located.\n \n輸入解答➡️Fill in the answer"
         }
       ],
       "answers": [
         {
           "type": "qrcode",
           "title": "Dr. Chi-Hung Lin",
-          "alt":"President of National Yang Ming Chiao Tung University",
+          "alt":"President of National Yang Ming Chiao Tung University\n \n不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "3iZqKj6SZ6DEA2ccZ1HNvC"
         }
       ]
@@ -130,14 +130,14 @@
           "type": "image",
           "src": "/media/4.jpg",
           "title": "School Motto",
-          "alt": ""
+          "alt": "輸入解答➡️Fill in the answer"
         }
       ],
       "answers": [
         {
           "type": "order",
           "title": "School Motto",
-          "alt":"知新致遠崇實篤行；？？？？？？？；養天地正氣，法古今完人",
+          "alt":"不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "options":["仁心","力","真","行","仁術","知"],
           "value": [2,5,1,3,0,4]
         }
@@ -153,14 +153,14 @@
         {
           "type": "txt",
           "title": "Year",
-          "alt": "Which year was Yang Ming College of Medicine officially founded?"
+          "alt": "Which year was Yang Ming College of Medicine officially founded?\n \n輸入解答➡️Fill in the answer"
         }
       ],
       "answers": [
         {
-          "type": "passoword",
+          "type": "number",
           "title": "Year",
-          "alt":"Which year was Yang Ming College of Medicine officially founded?",
+          "alt":"Which year was Yang Ming College of Medicine officially founded?\n \n不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "1975"
         }
       ]
@@ -176,14 +176,14 @@
           "type": "image",
           "src": "/media/6.jpg",
           "title": "Shou-Ren Building",
-          "alt": "Seeing him, you will gain an understanding of acupressure points throughout the body and acquire related knowledge."
+          "alt": "Seeing him, you will gain an understanding of acupressure points throughout the body and acquire related knowledge.\n \n輸入解答➡️Fill in the answer"
         }
       ],
       "answers": [
         {
           "type": "qrcode",
           "title": "Acupuncture Bronze Man",
-          "alt": "Acupuncture Bronze Man",
+          "alt": "Acupuncture Bronze Man\n \n不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "3iZqKj6UGxB3uVQTREUR2T"
         }
       ]
@@ -198,14 +198,14 @@
         {
           "type": "txt",
           "title": "Gate",
-          "alt":"In the past three years, two schools have merged. Please go to the school gate to find the answer."
+          "alt":"In the past three years, two schools have merged. Please go to the school gate to find the answer.\n \n輸入解答➡️Fill in the answer"
         }
       ],
       "answers": [
         {
           "type": "english",
           "title": "Gate",
-          "alt": "In the past three years, two schools have merged. Please go to the school gate to find the answer.",
+          "alt": "In the past three years, two schools have merged. Please go to the school gate to find the answer.\nPlease enter the abbreviations of the two merged universities.(Order順序:陽明+交通)\n \n不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "NYMUNCTU"
         }
       ]
@@ -220,14 +220,15 @@
         {
           "type": "image",
           "src": "/media/8.jpg",
-          "title": "2nd Medical Building 1"
+          "title": "2nd Medical Building 1",
+          "alt":"輸入解答➡️Fill in the answer"
         }
       ],
       "answers": [
         {
           "type": "english",
           "title": "2nd Medical Building",
-          "alt": "Cleverness is a gift, kindness is a ____________",
+          "alt": "Cleverness is a gift, kindness is a ____________.\n \n不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "CHOICE"
         }
       ]
@@ -242,13 +243,14 @@
         {
           "type": "txt",
           "title": "prayer room",
-          "alt": "The devout habits of Muslims typically involve specific daily practices."
+          "alt": "The devout habits of Muslims typically involve specific daily practices.\n \n輸入解答➡️Fill in the answer"
         }
       ],
       "answers": [
         {
           "type": "qrcode",
           "title": "prayer room",
+          "alt":"不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "3iZqKj6VptDNcQjWEcYQAa"
         }
       ]
@@ -264,13 +266,14 @@
           "type": "image",
           "src": "/media/10.jpg",
           "title": "2nd Medical Building 3",
-          "alt": "Search for spaces or classrooms where you can discuss reports and assignments."
+          "alt": "Search for spaces or classrooms where you can discuss reports and assignments\n \n輸入解答➡️Fill in the answer."
         }
       ],
       "answers": [
         {
           "type": "qrcode",
           "title": "301-3",
+          "alt":"不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "3iZqKj6X4kWxTfJXXKNHWa"
         }
       ]
@@ -286,13 +289,14 @@
           "type": "image",
           "src": "/media/11.jpg",
           "title": "2nd Medical Building 4",
-          "alt": "Find a precious stone and discover the former name of the university."
+          "alt": "Find a precious stone and discover the former name of the university.\n \n輸入解答➡️Fill in the answer"
         }
       ],
       "answers": [
         {
           "type": "qrcode",
           "title": "陽明大學石頭",
+          "alt":"不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "3iZqKj6XJiBwY5CC7pprcY"
         }
       ]
@@ -307,13 +311,14 @@
         {
           "type": "txt",
           "title": "2nd Medical Building 5",
-          "alt": "Famous Tourist Attractions on Campus"
+          "alt": "Famous Tourist Attractions on Campus\n \n輸入解答➡️Fill in the answer"
         }
       ],
       "answers": [
         {
           "type": "qrcode",
           "title": "Junjianyan",
+          "alt":"不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "3iZqKj6XWkgvesS7idr898"
         }
       ]
@@ -328,14 +333,14 @@
         {
           "type": "txt",
           "title": "Medical Exploration",
-          "alt": "The English abbreviation logo for the 2023 TICA CUP organizing program."
+          "alt": "The English abbreviation logo for the 2023 TICA CUP organizing program.\n \n輸入解答➡️Fill in the answer"
         }
       ],
       "answers": [
         {
           "type": "english",
           "title": "Medical Exploration 1",
-          "alt": "The English abbreviation logo for the 2023 TICA CUP organizing program.",
+          "alt": "The English abbreviation logo for the 2023 TICA CUP organizing program.\n \n不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "IHP"
         }
       ]
@@ -350,14 +355,14 @@
         {
           "type": "txt",
           "title": "Medical Building 2",
-          "alt": "Someone once said, 'In the warmth of the medical world, let's find the plant that represents medicine.'  "       
+          "alt": "Someone once said, 'In the warmth of the medical world, let's find the plant that represents medicine.'\n \n輸入解答➡️Fill in the answer"       
         }
       ],
       "answers": [
         {
           "type": "qrcode",
           "title": "Medical Building 2",
-          "alt": "Ginkgo 銀杏",
+          "alt": "Ginkgo 銀杏\n \n不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "3iZqKjPExFH92U94vKPmTc"
         }
       ]
@@ -373,14 +378,14 @@
           "type":"image",
           "src": "/media/15.jpg",
           "title":"Deciphering Taiwan's Diplomatic Allies (Activity Center 1)",
-          "alt": "Find Logo of School"       
+          "alt": "Find Logo of School\n \n輸入解答➡️Fill in the answer"       
         }
       ],
       "answers": [
         {
           "type": "qrcode",
           "title": "Activity Center",
-          "alt": "Find Logo of School",
+          "alt": "Find Logo of School\n \n不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "3iZqKjPGK4ebXYuz7sRB4u"
         }
       ]
@@ -395,14 +400,14 @@
         {
           "type":"txt",
           "title":"Deciphering Taiwan's Diplomatic Allies (Activity Center 2)",
-          "alt": "Within National Yang-Ming Chiao Tung University, there are a restaurant with beautiful scenery."       
+          "alt": "Within National Yang Ming Chiao Tung University, there are a restaurant with beautiful scenery.\n \n輸入解答➡️Fill in the answer"       
         }
       ],
       "answers": [
         {
           "type": "qrcode",
           "title": "Activity Center 2",
-          "alt": "L'escargots French Cuisine",
+          "alt": "L'escargots French Cuisine\n \n不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "3iZqKjPHg7xTBjWutaCu9V"
         }
       ]
@@ -417,14 +422,14 @@
         {
           "type":"txt",
           "title":"Deciphering Taiwan's Diplomatic Allies (Activity Center 3)",
-          "alt": "Find the logo of ICDF"       
+          "alt": "Find the logo of ICDF\n \n輸入解答➡️Fill in the answer"       
         }
       ],
       "answers": [
         {
           "type": "qrcode",
           "title": "The logo of ICDF",
-          "alt": "Find the logo of ICDF",
+          "alt": "Find the logo of ICDF\n \n不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "3iZqKjPHveLmvH8kS9fPU5"
         }
       ]
@@ -439,14 +444,14 @@
         {
           "type":"txt",
           "title":"Deciphering Taiwan's Diplomatic Allies (Activity Center 4)",
-          "alt": "Taiwan's diplomatic allies"       
+          "alt": "Taiwan's diplomatic allies\n \n輸入解答➡️Fill in the answer"       
         }
       ],
       "answers": [
         {
           "type": "qrcode",
           "title": "Activity Center 4",
-          "alt": "Taiwan's diplomatic allies",
+          "alt": "Taiwan's diplomatic allies\n \n不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "3iZqKjPKDBh9vtVQJfDonq"
         }
       ]
@@ -461,14 +466,14 @@
         {
           "type":"txt",
           "title":"Deciphering Taiwan's Diplomatic Allies",
-          "alt": "Taiwan's diplomatic allies 2"       
+          "alt": "Taiwan's diplomatic allies 2\n \n輸入解答➡️Fill in the answer"       
         }
       ],
       "answers": [
         {
           "type": "qrcode",
           "title": "Deciphering Taiwan's Diplomatic Allies",
-          "alt": "Taiwan's diplomatic allies 2",
+          "alt": "Taiwan's diplomatic allies 2\n \n不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "3iZqKjPLcFwShYcKgNrA7n"
         }
       ]
@@ -483,14 +488,14 @@
         {
           "type":"txt",
           "title":"Deciphering Taiwan's Diplomatic Allies",
-          "alt": "Taiwan's diplomatic allies 3"       
+          "alt": "Taiwan's diplomatic allies 3\n \n輸入解答➡️Fill in the answer"       
         }
       ],
       "answers": [
         {
           "type": "qrcode",
           "title": "Deciphering Taiwan's Diplomatic Allies",
-          "alt": "Taiwan's diplomatic allies 3",
+          "alt": "Taiwan's diplomatic allies 3\n \n不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "3iZqKjPLgoe4bVYgMJX4iR"
         }
       ]
@@ -506,14 +511,14 @@
           "type":"image",
           "src": "/media/21.jpg",
           "title":"Taiwanese Cuisine Exploration",
-          "alt": "Do you know what 'BEATA' stands for? It means being a happy person. Look for someone who represents happiness."       
+          "alt": "Do you know what 'BEATA' stands for? It means being a happy person. Look for someone who represents happiness.\n \n輸入解答➡️Fill in the answer"       
         }
       ],
       "answers": [
         {
           "type": "qrcode",
           "title": "BEATA",
-          "alt": "Do you know what 'BEATA' stands for? It means being a happy person. Look for someone who represents happiness.",
+          "alt": "Do you know what 'BEATA' stands for? It means being a happy person. Look for someone who represents happiness.\n \n不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "3iZqKjPMJkF4c78EqYrRba"
         }
       ]
@@ -528,14 +533,14 @@
         {
           "type":"txt",
           "title":"Taiwanese Cuisine Exploration",
-          "alt": "Please find the boss to complete the specified task and name three Taiwanese delicacies in Chinese."       
+          "alt": "Please find the boss to complete the specified task and name three Taiwanese delicacies in Chinese.\n \n輸入解答➡️Fill in the answer"       
         }
       ],
       "answers": [
         {
           "type": "qrcode",
           "title": "Taiwanese Cuisine",
-          "alt": "Please find the boss to complete the specified task and name three Taiwanese delicacies in Chinese.",
+          "alt": "Please find the boss to complete the specified task and name three Taiwanese delicacies in Chinese.\n \n不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value":"3iZqKjPMctSw3XdFuQgFQN"
         }
       ]
@@ -545,26 +550,27 @@
       "required": "",
       "next": "3iZqKgBHrhPS6Mk1yioU4z",
       "title": "Taiwanese Cuisine Exploration 3",
-      "banner": "/media/banner_21.jpg",
+      "banner": "/media/banner_23.jpg",
       "prompts": [
         {
           "type":"image",
           "src": "/media/23.jpg",
           "title":"Taiwanese Cuisine Exploration",
-          "alt": "Do you know what 'BEATA' stands for? It means being a happy person. Look for someone who represents happiness."       
+          "alt": "輸入解答➡️Fill in the answer"       
         },
         {
           "type":"url",
           "src": "/media/23.jpg",
           "title":"Taiwanese Cuisine Exploration",
-          "src": "https://youtu.be/Qj57NkrP_M8?si=lGGuUHFNkO4kYTu0"       
+          "src": "https://youtu.be/Qj57NkrP_M8?si=lGGuUHFNkO4kYTu0",
+          "alt":"點擊打開➡️Open"
         }
       ],
       "answers": [
         {
           "type": "qrcode",
           "title": "Taiwan ICDF",
-          "alt": "",
+          "alt": "不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "3iZqKjPMerHy4VR32dUmHa"
         }
       ]
@@ -580,14 +586,14 @@
           "type":"image",
           "src": "/media/24.jpg",
           "title":"Taiwanese Cuisine Exploration",
-          "alt": "In classrooms Zongyi 1 to Zongyi 3, look for Yangming's 'Along the River During the Qingming Festival' (清明上河圖)."       
+          "alt": "In classrooms Zongyi 1 to Zongyi 3, look for Yangming's 'Along the River During the Qingming Festival' (清明上河圖).\n \n輸入解答➡️Fill in the answer"       
         }
       ],
       "answers": [
         {
           "type": "qrcode",
           "title": "Taiwanese Cuisine Exploration",
-          "alt": "Yangming's 'Along the River During the Qingming Festival' (清明上河圖).",
+          "alt": "Yangming's 'Along the River During the Qingming Festival' (清明上河圖).\n \n不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "3iZqKjPP9HxdN6ob5k2k26"
         }
       ]
@@ -602,14 +608,14 @@
         {
           "type":"txt",
           "title":"Taiwanese Cuisine Exploration",
-          "alt": "On the stairs next to the Experimental Building at the school bus terminal, what can be found?"       
+          "alt": "On the stairs next to the Experimental Building at the school bus terminal, what can be found?\n \n輸入解答➡️Fill in the answer"       
         }
       ],
       "answers": [
         {
           "type": "qrcode",
           "title": "Experimental Building",
-          "alt": "On the stairs next to the Experimental Building at the school bus terminal, what can be found?",
+          "alt": "On the stairs next to the Experimental Building at the school bus terminal, what can be found?\n \n不是這個答案喔！再想想看~ 看起來不對喔➡️It’s the wrong answer. Try again~ \n恭喜找到正確答案! 答對了!➡️Correct! \n重新掃描➡️Scan Again",
           "value": "3iZqKjPPPRS5KQ7Ps355EL"
         }
       ]
@@ -619,7 +625,7 @@
       "required": ["3iZqKeK27aw5Wt6uSk3BRo","3iZqKj6Qud6C3ySyi9B3Pm","3iZqKeK27aw5Wt6uSk3BRo","3iZqKj6Qud6C3ySyi9B3Pm","3iZqKj6SZ6DEA2ccZ1HNvC","3iZqKj6RL3k3KSy35YAukA","3iZqKj6SXnXWU3EquQ5LG9","3iZqKj6UGxB3uVQTREUR2T","3iZqKj6VcD6QJeQyoG42GK","3iZqKjPTigz3SBV1NKDxwc","3iZqKj6VptDNcQjWEcYQAa","3iZqKj6X4kWxTfJXXKNHWa","3iZqKj6XJiBwY5CC7pprcY","3iZqKj6XWkgvesS7idr898","3iZqKj9Kn4m53NrdWF2ih9","3iZqKjPExFH92U94vKPmTc","3iZqKjPGK4ebXYuz7sRB4u","3iZqKjPHg7xTBjWutaCu9V","3iZqKjPHveLmvH8kS9fPU5","3iZqKjPKDBh9vtVQJfDonq","3iZqKjPLcFwShYcKgNrA7n","3iZqKjPLgoe4bVYgMJX4iR","3iZqKjPMJkF4c78EqYrRba","3iZqKjPMctSw3XdFuQgFQN","3iZqKjPMerHy4VR32dUmHa","3iZqKjPP9HxdN6ob5k2k26","3iZqKjPPPRS5KQ7Ps355EL"
       ],
       "next": "",
-      "title": "You are the export of NYCU!!!!",
+      "title": "You are the expert of NYCU!!!!",
       "banner": "/media/banner_end.jpg",
       "type": "end",
       "buttonText": "Score",
@@ -627,7 +633,7 @@
         {
           "type": "image",
           "src": "/media/end.jpg",
-          "title": "You are the export of NYCU!!!!",
+          "title": "You are the expert of NYCU!!!!",
           "alt": "Congratulations! You have fully grasped the history and the unique mountain and forest characteristics of National Yang-Ming Chiao Tung University! You are truly the chosen one, an elite among elites!"
         }
       ]
