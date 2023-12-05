@@ -1,140 +1,299 @@
 {
   "name": "Iwantgohome",
-  "version": "6.0",
+  "version": "1.0",
   "title": "我想回家了網頁版",
   "banner": "/media/banner.jpg",
   "background": "/media/background.jpg",
   "splash": "/media/splash.jpg",
-  "map": "/media/map.jpg",
   "contact": "https://www.messenger.com/t/RiddleRun",
-  "timekeeper": true,
-  "nickname": true,
   "introduction": {
-    "title": "關於 Riddle Run",
-    "content": "Riddle Run 是一個「活動遊戲化線上創作工具（平台）」，藉由科技應用，串起線上線下，將實境場景與虛擬環境（APP）連結，再利用遊戲化的解謎、問答、集點...等包裝，為使用者創造獨一無二的 OMO（線上線下融合）的活動體驗。 \n　\n藉由 Riddle Run，可以快速打造內容豐富及多種玩法的「實境解謎活動」、「展場遊戲式導覽」、「集點踩點」...等活動線上劇本供使用者在實體場域遊玩。也提供遊戲企劃、謎題設計、美術設計、活動宣傳...等相關服務，讓業者無後顧之憂！"
+    "title": "我要回家了",
+    "content": "睡午覺起床，發現教室沒人，門也鎖起來了。\n我想回家啊……\n \n本為改編 Plurk 匿名噗主使用 Google 表單做的密室脫逃遊戲"
   },
   "levels": [
     {
       "id": "3iZqKeK24Pw9VKbumiPseq",
       "required": "",
-      "next": "3iZqKeK27aw5Wt6uSk3BRo",
-      "title": "功能介紹",
-      "banner": "/media/banner_0.jpg",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "我要回家了",
+      "banner": "/media/banner-intro-1.jpg",
       "type": "continue",
-      "buttonText": "我瞭解了",
+      "buttonText": "OK",
       "prompts": [
         {
           "type": "txt",
           "src": "",
-          "title": "多元關卡呈現",
-          "alt": "Riddle Run 提供五種關卡內容模組供遊戲設計師作拼組，包含：純文字、圖片、影片、音檔、按鈕連結。在每個關卡中，可隨意搭配五個以內的模組做該關卡的內容呈現。\n　\n透過多元的內容呈現方式，不只能讓遊戲設計師有更多可運用的空間傳遞想給予使用者的內容，更可以提升使用者在遊戲上的體驗！"
+          "title": "我要回家了",
+          "alt": "睡午覺起床，發現教室沒人，門也鎖起來了。\n我想回家啊……\n \n本為改編 Plurk 匿名噗主使用 Google 表單做的密室脫逃遊戲"
         },
+        { "type": "image", "src": "/media/intro-2.jpg", "title": "任務說明", "alt": "1、 「上下、左右」滑動：可獲取該關更多內容。\n2、下方【輸入解答】按鈕：可看關卡題目、驗證答案。 \n3、右下【燈泡】按鈕：可領取提示。\n4、右上【菜單列】：可獲取關卡清單、遊戲狀態、聯絡客服等。"},
+        { "type": "image", "src": "/media/intro-3.jpg", "title": "關卡狀態說明", "alt": "【已破關】關卡圖為清晰狀態\n【已解鎖】關卡圖為模糊狀態\n【未解鎖】關卡圖上有個鎖扣"}
+      ]
+    },
+    {
+      "id": "3iZqKgBHrhPS6Mk1yioU4z", 
+      "required": "3iZqKeK24Pw9VKbumiPseq", 
+      "next": "", 
+      "title": "區域選擇說明", 
+      "type": "continue", 
+      "buttonText": "選擇區域", 
+      "banner": "/media/banner-intro-2.jpg",
+      "prompts": [
         {
-          "type": "image",
-          "src": "/media/0-1.jpg",
-          "title": "多種破關方式",
-          "alt": "Riddle Run 支援：數字破關、按鈕排序破關、定位破關、英文破關與QRCode破關...等破關方式，從中也可以延伸多樣玩法。如此讓關卡遊玩方式不單一，也大大提升活動的遊戲性。"
+          "type": "txt", 
+          "src": "/media/", 
+          "title": "關卡選擇說明", 
+          "alt": "🌟請點下方按鈕選擇要前往的區域🌟\n——————————————————\n提醒：線索不見得在同個區域內喔！"
         }
       ]
     },
     {
       "id": "3iZqKeK27aw5Wt6uSk3BRo",
-      "required": [
-        "3iZqKeK24Pw9VKbumiPseq"
-      ],
-      "next": "3iZqKf5kV27XrusWxTuhSk",
-      "title": "異國的料理",
+      "required": "",
+      "next": "3iZqKjPPPRS5KQ7Ps355EL",
+      "title": "座位上",
       "banner": "/media/banner_1.jpg",
       "prompts": [
         {
           "type": "image",
-          "src": "/media/food_yakiniku_samugyopusaru.png",
-          "title": "一張圖片",
-          "alt": "這是從情報來源提供的，希望可以幫助到你"
-        }
-      ],
+          "src": "/media/1-1.jpg",
+          "title": "座位上",
+          "alt": "已經是放學時間了。"
+        },
+        {
+        "type": "image",
+        "src": "/media/1-2.jpg",
+        "title": "月曆",
+        "alt": "說起來，為什麼暑假我會來學校？"
+      },
+        {
+        "type": "image",
+        "src": "/media/1-3.jpg",
+        "title": "書",
+        "alt": "書好像破了。"
+      },
+      {
+      "type": "image",
+      "src": "/media/1-4.jpg",
+      "title": "畫",
+      "alt": "畫往旁邊滑開，後面有一個洞和上鎖的盒子。"
+      }
+    ],
       "answers": [
         {
-          "type": "english",
-          "title": "請選擇正確的料理名稱",
-          "value": "barbecue"
-        }
-      ],
-      "hints": [
-        {
-          "id": "3qjEapE8f6tXAkLq3sY1Li",
-          "buttonText": "直接看答案",
-          "score": 100,
-          "type": "txt",
-          "title": "直接看答案",
-          "alt": "barbecue"
+          "type": "password",
+          "src": "/media/1-4.jpg",
+          "title": "上鎖的盒子密碼是什麼呢",
+          "alt":"上鎖的盒子密碼是什麼呢",
+          "value": "˙705"
         }
       ]
     },
     {
-      "id": "3iZqKf5kV27XrusWxTuhSk",
-      "required": [
-        "3iZqKeK27aw5Wt6uSk3BRo"
-      ],
-      "next": "3iZqKeK2GdxzuwU2ptghzU",
-      "title": "神秘的代號",
+      "id": "3iZqKjPPPRS5KQ7Ps355EL",
+      "required": "3iZqKeK27aw5Wt6uSk3BRo",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "解鎖的盒子",
+      "type": "continue", 
+      "banner": "/media/banner_1-a.jpg",
+      "prompts": [
+        {
+          "type": "image",
+          "src": "/media/1-a.jpg",
+          "title": "解鎖的盒子",
+          "alt": "盒子解鎖了，裡面是一些鉛筆。"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKj6Qud6C3ySyi9B3Pm",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "櫃子區",
       "banner": "/media/banner_2.jpg",
       "prompts": [
         {
-          "type": "text",
-          "title": "某地",
-          "alt": "據說這些 QRCode 中藏有某地的寶藏，請您幫忙找出來吧！"
+          "type": "image",
+          "src": "/media/2-1.jpg",
+          "title": "櫃子區",
+          "alt": "我的書包呢？"
+        },
+        {
+        "type": "image",
+        "src": "/media/2-2.jpg",
+        "title": "橘色箱子",
+        "alt": "箱子外好像貼著什麼。"
+      }
+      ],
+      "answers": [
+        {
+          "type": "password",
+          "title": "橘色箱子",
+          "alt":"橘色箱子的密碼是什麼",
+          "value": "6928"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKjPPPRS5KQ7Ps355EL",
+      "required": "3iZqKeK27aw5Wt6uSk3BRo",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "解鎖橘色箱子",
+      "type": "continue", 
+      "banner": "/media/banner_2-a.jpg",
+      "prompts": [
+        {
+          "type": "image",
+          "src": "/media/2-a.jpg",
+          "title": "橘色箱子打開了",
+          "alt": "橘色箱子解鎖了，裡面是一些鉛筆。"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKj6SZ6DEA2ccZ1HNvC",
+      "required": "",
+      "next": "3iZqKjPP9HxdN6ob5k2k26",
+      "title": "黑色書包",
+      "banner": "/media/banner_3.jpg",
+      "prompts": [
+        {
+          "type": "image",
+          "src": "/media/3.jpg",
+          "title": "黑色書包",
+          "alt": "鎖起來了。"
         }
       ],
       "answers": [
         {
-          "type": "qrcode",
-          "title": "請掃描 QRCode",
-          "value": "123456"
+          "type": "password",
+          "title": "黑色書包",
+          "alt":"書包上的鎖密碼是多少呢",
+          "value": "319"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKjPP9HxdN6ob5k2k26",
+      "required": "3iZqKj6SZ6DEA2ccZ1HNvC",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "解鎖的黑色書包",
+      "type": "continue", 
+      "banner": "/media/banner_3-a.jpg",
+      "prompts": [
+        {
+          "type": "image",
+          "src": "/media/3-a.jpg",
+          "title": "黑色書包打開了",
+          "alt": "黑色書包打開了，裡面是一些鉛筆。\n……有必要上鎖嗎？"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKj6RL3k3KSy35YAukA",
+      "required": "",
+      "next": "3iZqKjPMerHy4VR32dUmHa",
+      "title": "講台區",
+      "banner": "/media/banner_4.jpg",
+      "prompts": [
+        {
+          "type": "image",
+          "src": "/media/4.jpg",
+          "title": "講台區",
+          "alt": "值日生忘記擦黑板了。"
+        },
+        {
+          "type": "image",
+          "src": "/media/4-1.jpg",
+          "title": "牆上的方塊",
+          "alt": "牆上的方塊是誰畫的？"
+        },
+        {
+          "type": "image",
+          "src": "/media/4-2.jpg",
+          "title": "保險箱",
+          "alt": "鎖起來了。"
         }
       ],
-      "hints": [
+      "answers": [
         {
-          "id": "3qjEapzdZGbeTZZoKErqj9",
-          "buttonText": "直接看答案",
-          "score": 100,
-          "type": "txt",
-          "title": "直接看答案",
-          "alt": "123456"
+          "type": "password",
+          "title": "保險箱",
+          "alt":"鎖起來的保險箱密碼是多少",
+          "value": "3742"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKjPMerHy4VR32dUmHa",
+      "required": "3iZqKj6RL3k3KSy35YAukA",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "解鎖的黑色書包",
+      "type": "continue", 
+      "banner": "/media/banner_4-a.jpg",
+      "prompts": [
+        {
+          "type": "image",
+          "src": "/media/4-a.jpg",
+          "title": "保險箱打開了",
+          "alt": "保險箱打開了，裡面是一些鉛筆。"
+        }
+      ]
+    },
+    {
+      "id": "3iZqKj6SXnXWU3EquQ5LG9",
+      "required": "",
+      "next": "3iZqKgBHrhPS6Mk1yioU4z",
+      "title": "教室門口"",
+      "banner": "/media/banner_5.jpg",
+      "prompts": [
+        {
+          "type": "image",
+          "src": "/media/5.jpg",
+          "title": "教室門口",
+          "alt": "要是芝麻開門有用就好了。"
+        },
+        {
+          "type": "image",
+          "src": "/media/5-1.jpg",
+          "title": "窗戶",
+          "alt": "窗戶打開了，仔細看外面是一面藍色的牆。\n……那為什麼要裝窗戶？"
+        },
+        {
+          "type": "image",
+          "src": "/media/5-2.jpg",
+          "title": "門",
+          "alt": "門鎖起來了，旁邊有密碼鎖。\n（……教室以前有裝這種鎖嗎？）。"
+        }
+      ],
+      "answers": [
+        {
+          "type": "passoword",
+          "title": "密碼鎖",
+          "alt":"密碼鎖的密碼是多少",
+          "value": "4765"
         }
       ]
     },
     {
       "id": "3iZqKeK2GdxzuwU2ptghzU",
-      "required": [
-        "3iZqKf5kV27XrusWxTuhSk"
-      ],
+      "required": ["3iZqKeK27aw5Wt6uSk3BRo","3iZqKj6Qud6C3ySyi9B3Pm","3iZqKjPP9HxdN6ob5k2k26","3iZqKj6RL3k3KSy35YAukA","3iZqKj6SXnXWU3EquQ5LG9"],
       "next": "",
-      "title": "成功破關",
-      "banner": "/media/banner_4.jpg",
+      "title": "終於可以回家了！",
+      "banner": "/media/banner_end.jpg",
       "type": "end",
-      "buttonText": "結束計時看成績",
+      "buttonText": "Score",
       "prompts": [
         {
-          "type": "txt",
-          "src": "",
-          "title": "恭喜破關！",
-          "alt": "希望這次的範例 Demo 有讓您更了解 Riddle Run 的架構，有任何問題都歡迎隨時詢問我們喔！\n　\n最後，點擊下方【結束計時看成績】按鈕，讓我們來看看在這次的挑戰中，您獲得幾分吧！"
-        }
+          "type": "image",
+          "src": "/media/end.jpg",
+          "title": "終於可以回家了！",
+          "alt": "天都快黑了，我要回家！\n \n希望這次的遊戲有讓您更了解 Riddle Run 的架構，有任何問題都歡迎隨時詢問我們喔！\n \n歡迎與 Riddle Run 合作，我們與各種商業（家庭日、展場）、學校（師生共同創作）有各種有趣的內容，可以快速打造內容豐富及多種玩法的「實境解謎活動」、「展場遊戲式導覽」、「集點踩點」\n透過多元的內容呈現方式，不只能讓遊戲設計師有更多可運用的空間傳遞想給予使用者的內容，更可以提升使用者在遊戲上的體驗！\n \n本為改編 Plurk 匿名噗主使用 Google 表單做的密室脫逃遊戲\n使用素材皆來自於【かわいいフリー素材集 いらすとや】（https://www.irasutoya.com/）"
       ]
     }
   ],
   "scoreBanner": "/media/banner_score.jpg",
   "scoreText": "看看 RR 過往案例",
   "scoreUrl": "https://medium.com/riddle-run",
-  "scoreShare": {
-    "title": "分享成果",
-    "img": "/media/share.png",
-    "aspect": [
-      9,
-      16
-    ],
-    "textColor": "#fff",
-    "textBackground": "#4cb9ab"
   }
 }
