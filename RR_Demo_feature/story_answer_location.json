@@ -43,30 +43,35 @@
       "banner": "/media/banner_1.jpg",
       "prompts": [
         {
-          "type": "image",
-          "src": "/media/food_yakiniku_samugyopusaru.png",
-          "title": "一張圖片",
-          "alt": "這是從情報來源提供的，希望可以幫助到你"
+          "type": "audio",
+          "src": "/media/3-1.mp3",
+          "cover":"/media/3-0.jpg",
+          "title": "打電話試試？",
+          "alt":"「mutix Studio 您好...」咦，要轉哪個分機呢？"
+        },
+        {
+          "type": "external-url",
+          "src": "https://www.facebook.com/RiddleRun/about",
+          "button": "前往 RR 粉專",
+          "title": "去粉專找找？",
+          "alt": "粉專上說不定有你需要的資訊～"
+        },
+        {
+          "type": "txt",
+          "src": "",
+          "title": "去現場看看？",
+          "alt": "從電話及粉專上的資訊看來，Ms.RR 應該就在 mutix Studio 了！Google Map 上搜尋了一下，發現它就在你附近，那我們直接過去看看好了！"
         }
       ],
       "answers": [
         {
-          "title": "請選擇正確的地點",
-          "alt": "根據信件的內容，找出今晚跟 Ms. RR 我約會的餐廳。",
-          "type": "order",
-          "options": ["火","鍋","106","M","One","Cafe","千幸","壽司","小","倉","館","稻","町","家","Curry","Lab","黑","米"],
-          "value": [11,12,13]
-        }
-      ],
-      "hints" :[
-        {
-          "id": "3qjEZd6dNZczNWA6oEK1Gy",
-          "buttonText": "直接看答案",
-          "score": 1000,
-          "type": "image",
-          "title": "直接看答案",
-          "src": "/media/1-hint1.jpg",
-          "alt": "答案是「稲町家香料咖喱專門」！\n　\n翻看那個 IG 裡面的文章，共有四篇跟咖哩相關的貼文。而情書中有提到，當天收信者是穿著一件「黑色大學Ｔ」。這四間咖哩的貼文裡，就只有「稲町家香料咖喱專門」的那篇貼文裡有出現 Ms. RR 跟穿「黑色大學Ｔ」的人的合照。\n　\n按照以上邏輯，就可以推斷，解答是「稲町家香料咖喱專門」啦～"
+          "title": "請走到正確的地點",
+          "alt": "後來你發現，mutix Studio 就在你家附近，直接過去看看吧。",
+          "type": "inLocation",
+          "displayName": "mutix Studio",
+          "latitude": 25.012150,
+          "longitude": 121.518174,
+          "maxDistance": 50
         }
       ]
     },
