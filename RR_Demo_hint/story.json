@@ -502,7 +502,7 @@
           "displayName": "7-ELEVEn 保元門市",
           "latitude": 25.0383467,
           "longitude": 121.4591501,
-          "maxDistance": 20000
+          "maxDistance": 200
         }
       ],
       "hints" :[
@@ -550,7 +550,7 @@
           "alt": "隨著裊裊上升的香火消散，倉稻魂神的聲音也逐漸變小：「希望你們能夠將這次的探索視為開始，持續關心這片土地的發展，保護它的歷史、文化和特色。」\n最後依稀聽到：「我們這些神明一直都在，在這裡守護著你們......」"
         }
       ]
-    }
+    },
       {
       "id": "3iZqKxbYhH9om8tW9HBkmM",
       "required": ["3iZqJhUPtfkqdrRZHzKh8W"],
@@ -576,5 +576,5 @@
       ]
     }
   ],
-  "scoreBanner": "/media/banner_score.jpg",
+  "scoreBanner": "/media/banner_score.jpg"
 }
