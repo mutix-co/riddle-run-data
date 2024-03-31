@@ -502,7 +502,7 @@
           "displayName": "7-ELEVEn 保元門市",
           "latitude": 25.0383467,
           "longitude": 121.4591501,
-          "maxDistance": 150
+          "maxDistance": 20000
         }
       ],
       "hints" :[
